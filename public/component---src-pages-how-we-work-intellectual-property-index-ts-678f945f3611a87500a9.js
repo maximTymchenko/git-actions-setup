@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{"Q/5L":function(n,t,u){"use strict";u.r(t);var e=u("LJ+M");u.d(t,"default",(function(){return e.default}))}}]);
+//# sourceMappingURL=component---src-pages-how-we-work-intellectual-property-index-ts-678f945f3611a87500a9.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/how-we-work/working-together/index.ts"],"names":[],"mappings":"8FAAA","file":"component---src-pages-how-we-work-working-together-index-ts-fb73ddb17eb12cdf04eb.js","sourcesContent":["export { default } from './workingTogether';\n"],"sourceRoot":""}
