@@ -13,7 +13,7 @@
     }
 }
 .title--primary {
-    font-size: 38px;
+    font-size: 32px;
 
     @media screen and (max-width: $mobile) {
         padding: 0;
@@ -136,7 +136,7 @@
     font-weight: 900;
     line-height: 90px;
     margin-right: 25px;
-    font-size: 78px;
+    font-size: 68px;
     background: linear-gradient(to left, $brand__primary 50%, $secondary__dark 95%);
     -webkit-background-clip: text;
     background-clip: text;
