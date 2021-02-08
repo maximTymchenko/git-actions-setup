@@ -1,0 +1,78 @@
+// colors
+$primary__light--5: rgba(63, 172, 224, 0.05); // primary-light-5
+$primary__light--15: rgba(63, 172, 224, 0.15); // primary-light-15
+$primary__light--70: rgba(63, 172, 224, 0.7); // primary-light-70
+$primary__light--80: rgba(63, 172, 224, 0.8); // primary-light-80
+$primary__dark: #348eb9; // primary-dark
+$primary__light: #3face0; // primary-light
+$brand__primary: #399ccb; // brand-primary
+$secondary: #001845;
+$secondary__light: #002855; // secondary-light
+$secondary__dark: #001233; // secondary-dark
+$secondary__opacity--50: rgba(0, 24, 69, 0.5); //secondary-50
+$secondary__opacity--80: rgba(0, 24, 69, 0.8); // secondary-80
+$text: #030f26;
+$text__body: #5e6478; // text-body
+$text__body--light: #979dac; // text-body-light
+$section__border: #ebebeb; // separator
+$background__secondary: #f5f5f5; // background-secondary
+$background__primary: #ffffff; // background-primary
+$color__error: #d71d5b; // $alert-error
+$color__confirmation: #44ffd1; // $alert-confirmation
+$button__shadow--normal: rgba(57, 156, 203, 0.4); // button-shadow-normal
+$icons__dark--secondary: rgba(0, 24, 69, 0.2); // icons-dark-secondary-20
+
+// sizes value
+
+$container__size: 1250px;
+$secondary__size: 1350px;
+$primary__container: 1080px;
+$margin__value: 290px;
+$large__container: 1600px;
+$header__width: 1440px;
+$margin__top: 190px;
+
+// media queries value
+
+$mobile: 500px;
+$large__mobile: 590px;
+$small__tablet: 650px;
+$tablet: 768px;
+$large__tablet: 880px;
+$small__desktop: 950px;
+$desktop: 1090px;
+$medium__desktop: 1200px;
+$mac__13: 2560px;
+
+// Mixins
+
+@mixin transition {
+    transition: 0.4s linear all;
+}
+
+@mixin main__padding {
+    padding: 0 15px;
+}
+
+@mixin button__press {
+    position: relative;
+    bottom: -3px;
+    right: -3px;
+}
+
+@mixin section__position {
+    max-width: $container__size;
+    width: 100%;
+    margin: 200px auto 80px;
+    padding: 0 15px;
+}
+
+@mixin section__size {
+    width: 100%;
+    max-width: $container__size;
+}
+
+@mixin relative__position {
+    position: relative;
+    right: 100px;
+}

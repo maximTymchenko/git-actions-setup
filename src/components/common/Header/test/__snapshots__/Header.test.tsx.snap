@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<header
+  className="header"
+  data-testid="header"
+>
+  <div
+    className="header__wrapper"
+  >
+    <a
+      aria-current="page"
+      className="header__logo--link"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      style={Object {}}
+    >
+      <img
+        alt="BlackBird"
+        className="header__logo"
+        src="test-file-stub"
+      />
+    </a>
+    <div
+      className="header__nav"
+    >
+      <div
+        className="header__nav-wrapper header__nav-wrapper--end"
+      >
+        <span
+          className="header__nav-text header__nav-text--active"
+        >
+          test path
+        </span>
+        <svg
+          className="chevron__icon"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polyline
+            points="15 18 9 12 15 6"
+          />
+        </svg>
+        <a
+          className="link"
+          href="/how-we-work/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <span
+            className="header__nav-text header__nav-text--secondary"
+          >
+            How We Work
+          </span>
+        </a>
+      </div>
+      <div
+        className="header__nav-wrapper"
+      >
+        <button
+          className="header__nav-menu"
+          onClick={[Function]}
+        >
+          <div
+            className="header__nav-bars"
+          />
+          <div
+            className="header__nav-bars"
+          />
+          <div
+            className="header__nav-bars"
+          />
+        </button>
+        <a
+          className="link"
+          href="/what-we-do/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <span
+            className="header__nav-text"
+          >
+            What We Do
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      className="header__options"
+    >
+      <div
+        className="header__button"
+      >
+        <a
+          className="link"
+          href="/contact-us"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <button
+            className="button button--secondary button--mobile button--undefined"
+            data-testid="button"
+          >
+            Contact us
+            <img
+              alt="Contact us"
+              className="button__icon"
+              data-testid="button__icon"
+              src="test-file-stub"
+            />
+          </button>
+        </a>
+      </div>
+      <select
+        className="header__options-list"
+        id="languages"
+      >
+        <option
+          defaultValue="en"
+        >
+          EN
+        </option>
+        <option
+          value="ukr"
+        >
+          UKR
+        </option>
+        <option
+          value="rus"
+        >
+          RUS
+        </option>
+      </select>
+    </div>
+  </div>
+</header>
+`;

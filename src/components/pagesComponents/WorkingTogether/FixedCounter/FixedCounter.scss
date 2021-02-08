@@ -1,0 +1,92 @@
+@import '../../../../styles/vars';
+
+.fixed-counter {
+    position: fixed;
+    bottom: 0;
+    right: 44%;
+    background-color: $background__secondary;
+    border: 2px solid $secondary;
+    width: 100%;
+    max-width: 240px;
+    height: 220px;
+    text-align: center;
+    z-index: 100;
+
+    @media screen and (max-width: $desktop) {
+        right: 40%;
+    }
+
+    @media screen and (max-width: $tablet) {
+        right: 36%;
+    }
+
+    @media screen and (max-width: $mobile) {
+        display: none;
+    }
+
+    &__title {
+        font-family: 'OktaNeue-SemiBold';
+        font-size: 17px;
+        font-weight: 600;
+        color: $text__body;
+        margin-top: 15px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__reset {
+        color: $text__body;
+        cursor: pointer;
+    }
+
+    &__num {
+        font-family: 'OktaNeue-Heavy';
+        font-size: 66px;
+        font-weight: 900;
+        line-height: 1.36;
+        text-align: center;
+        color: $secondary;
+
+        &:nth-child(2) {
+            margin: 0 15px;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        position: relative;
+        bottom: -10px;
+        left: -113px;
+
+        &-wrapper {
+            position: relative;
+        }
+
+        &-arrow-l {
+            display: none;
+            position: absolute;
+            top: -60px;
+            left: -50px;
+        }
+
+        &-arrow-r {
+            display: none;
+            position: absolute;
+            top: -60px;
+            right: -50px;
+            // right: -275px;
+        }
+    }
+}
+
+.fixed-counter__buttons-wrapper:hover .fixed-counter__buttons-arrow-l {
+    display: block;
+}
+
+.fixed-counter__buttons-wrapper:hover .fixed-counter__buttons-arrow-r {
+    display: block;
+}

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="tech-list__wrapper tech-list__wrapper--undefined"
+  data-testid="tech-list"
+>
+  <h3
+    className="tech-list__title tech-list__title--undefined"
+  >
+    Web development
+  </h3>
+  <ul
+    className="tech-list__items"
+  >
+    <li
+      className="tech-list__item"
+    >
+      Architecture planning
+    </li>
+    <li
+      className="tech-list__item"
+    >
+      Microservice architecture
+    </li>
+    <li
+      className="tech-list__item"
+    >
+      Event sourcing
+    </li>
+    <li
+      className="tech-list__item"
+    >
+      CQRS
+    </li>
+    <li
+      className="tech-list__item"
+    >
+      Amazon AWS
+    </li>
+    <li
+      className="tech-list__item"
+    >
+      Google Firebase
+    </li>
+    <li
+      className="tech-list__item"
+    >
+      Microsoft Azure
+    </li>
+  </ul>
+</div>
+`;

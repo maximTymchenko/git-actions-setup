@@ -1,0 +1,58 @@
+@import '../../../../styles/vars';
+
+.accordion {
+    // padding: 0 15px;
+
+    &__wrapper {
+        @include section__size;
+        margin: 100px auto 80px;
+        @include main__padding;
+        border-bottom: 2px solid $secondary;
+
+        @media screen and (max-width: $tablet) {
+            margin-left: 0;
+        }
+
+        @media screen and (max-width: $mobile) {
+            max-width: 325px;
+            position: relative;
+            left: 10px;
+        }
+    }
+
+    &__head {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        cursor: pointer;
+
+        &--close {
+            transform: rotate(45deg);
+        }
+    }
+
+    &__text-wrapper {
+        display: none;
+
+        &--show {
+            display: block;
+        }
+    }
+
+    &__title {
+        font-family: 'OktaNeue-Black';
+        font-size: 28px;
+        font-weight: 900;
+        color: $text;
+    }
+
+    &__text {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text__body;
+        margin-bottom: 20px;
+    }
+}

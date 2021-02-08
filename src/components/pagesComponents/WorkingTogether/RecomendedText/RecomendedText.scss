@@ -1,0 +1,22 @@
+@import '../../../../styles/vars';
+
+.recomended-text {
+    &__wrapper {
+        margin-top: 25px;
+    }
+    &__title {
+        font-family: 'OktaNeue-Semibold';
+        font-size: 17px;
+        font-weight: 600;
+        color: $text;
+    }
+
+    &__points {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        font-weight: 400;
+        color: $text;
+    }
+}

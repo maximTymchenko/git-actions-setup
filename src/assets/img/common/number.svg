@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="233" viewBox="0 0 240 233">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <path d="M0 0H240V233H0z" transform="translate(-225 -1471) translate(0 1229) translate(225 242)"/>
+                    <text fill="#030F26" fill-rule="nonzero" font-family="OktaNeue-Black, Okta Neue" font-size="144" font-weight="700" transform="translate(-225 -1471) translate(0 1229) translate(225 242)">
+                        <tspan x=".716" y="167">5</tspan>
+                    </text>
+                    <text fill="#030F26" font-family="OktaNeue-Black, Okta Neue" font-size="28" font-weight="700" transform="translate(-225 -1471) translate(0 1229) translate(225 242)">
+                        <tspan x=".5" y="212.444">Projects</tspan>
+                    </text>
+                    <g>
+                        <g>
+                            <path d="M0 0H54V57H0z" transform="translate(-225 -1471) translate(0 1229) translate(225 242) translate(93 66)"/>
+                            <path stroke="#399CCB" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.5" d="M2.25 21V4.5c0-1.243 1.007-2.25 2.25-2.25h45c1.243 0 2.25 1.007 2.25 2.25V21c0 23.63-20.055 31.458-24.06 32.785-.447.155-.933.155-1.38 0C22.304 52.458 2.25 44.63 2.25 21z" transform="translate(-225 -1471) translate(0 1229) translate(225 242) translate(93 66)"/>
+                        </g>
+                        <text fill="#399CCB" font-family="OktaNeue-Heavy, Okta Neue" font-size="16" font-weight="600" transform="translate(-225 -1471) translate(0 1229) translate(225 242) translate(93 66)">
+                            <tspan x="9.436" y="30">NDA</tspan>
+                        </text>
+                        <g fill="#5E6478" font-family="OktaNeue-Black, Okta Neue" font-weight="700">
+                            <text font-size="11" letter-spacing="1" transform="translate(-225 -1471) translate(0 1229) translate(225 242) translate(93 66) translate(60 14)">
+                                <tspan x=".399" y="28">protected</tspan>
+                            </text>
+                            <text font-size="14" letter-spacing="1.273" transform="translate(-225 -1471) translate(0 1229) translate(225 242) translate(93 66) translate(60 14)">
+                                <tspan x=".855" y="16">IP</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

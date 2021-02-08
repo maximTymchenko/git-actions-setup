@@ -1,0 +1,100 @@
+@import '../../../../styles/vars';
+
+.text-span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    @include section__size;
+    margin: 40px auto 30px;
+    padding-bottom: 25px;
+
+    @media screen and (min-width: $mac__13) {
+        margin: 30px auto;
+    }
+
+    @media screen and (max-width: $tablet) {
+        margin-left: 0px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    &::before {
+        position: absolute;
+        content: url('../../../../assets/img/waves.svg');
+        top: 10px;
+        left: -200px;
+
+        @media screen and (max-width: $desktop) {
+            left: -320px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            padding: 90px 0;
+            left: -380px;
+            top: -120px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            content: url('../../../../assets/img/medium-waves.svg');
+            left: -60px;
+            top: -80px;
+            transform: rotateY(180deg);
+        }
+    }
+
+    &::after {
+        overflow: hidden;
+        position: absolute;
+        content: url('../../../../assets/img/waves.svg');
+        transform: rotateX(180deg);
+        top: 10px;
+        right: -200px;
+
+        @media screen and (max-width: $desktop) {
+            right: -320px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            right: -350px;
+            bottom: -100px;
+            padding: 70px 0;
+        }
+
+        @media screen and (max-width: $mobile) {
+            content: url('../../../../assets/img/medium-waves.svg');
+            right: 0;
+            bottom: -60px;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        width: 100%;
+        margin-bottom: 50px;
+
+        @media screen and (max-width: $mobile) {
+            padding: 110px 0;
+        }
+    }
+
+    &__info {
+        max-width: 380px;
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        text-align: center;
+        color: $text__body;
+        margin-bottom: 30px;
+
+        @media screen and (max-width: $mobile) {
+            width: 320px;
+        }
+    }
+}

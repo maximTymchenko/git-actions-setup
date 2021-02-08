@@ -1,0 +1,112 @@
+@import '../../../../styles/vars';
+
+.video-item {
+    &__container {
+        cursor: pointer;
+        width: 355px;
+        height: 100%;
+        max-height: 355px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        outline: 2px solid $secondary;
+        box-shadow: 7px 7px 1px 1px hsla(199, 58%, 51%, 0.4);
+        @include transition;
+        background-color: #fff;
+
+        @media screen and (max-width: $medium__desktop) {
+            margin-right: 80px;
+        }
+
+        @media screen and (max-width: $small__tablet) {
+            width: 242px;
+            height: 242px;
+            position: relative;
+        }
+
+        //! test small container
+        &--medium {
+            width: 300px;
+            height: 300px;
+            justify-content: flex-start;
+        }
+
+        &--small {
+            margin-right: 30px;
+            width: 290px;
+            height: 100%;
+
+            @media screen and (max-width: $small__tablet) {
+                width: 242px;
+                height: 242px;
+                position: relative;
+            }
+        }
+
+        &:hover {
+            outline: 4px solid $secondary;
+            outline-offset: -2px;
+        }
+
+        &:active {
+            @include button__press;
+            box-shadow: 7px 7px 1px 1px hsla(199, 58%, 51%, 0);
+        }
+    }
+
+    &__button {
+        &--center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        opacity: 1;
+        @include transition;
+
+        @media screen and (max-width: $small__tablet) {
+            //     position: absolute;
+            //     top: 60px;
+            //     right: 45px;
+        }
+    }
+
+    &__number {
+        font-family: 'OktaNeue-Heavy';
+        font-size: 66px;
+        font-weight: 900;
+        line-height: 1.36;
+        color: $secondary;
+        padding: 5px 25px;
+
+        @media screen and (max-width: $small__tablet) {
+            font-size: 38px;
+        }
+    }
+
+    &__label {
+        font-family: 'OktaNeue-Heavy';
+        font-size: 25px;
+        padding: 0px 25px;
+        max-width: 200px;
+        font-weight: 900;
+        color: $secondary;
+
+        &--smallest {
+            //! test small container
+            font-size: 22px;
+            padding-left: 10px;
+            max-width: 400px;
+        }
+
+        @media screen and (max-width: $small__tablet) {
+            font-size: 19px;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}
+
+.video-item__container:hover .video-item__button {
+    opacity: 1;
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293" height="184" viewBox="0 0 293 184">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path d="M0 0H293V184H0z" transform="translate(-1132 -129) translate(1132 129)"/>
+                <g transform="translate(-1132 -129) translate(1132 129) translate(163)">
+                    <path d="M0 0H130V137H0z"/>
+                    <circle cx="5" cy="5" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 10)"/>
+                    <circle cx="35" cy="5" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 10)"/>
+                    <circle cx="5" cy="37" r="5" fill="#3FACE0" transform="matrix(1 0 0 -1 0 74)"/>
+                    <circle cx="35" cy="37" r="5" fill="#3FACE0" transform="matrix(1 0 0 -1 0 74)"/>
+                    <circle cx="5" cy="68" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 136)"/>
+                    <circle cx="35" cy="68" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 136)"/>
+                    <circle cx="65" cy="5" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 10)"/>
+                    <circle cx="125" cy="5" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 10)"/>
+                    <circle cx="65" cy="37" r="5" fill="#3FACE0" transform="matrix(1 0 0 -1 0 74)"/>
+                    <circle cx="125" cy="37" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 74)"/>
+                    <circle cx="65" cy="68" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 136)"/>
+                    <circle cx="125" cy="68" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 136)"/>
+                    <circle cx="65" cy="100" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 200)"/>
+                    <circle cx="125" cy="100" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 200)"/>
+                    <circle cx="65" cy="132" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 264)"/>
+                    <circle cx="125" cy="132" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 264)"/>
+                    <circle cx="95" cy="132" r="5" fill="#3FACE0" transform="matrix(1 0 0 -1 0 264)"/>
+                    <circle cx="95" cy="5" r="5" fill="#001845" transform="matrix(1 0 0 -1 0 10)"/>
+                    <circle cx="95" cy="37" r="5" fill="#3FACE0" transform="matrix(1 0 0 -1 0 74)"/>
+                    <circle cx="95" cy="68" r="5" fill="#3FACE0" transform="matrix(1 0 0 -1 0 136)"/>
+                    <circle cx="95" cy="100" r="5" fill="#3FACE0" transform="matrix(1 0 0 -1 0 200)"/>
+                </g>
+                <g opacity=".33">
+                    <g>
+                        <path d="M0 0H248V165H0z" transform="translate(-1132 -129) translate(1132 129) translate(0 19) rotate(180 124 82.5)"/>
+                        <path stroke="#399CCB" stroke-linecap="round" stroke-width="2.5" d="M0 114.963C0 141.298 40.333 140.31 121 112M248 134.037c0-26.335-40.333-25.347-121 2.963M248 162.037c0-26.335-40.333-25.347-121 2.963M0 30.963C0 57.298 40.333 56.31 121 28M0 2.963C0 29.298 40.333 28.31 121 0M248 50.037C248 23.702 207.667 24.69 127 53M248 22.037C248-4.298 207.667-3.31 127 25M0 142.963C0 169.298 40.333 168.31 121 140M0 58.963C0 85.298 40.333 84.31 121 56M248 78.037C248 51.702 207.667 52.69 127 81M0 86.963C0 113.298 40.333 112.31 121 84M248 106.037c0-26.335-40.333-25.347-121 2.963" transform="translate(-1132 -129) translate(1132 129) translate(0 19) rotate(180 124 82.5)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

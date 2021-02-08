@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="features__wrapper"
+  data-testid="features"
+>
+  <h2
+    className="title title--secondary"
+    data-testid="section-title"
+  >
+    More amazing services and success stories awaiting you here
+  </h2>
+  <button
+    className="button button--secondary button--undefined button--undefined"
+    data-testid="button"
+  >
+    Discover all
+    <img
+      alt="Discover all"
+      className="button__icon"
+      data-testid="button__icon"
+      src="test-file-stub"
+    />
+  </button>
+</div>
+`;

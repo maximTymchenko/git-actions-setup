@@ -1,0 +1,70 @@
+@import '../../../../../styles/vars';
+
+.drop-down-text {
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 35px;
+
+    @media screen and (max-width: $tablet) {
+        max-width: 720px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        max-width: 400px;
+    }
+
+    &__wrapper {
+        border-bottom: 2px solid $secondary;
+        margin-bottom: 20px;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__icon {
+        cursor: pointer;
+
+        &--close {
+            transform: rotate(45deg);
+        }
+    }
+
+    &__title {
+        font-family: 'OktaNeue-Semibold';
+        font-size: 17px;
+        font-weight: 600;
+        color: $text;
+        margin-bottom: 15px;
+    }
+
+    &__body {
+        margin-bottom: 13px;
+        display: flex;
+        justify-content: space-between;
+        display: none;
+
+        &--show {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+    }
+
+    &__time {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        font-weight: 400;
+        color: $text__body;
+        display: block;
+    }
+
+    &__rate {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        font-weight: 400;
+        color: $text;
+    }
+}

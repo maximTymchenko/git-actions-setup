@@ -1,0 +1,65 @@
+// import vars
+@import '../../styles/vars';
+
+.coockies {
+    &__wrapper {
+        width: 100%;
+        background-color: #fff;
+        z-index: 99;
+        position: fixed;
+        bottom: 7px;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid $secondary;
+        box-shadow: 5px 5px 1px 1px rgba(57, 156, 203, 0.4);
+
+        &:active {
+            box-shadow: 5px 5px 1px 1px rgba(57, 156, 203, 0);
+        }
+
+        @media screen and (max-width: $mobile) {
+            padding: 15px 0 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    &__info {
+        max-width: 800px;
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text__body;
+        padding: 13px 50px;
+
+        @media screen and (max-width: $mobile) {
+            margin-bottom: 15px;
+        }
+    }
+    &__privacy {
+        cursor: pointer;
+        font-family: 'OktaNeue-Medium';
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.53;
+        color: $secondary;
+    }
+
+    &__btn {
+        background: none;
+        outline: none;
+        border: none;
+        font-family: 'OktaNeue-Black';
+        cursor: pointer;
+        padding-right: 50px;
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        color: $primary__light;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}

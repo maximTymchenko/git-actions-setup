@@ -1,0 +1,125 @@
+@import '../../../../styles/vars';
+
+.small-company-container {
+    background-color: #3771c4;
+    cursor: pointer;
+    outline: 2px solid $secondary;
+    box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0.4);
+    @include transition;
+    padding-bottom: 15px;
+
+    height: 100%;
+    max-height: 330px;
+
+    width: 100%;
+    max-width: 495px;
+
+    @media screen and (max-width: $medium__desktop) {
+        padding-bottom: 50px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        max-width: 710px;
+    }
+
+    &:hover {
+        outline: 4px solid $secondary;
+        outline-offset: -2px;
+    }
+    &:active {
+        @include button__press;
+        box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0);
+    }
+
+    &--secondary {
+        background-color: $secondary;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 0;
+
+        &::before {
+            position: absolute;
+            top: -155px;
+            right: 0;
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 300px solid transparent;
+            border-bottom: 300px solid transparent;
+            border-right: 300px solid #b9008c;
+        }
+    }
+
+    @media screen and (max-width: $tablet) {
+        width: 107%;
+        margin-right: 15px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+    }
+
+    //walmart logo
+    &__logo {
+        position: relative;
+        z-index: 10;
+        margin: 20px 0 90px 20px;
+
+        &--secondary {
+            @media screen and (max-width: $medium__desktop) {
+                margin-bottom: 70px;
+            }
+        }
+
+        @media screen and (max-width: $mobile) {
+            margin-left: 10px;
+            // width: 100px;
+            margin-bottom: 40px;
+        }
+    }
+
+    //walmart description
+    &__desc {
+        max-width: 600px;
+        position: relative;
+        z-index: 10;
+        margin-left: 30px;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        font-family: 'OktaNeue-Bold';
+        font-size: 27px;
+        font-weight: bold;
+        line-height: 1.6;
+        color: $background__primary;
+
+        @media screen and (max-width: $mobile) {
+            margin-left: 10px;
+            font-size: 22px;
+        }
+    }
+    // hashtags
+    &__hashtags {
+        margin-top: 15px;
+        font-family: 'OktaNeue-Black';
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        color: $text__body;
+
+        &--hide {
+            display: none;
+        }
+    }
+    &__label {
+        background-color: $brand__primary;
+        padding: 2px 4px;
+        margin-right: 6px;
+        font-family: 'OktaNeue-Black';
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 1.1;
+        letter-spacing: 0.5px;
+        color: $background__primary;
+    }
+}

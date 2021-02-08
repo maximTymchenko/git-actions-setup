@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<ul
+  className="nav nav--undefined"
+>
+  <a
+    className="link__margin  active__border"
+    href="/undefined"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <li
+      className="nav__link"
+      data-testid="nav"
+      onClick={[Function]}
+    >
+      All
+    </li>
+  </a>
+  <a
+    className="link__margin  active__border"
+    href="/undefined"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <li
+      className="nav__link"
+      data-testid="nav"
+      onClick={[Function]}
+    >
+      Web development
+    </li>
+  </a>
+  <a
+    className="link__margin  active__border"
+    href="/undefined"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <li
+      className="nav__link"
+      data-testid="nav"
+      onClick={[Function]}
+    >
+      Cloud services
+    </li>
+  </a>
+  <a
+    className="link__margin  active__border"
+    href="/undefined"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <li
+      className="nav__link"
+      data-testid="nav"
+      onClick={[Function]}
+    >
+      Team extension
+    </li>
+  </a>
+  <a
+    className="link__margin  active__border"
+    href="/undefined"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <li
+      className="nav__link"
+      data-testid="nav"
+      onClick={[Function]}
+    >
+      AR & VR
+    </li>
+  </a>
+  <a
+    className="link__margin  active__border"
+    href="/undefined"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <li
+      className="nav__link"
+      data-testid="nav"
+      onClick={[Function]}
+    >
+      Retail & E-commerce
+    </li>
+  </a>
+  <a
+    className="link__margin  active__border"
+    href="/undefined"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <li
+      className="nav__link"
+      data-testid="nav"
+      onClick={[Function]}
+    >
+      Mobile development
+    </li>
+  </a>
+</ul>
+`;

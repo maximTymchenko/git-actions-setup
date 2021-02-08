@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="large-company-container__wrapper"
+  data-testid="large-company-container"
+>
+  <div
+    className="large-company-container large-company-container--undefined large-company-container--undefined"
+  >
+    <img
+      alt="Spectar"
+      className="large-company-container__logo"
+      src="test-file-stub"
+    />
+    <p
+      className="large-company-container__desc"
+    >
+      Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company
+    </p>
+  </div>
+  <p
+    className="large-company-container__hashtags large-company-container__hashtags--undefined"
+  >
+    &gt;
+    <span
+      className="large-company-container__label"
+    >
+      CASE STUDY
+    </span>
+    Amazon, Retail & E-commerce, React, Web development, +13 more
+  </p>
+</div>
+`;

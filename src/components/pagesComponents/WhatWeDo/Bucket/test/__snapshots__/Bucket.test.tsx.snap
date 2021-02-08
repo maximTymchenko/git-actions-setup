@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="bucket bucket--undefined"
+  data-testid="bucket"
+>
+  <img
+    alt="Background image"
+    className="bucket__background bucket__background--undefined"
+  />
+  <img
+    alt="Bucket icon"
+    className="bucket__icon bucket__icon--undefined"
+    src="test-file-stub"
+  />
+  <span
+    className="bucket__label bucket__label--undefined"
+  >
+    <img
+      alt="Label icon"
+      className="bucket__label-icon"
+      src="test-file-stub"
+    />
+  </span>
+</div>
+`;

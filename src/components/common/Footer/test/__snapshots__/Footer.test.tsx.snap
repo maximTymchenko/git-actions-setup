@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<footer
+  className="footer"
+  data-testid="footer"
+>
+  <div
+    className="footer__wrapper"
+  >
+    <div
+      className="footer__info"
+    >
+      <div
+        className="footer__location"
+      >
+        <span
+          className="footer__country"
+        >
+          Ukraine HQ
+        </span>
+        <span
+          className="footer__timezone"
+        >
+          +2 UTC/EET
+        </span>
+        <span
+          className="clock"
+          data-testid="clock"
+        >
+          03:13 PM
+        </span>
+        <a
+          className="footer__phone"
+          href="tel:+380–93–104–27–57"
+        >
+          +380–93–104–27–57
+        </a>
+        <span
+          className="footer__adress"
+        >
+           16 Shota Rustaveli St Kyiv,
+        </span>
+        <span
+          className="footer__index"
+        >
+          02000
+        </span>
+        <a
+          className="link"
+          href="/contact-us"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <button
+            className="button button--primary button--undefined button--undefined"
+            data-testid="button"
+          >
+            Get in touch
+            <img
+              alt="Get in touch"
+              className="button__icon"
+              data-testid="button__icon"
+              src="test-file-stub"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        className="footer__links"
+      >
+        <a
+          aria-current="page"
+          className="link"
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          style={Object {}}
+        >
+          <img
+            alt=""
+            className="footer__logo"
+            src="test-file-stub"
+          />
+        </a>
+        <div
+          className="footer__social-wrapper"
+        >
+          <a
+            className="footer__social"
+            href="https://ua.linkedin.com/company/blackbird-lab"
+            target="_blank"
+          >
+            in
+          </a>
+          <div
+            className="footer__bar"
+          />
+          <a
+            className="footer__social"
+            href="https://jobs.dou.ua/companies/blackbird-lab/"
+            target="_blank"
+          >
+            DOU
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="footer__functions"
+    >
+      <ul
+        className="footer__lists"
+      >
+        <li
+          className="footer__link"
+        >
+          Find a Service
+        </li>
+        <li
+          className="footer__link"
+        >
+          Web Development
+        </li>
+        <li
+          className="footer__link"
+        >
+          Quality Control
+        </li>
+        <li
+          className="footer__link"
+        >
+          Research
+        </li>
+        <li
+          className="footer__link"
+        >
+          Analytics
+        </li>
+        <li
+          className="footer__link"
+        >
+          Cloud Services
+        </li>
+        <li
+          className="footer__link"
+        >
+          Mobile Development
+        </li>
+      </ul>
+      <ul
+        className="footer__lists"
+      >
+        <li
+          className="footer__link"
+        >
+          Pick an Expertise
+        </li>
+        <li
+          className="footer__link"
+        >
+          Retail and E-commerce
+        </li>
+        <li
+          className="footer__link"
+        >
+          Construction
+        </li>
+        <li
+          className="footer__link"
+        >
+          Finance and ERP
+        </li>
+        <li
+          className="footer__link"
+        >
+          Media
+        </li>
+        <li
+          className="footer__link"
+        >
+          AR & VR
+        </li>
+      </ul>
+      <ul
+        className="footer__lists"
+      >
+        <li
+          className="footer__link"
+        >
+          Company
+        </li>
+        <li
+          className="footer__link"
+        >
+          About Us
+        </li>
+        <li
+          className="footer__link"
+        >
+          Blog and Resources
+        </li>
+        <li
+          className="footer__link"
+        >
+          Careers
+        </li>
+        <li
+          className="footer__link"
+        >
+          Media
+        </li>
+        <li
+          className="footer__link"
+        >
+          Contact Blackbird
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="small-footer"
+    data-testid="secondary-footer"
+  >
+    <div
+      className="small-footer__wrapper"
+    >
+      <p
+        className="small-footer__rights"
+      >
+        © Blackbird Lab. 2017-2020. All rights reserved.
+      </p>
+      <div
+        className="small-footer__links"
+      >
+        <a
+          className="link"
+          href="/acknowledgement-and-acceptance"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <span
+            className="small-footer__privacy"
+          >
+            Privacy Policy
+          </span>
+        </a>
+        <a
+          className="small-footer__link"
+          href="https://ua.linkedin.com/company/blackbird-lab"
+          target="_blank"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 448 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+            />
+          </svg>
+        </a>
+        <a
+          className="small-footer__link"
+          href="https://jobs.dou.ua/companies/blackbird-lab/"
+          target="_blank"
+        >
+          DOU
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

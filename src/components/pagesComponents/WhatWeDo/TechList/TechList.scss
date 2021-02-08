@@ -1,0 +1,75 @@
+@import '../../../../styles/vars';
+
+.tech-list {
+    &__container {
+        display: flex;
+        margin-bottom: 70px;
+        justify-content: space-between;
+    }
+
+    &__wrapper {
+        width: 510px;
+
+        &--right {
+            margin-right: 50px;
+            width: 350px;
+            border-right: 2px solid $section__border;
+        }
+
+        &--bottom {
+            border-bottom: 2px solid $section__border;
+        }
+
+        @media screen and (max-width: $tablet) {
+            border-right: none;
+            margin-bottom: 40px;
+
+            border-bottom: 2px solid $section__border;
+        }
+
+        @media screen and (max-width: $mobile) {
+            width: 350px;
+            margin: 0;
+            margin-bottom: 20px;
+
+            &:nth-child(even) {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    &__title {
+        font-family: 'OktaNeue-Black';
+        font-size: 28px;
+        font-weight: 900;
+        color: $text;
+        position: relative;
+        padding-bottom: 20px;
+
+        &--hide {
+            display: none;
+        }
+
+        // &::before {
+        //     content: url('../../../../assets/img/small-waves.svg');
+        //     position: absolute;
+        //     left: -20px;
+        //     top: -10px;
+        //     z-index: -20;
+
+        //     @media screen and (max-width: $mobile) {
+        //         left: 5px;
+        //     }
+        // }
+    }
+
+    &__item {
+        font-family: 'OktaNeue-Black';
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        color: $primary__light;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+}

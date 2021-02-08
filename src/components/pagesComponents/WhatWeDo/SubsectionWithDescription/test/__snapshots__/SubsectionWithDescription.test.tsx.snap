@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="subsection-with-description"
+  data-testid="subsection-with-description"
+>
+  <h2
+    className="title title--primary"
+    data-testid="section-title"
+  >
+    Retail and E-commerce
+  </h2>
+  <p
+    className="text-description text-description--undefined"
+    data-testid="text-description"
+  />
+</div>
+`;

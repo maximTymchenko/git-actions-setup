@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="counter"
+  data-testid="counter"
+>
+  <div
+    className="counter__header"
+  >
+    <h2
+      className="title title--lighter"
+      data-testid="section-title"
+    >
+      Your votes
+    </h2>
+  </div>
+  <div
+    className="counter__wrapper"
+  >
+    <h2
+      className="title title--secondary"
+      data-testid="section-title"
+    >
+      On-Demand Team Extension
+    </h2>
+    <div
+      className="counter__body"
+    >
+      <span
+        className="counter__number"
+      />
+      <span
+        className="counter__number"
+      >
+        :
+      </span>
+      <span
+        className="counter__number"
+      />
+    </div>
+    <h2
+      className="title title--secondary"
+      data-testid="section-title"
+    >
+      Fully Managed It Services
+    </h2>
+  </div>
+  <div
+    className="counter__points"
+  >
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+    <span
+      className="counter__title"
+    >
+      Outcome responsibility
+    </span>
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="counter__points"
+  >
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+    <span
+      className="counter__title"
+    >
+      Project kickoff
+    </span>
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="counter__points"
+  >
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+    <span
+      className="counter__title"
+    >
+      Onboarding approach
+    </span>
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="counter__points"
+  >
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+    <span
+      className="counter__title"
+    >
+      Recruitment & screening
+    </span>
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="counter__points"
+  >
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+    <span
+      className="counter__title"
+    >
+      Remote management
+    </span>
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="counter__points"
+  >
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+    <span
+      className="counter__title"
+    >
+      Communication standards
+    </span>
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="counter__points"
+  >
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+    <span
+      className="counter__title"
+    >
+      Intellectual property
+    </span>
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="counter__points"
+  >
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+    <span
+      className="counter__title"
+    >
+      Pricing & predictability
+    </span>
+    <div>
+      <svg
+        className="counter__icon--rotated"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

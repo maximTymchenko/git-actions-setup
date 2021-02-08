@@ -1,0 +1,27 @@
+@import '../../../styles/vars';
+
+.team-extension {
+    @include section__position;
+
+    @media screen and (min-width: $mac__13) {
+        // @include large__resolution--media;
+    }
+
+    @media screen and (max-width: $tablet) {
+        margin: 210px 0 80px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin-top: 205px;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    &__company {
+        width: 60%;
+
+        @media screen and (max-width: $mobile) {
+            width: 100%;
+        }
+    }
+}

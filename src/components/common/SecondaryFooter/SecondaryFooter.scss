@@ -1,0 +1,75 @@
+@import '../../../styles/vars';
+
+.small-footer {
+    border-top: 1px solid $section__border;
+    width: 100%;
+    margin-top: 60px;
+
+    &__wrapper {
+        width: 100%;
+        max-width: $header__width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 35px;
+        margin: 0 auto;
+
+        @media screen and (min-width: $mac__13) {
+            margin: 0px auto 0;
+            position: relative;
+            right: 100px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            flex-direction: column;
+            padding: 25px 0;
+        }
+    }
+
+    &__rights {
+        font-family: 'OktaNeue-Black';
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-align: right;
+        color: $text;
+
+        @media screen and (max-width: $mobile) {
+            display: block;
+            text-align: left;
+        }
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width: $mobile) {
+            text-align: center;
+        }
+    }
+
+    &__link {
+        font-family: 'OktaNeue-Black';
+        margin-right: 15px;
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+
+        &:last-child {
+            margin-bottom: 3px;
+        }
+    }
+
+    &__privacy {
+        cursor: pointer;
+        font-family: 'OktaNeue-Black';
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-align: right;
+        color: $text;
+        margin-right: 15px;
+    }
+}

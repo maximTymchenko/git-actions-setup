@@ -1,0 +1,8 @@
+@import '../../../../styles/vars';
+
+.section-header__wrapper {
+    @media screen and (max-width: $mobile) {
+        max-width: 360px;
+        margin-bottom: 30px;
+    }
+}

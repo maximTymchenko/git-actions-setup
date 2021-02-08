@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="135" viewBox="0 0 86 86">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-1339 -759) translate(0 647) translate(1339 112)">
+                    <path d="M0 0H86V86H0z"/>
+                    <circle cx="3" cy="3" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 6)"/>
+                    <circle cx="23" cy="3" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 6)"/>
+                    <circle cx="3" cy="23" r="3" fill="#3FACE0" transform="matrix(1 0 0 -1 0 46)"/>
+                    <circle cx="23" cy="23" r="3" fill="#3FACE0" transform="matrix(1 0 0 -1 0 46)"/>
+                    <circle cx="3" cy="43" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 86)"/>
+                    <circle cx="23" cy="43" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 86)"/>
+                    <circle cx="43" cy="3" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 6)"/>
+                    <circle cx="83" cy="3" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 6)"/>
+                    <circle cx="43" cy="23" r="3" fill="#3FACE0" transform="matrix(1 0 0 -1 0 46)"/>
+                    <circle cx="83" cy="23" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 46)"/>
+                    <circle cx="43" cy="43" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 86)"/>
+                    <circle cx="83" cy="43" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 86)"/>
+                    <circle cx="41" cy="63" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 126)"/>
+                    <circle cx="81" cy="63" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 126)"/>
+                    <circle cx="41" cy="83" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 166)"/>
+                    <circle cx="81" cy="83" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 166)"/>
+                    <circle cx="61" cy="83" r="3" fill="#3FACE0" transform="matrix(1 0 0 -1 0 166)"/>
+                    <circle cx="63" cy="3" r="3" fill="#001845" transform="matrix(1 0 0 -1 0 6)"/>
+                    <circle cx="63" cy="23" r="3" fill="#3FACE0" transform="matrix(1 0 0 -1 0 46)"/>
+                    <circle cx="63" cy="43" r="3" fill="#3FACE0" transform="matrix(1 0 0 -1 0 86)"/>
+                    <circle cx="61" cy="63" r="3" fill="#3FACE0" transform="matrix(1 0 0 -1 0 126)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

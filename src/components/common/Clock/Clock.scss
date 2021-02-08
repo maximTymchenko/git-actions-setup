@@ -1,0 +1,14 @@
+@import '../../../styles/vars';
+
+.clock {
+    cursor: -webkit-grab;
+    display: inline-block;
+    padding: 5px;
+    background-color: $background__secondary;
+    font-family: 'OktaNeue-Heavy';
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    color: $text;
+    margin-bottom: 15px;
+}

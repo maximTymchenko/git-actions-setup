@@ -1,0 +1,19 @@
+@import '../../../styles/vars';
+
+.ar-vr {
+    @include section__position;
+
+    @media screen and (min-width: $mac__13) {
+        // @include large__resolution--media;
+    }
+
+    @media screen and (max-width: $tablet) {
+        margin: 210px 0 80px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin-left: 0;
+        margin-top: 205px;
+        padding: 0 10px;
+    }
+}

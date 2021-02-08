@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="our-offices__wrapper"
+  data-testid="our-offices"
+>
+  <h2
+    className="title title--main"
+    data-testid="section-title"
+  >
+    Our offices
+  </h2>
+  <div
+    className="our-offices__cities"
+  >
+    <div
+      className="our-office__city"
+    >
+      <h2
+        className="title title--city"
+        data-testid="section-title"
+      >
+        Ukraine HQ
+      </h2>
+      <span
+        className="our-offices__timezone"
+      >
+        +2 UTC/EET
+      </span>
+      <span
+        className="clock"
+        data-testid="clock"
+      >
+        03:13 PM
+      </span>
+      <a
+        className="contacts__phone"
+        href="tel:+380931042757"
+      >
+        +380–93–104–27–57
+      </a>
+      <a
+        className="contacts__email"
+        href="mailto:info@blackbird-lab.com"
+      >
+        info@blackbird-lab.com
+      </a>
+      <span
+        className="contacts__phone"
+      >
+        16 Shota Rustaveli St Kyiv,
+      </span>
+      <span
+        className="contacts__phone"
+      >
+        02000 Ukraine
+      </span>
+    </div>
+    <div
+      className="our-office__city"
+    >
+      <h2
+        className="title title--city"
+        data-testid="section-title"
+      >
+        Minneapolis
+      </h2>
+      <span
+        className="our-offices__timezone"
+      >
+        -6 CST
+      </span>
+      <span
+        className="clock"
+        data-testid="clock"
+      >
+        07:13 AM
+      </span>
+      <a
+        className="contacts__phone"
+        href="tel:+13217541350"
+      >
+        +1–321–754–1350
+      </a>
+      <a
+        className="contacts__email"
+        href="mailto:SF_sales@blackbird-lab.com"
+      >
+        SF_sales@blackbird-lab.com
+      </a>
+    </div>
+    <div
+      className="our-office__city"
+    >
+      <h2
+        className="title title--city"
+        data-testid="section-title"
+      >
+        Toronto
+      </h2>
+      <span
+        className="our-offices__timezone"
+      >
+        GMT -5
+      </span>
+      <span
+        className="clock"
+        data-testid="clock"
+      >
+        08:13 AM
+      </span>
+      <a
+        className="contacts__phone"
+        href="tel:+353871170708"
+      >
+        +353–87–117–0708
+      </a>
+      <a
+        className="contacts__email"
+        href="mailto:SF_sales@blackbird-lab.com"
+      >
+        dublin_prod@blackbird-lab.com
+      </a>
+    </div>
+    <div
+      className="our-office__city"
+    >
+      <h2
+        className="title title--city"
+        data-testid="section-title"
+      >
+        Los Angeles
+      </h2>
+      <span
+        className="our-offices__timezone"
+      >
+        GMT -8
+      </span>
+      <span
+        className="clock"
+        data-testid="clock"
+      >
+        05:13 AM
+      </span>
+      <a
+        className="contacts__phone"
+        href="tel:+61391310770"
+      >
+        +61–391–31–0770
+      </a>
+      <a
+        className="contacts__email"
+        href="mailto:SF_sales@blackbird-lab.com"
+      >
+        AU@blackbird-lab.com
+      </a>
+    </div>
+  </div>
+</div>
+`;

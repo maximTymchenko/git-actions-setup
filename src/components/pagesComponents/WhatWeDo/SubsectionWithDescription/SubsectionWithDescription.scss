@@ -1,0 +1,19 @@
+@import '../../../../styles/vars';
+
+.subsection-with-description {
+    @include section__size;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+
+    &:first-child {
+        margin-right: 100px;
+    }
+
+    &::before {
+        position: absolute;
+        top: -30px;
+        left: -20px;
+        content: url('../../../../assets/img/subsectionWithDescription/subsection-waves-bg.svg');
+    }
+}

@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="services"
+  data-testid="services"
+>
+  <div
+    className="services__wrapp"
+  >
+    <h2
+      className="title title--main"
+      data-testid="section-title"
+    >
+      Services and expertise
+    </h2>
+  </div>
+  <div
+    className="services__nav"
+  >
+    <ul
+      className="nav nav--main"
+    >
+      <a
+        className="link__margin  active__border"
+        href="/what-we-do/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <li
+          className="nav__link"
+          data-testid="nav"
+          onClick={[Function]}
+        >
+          All
+        </li>
+      </a>
+      <a
+        className="link__margin  active__border"
+        href="/what-we-do/web-development/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <li
+          className="nav__link"
+          data-testid="nav"
+          onClick={[Function]}
+        >
+          Web development
+        </li>
+      </a>
+      <a
+        className="link__margin  active__border"
+        href="/what-we-do/cloud-services/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <li
+          className="nav__link"
+          data-testid="nav"
+          onClick={[Function]}
+        >
+          Cloud services
+        </li>
+      </a>
+      <a
+        className="link__margin  active__border"
+        href="/what-we-do/team-extension/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <li
+          className="nav__link"
+          data-testid="nav"
+          onClick={[Function]}
+        >
+          Team extension
+        </li>
+      </a>
+      <a
+        className="link__margin  active__border"
+        href="/what-we-do/ar-&-vr/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <li
+          className="nav__link"
+          data-testid="nav"
+          onClick={[Function]}
+        >
+          AR & VR
+        </li>
+      </a>
+      <a
+        className="link__margin  active__border"
+        href="/what-we-do/retail-and-e-commerce/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <li
+          className="nav__link"
+          data-testid="nav"
+          onClick={[Function]}
+        >
+          Retail & E-commerce
+        </li>
+      </a>
+      <a
+        className="link__margin  active__border"
+        href="/what-we-do/mobile-development/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <li
+          className="nav__link"
+          data-testid="nav"
+          onClick={[Function]}
+        >
+          Mobile development
+        </li>
+      </a>
+    </ul>
+    <div
+      className="services__nav-btn"
+    >
+      <a
+        className="link"
+        href="/what-we-do/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <button
+          className="button button--primary button--undefined button--undefined"
+          data-testid="button"
+        >
+          Discover more
+          <img
+            alt="Discover more"
+            className="button__icon"
+            data-testid="button__icon"
+            src="test-file-stub"
+          />
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    className="services__company"
+  >
+    <div
+      className="large-company-container__wrapper"
+      data-testid="large-company-container"
+    >
+      <div
+        className="large-company-container large-company-container--bg-main large-company-container--undefined"
+      >
+        <img
+          alt="Spectar"
+          className="large-company-container__logo"
+          src="test-file-stub"
+        />
+        <p
+          className="large-company-container__desc"
+        >
+          Building a pioneering AR product for construction
+        </p>
+      </div>
+      <p
+        className="large-company-container__hashtags large-company-container__hashtags--undefined"
+      >
+        &gt;
+        <span
+          className="large-company-container__label"
+        >
+          CASE STUDY
+        </span>
+        Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more
+      </p>
+    </div>
+    <div
+      className="small-company-container__wrapper"
+      data-testid="small-company-container"
+    >
+      <div
+        className="small-company-container small-company-container--undefined"
+      >
+        <img
+          alt="Walmart"
+          className="small-company-container__logo"
+          src="test-file-stub"
+        />
+        <p
+          className="small-company-container__desc"
+        >
+          Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company
+        </p>
+      </div>
+      <p
+        className="small-company-container__hashtags small-company-container__hashtags--undefined"
+      >
+        <span
+          className="small-company-container__label"
+        >
+          CASE STUDY
+        </span>
+        Amazon, Retail & E-commerce, React, Web development, +13 more
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<section
+  className="text-span text-span--undefined"
+  data-testid="text-span"
+>
+  <div
+    className="text-span__wrapper"
+  >
+    <h2
+      className="title title--secondary"
+      data-testid="section-title"
+    >
+      Shall we chat quickly?
+    </h2>
+    <p
+      className="text-span__info"
+    />
+    <button
+      className="button button--secondary button--undefined button--undefined"
+      data-testid="button"
+    >
+      <a
+        href="https://calendly.com/yuriidrozd"
+        target="_blank"
+      >
+        Book a meeting
+      </a>
+      <img
+        alt="Discover all"
+        className="button__icon"
+        data-testid="button__icon"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+</section>
+`;

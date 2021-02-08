@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="text-item__wrapper"
+  data-testid="text-item"
+>
+  <div
+    className="text-item__body"
+  >
+    <h2
+      className="title title--primary"
+      data-testid="section-title"
+    >
+      test
+    </h2>
+    <p
+      className="text-item__desc"
+    >
+      test
+    </p>
+    <a
+      className="link"
+    >
+      <button
+        className="button button--primary button--undefined button--undefined"
+        data-testid="button"
+      >
+        Learn more
+        <img
+          alt="Learn more"
+          className="button__icon"
+          data-testid="button__icon"
+          src="test-file-stub"
+        />
+      </button>
+    </a>
+  </div>
+  <img
+    alt=""
+    className="text-item__img"
+  />
+</div>
+`;

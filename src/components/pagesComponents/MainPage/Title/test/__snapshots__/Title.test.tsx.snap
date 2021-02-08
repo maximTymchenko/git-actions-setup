@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="main-title__body"
+  data-testid="title"
+>
+  <div
+    className="main-title__container"
+  >
+    <h2
+      className="main-title"
+    >
+      Your Superior Team 
+      <span
+        className="main-title__span"
+      >
+        to
+      </span>
+    </h2>
+  </div>
+  <div
+    className="main-title__animation"
+  >
+    <div
+      className="main-title__border"
+    />
+    <div
+      className="main-title__image"
+    />
+  </div>
+  <div
+    className="main-title__desktop-button"
+  >
+    <button
+      className="button button--watch button--undefined button--undefined"
+      data-testid="button"
+    >
+      Watch now
+      <img
+        alt="Watch now"
+        className="button__icon"
+        data-testid="button__icon"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+  <div
+    className="main-title__mobile-button"
+  >
+    <button
+      className="button button--circle button--undefined button--undefined"
+      data-testid="button"
+    >
+      Watch now
+      <img
+        alt="Watch now"
+        className="button__icon"
+        data-testid="button__icon"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+</div>
+`;

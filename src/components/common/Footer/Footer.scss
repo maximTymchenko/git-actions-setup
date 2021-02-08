@@ -1,0 +1,184 @@
+@import '../../../styles/vars';
+
+.footer {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @include section__size;
+        margin: 0 auto;
+        @include main__padding;
+
+        @media screen and (min-width: $mac__13) {
+            margin: 100px auto 0;
+            // position: relative;
+            // right: 120px;
+        }
+
+        @media screen and (max-width: $desktop) {
+            flex-direction: column;
+            padding-right: 30px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-left: 0;
+            padding-right: 20px;
+        }
+    }
+    &__info {
+        display: flex;
+        align-items: flex-start;
+        border-top: 2px solid $secondary;
+        padding-top: 20px;
+
+        @media screen and (max-width: $desktop) {
+            width: 100%;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+    }
+
+    &__functions {
+        border-top: 2px solid $secondary;
+        padding-top: 20px;
+        display: flex;
+
+        @media screen and (max-width: $desktop) {
+            margin-top: 25px;
+            justify-content: space-between;
+        }
+
+        @media screen and (max-width: $tablet) {
+            justify-content: space-around;
+        }
+
+        @media screen and (max-width: $mobile) {
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    &__country {
+        display: block;
+        margin-bottom: 10px;
+        font-family: 'OktaNeue-Black';
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 0.4px;
+        color: $text;
+    }
+    &__timezone {
+        display: block;
+        margin-bottom: 5px;
+        font-family: 'OktaNeue-Black';
+        font-size: 11px;
+        font-weight: 900;
+        color: $text__body;
+    }
+
+    &__phone,
+    &__adress,
+    &__index {
+        display: block;
+        text-decoration: none;
+        font-family: 'OktaNeue-Normal';
+        font-size: 16px;
+        line-height: 1.69;
+        color: $text__body;
+    }
+    &__index {
+        margin-bottom: 20px;
+    }
+
+    &__location {
+        margin-right: 50px;
+
+        @media screen and (max-width: $mobile) {
+            margin-right: 0;
+        }
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__logo {
+        margin-bottom: 15px;
+        margin-left: 6px;
+        cursor: pointer;
+    }
+    &__social {
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'OktaNeue-Black';
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 0.4px;
+        color: $secondary;
+
+        &-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 20px;
+        }
+    }
+
+    &__bar {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 3px;
+        height: 23px;
+        background-color: $section__border;
+    }
+
+    &__lists {
+        margin-right: 50px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        @media screen and (max-width: $mobile) {
+            flex-basis: 35%;
+            margin-bottom: 25px;
+        }
+    }
+
+    &__link {
+        font-family: 'OktaNeue-Medium';
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.53;
+        color: $text__body;
+        cursor: pointer;
+        margin-bottom: 5px;
+
+        &:hover {
+            color: $primary__light;
+        }
+
+        & span {
+            font-family: 'OktaNeue-Black';
+            font-size: 10px;
+            font-weight: 900;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color: $background__primary;
+            background-color: $color__error;
+            padding: 0 3px;
+            margin-left: 3px;
+        }
+        &:first-child {
+            font-family: 'OktaNeue-Black';
+            font-size: 15px;
+            font-weight: 900;
+            letter-spacing: 0.1px;
+            color: $text;
+            margin-bottom: 6px;
+        }
+    }
+}

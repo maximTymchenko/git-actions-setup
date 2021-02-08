@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="cookies"
+  data-testid="cookies"
+>
+  <div
+    className="coockies__wrapper"
+  >
+    <p
+      className="coockies__info"
+    >
+      We use cookies to ensure your best experience. Through your continued use of this site you accept this use. Please see our
+      <a
+        className="coockies__link"
+        href="/privacy-policy"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <span
+          className="coockies__privacy"
+        >
+           privacy policy
+        </span>
+      </a>
+    </p>
+    <button
+      className="coockies__btn"
+      onClick={[Function]}
+    >
+      Accept
+    </button>
+  </div>
+</div>
+`;

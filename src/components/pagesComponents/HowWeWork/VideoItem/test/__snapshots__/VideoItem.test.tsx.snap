@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="video-item"
+  data-testid="video-item"
+>
+  <div
+    className="video-item__container video-item__container--small"
+  >
+    <span
+      className="video-item__number"
+    >
+      1
+    </span>
+    <div
+      className="video-item__button"
+    >
+      <button
+        className="button button--undefined button--undefined button--undefined"
+        data-testid="button"
+      >
+        <img
+          className="button__icon"
+          data-testid="button__icon"
+        />
+      </button>
+    </div>
+    <span
+      className="video-item__label"
+    >
+      test
+    </span>
+  </div>
+</div>
+`;

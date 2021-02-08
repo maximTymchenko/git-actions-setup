@@ -1,0 +1,47 @@
+@import '../../styles/vars';
+
+.privacy-policy {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 120px;
+
+        @media screen and (min-width: $mac__13) {
+            position: relative;
+            right: 100px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-top: 80px;
+            padding: 0 10px;
+            margin-bottom: 70px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            margin-top: 50px;
+        }
+    }
+    &__info {
+        display: block;
+        max-width: 600px;
+        width: 100%;
+        font-family: 'OktaNeue-Regular';
+        font-size: 22px;
+        line-height: 1.5;
+        text-align: center;
+        color: $text__body;
+        padding-bottom: 60px;
+        border-bottom: 2px solid $section__border;
+        margin-bottom: 70px;
+    }
+
+    &__link {
+        color: $secondary;
+        margin: 0 6px;
+        font-family: 'OktaNeue-Medium';
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 1.53;
+    }
+}

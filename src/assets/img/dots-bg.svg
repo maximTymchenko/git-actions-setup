@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1250px" height="290px" viewBox="0 0 1230 289" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dot-pttrns</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1230" height="289"></rect>
+    </defs>
+    <g id="00a_desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00a_home" transform="translate(-105.000000, -1798.000000)">
+            <g id="Services-and-Expertise" transform="translate(0.000000, 647.000000)">
+                <g id="3-+-2-+-1-Mask" transform="translate(105.000000, 1151.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="bounds"></g>
+                    <g id="3" mask="url(#mask-2)">
+                        <g transform="translate(872.000000, 0.000000)" id="Group">
+                            <g id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(0.000000, 100.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(0.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(100.000000, 0.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(100.000000, 100.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(100.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(200.000000, 0.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(300.000000, 100.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(200.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(300.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(300.000000, 0.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(200.000000, 100.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="2" mask="url(#mask-2)">
+                        <g transform="translate(372.000000, 0.000000)" id="Group">
+                            <g opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(0.000000, 100.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(0.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(100.000000, 0.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(100.000000, 100.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(100.000000, 200.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(200.000000, 0.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(200.000000, 100.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(200.000000, 200.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(300.000000, 0.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(400.000000, 100.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(300.000000, 200.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(400.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(400.000000, 0.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                            <g transform="translate(300.000000, 100.000000)" opacity="0.0383100801">
+                                <g id="Oval">
+                                    <circle fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                    <circle fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                    <circle fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="1" mask="url(#mask-2)">
+                        <g transform="translate(-28.000000, 0.000000)" id="Group">
+                            <g id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(0.000000, 100.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(0.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(100.000000, 0.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(100.000000, 100.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(100.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(200.000000, 0.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(300.000000, 100.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(200.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(300.000000, 200.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(300.000000, 0.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                            <g transform="translate(200.000000, 100.000000)" id="Pttrns/Dots/Small-Sqr">
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 3.000000) scale(1, -1) translate(-3.000000, -3.000000) " cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 3.000000) scale(1, -1) translate(-23.000000, -3.000000) " cx="23" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(3.000000, 23.000000) scale(1, -1) translate(-3.000000, -23.000000) " cx="3" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(23.000000, 23.000000) scale(1, -1) translate(-23.000000, -23.000000) " cx="23" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 43.000000) scale(1, -1) translate(-3.000000, -43.000000) " cx="3" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 43.000000) scale(1, -1) translate(-23.000000, -43.000000) " cx="23" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 63.000000) scale(1, -1) translate(-23.000000, -63.000000) " cx="23" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 63.000000) scale(1, -1) translate(-3.000000, -63.000000) " cx="3" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(23.000000, 83.000000) scale(1, -1) translate(-23.000000, -83.000000) " cx="23" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(3.000000, 83.000000) scale(1, -1) translate(-3.000000, -83.000000) " cx="3" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 3.000000) scale(1, -1) translate(-43.000000, -3.000000) " cx="43" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 3.000000) scale(1, -1) translate(-83.000000, -3.000000) " cx="83" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(43.000000, 23.000000) scale(1, -1) translate(-43.000000, -23.000000) " cx="43" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 23.000000) scale(1, -1) translate(-83.000000, -23.000000) " cx="83" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 43.000000) scale(1, -1) translate(-43.000000, -43.000000) " cx="43" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 43.000000) scale(1, -1) translate(-83.000000, -43.000000) " cx="83" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 63.000000) scale(1, -1) translate(-43.000000, -63.000000) " cx="43" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 63.000000) scale(1, -1) translate(-83.000000, -63.000000) " cx="83" cy="63" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(43.000000, 83.000000) scale(1, -1) translate(-43.000000, -83.000000) " cx="43" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(83.000000, 83.000000) scale(1, -1) translate(-83.000000, -83.000000) " cx="83" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 83.000000) scale(1, -1) translate(-63.000000, -83.000000) " cx="63" cy="83" r="3"></circle>
+                                <circle id="Oval" fill="#001845" transform="translate(63.000000, 3.000000) scale(1, -1) translate(-63.000000, -3.000000) " cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 23.000000) scale(1, -1) translate(-63.000000, -23.000000) " cx="63" cy="23" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 43.000000) scale(1, -1) translate(-63.000000, -43.000000) " cx="63" cy="43" r="3"></circle>
+                                <circle id="Oval" fill="#3FACE0" transform="translate(63.000000, 63.000000) scale(1, -1) translate(-63.000000, -63.000000) " cx="63" cy="63" r="3"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

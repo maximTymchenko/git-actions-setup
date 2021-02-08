@@ -1,0 +1,82 @@
+@import '../../../styles/vars';
+
+.web-development {
+    &__wrapper {
+        border-bottom: 2px solid $secondary;
+        padding-bottom: 120px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        @media screen and (max-width: $tablet) {
+            flex-direction: column;
+        }
+    }
+
+    &__body {
+        @media screen and (max-width: $medium__desktop) {
+            align-self: flex-start;
+        }
+    }
+
+    &__icons {
+        margin-bottom: 80px;
+    }
+
+    &__technologies {
+        width: 100%;
+
+        @media screen and (max-width: $desktop) {
+            position: relative;
+            top: 80px;
+        }
+    }
+
+    &__company {
+        @media screen and (max-width: $tablet) {
+            margin-bottom: 50px;
+            width: 100%;
+        }
+    }
+
+    &__button {
+        position: absolute;
+        right: 63px;
+        top: 150px;
+
+        @media screen and (max-width: $tablet) {
+            right: 165px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            width: 145px;
+            right: 5px;
+        }
+    }
+
+    &__companies {
+        display: flex;
+
+        @media screen and (max-width: $tablet) {
+            flex-direction: column;
+        }
+    }
+
+    &__companies-wrapper {
+        margin-top: 50px;
+        border-bottom: 2px solid $secondary;
+        padding-bottom: 120px;
+    }
+
+    &__company {
+        margin-right: 30px;
+        flex-basis: 50%;
+
+        //! hotfix
+        width: 70%;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

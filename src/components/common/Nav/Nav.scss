@@ -1,0 +1,113 @@
+@import '../../../styles/vars';
+.nav {
+    display: flex;
+    align-items: flex-start;
+
+    @media screen and (max-width: $tablet) {
+        align-items: flex-end;
+    }
+
+    &--main {
+        @media screen and (max-width: $mobile) {
+            overflow-x: scroll;
+            width: 100%;
+            max-width: 600px;
+            padding-left: 200px;
+            position: relative;
+            left: 25px;
+        }
+    }
+
+    &--filter {
+        @include main__padding;
+
+        @media screen and (max-width: $desktop) {
+            overflow-x: scroll;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        @media screen and (max-width: $small__desktop) {
+            // overflow-x: scroll;
+            width: 100%;
+            max-width: 690px;
+            position: relative;
+            right: 50px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            max-width: 590px;
+            right: 60px;
+        }
+
+        @media screen and (max-width: $small__tablet) {
+            max-width: 540px;
+            right: 30px;
+        }
+
+        @media screen and (max-width: $large__mobile) {
+            max-width: 420px;
+            // right: 40px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            max-width: 420px;
+            right: -30px;
+            padding-left: 200px;
+        }
+    }
+
+    &__container {
+        display: flex;
+
+        @media screen and (max-width: $mobile) {
+            position: relative;
+            left: -200px;
+        }
+    }
+
+    &--mobile {
+        @media screen and (max-width: $mobile) {
+            width: 100%;
+            height: 100%;
+            background-color: $background__primary;
+            flex-direction: column;
+            position: fixed;
+            right: -70px;
+            top: 70px;
+            border-left: 2px solid $secondary;
+        }
+    }
+
+    &__link {
+        cursor: pointer;
+        font-family: 'OktaNeue-Bold';
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: $secondary;
+        @include transition;
+        // margin-top: 10px;
+        margin-right: 15px;
+
+        @media screen and (max-width: $desktop) {
+            margin-right: 0;
+        }
+
+        &:hover {
+            color: $primary__light;
+        }
+        &:active {
+            color: $text__body;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-right: 15px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            text-align: left;
+            width: 170%;
+        }
+    }
+}

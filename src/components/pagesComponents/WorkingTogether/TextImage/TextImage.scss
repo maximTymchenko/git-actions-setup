@@ -1,0 +1,165 @@
+@import '../../../../styles/vars';
+
+.text-image {
+    &__wrapper {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        max-width: $container__size - 500px;
+
+        @media screen and (max-width: $desktop) {
+            padding-right: 40px;
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-top: 120px;
+            margin-left: 0px;
+            @include main__padding;
+        }
+
+        @media screen and (max-width: $mobile) {
+            margin-bottom: 0px;
+            margin-top: 0;
+            display: flex;
+
+            &:first-child {
+                flex-direction: column;
+            }
+
+            &:last-child {
+                margin-bottom: 50px;
+                flex-direction: column;
+            }
+        }
+
+        &--centered {
+            align-items: center;
+        }
+        &--reverse {
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+
+            @media screen and (max-width: $tablet) {
+                flex-direction: row;
+            }
+        }
+    }
+
+    &__body {
+        @media screen and (max-width: $mobile) {
+            flex-basis: 100%;
+        }
+
+        &--shadow {
+            margin-right: 30px;
+            position: relative;
+
+            @media screen and (max-width: $mobile) {
+                margin-left: 5px;
+                margin-top: 25px;
+            }
+
+            &::before {
+                position: absolute;
+                display: block;
+                z-index: 20;
+                content: '';
+                width: 100%;
+                max-width: 590px;
+                height: 100%;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                background-color: $primary__light--15;
+
+                @media screen and (max-width: $mobile) {
+                    max-width: 310px;
+                }
+            }
+        }
+    }
+
+    &__images {
+        display: block;
+        height: auto;
+        width: auto;
+        max-width: 577px;
+        // max-height: 497px;
+        position: relative;
+
+        @media screen and (max-width: $tablet) {
+            max-width: 500px;
+        }
+
+        @media screen and (max-width: $small__tablet) {
+            max-width: 410px;
+        }
+
+        @media screen and (max-width: $large__mobile) {
+            max-width: 360px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            max-width: 310px;
+        }
+
+        &--relative {
+            right: -100px;
+            top: 80px;
+
+            @media screen and (max-width: $desktop) {
+                right: -10px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                right: -70px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                top: 66px;
+                right: 10px;
+            }
+        }
+
+        &--dislocation {
+            // right: -370px;
+            // right: 0;
+            top: 80px;
+            // position: sticky;
+            right: 0;
+
+            @media screen and (max-width: $desktop) {
+                right: -35px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                right: -167px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                top: 90px;
+                right: -55px;
+            }
+        }
+
+        &--margin {
+            position: static;
+            margin-left: 80px;
+
+            @media screen and (max-width: $desktop) {
+                margin-left: 20px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                margin-left: 0px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                margin-top: 25px;
+            }
+        }
+    }
+}

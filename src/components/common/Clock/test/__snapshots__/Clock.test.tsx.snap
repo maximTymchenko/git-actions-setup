@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<span
+  className="clock"
+  data-testid="clock"
+>
+  03:13 PM
+</span>
+`;

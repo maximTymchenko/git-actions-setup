@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="contacts__wrapper"
+  data-testid="our-contacts"
+>
+  <div
+    className="contacts__links"
+  >
+    <h2
+      className="title title--primary"
+      data-testid="section-title"
+    >
+      New business
+    </h2>
+    <a
+      className="contacts__phone"
+      href="tel:+380931042757"
+    >
+      +380–93–104–27–57
+    </a>
+    <a
+      className="contacts__email"
+      href="mailto:newbiz@blackbird-lab.com"
+    >
+      newbiz@blackbird-lab.com
+    </a>
+  </div>
+  <div
+    className="contacts__links"
+  >
+    <h2
+      className="title title--primary"
+      data-testid="section-title"
+    >
+      Headquater
+    </h2>
+    <a
+      className="contacts__phone"
+      href="tel:+380931042757"
+    >
+      +380–93–104–27–57
+    </a>
+    <span
+      className="contacts__phone"
+    >
+      16 Shota Rustaveli St Kyiv,
+    </span>
+    <span
+      className="contacts__phone"
+    >
+      02000 Ukraine
+    </span>
+    <a
+      className="contacts__email"
+      href="mailto:info@blackbird-lab.com"
+    >
+      info@blackbird-lab.com
+    </a>
+  </div>
+  <div
+    className="contacts__links"
+  >
+    <h2
+      className="title title--primary"
+      data-testid="section-title"
+    >
+      Social
+    </h2>
+    <a
+      className="contacts__email"
+      href="https://ua.linkedin.com/company/blackbird-lab"
+      target="_blank"
+    >
+      Linkedin
+    </a>
+    <a
+      className="contacts__email"
+      href="https://jobs.dou.ua/companies/blackbird-lab/"
+      target="_blank"
+    >
+      DOU
+    </a>
+  </div>
+</div>
+`;

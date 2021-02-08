@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<button
+  className="button button--undefined button--undefined button--undefined"
+  data-testid="button"
+>
+  Test
+  <img
+    className="button__icon"
+    data-testid="button__icon"
+  />
+</button>
+`;

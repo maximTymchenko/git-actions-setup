@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div>
+  <div
+    className="title__wrapper"
+  >
+    <h2
+      className="title title--small"
+      data-testid="section-title"
+    />
+    <h2
+      className="title title--bold"
+      data-testid="section-title"
+    />
+    <h2
+      className="title title--small"
+      data-testid="section-title"
+    />
+  </div>
+  <h1
+    className="title title--undefined"
+    data-testid="main-title"
+  >
+    test
+  </h1>
+</div>
+`;
