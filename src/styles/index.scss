@@ -9,7 +9,7 @@ body {
 .main {
   @include section__size;
   overflow: hidden;
-  margin: 100px auto 0;
+  margin: 80px auto 0;
   @include main__padding;
 
   @media screen and (min-width: $mac__13) {
@@ -22,7 +22,7 @@ body {
 
   &-title {
     font-family: 'OktaNeue-Heavy';
-    font-size: 56px;
+    font-size: 46px;
     font-weight: 300;
     line-height: 90px;
     margin-right: 10px;
@@ -36,7 +36,7 @@ body {
       );
       font-family: 'OktaNeue-Light';
       background-clip: text;
-      font-size: 30px;
+      font-size: 26px;
       font-weight: 300;
 
       @media screen and (max-width: $mobile) {
@@ -84,7 +84,7 @@ body {
       font-weight: 900;
       line-height: 90px;
       margin-right: 25px;
-      font-size: 78px;
+      font-size: 68px;
       animation: 9s linear 0s infinite change__text;
 
       @media screen and (max-width: $desktop) {
@@ -152,7 +152,7 @@ body {
     &::before {
       content: url('../assets/img/main-wave.svg');
       right: -10px;
-      bottom: -200px;
+      bottom: -150px;
       position: absolute;
       z-index: -2;
       animation: 2s linear 0s show__elem;
@@ -232,13 +232,13 @@ body {
 
     &::before {
       // position: absolute;
-      content: url('../assets/img/offces/office-2.jpg');
+      content: url('../assets/img/offices/office1.jpg');
       animation: 5s linear 4s change__image;
       display: block;
       width: 100%;
-      max-width: 574px;
+      max-width: 504px;
       height: 100%;
-      max-height: 424px;
+      max-height: 404px;
 
       @media screen and (max-width: $large__tablet) {
         // transform: scale(5);
@@ -275,18 +275,18 @@ body {
 
 @keyframes change__image {
   0% {
-    content: url('../assets/img/offces/office-2.jpg');
+    content: url('../assets/img/offices/office2.jpg');
   }
 
   50% {
-    content: url('../assets/img/offces/offce-3.jpg');
+    content: url('../assets/img/offices/office3.png');
   }
 
   75% {
-    content: url('../assets/img/offces/office-4.jpg');
+    content: url('../assets/img/offices/office4.jpg');
   }
   100% {
-    content: url('../assets/img/offces/office-2.jpg');
+    content: url('../assets/img/offices/office2.jpg');
   }
 }
 

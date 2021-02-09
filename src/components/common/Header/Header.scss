@@ -1,204 +1,204 @@
 @import '../../../styles/vars';
 
 .header {
-    background-color: $background__primary;
-    margin: 0 auto;
-    width: 100%;
-    border-bottom: 2px solid $secondary;
-    position: fixed;
-    top: 0px;
-    z-index: 999;
+  background-color: $background__primary;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 2px solid $secondary;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
 
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: $tablet) {
+    justify-content: flex-start;
+  }
+
+  &__wrapper {
     display: flex;
-    justify-content: center;
+    @include main__padding;
+    width: 100%;
+    // max-width: $header__width;
+    align-items: center;
 
     @media screen and (max-width: $tablet) {
-        justify-content: flex-start;
+      width: 820px;
+      justify-content: space-between;
     }
 
-    &__wrapper {
-        display: flex;
-        @include main__padding;
-        width: 100%;
-        max-width: $header__width;
-        align-items: center;
-
-        @media screen and (max-width: $tablet) {
-            width: 820px;
-            justify-content: space-between;
-        }
-
-        @media screen and (max-width: $small__tablet) {
-            width: 690px;
-        }
-
-        @media screen and (max-width: $large__mobile) {
-            width: 630px;
-        }
-
-        @media screen and (max-width: $mobile) {
-            width: 560px;
-        }
-    }
-    &__logo {
-        height: 100%;
-
-        &--link {
-            height: 100%;
-            max-height: 63px;
-        }
-
-        @media screen and (max-width: $mobile) {
-            padding-left: 0;
-            margin: 0;
-        }
+    @media screen and (max-width: $small__tablet) {
+      width: 690px;
     }
 
-    &__button {
-        @media screen and (max-width: $mobile) {
-            width: 120px;
-        }
+    @media screen and (max-width: $large__mobile) {
+      width: 630px;
     }
 
-    &__nav {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
+    @media screen and (max-width: $mobile) {
+      width: 560px;
+    }
+  }
+  &__logo {
+    height: 100%;
 
-        @media screen and (max-width: $tablet) {
-            flex: 0;
-        }
-
-        &-wrapper {
-            display: flex;
-            align-items: center;
-            flex: 1;
-
-            &--end {
-                justify-content: flex-end;
-            }
-        }
-
-        &-text {
-            cursor: pointer;
-            color: $secondary;
-            font-family: 'OktaNeue-Black';
-            font-size: 15px;
-            font-weight: bold;
-            text-align: center;
-            border-bottom: 4px solid transparent;
-            transition: 0.3s linear all;
-
-            @media screen and (max-width: $tablet) {
-                display: none;
-            }
-
-            &:hover {
-                color: $primary__light;
-            }
-
-            &--active {
-                position: relative;
-                top: 2px;
-            }
-
-            &--secondary {
-                color: $text__body;
-                position: relative;
-
-                @media screen and (max-width: $tablet) {
-                    display: none;
-                }
-            }
-
-            &--unvisible {
-                opacity: 0;
-
-                @media screen and (max-width: $tablet) {
-                    display: none;
-                }
-            }
-
-            &--hidden {
-                display: none;
-            }
-        }
-        &-menu {
-            cursor: pointer;
-            outline: none;
-            width: 36px;
-            height: 36px;
-            margin: 0 20px 0px 20px;
-            border: solid 2px $secondary;
-            background-color: $background__primary;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
-            @include transition;
-
-            @media screen and (max-width: $mobile) {
-                margin: 0;
-            }
-
-            &:hover {
-                background-color: $background__secondary;
-            }
-            &:active {
-                @include button__press;
-                box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
-                border-radius: none;
-                background-color: $text__body--light;
-            }
-        }
-        &-bars {
-            margin: 1px;
-            width: 14px;
-            height: 3px;
-            background-color: $secondary;
-        }
-        &-times {
-            font-size: 20px;
-        }
+    &--link {
+      height: 100%;
+      max-height: 63px;
     }
 
-    &__options {
-        display: flex;
-        // margin-right: 100px;
+    @media screen and (max-width: $mobile) {
+      padding-left: 0;
+      margin: 0;
+    }
+  }
 
-        @media screen and (max-width: $tablet) {
-            margin-right: 0px;
-        }
+  &__button {
+    @media screen and (max-width: $mobile) {
+      width: 120px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    @media screen and (max-width: $tablet) {
+      flex: 0;
     }
 
-    &__options-list {
-        cursor: pointer;
-        outline: none;
-        border: none;
-        background-color: transparent;
-        font-family: 'OktaNeue-SemiBold';
-        font-weight: 600;
-        letter-spacing: 0.3px;
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      flex: 1;
+
+      &--end {
+        justify-content: flex-end;
+      }
+    }
+
+    &-text {
+      cursor: pointer;
+      color: $secondary;
+      font-family: 'OktaNeue-Black';
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      border-bottom: 4px solid transparent;
+      transition: 0.3s linear all;
+
+      @media screen and (max-width: $tablet) {
+        display: none;
+      }
+
+      &:hover {
+        color: $primary__light;
+      }
+
+      &--active {
+        position: relative;
+        top: 2px;
+      }
+
+      &--secondary {
         color: $text__body;
-        font-size: 15px;
-        letter-spacing: 0.3px;
+        position: relative;
 
         @media screen and (max-width: $tablet) {
-            display: none;
+          display: none;
         }
+      }
+
+      &--unvisible {
+        opacity: 0;
+
+        @media screen and (max-width: $tablet) {
+          display: none;
+        }
+      }
+
+      &--hidden {
+        display: none;
+      }
     }
+    &-menu {
+      cursor: pointer;
+      outline: none;
+      width: 36px;
+      height: 36px;
+      margin: 0 20px 0px 20px;
+      border: solid 2px $secondary;
+      background-color: $background__primary;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
+      @include transition;
+
+      @media screen and (max-width: $mobile) {
+        margin: 0;
+      }
+
+      &:hover {
+        background-color: $background__secondary;
+      }
+      &:active {
+        @include button__press;
+        box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
+        border-radius: none;
+        background-color: $text__body--light;
+      }
+    }
+    &-bars {
+      margin: 1px;
+      width: 14px;
+      height: 3px;
+      background-color: $secondary;
+    }
+    &-times {
+      font-size: 20px;
+    }
+  }
+
+  &__options {
+    display: flex;
+    // margin-right: 100px;
+
+    @media screen and (max-width: $tablet) {
+      margin-right: 0px;
+    }
+  }
+
+  &__options-list {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'OktaNeue-SemiBold';
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: $text__body;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+
+    @media screen and (max-width: $tablet) {
+      display: none;
+    }
+  }
 }
 
 //! CHEVRON
 
 .chevron__icon {
-    margin: 0 5px;
-    font-size: 20px;
-    color: $text__body;
+  margin: 0 5px;
+  font-size: 20px;
+  color: $text__body;
 
-    @media screen and (max-width: $tablet) {
-        display: none;
-    }
+  @media screen and (max-width: $tablet) {
+    display: none;
+  }
 }
