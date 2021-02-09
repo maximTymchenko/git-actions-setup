@@ -61,9 +61,10 @@ $mac__13: 2560px;
 }
 
 @mixin section__position {
-  max-width: $container__size;
+  //   max-width: $container__size;
+  max-width: $primary__container;
   width: 100%;
-  margin: 200px auto 80px;
+  margin: 100px auto 80px;
   padding: 0 15px;
 }
 

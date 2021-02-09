@@ -2,10 +2,13 @@
 
 .page-header {
   width: 100%;
-  // max-width: $container__size;
-  max-width: $header__width;
-  margin: 150px auto 0;
+  max-width: $container__size;
+  //   max-width: $header__width;
+  margin: 220px auto 0;
   @include main__padding;
+
+  position: relative;
+  left: 80px;
 
   @media screen and (max-width: $tablet) {
     margin-top: 90px;

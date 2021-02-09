@@ -400,3 +400,20 @@ body {
     align-items: center;
   }
 }
+
+// Scrollbar styles
+
+body::-webkit-scrollbar {
+  width: 8px;
+  // display: none;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $primary__light;
+  // outline: 1px solid slategrey;
+  border-radius: 20px;
+}

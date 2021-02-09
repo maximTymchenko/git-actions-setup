@@ -1,197 +1,233 @@
 @import '../../../styles/vars';
 
 .filter {
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: $mobile) {
+    left: 5px;
+    top: 70px;
+  }
+
+  &__shell {
+    flex-basis: 20%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $desktop) {
+      flex-basis: 25%;
+    }
+
+    @media screen and (max-width: $small__desktop) {
+      flex-basis: 30%;
+    }
+  }
+
+  &__wrapper {
+    @include section__size;
+    background-color: #fff;
+    z-index: 50;
+    border-bottom: 1px solid $secondary;
+    position: fixed;
+    top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow-x: scroll;
+    width: 100%;
+    max-width: 1080px;
+
+    &::-webkit-scrollbar {
+      // display: none;
+      height: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px rgba(92, 92, 92, 0.2);
+      border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $primary__light;
+      // outline: 1px solid slategrey;
+      border-radius: 20px;
+    }
+
+    @media screen and (max-width: $small__desktop) {
+      flex-direction: row-reverse;
+      align-items: flex-end;
+    }
+  }
+
+  &__dots {
+    font-size: 28px;
+    color: $secondary;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+
+    &--show {
+      color: $primary__light;
+    }
+
+    @media screen and (max-width: $small__desktop) {
+      margin-left: 10px;
+    }
+
+    @media screen and (max-width: $large__tablet) {
+      display: none;
+    }
+  }
+
+  &__line {
+    display: inline-block;
+    width: 1px;
+    height: 35px;
+    background-color: $secondary;
+    margin-bottom: 8px;
+
+    @media screen and (max-width: $large__tablet) {
+      display: none;
+    }
+  }
+
+  &__body {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    @include transition;
+    cursor: pointer;
+
+    &:hover {
+      .filter__icon {
+        color: $primary__light;
+      }
+
+      .filter__label {
+        color: $primary__light;
+      }
+    }
+  }
+
+  &__icon {
+    font-size: 28px;
+    color: $secondary;
+    margin-bottom: 7px;
+    margin-left: 5px;
+
+    &--show {
+      color: $primary__light;
+    }
+  }
+
+  &__label {
+    margin: 6px 25px 10px;
+    font-family: 'OktaNeue-Bold';
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: $secondary;
+    border-bottom: 4px solid transparent;
+    // margin-right: 30px;
+
+    &--show {
+      color: $primary__light;
+    }
+  }
+
+  &__triangle {
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid $text__body;
+    margin-bottom: 10px;
+
+    @media screen and (max-width: $desktop) {
+      position: relative;
+      right: 40px;
+    }
+
+    @media screen and (max-width: $large__tablet) {
+      display: none;
+    }
 
     @media screen and (max-width: $mobile) {
-        left: 5px;
-        top: 70px;
+      display: none;
     }
 
-    &__shell {
-        flex-basis: 20%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    &--rotated {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
 
-        @media screen and (max-width: $desktop) {
-            flex-basis: 25%;
-        }
+  &__title {
+    font-family: 'OktaNeue-SemiBold';
+    font-size: 17px;
+    font-weight: 600;
+    color: $text;
+    display: block;
+    margin-bottom: 10px;
+  }
 
-        @media screen and (max-width: $small__desktop) {
-            flex-basis: 30%;
-        }
+  &__lists {
+    position: fixed;
+    top: 123px;
+    right: 0px;
+    bottom: 0;
+    z-index: 50;
+    background: $background__secondary;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: $tablet) {
+      top: 197px;
     }
 
-    &__wrapper {
-        width: 100%;
-        max-width: $container__size;
-        background-color: #fff;
-        z-index: 50;
-        border-bottom: 1px solid $secondary;
-        position: fixed;
-        top: 70px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    @media screen and (max-width: $mobile) {
+      top: 143px;
+      overflow-x: scroll;
+    }
+  }
 
-        @media screen and (max-width: $small__desktop) {
-            flex-direction: row-reverse;
-            align-items: flex-end;
-        }
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 0;
+    bottom: 150px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: $container__size;
+    margin: 0 auto;
+    overflow-y: scroll;
+    margin-bottom: 160px;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+      // display: none;
     }
 
-    &__dots {
-        font-size: 28px;
-        color: $secondary;
-        margin-bottom: 20px;
-        cursor: pointer;
-
-        &--show {
-            color: $primary__light;
-        }
-
-        @media screen and (max-width: $small__desktop) {
-            margin-left: 10px;
-        }
-
-        @media screen and (max-width: $large__tablet) {
-            display: none;
-        }
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px rgba(92, 92, 92, 0.2);
     }
 
-    &__line {
-        display: inline-block;
-        width: 1px;
-        height: 35px;
-        background-color: $secondary;
-        margin-bottom: 8px;
-
-        @media screen and (max-width: $large__tablet) {
-            display: none;
-        }
+    &::-webkit-scrollbar-thumb {
+      background-color: $primary__light;
+      // outline: 1px solid slategrey;
+      border-radius: 20px;
     }
-
-    &__body {
-        display: flex;
-        align-items: center;
-        margin-bottom: 4px;
-        @include transition;
-        cursor: pointer;
-
-        &:hover {
-            .filter__icon {
-                color: $primary__light;
-            }
-
-            .filter__label {
-                color: $primary__light;
-            }
-        }
-    }
-
-    &__icon {
-        font-size: 28px;
-        color: $secondary;
-        margin-bottom: 7px;
-
-        &--show {
-            color: $primary__light;
-        }
-    }
-
-    &__label {
-        margin: 6px 25px 10px;
-        font-family: 'OktaNeue-Bold';
-        font-size: 15px;
-        font-weight: bold;
-        text-align: center;
-        color: $secondary;
-        border-bottom: 4px solid transparent;
-        // margin-right: 30px;
-
-        &--show {
-            color: $primary__light;
-        }
-    }
-
-    &__triangle {
-        cursor: pointer;
-        width: 0;
-        height: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-top: 5px solid $text__body;
-        margin-bottom: 10px;
-
-        @media screen and (max-width: $desktop) {
-            position: relative;
-            right: 40px;
-        }
-
-        @media screen and (max-width: $large__tablet) {
-            display: none;
-        }
-
-        @media screen and (max-width: $mobile) {
-            display: none;
-        }
-
-        &--rotated {
-            -webkit-transform: rotate(180deg);
-            -ms-transform: rotate(180deg);
-            transform: rotate(180deg);
-        }
-    }
-
-    &__title {
-        font-family: 'OktaNeue-SemiBold';
-        font-size: 17px;
-        font-weight: 600;
-        color: $text;
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    &__lists {
-        position: fixed;
-        top: 123px;
-        right: 0px;
-        bottom: 0;
-        z-index: 50;
-        background: $background__secondary;
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-
-        @media screen and (max-width: $tablet) {
-            top: 197px;
-        }
-
-        @media screen and (max-width: $mobile) {
-            top: 143px;
-            overflow-x: scroll;
-        }
-    }
-
-    &__buttons {
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-        left: 0;
-        bottom: 150px;
-    }
-
-    &__container {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        max-width: $container__size;
-        margin: 0 auto;
-        overflow-y: scroll;
-        margin-bottom: 160px;
-    }
+  }
 }
