@@ -3,402 +3,409 @@
 @import 'normalize';
 
 body {
-    font-family: 'OktaNeue';
+  font-family: 'OktaNeue';
 }
 
 .main {
-    @include section__size;
-    overflow: hidden;
-    margin: 100px auto 0;
-    @include main__padding;
+  @include section__size;
+  overflow: hidden;
+  margin: 100px auto 0;
+  @include main__padding;
 
-    @media screen and (min-width: $mac__13) {
-        // @include relative__position;
+  @media screen and (min-width: $mac__13) {
+    // @include relative__position;
+  }
+
+  @media screen and (max-width: $mobile) {
+    padding-top: 0;
+  }
+
+  &-title {
+    font-family: 'OktaNeue-Heavy';
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 90px;
+    margin-right: 10px;
+
+    &__span {
+      margin: 100px 0px 0px 0px;
+      background: linear-gradient(
+        to left,
+        $brand__primary 50%,
+        $secondary__dark 95%
+      );
+      font-family: 'OktaNeue-Light';
+      background-clip: text;
+      font-size: 30px;
+      font-weight: 300;
+
+      @media screen and (max-width: $mobile) {
+        font-size: 20px;
+      }
+    }
+    @media screen and (max-width: $desktop) {
+      font-size: 44px;
+      line-height: 45px;
+    }
+
+    @media screen and (max-width: $tablet) {
+      font-size: 40px;
     }
 
     @media screen and (max-width: $mobile) {
-        padding-top: 0;
+      line-height: 25px;
+      font-size: 26px;
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+
+  &-title__container {
+    position: relative;
+    display: block;
+    background: linear-gradient(
+      to left,
+      $brand__primary 50%,
+      $secondary__dark 95%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 65px;
+
+    @media screen and (max-width: $mobile) {
+      margin-top: 40px;
     }
 
-    &-title {
-        font-family: 'OktaNeue-Heavy';
-        font-size: 56px;
-        font-weight: 300;
-        line-height: 90px;
-        margin-right: 10px;
+    &:after {
+      content: 'Accomplish Tech Dreams.';
+      font-family: 'OktaNeue-Heavy';
+      display: block;
+      font-weight: 900;
+      line-height: 90px;
+      margin-right: 25px;
+      font-size: 78px;
+      animation: 9s linear 0s infinite change__text;
 
-        &__span {
-            margin: 100px 0px 0px 0px;
-            background: linear-gradient(to left, $brand__primary 50%, $secondary__dark 95%);
-            font-family: 'OktaNeue-Light';
-            background-clip: text;
-            font-size: 30px;
-            font-weight: 300;
+      @media screen and (max-width: $desktop) {
+        font-size: 64px;
+      }
 
-            @media screen and (max-width: $mobile) {
-                font-size: 20px;
-            }
-        }
-        @media screen and (max-width: $desktop) {
-            font-size: 44px;
-            line-height: 45px;
-        }
+      @media screen and (max-width: $small__desktop) {
+        font-size: 60px;
+      }
 
-        @media screen and (max-width: $tablet) {
-            font-size: 40px;
-        }
+      @media screen and (max-width: $tablet) {
+        font-size: 48px;
+      }
 
-        @media screen and (max-width: $mobile) {
-            line-height: 25px;
-            font-size: 26px;
-            display: block;
-            margin-bottom: 5px;
-        }
+      @media screen and (max-width: $mobile) {
+        margin-right: 0;
+        animation: none;
+        font-size: 35px;
+        line-height: 60px;
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  &__wrapper {
+    @include section__size;
+    padding: 80px 0px 40px;
+    position: relative;
+
+    @media screen and (max-width: $desktop) {
+      // padding: 70px 10px 0px;
+      overflow: hidden;
     }
 
-    &-title__container {
-        position: relative;
-        display: block;
-        background: linear-gradient(to left, $brand__primary 50%, $secondary__dark 95%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 65px;
+    @media screen and (max-width: $mobile) {
+      // padding: 30px 10px 20px;
+    }
+  }
 
-        @media screen and (max-width: $mobile) {
-            margin-top: 40px;
-        }
+  &-title__desktop-button {
+    @media screen and (max-width: $tablet) {
+      display: none;
+    }
+  }
 
-        &:after {
-            content: 'Accomplish Tech Dreams.';
-            font-family: 'OktaNeue-Heavy';
-            display: block;
-            font-weight: 900;
-            line-height: 90px;
-            margin-right: 25px;
-            font-size: 78px;
-            animation: 9s linear 0s infinite change__text;
+  &-title__mobile-button {
+    display: none;
+    @media screen and (max-width: $tablet) {
+      position: absolute;
+      opacity: 0.5;
+      top: 90px;
+      left: 30%;
+      display: block;
+      z-index: 10;
+    }
+  }
 
-            @media screen and (max-width: $desktop) {
-                font-size: 64px;
-            }
+  &-title__body {
+    position: relative;
 
-            @media screen and (max-width: $small__desktop) {
-                font-size: 60px;
-            }
-
-            @media screen and (max-width: $tablet) {
-                font-size: 48px;
-            }
-
-            @media screen and (max-width: $mobile) {
-                margin-right: 0;
-                animation: none;
-                font-size: 35px;
-                line-height: 60px;
-                flex-basis: 100%;
-            }
-        }
+    @media screen and (max-width: $tablet) {
+      padding-bottom: 100px;
     }
 
-    &__wrapper {
-        width: 100%;
-        max-width: $container__size;
-        padding: 80px 0px 40px;
-        position: relative;
+    &::before {
+      content: url('../assets/img/main-wave.svg');
+      right: -10px;
+      bottom: -200px;
+      position: absolute;
+      z-index: -2;
+      animation: 2s linear 0s show__elem;
 
-        @media screen and (max-width: $desktop) {
-            // padding: 70px 10px 0px;
-            overflow: hidden;
-        }
+      @media screen and (max-width: $desktop) {
+        right: -120px;
+      }
 
-        @media screen and (max-width: $mobile) {
-            // padding: 30px 10px 20px;
-        }
+      @media screen and (max-width: $mobile) {
+        content: url('../assets/img/medium-waves.svg');
+        animation: none;
+        right: -50px;
+        bottom: 0px;
+      }
+    }
+  }
+
+  &-title__wrapper {
+    display: flex;
+  }
+
+  &-title__animation {
+    animation: 3s linear 0s show__video;
+    position: absolute;
+    z-index: -2;
+    right: 60px;
+    top: -40px;
+
+    @media screen and (max-width: $tablet) {
+      display: none;
     }
 
-    &-title__desktop-button {
-        @media screen and (max-width: $tablet) {
-            display: none;
-        }
+    @media screen and (max-width: $mobile) {
+      right: 0px;
+      animation: none;
+    }
+  }
+
+  &-title__border {
+    border: 2px solid $secondary;
+    position: absolute;
+    width: 100%;
+    max-width: 504px;
+    height: 100%;
+    max-height: 404px;
+    top: -10px;
+    left: 10px;
+    z-index: -10;
+
+    @media screen and (max-width: $tablet) {
+      animation: none;
     }
 
-    &-title__mobile-button {
-        display: none;
-        @media screen and (max-width: $tablet) {
-            position: absolute;
-            opacity: 0.5;
-            top: 90px;
-            left: 30%;
-            display: block;
-            z-index: 10;
-        }
+    @media screen and (max-width: $mobile) {
+      animation: none;
+      height: 252px;
+      width: 340px;
+      top: 165px;
+      right: -10px;
+    }
+  }
+
+  &-title__icon {
+    width: 100%;
+    max-width: 504px;
+    height: 100%;
+    max-height: 404px;
+
+    @media screen and (max-width: $mobile) {
+      top: 175px;
+      left: -5px;
+      width: 340px;
+      height: 240px;
+      z-index: 1;
+      animation: none;
     }
 
-    &-title__body {
-        position: relative;
+    &::before {
+      // position: absolute;
+      content: url('../assets/img/offces/office-2.jpg');
+      animation: 5s linear 4s change__image;
+      display: block;
+      width: 100%;
+      max-width: 574px;
+      height: 100%;
+      max-height: 424px;
 
-        @media screen and (max-width: $tablet) {
-            padding-bottom: 100px;
-        }
-
-        &::before {
-            content: url('../assets/img/main-wave.svg');
-            right: -10px;
-            bottom: -200px;
-            position: absolute;
-            z-index: -2;
-            animation: 2s linear 0s show__elem;
-
-            @media screen and (max-width: $desktop) {
-                right: -120px;
-            }
-
-            @media screen and (max-width: $mobile) {
-                content: url('../assets/img/medium-waves.svg');
-                animation: none;
-                right: -50px;
-                bottom: 0px;
-            }
-        }
+      @media screen and (max-width: $large__tablet) {
+        // transform: scale(5);
+      }
     }
 
-    &-title__wrapper {
-        display: flex;
+    &::after {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      max-width: 572px;
+      height: 100%;
+      max-height: 421px;
+      position: absolute;
+      z-index: 1;
+      content: '';
+      background: $secondary__dark;
+      opacity: 0.8;
+      background-image: url('../assets/img/dots-small.svg');
     }
+  }
 
-    &-title__animation {
-        animation: 3s linear 0s show__video;
-        position: absolute;
-        z-index: -2;
-        right: 60px;
-        top: -40px;
-
-        @media screen and (max-width: $tablet) {
-            display: none;
-        }
-
-        @media screen and (max-width: $mobile) {
-            right: 0px;
-            animation: none;
-        }
-    }
-
-    &-title__border {
-        border: 2px solid $secondary;
-        position: absolute;
-        width: 100%;
-        max-width: 574px;
-        height: 100%;
-        max-height: 424px;
-        top: -10px;
-        left: 10px;
-        z-index: -10;
-
-        @media screen and (max-width: $tablet) {
-            animation: none;
-        }
-
-        @media screen and (max-width: $mobile) {
-            animation: none;
-            height: 252px;
-            width: 340px;
-            top: 165px;
-            right: -10px;
-        }
-    }
-
-    &-title__icon {
-        width: 100%;
-        max-width: 574px;
-        height: 100%;
-        max-height: 424px;
-
-        @media screen and (max-width: $mobile) {
-            top: 175px;
-            left: -5px;
-            width: 340px;
-            height: 240px;
-            z-index: 1;
-            animation: none;
-        }
-
-        &::before {
-            // position: absolute;
-            content: url('../assets/img/offces/office-2.jpg');
-            animation: 5s linear 4s change__image;
-            display: block;
-            width: 100%;
-            max-width: 574px;
-            height: 100%;
-            max-height: 424px;
-
-            @media screen and (max-width: $large__tablet) {
-                // transform: scale(5);
-            }
-        }
-
-        &::after {
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 100%;
-            max-width: 572px;
-            height: 100%;
-            max-height: 421px;
-            position: absolute;
-            z-index: 1;
-            content: '';
-            background: $secondary__dark;
-            opacity: 0.8;
-            background-image: url('../assets/img/dots-small.svg');
-        }
-    }
-
-    &-title__image {
-        width: 100%;
-        max-width: 574px;
-        height: 100%;
-        max-height: 424px;
-    }
+  &-title__image {
+    width: 100%;
+    max-width: 574px;
+    height: 100%;
+    max-height: 424px;
+  }
 }
 
 // animation setup
 
 @keyframes change__image {
-    0% {
-        content: url('../assets/img/offces/office-2.jpg');
-    }
+  0% {
+    content: url('../assets/img/offces/office-2.jpg');
+  }
 
-    50% {
-        content: url('../assets/img/offces/offce-3.jpg');
-    }
+  50% {
+    content: url('../assets/img/offces/offce-3.jpg');
+  }
 
-    75% {
-        content: url('../assets/img/offces/office-4.jpg');
-    }
-    100% {
-        content: url('../assets/img/offces/office-2.jpg');
-    }
+  75% {
+    content: url('../assets/img/offces/office-4.jpg');
+  }
+  100% {
+    content: url('../assets/img/offces/office-2.jpg');
+  }
 }
 
 @keyframes show__elem {
-    0% {
-        right: -1200px;
-    }
-    25% {
-        right: -900px;
-    }
-    50% {
-        right: -700px;
-    }
-    75% {
-        right: -300px;
-    }
-    100% {
-        right: -50px;
-    }
+  0% {
+    right: -1200px;
+  }
+  25% {
+    right: -900px;
+  }
+  50% {
+    right: -700px;
+  }
+  75% {
+    right: -300px;
+  }
+  100% {
+    right: -50px;
+  }
 }
 
 @keyframes show__video {
-    0% {
-        display: none;
-        right: -900px;
-    }
-    25% {
-        display: none;
-        right: -700px;
-    }
-    50% {
-        right: -300px;
-        display: none;
-    }
-    75% {
-        display: block;
-        right: -100px;
-    }
-    100% {
-        display: block;
-        right: 0px;
-    }
+  0% {
+    display: none;
+    right: -900px;
+  }
+  25% {
+    display: none;
+    right: -700px;
+  }
+  50% {
+    right: -300px;
+    display: none;
+  }
+  75% {
+    display: block;
+    right: -100px;
+  }
+  100% {
+    display: block;
+    right: 0px;
+  }
 }
 
 @keyframes change__text {
-    0% {
-        content: 'Foresight Tough Things.';
-    }
-    25% {
-        content: 'Fast Scale Off-Site.';
-    }
-    50% {
-        content: 'Be Felt like On-Site.';
-    }
-    75% {
-        content: 'Accomplish Tech Dreams.';
-    }
-    100% {
-        content: 'Accomplish Tech Dreams.';
-    }
+  0% {
+    content: 'Foresight Tough Things.';
+  }
+  25% {
+    content: 'Fast Scale Off-Site.';
+  }
+  50% {
+    content: 'Be Felt like On-Site.';
+  }
+  75% {
+    content: 'Accomplish Tech Dreams.';
+  }
+  100% {
+    content: 'Accomplish Tech Dreams.';
+  }
 }
 
 // common styles
 
 .active__border {
-    border-bottom: 4px solid $section__border;
-    @include transition;
+  border-bottom: 4px solid $section__border;
+  @include transition;
 
-    &:hover {
-        border-color: $primary__light;
-    }
+  &:hover {
+    border-color: $primary__light;
+  }
 
-    &--style {
-        border-color: $primary__light;
-    }
+  &--style {
+    border-color: $primary__light;
+  }
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .link__margin {
-    text-decoration: none;
-    margin-bottom: 10px;
-    margin-right: 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: $desktop) {
+    width: 180px;
+  }
+
+  @media screen and (max-width: $small__desktop) {
+    width: 180px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    width: 130px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    margin-right: 40px;
+
+    &:nth-child(6) {
+      margin-right: 70px;
+    }
 
     &:last-child {
-        margin-right: 0;
+      margin-right: 0;
     }
-
-    @media screen and (max-width: $desktop) {
-        width: 180px;
-    }
-
-    @media screen and (max-width: $small__desktop) {
-        width: 180px;
-    }
-
-    @media screen and (max-width: $mobile) {
-        width: 130px;
-    }
-
-    @media screen and (max-width: $mobile) {
-        margin-right: 40px;
-
-        &:nth-child(6) {
-            margin-right: 70px;
-        }
-
-        &:last-child {
-            margin-right: 0;
-        }
-    }
+  }
 }
 
 .title__wrapper {
-    display: flex;
+  display: flex;
 
-    @media screen and (max-width: $mobile) {
-        align-items: center;
-    }
+  @media screen and (max-width: $mobile) {
+    align-items: center;
+  }
 }
