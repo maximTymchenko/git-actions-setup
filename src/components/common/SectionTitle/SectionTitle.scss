@@ -62,14 +62,15 @@
 }
 
 .title--lighter {
-  max-width: 700px;
+  //   width: 560px;
   margin-top: 40px;
   background: linear-gradient(
     to left,
     $brand__primary 35%,
     $secondary__dark 80%
   );
-  font-size: 56px;
+  font-size: 50px;
+  line-height: 60px;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -86,18 +87,6 @@
 .title--indent {
   max-width: 700px;
   margin-top: 0px;
-  background: -o-linear-gradient(
-    right,
-    $brand__primary 35%,
-    $secondary__dark 80%
-  );
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    color-stop(35%, $brand__primary),
-    color-stop(80%, $secondary__dark)
-  );
   background: linear-gradient(
     to left,
     $brand__primary 35%,
@@ -178,18 +167,6 @@
 
 .title--small {
   margin-bottom: 0px;
-  background: -o-linear-gradient(
-    right,
-    $brand__primary 50%,
-    $secondary__dark 95%
-  );
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    color-stop(50%, $brand__primary),
-    color-stop(95%, $secondary__dark)
-  );
   background: linear-gradient(
     to left,
     $brand__primary 50%,
@@ -212,18 +189,6 @@
 
 .title--bold {
   margin-bottom: 0px;
-  background: -o-linear-gradient(
-    right,
-    $brand__primary 50%,
-    $secondary__dark 95%
-  );
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    color-stop(50%, $brand__primary),
-    color-stop(95%, $secondary__dark)
-  );
   background: linear-gradient(
     to left,
     $brand__primary 50%,

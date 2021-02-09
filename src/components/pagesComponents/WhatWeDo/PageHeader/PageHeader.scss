@@ -1,105 +1,105 @@
 @import '../../../../styles/vars';
 
 .page-header {
+  width: 100%;
+  // max-width: $container__size;
+  max-width: $header__width;
+  margin: 150px auto 0;
+  @include main__padding;
+
+  @media screen and (max-width: $tablet) {
+    margin-top: 90px;
+    overflow: hidden;
+  }
+
+  &__wrapper {
+    margin-top: 70px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    text-align: left;
     width: 100%;
-    // max-width: $container__size;
-    max-width: $header__width;
-    margin: 150px auto 0;
-    @include main__padding;
+    max-width: $container__size;
+  }
+
+  &__img-left {
+    align-self: flex-end;
+
+    &::before {
+      content: url('../../../../assets/img/common/wwd-dots.svg');
+
+      @media screen and (max-width: $tablet) {
+        content: url('../../../../assets/img/pageHeader/pttrns-dots-small-down.svg');
+      }
+
+      @media screen and (max-width: $large__mobile) {
+        position: relative;
+        top: 20px;
+      }
+    }
+  }
+
+  &__img-right {
+    align-self: flex-start;
+    justify-content: flex-end;
+    top: -50px;
+    position: relative;
+
+    &::after {
+      content: url('../../../../assets/img/dots-large.svg');
+      position: relative;
+
+      @media screen and (max-width: $tablet) {
+        top: 20px;
+        content: url('../../../../assets/img/pageHeader/pttrns-dots-small-up.svg');
+      }
+
+      // @media screen and (max-width: $small__tablet) {
+      //     right: 100px;
+      // }
+    }
+  }
+
+  &__button-wrapper {
+    // margin-left: 100px;
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
 
     @media screen and (max-width: $tablet) {
-        margin-top: 90px;
-        overflow: hidden;
+      margin-left: 0;
     }
 
-    &__wrapper {
-        margin-top: 70px;
+    @media screen and (max-width: $mobile) {
+      margin-left: 0;
     }
 
-    &__container {
-        display: flex;
-        justify-content: space-between;
+    &::before {
+      display: block;
+      content: '';
+      width: 100%;
+      max-width: 120px;
+      height: 1px;
+      background-color: $secondary;
+      margin-right: 20px;
     }
+    &::after {
+      margin-left: 10px;
+      display: block;
+      content: '';
+      width: 100%;
+      max-width: 465px;
+      height: 1px;
+      background-color: $secondary;
 
-    &__title {
-        text-align: left;
-        width: 100%;
-        max-width: $container__size;
+      @media screen and (max-width: $desktop) {
+        max-width: 300px;
+      }
     }
-
-    &__img-left {
-        align-self: flex-end;
-
-        &::before {
-            content: url('../../../../assets/img/common/wwd-dots.svg');
-
-            @media screen and (max-width: $tablet) {
-                content: url('../../../../assets/img/pageHeader/pttrns-dots-small-down.svg');
-            }
-
-            @media screen and (max-width: $large__mobile) {
-                position: relative;
-                top: 20px;
-            }
-        }
-    }
-
-    &__img-right {
-        align-self: flex-start;
-        justify-content: flex-end;
-        top: -50px;
-        position: relative;
-
-        &::after {
-            content: url('../../../../assets/img/dots-large.svg');
-            position: relative;
-
-            @media screen and (max-width: $tablet) {
-                top: 20px;
-                content: url('../../../../assets/img/pageHeader/pttrns-dots-small-up.svg');
-            }
-
-            // @media screen and (max-width: $small__tablet) {
-            //     right: 100px;
-            // }
-        }
-    }
-
-    &__button-wrapper {
-        margin-left: 100px;
-        margin-top: 70px;
-        align-items: center;
-        display: flex;
-
-        @media screen and (max-width: $tablet) {
-            margin-left: 0;
-        }
-
-        @media screen and (max-width: $mobile) {
-            margin-left: 0;
-        }
-
-        &::before {
-            display: block;
-            content: '';
-            width: 100%;
-            max-width: 120px;
-            height: 1px;
-            background-color: $secondary;
-            margin-right: 20px;
-        }
-        &::after {
-            margin-left: 10px;
-            display: block;
-            content: '';
-            width: 100%;
-            max-width: 465px;
-            height: 1px;
-            background-color: $secondary;
-
-            @media screen and (max-width: $desktop) {
-                max-width: 300px;
-            }
-        }
-    }
+  }
 }
