@@ -1,99 +1,98 @@
 @import '../../styles/vars';
 
 .how-we-work {
-    width: 100%;
-    // max-width: $container__size;
-    padding: 0px 15px 40px;
-    margin: 120px auto 50px;
+  width: 100%;
+  // max-width: $container__size;
+  padding: 0px 15px 40px;
+  margin: 120px auto 50px;
 
-    //! test small container
-    max-width: $primary__container;
+  //! test small container
+  max-width: $primary__container;
 
-    @media screen and (min-width: $mac__13) {
-        margin: 150px auto 0;
-        // @include relative__position;
-    }
+  @media screen and (min-width: $mac__13) {
+    margin: 150px auto 0;
+    // @include relative__position;
+  }
 
-    @media screen and (max-width: $tablet) {
-        margin-top: 130px;
-        margin-left: 0;
-    }
+  @media screen and (max-width: $tablet) {
+    margin-top: 130px;
+    margin-left: 0;
+  }
 
-    @media screen and (max-width: $small__tablet) {
-        overflow: hidden;
-    }
+  @media screen and (max-width: $small__tablet) {
+    overflow: hidden;
+  }
 
-    &__video {
+  &__video {
+    @include section__size;
+    margin: 0 auto;
+
+    // background-color: #fff;
+    position: relative;
+
+    // &::before {
+    //     z-index: -2;
+    //     position: absolute;
+    //     content: url('../../assets/img/waves.svg');
+    //     top: 10px;
+    //     left: -200px;
+
+    //     @media screen and (max-width: $desktop) {
+    //         left: -320px;
+    //     }
+
+    //     @media screen and (max-width: $tablet) {
+    //         padding: 90px 0;
+    //         left: -380px;
+    //         top: -120px;
+    //     }
+
+    //     @media screen and (max-width: $mobile) {
+    //         content: url('../../assets/img/medium-waves.svg');
+    //         left: -60px;
+    //         top: -90px;
+    //         transform: rotateY(180deg);
+    //     }
+    // }
+
+    // &::after {
+    //     z-index: -2;
+    //     position: absolute;
+    //     content: url('../../assets/img/waves.svg');
+    //     transform: rotateX(180deg);
+    //     top: 10px;
+    //     right: -200px;
+
+    //     @media screen and (max-width: $desktop) {
+    //         right: -320px;
+    //     }
+
+    //     @media screen and (max-width: $tablet) {
+    //         right: -350px;
+    //         bottom: -100px;
+    //         padding: 70px 0;
+    //     }
+
+    //     @media screen and (max-width: $mobile) {
+    //         content: url('../../assets/img/medium-waves.svg');
+    //         right: 0;
+    //         bottom: -100px;
+    //     }
+    // }
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      @media screen and (max-width: $medium__desktop) {
+        // justify-content: center;
+        overflow-x: scroll;
+        padding-bottom: 40px;
         width: 100%;
-        max-width: $container__size;
-        margin: 0 auto;
-
-        // background-color: #fff;
-        position: relative;
-
-        // &::before {
-        //     z-index: -2;
-        //     position: absolute;
-        //     content: url('../../assets/img/waves.svg');
-        //     top: 10px;
-        //     left: -200px;
-
-        //     @media screen and (max-width: $desktop) {
-        //         left: -320px;
-        //     }
-
-        //     @media screen and (max-width: $tablet) {
-        //         padding: 90px 0;
-        //         left: -380px;
-        //         top: -120px;
-        //     }
-
-        //     @media screen and (max-width: $mobile) {
-        //         content: url('../../assets/img/medium-waves.svg');
-        //         left: -60px;
-        //         top: -90px;
-        //         transform: rotateY(180deg);
-        //     }
-        // }
-
-        // &::after {
-        //     z-index: -2;
-        //     position: absolute;
-        //     content: url('../../assets/img/waves.svg');
-        //     transform: rotateX(180deg);
-        //     top: 10px;
-        //     right: -200px;
-
-        //     @media screen and (max-width: $desktop) {
-        //         right: -320px;
-        //     }
-
-        //     @media screen and (max-width: $tablet) {
-        //         right: -350px;
-        //         bottom: -100px;
-        //         padding: 70px 0;
-        //     }
-
-        //     @media screen and (max-width: $mobile) {
-        //         content: url('../../assets/img/medium-waves.svg');
-        //         right: 0;
-        //         bottom: -100px;
-        //     }
-        // }
-
-        &-wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            @media screen and (max-width: $medium__desktop) {
-                // justify-content: center;
-                overflow-x: scroll;
-                padding-bottom: 40px;
-                width: 100%;
-                max-width: 1000px;
-                padding-left: 50px;
-            }
-        }
+        max-width: 1000px;
+        padding-left: 50px;
+      }
     }
+  }
 }
