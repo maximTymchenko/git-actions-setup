@@ -1,110 +1,110 @@
 @import '../../../../styles/vars';
 
 .tech__img {
-    cursor: pointer;
-    font-size: 54px;
-    color: $text__body;
-    outline: solid 2px $secondary;
-    padding: 30px 35px;
-    box-shadow: 7px 7px 1px 1px rgba(57, 156, 203, 0.4);
-    @include transition;
-    margin-bottom: 25px;
+  cursor: pointer;
+  font-size: 54px;
+  color: $text__body;
+  outline: solid 2px $secondary;
+  padding: 30px 35px;
+  box-shadow: 7px 7px 1px 1px rgba(57, 156, 203, 0.4);
+  @include transition;
+  margin-bottom: 25px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    width: 142px;
-    height: 142px;
+  width: 120px;
+  height: 120px;
 
-    @media screen and (max-width: $small__tablet) {
-        width: 122px;
-        height: 122px;
+  @media screen and (max-width: $small__tablet) {
+    width: 122px;
+    height: 122px;
+  }
+
+  &-wrapper {
+    &--main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 40px;
+
+      @media screen and (max-width: $desktop) {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 15px;
+      }
+
+      @media screen and (max-width: $small__tablet) {
+        grid-column-gap: 0px;
+        grid-template-columns: 1fr 1fr;
+      }
     }
 
-    &-wrapper {
-        &--main {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-column-gap: 40px;
+    &--primary {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
 
-            @media screen and (max-width: $desktop) {
-                grid-template-columns: 1fr 1fr 1fr;
-                padding: 0 15px;
-            }
+      @media screen and (max-width: $desktop) {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
 
-            @media screen and (max-width: $small__tablet) {
-                grid-column-gap: 0px;
-                grid-template-columns: 1fr 1fr;
-            }
-        }
+      @media screen and (max-width: $large__tablet) {
+        grid-template-columns: 1fr 1fr;
+      }
 
-        &--primary {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+      @media screen and (max-width: $tablet) {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
 
-            @media screen and (max-width: $desktop) {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-
-            @media screen and (max-width: $large__tablet) {
-                grid-template-columns: 1fr 1fr;
-            }
-
-            @media screen and (max-width: $tablet) {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-
-            @media screen and (max-width: $large__mobile) {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        &--secondary {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
-            @media screen and (max-width: $desktop) {
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            }
-
-            @media screen and (max-width: $small__desktop) {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-            }
-
-            @media screen and (max-width: $tablet) {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-
-            @media screen and (max-width: $large__mobile) {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
+      @media screen and (max-width: $large__mobile) {
+        grid-template-columns: 1fr 1fr;
+      }
     }
 
-    &:hover {
-        background-color: $background__secondary;
-        outline: solid 4px $secondary;
-        outline-offset: -2px;
-    }
+    &--secondary {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
-    &:active {
-        @include button__press;
-        box-shadow: 7px 7px 1px 1px rgba(57, 156, 203, 0);
-        background-color: $text__body--light;
-        outline: solid 4px $secondary;
-        outline-offset: -2px;
-    }
+      @media screen and (max-width: $desktop) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
 
-    &:last-child {
-        margin-right: 0;
-    }
+      @media screen and (max-width: $small__desktop) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
 
-    @media screen and (max-width: $tablet) {
-        text-align: center;
+      @media screen and (max-width: $tablet) {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
 
-        &:nth-child(odd) {
-            margin-right: 60px;
-        }
+      @media screen and (max-width: $large__mobile) {
+        grid-template-columns: 1fr 1fr;
+      }
     }
+  }
+
+  &:hover {
+    background-color: $background__secondary;
+    outline: solid 4px $secondary;
+    outline-offset: -2px;
+  }
+
+  &:active {
+    @include button__press;
+    box-shadow: 7px 7px 1px 1px rgba(57, 156, 203, 0);
+    background-color: $text__body--light;
+    outline: solid 4px $secondary;
+    outline-offset: -2px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: $tablet) {
+    text-align: center;
+
+    &:nth-child(odd) {
+      margin-right: 60px;
+    }
+  }
 }
