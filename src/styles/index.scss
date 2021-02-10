@@ -155,7 +155,7 @@ body {
       bottom: -150px;
       position: absolute;
       z-index: -2;
-      animation: 2s linear 0s show__elem;
+      animation: 3s linear 0s show__waves;
 
       @media screen and (max-width: $desktop) {
         right: -120px;
@@ -227,7 +227,7 @@ body {
     &::before {
       // position: absolute;
       content: url('../assets/img/offices/office1.jpg');
-      animation: 5s linear 4s change__image;
+      animation: 5s linear 5s change__image;
       display: block;
       @include border__size;
 
@@ -281,7 +281,7 @@ body {
   }
 }
 
-@keyframes show__elem {
+@keyframes show__waves {
   0% {
     right: -1200px;
   }
@@ -295,7 +295,7 @@ body {
     right: -300px;
   }
   100% {
-    right: -50px;
+    right: 0px;
   }
 }
 
@@ -318,7 +318,7 @@ body {
   }
   100% {
     display: block;
-    right: 0px;
+    right: 60px;
   }
 }
 
