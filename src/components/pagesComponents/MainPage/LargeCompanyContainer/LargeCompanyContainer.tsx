@@ -10,13 +10,14 @@ interface ILargeCompanyProps {
     hide?: string;
     typeBG?: string;
     size?: string;
+    logoPos: string;
 }
 
 const LargeCompanyContainer: FC = (props: ILargeCompanyProps) => {
     return (
         <div data-testid="large-company-container" className='large-company-container__wrapper'>
             <div className={`large-company-container large-company-container--${props.typeBG} large-company-container--${props.size}`}>
-                <img className="large-company-container__logo" src={props.img} alt="Spectar" />
+                <img className={`large-company-container__logo large-company-container__logo--${props.logoPos}`} src={props.img} alt="Spectar" />
                 <p className="large-company-container__desc">{props.description}</p>
             </div>
             <p className={`large-company-container__hashtags large-company-container__hashtags--${props.hide}`}

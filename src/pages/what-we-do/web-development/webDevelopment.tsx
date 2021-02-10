@@ -92,6 +92,7 @@ const webDevelopment: FC = () => {
               description="Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company"
               label="CASE STUDY"
               hashtags="Amazon, Retail & E-commerce, React, Web development, +13 more"
+              logoPos="mb"
             />
           </div>
         </div>
@@ -114,6 +115,7 @@ const webDevelopment: FC = () => {
                 description="Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company"
                 label="CASE STUDY"
                 hashtags="Amazon, Retail & E-commerce, React, Web development, +13 more"
+                logoPos="mb-more"
               />
             </div>
           </div>
@@ -121,6 +123,7 @@ const webDevelopment: FC = () => {
             subtype="web-dev"
             icon={arrowRight}
             type="primary"
+            subtype="large"
             desc="Read more on the blog"
           >
             Read more on the blog

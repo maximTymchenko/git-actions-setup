@@ -1,30 +1,30 @@
 @import '../../styles/vars';
 
 .contact-us {
-    @include section__size;
-    margin: 200px auto;
-    @include main__padding;
+  @include section__size;
+  margin: 120px auto 50px;
+  @include main__padding;
 
-    // @media screen and (min-width: $mac__13) {
-    //     margin: 150px auto 80px;
-    //     position: relative;
-    //     right: 100px;
-    // }
+  // @media screen and (min-width: $mac__13) {
+  //     margin: 150px auto 80px;
+  //     position: relative;
+  //     right: 100px;
+  // }
 
-    @media screen and (max-width: $tablet) {
-        margin-left: 0;
-        margin-bottom: 70px;
+  @media screen and (max-width: $tablet) {
+    margin-left: 0;
+    margin-bottom: 70px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    // align-items: flex-end;
+
+    @media screen and (max-width: $desktop) {
+      margin-top: 120px;
+      // align-items: flex-start;
+      flex-direction: column;
     }
-
-    &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        // align-items: flex-end;
-
-        @media screen and (max-width: $desktop) {
-            margin-top: 120px;
-            // align-items: flex-start;
-            flex-direction: column;
-        }
-    }
+  }
 }

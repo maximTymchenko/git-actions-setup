@@ -36,7 +36,8 @@
 }
 
 .title--main {
-  margin-top: 150px;
+  margin-top: 100px;
+  margin-bottom: 15px;
   background: linear-gradient(
     to left,
     $brand__primary 30%,
@@ -216,7 +217,8 @@
     font-family: 'OktaNeue-Thin';
     content: '{';
     font-weight: 100;
-    font-size: 88px;
+    font-size: 68px;
+    margin-right: 5px;
 
     @media screen and (max-width: $desktop) {
       font-size: 64px;
@@ -238,8 +240,9 @@
   &::after {
     font-family: 'OktaNeue-Thin';
     content: '}';
-    font-size: 88px;
+    font-size: 68px;
     font-weight: 100;
+    margin-left: 5px;
 
     @media screen and (max-width: $desktop) {
       font-size: 64px;

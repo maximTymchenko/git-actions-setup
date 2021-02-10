@@ -108,6 +108,7 @@ const MobileDevelopment: FC = () => {
                 description="Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company"
                 label="CASE STUDY"
                 hashtags="Amazon, Retail & E-commerce, React, Web development, +13 more"
+                logoPos="mb-more"
               />
             </div>
           </div>
@@ -116,6 +117,7 @@ const MobileDevelopment: FC = () => {
             icon={arrowRight}
             type="primary"
             desc="Read more on the blog"
+            subtype="large"
           >
             Read more on the blog
           </Button>

@@ -18,7 +18,6 @@ interface IPageHeader {
 const PageHeader: FC = (props: IPageHeader) => {
   return (
     <div data-testid="page-header" className="page-header">
-      {/* <Filter /> */}
       <div
         className={`page-header__wrapper page-header__wrapper--${props.bgType}`}
       >

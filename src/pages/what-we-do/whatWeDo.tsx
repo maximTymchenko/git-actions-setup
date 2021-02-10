@@ -168,7 +168,7 @@ const whatWeDo: FC = () => {
           <div className="what-we-do__bucket">
             <Bucket
               icon={helmet}
-              size="largest"
+              size="big"
               displacement="displacement"
               bucketBG={bucketBG}
               label="Similar projects"

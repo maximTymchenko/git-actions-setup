@@ -16,6 +16,7 @@
 
   &--large {
     max-width: 930px;
+    // max-height: 420px;
   }
 
   &--bg-main {
@@ -72,7 +73,7 @@
   }
 
   &--bg-secondary {
-    padding-bottom: 30px;
+    // padding-bottom: 30px;
     background-color: #3771c4;
   }
 
@@ -121,6 +122,18 @@
     position: relative;
     z-index: 10;
     margin: 20px 0 70px 20px;
+
+    &--mb {
+      margin-bottom: 117px;
+    }
+
+    &--mb-more {
+      margin-bottom: 122px;
+    }
+
+    &--mb-less {
+      margin-bottom: 102px;
+    }
 
     @media screen and (max-width: $mobile) {
       margin: 2px 0 40px 10px;

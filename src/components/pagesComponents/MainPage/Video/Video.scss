@@ -4,10 +4,10 @@
   position: relative;
   margin-top: 120px;
   border: solid 2px $secondary__dark;
-  background-image: url('../../../../assets/img/spectar-worker.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: $primary__light--80;
+  // background-image: url('../../../../assets/img/spectar-worker.jpg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-color: $primary__light--80;
   @include section__size;
   height: 500px;
   display: flex;
@@ -17,7 +17,16 @@
     margin-bottom: 50px;
   }
 
-  &__wrapper {
+  &__intro {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    // max-width: $primary__container;
+    height: 100%;
+    overflow: hidden;
   }
 
   &::before {
