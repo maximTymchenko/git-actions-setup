@@ -17,7 +17,7 @@
     margin-bottom: 50px;
   }
 
-  &__intro {
+  &__background {
     position: absolute;
     top: 0;
     right: 0;
@@ -27,6 +27,10 @@
     // max-width: $primary__container;
     height: 100%;
     overflow: hidden;
+  }
+
+  &__iframe {
+    position: absolute;
   }
 
   &::before {

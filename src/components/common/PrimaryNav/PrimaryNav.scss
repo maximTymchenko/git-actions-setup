@@ -1,160 +1,161 @@
 @import '../../../styles/vars';
 
 .primary-nav {
-    padding-top: 90px;
-    background: $background__secondary;
-    width: 100%;
-    // max-width: $container__size;
-    height: 100vh;
-    position: fixed;
-    top: 70px;
-    left: 0;
-    z-index: 99;
-    display: flex;
+  padding-top: 90px;
+  background: $background__secondary;
+  width: 100%;
+  //   max-width: $container__size;
+  height: 100vh;
+  position: fixed;
+  top: 65px;
+  left: 0;
+  z-index: 99;
+  display: flex;
 
-    &--filter {
-        height: 100%;
-        max-height: 450px;
-        box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0.4);
-        border-bottom: 2px solid $secondary;
-        top: 123px;
+  &--filter {
+    height: 100%;
+    max-height: 450px;
+    box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0.4);
+    border-bottom: 2px solid $secondary;
+    top: 123px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    padding-top: 30px;
+    padding-left: 30px;
+    top: 100px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    top: 70px;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+
+  &__section {
+    position: relative;
+  }
+
+  &__language {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    max-width: $container__size;
+    margin: 0 auto;
+  }
+
+  &__items {
+    width: 290px;
+    &--border {
+      border-right: 2px solid $secondary;
+      // margin-right: 40px;
     }
+  }
+
+  &__body {
+    display: flex;
+    align-items: flex-start;
+    max-height: 530px;
 
     @media screen and (max-width: $tablet) {
-        padding-top: 30px;
-        padding-left: 30px;
-        top: 100px;
+      max-height: 500px;
+      width: 350px;
     }
 
     @media screen and (max-width: $mobile) {
-        top: 70px;
-        padding-left: 30px;
-        padding-top: 15px;
+      border-right: none;
+    }
+  }
+  &__categories {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'OktaNeue-Black';
+    font-size: 28px;
+    font-weight: 900;
+    color: $secondary;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: 8px solid transparent;
+
+    &:nth-child(6)::after {
+      content: 'hiring';
+      display: block;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-family: 'OktaNeue-Black';
+      margin-top: 5px;
+      margin-left: 10px;
+      padding: 3px 5px;
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: 0.5px;
+      color: $background__primary;
+      background-color: $color__error;
     }
 
-    &__section {
-        position: relative;
+    &:hover {
+      color: $primary__light;
+    }
+    &--active {
+      border-bottom: 8px solid $primary__light;
     }
 
-    &__language {
-        position: absolute;
-        bottom: 100px;
-        right: 50px;
+    @media screen and (max-width: $mobile) {
+      font-size: 20px;
+      width: 180px;
+    }
+  }
+
+  &__container {
+    border-bottom: 2px solid $secondary;
+    margin-bottom: 0px;
+    opacity: 0;
+    margin-left: 20px;
+
+    &:nth-child(1) {
+      margin-top: 10px;
     }
 
-    &__wrapper {
-        display: flex;
-        flex-direction: row;
-
-        width: 100%;
-        max-width: $container__size;
-        margin: 0 auto;
+    &:nth-child(2) {
+      margin-top: 35px;
     }
 
-    &__items {
-        &--border {
-            border-right: 2px solid $secondary;
-            // margin-right: 40px;
-        }
+    &:nth-child(3) {
+      margin-top: 35px;
     }
 
-    &__body {
-        display: flex;
-        align-items: flex-start;
-        max-height: 530px;
-
-        @media screen and (max-width: $tablet) {
-            max-height: 500px;
-            width: 350px;
-        }
-
-        @media screen and (max-width: $mobile) {
-            border-right: none;
-        }
-    }
-    &__categories {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        font-family: 'OktaNeue-Black';
-        font-size: 28px;
-        font-weight: 900;
-        color: $secondary;
-        margin-bottom: 20px;
-        margin-right: 20px;
-        border-bottom: 8px solid transparent;
-
-        &:nth-child(6)::after {
-            content: 'hiring';
-            display: block;
-            cursor: pointer;
-            text-transform: uppercase;
-            font-family: 'OktaNeue-Black';
-            margin-top: 5px;
-            margin-left: 10px;
-            padding: 3px 5px;
-            font-size: 10px;
-            font-weight: 900;
-            line-height: 1.1;
-            letter-spacing: 0.5px;
-            color: $background__primary;
-            background-color: $color__error;
-        }
-
-        &:hover {
-            color: $primary__light;
-        }
-        &--active {
-            border-bottom: 8px solid $primary__light;
-        }
-
-        @media screen and (max-width: $mobile) {
-            font-size: 20px;
-            width: 180px;
-        }
+    &:nth-child(4) {
+      margin-top: 30px;
     }
 
-    &__container {
-        border-bottom: 2px solid $secondary;
-        margin-bottom: 0px;
-        opacity: 0;
-        margin-left: 20px;
-
-        &:nth-child(1) {
-            margin-top: 10px;
-        }
-
-        &:nth-child(2) {
-            margin-top: 35px;
-        }
-
-        &:nth-child(3) {
-            margin-top: 35px;
-        }
-
-        &:nth-child(4) {
-            margin-top: 30px;
-        }
-
-        &:nth-child(5) {
-            margin-top: 35px;
-        }
-
-        &:nth-child(6) {
-            margin-top: 35px;
-        }
-
-        &:nth-child(7) {
-            margin-top: 35px;
-        }
-
-        &--show {
-            opacity: 1;
-        }
+    &:nth-child(5) {
+      margin-top: 35px;
     }
+
+    &:nth-child(6) {
+      margin-top: 35px;
+    }
+
+    &:nth-child(7) {
+      margin-top: 35px;
+    }
+
+    &--show {
+      opacity: 1;
+    }
+  }
 }
 
 .primary-nav__categories:hover .primary-nav__container {
-    // opacity: 1;
-    background-color: red;
+  // opacity: 1;
+  background-color: red;
 }

@@ -5,7 +5,7 @@ import { INavLinks } from '../PrimaryNav'
 import Button from '../Button'
 import arrLeft from '../../../assets/img/arr-left.png'
 
-const Nav = ({ links, path, type }) => {
+const Nav = ({ links, path, type, linkType }) => {
   const [navLinks, setNavLinks] = useState<INavLinks>(links)
 
   const toggleNavClass = (index: number) => {
@@ -48,7 +48,7 @@ const Nav = ({ links, path, type }) => {
             data-testid="nav"
             activeClassName="active__border--style"
             to={`${item.page}`}
-            className="link__margin  active__border nav__link"
+            className={`link__margin  active__border nav__link ${linkType}`}
             state={{ choice: path }}
             // onClick={getElemClass}
           >

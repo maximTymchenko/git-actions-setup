@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ba52ac-2eef-4b31-a73d-0c84e4dec305" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/assets/img/dots-bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/dots-bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pagesComponents/MainPage/Video/Video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagesComponents/MainPage/Video/Video.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pagesComponents/MainPage/Video/Video.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagesComponents/MainPage/Video/Video.tsx" afterDir="false" />
     </list>
