@@ -54,13 +54,13 @@ const intellectualProperty: FC = () => {
             title="More than just local IP Due Diligence process"
           />
 
-          <TextDescription>
+          <TextDescription subtype="mb">
             Your NDA is backed up by our localized NDA version that is
             specifically tailored to local laws of any involved parties and
             subcontractors from our side.
           </TextDescription>
 
-          <TextDescription type="small">
+          <TextDescription type="small" subtype="mb">
             Each of your extension team members signs it before he or she starts
             working with any sensitive information you share. You will receive
             localized NDA and its notarized translation right to your post box.
@@ -127,7 +127,7 @@ const intellectualProperty: FC = () => {
           />
           <div className="intellectual-property__text">
             <SectionTitle type="primary" title="Continuous security training" />
-            <TextDescription type="small">
+            <TextDescription type="small" subtype="mb">
               We believe that information security begins with educated and
               well-trained people. None of the information security policies
               will ever properly work without them.
@@ -149,7 +149,7 @@ const intellectualProperty: FC = () => {
               type="primary"
               title="IT asset management and operational security"
             />
-            <TextDescription type="small">
+            <TextDescription type="small" subtype="mb">
               Blackbird is focused on keeping control of its IT inventory. We
               established and automatically up-to-date list of our hardware,
               software, produced and provided data, and other assets like our

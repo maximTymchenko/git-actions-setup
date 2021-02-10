@@ -6,7 +6,10 @@
   font-size: 18px;
   line-height: 1.53;
   color: $text__body;
-  margin-bottom: 20px;
+
+  &--mb {
+    margin-bottom: 20px;
+  }
 
   @media screen and (max-width: $mobile) {
     padding: 0 10px 0 0;

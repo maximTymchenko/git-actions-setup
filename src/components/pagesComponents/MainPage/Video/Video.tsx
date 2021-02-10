@@ -9,7 +9,7 @@ const Video: FC = () => {
   return (
     <div data-testid="video" className="video">
       <div className="video__intro">
-        <video src={video} autoPlay muted />
+        <video src={video} autoPlay muted loop />
       </div>
       <div className="video__wrapper">
         <img src={spectarBlack} alt="Spectar" className="video__logo" />

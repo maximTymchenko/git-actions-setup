@@ -55,7 +55,7 @@ const workingTogether: FC = () => {
                 titleText="Working Together"
                 large="large"
               />
-              <TextDescription>
+              <TextDescription subtype="mb">
                 We empirically figured out that only two engagement models work
                 smoothly for our clients: On-demand Team Extension and Fully
                 Managed IT Services. Let us address the most popular
@@ -199,12 +199,12 @@ const workingTogether: FC = () => {
           <div className="working-together__body-wrapper">
             <SectionTitle type="lighter" title="Outcome responsibility" />
             <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription>
+            <TextDescription subtype="mb">
               You get a wealth of our experience from actively working on
               miscellaneous client projects that your in-house teams would not
               probably collectively have.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               Regardless, of the hiring model you choose, we will always make
               sure you are aware of all possibilities and potential pitfalls in
               advance of making your final decision.
@@ -224,7 +224,7 @@ const workingTogether: FC = () => {
           <div className="working-together__text-body">
             <div className="working-together__text-wrapper">
               <SectionTitle type="secondary" title="On-demand team extension" />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 While you are provided with a professional team that does both
                 meet all of your hard/soft skill requirements, you will also get
                 the allies that treat your product and company as their own.
@@ -237,7 +237,7 @@ const workingTogether: FC = () => {
                 type="secondary"
                 title="Fully managed IT services"
               />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 You are in charge of the direction and clear goal management. We
                 handle absolutely everything else as a turnkey service.Just grow
                 your product or business with zero worries about day-to-day IT
@@ -251,18 +251,18 @@ const workingTogether: FC = () => {
           <div className="working-together__body-wrapper">
             <SectionTitle type="lighter" title="Project kickoff" />
             <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription>
+            <TextDescription subtype="mb">
               You may want to start a project as soon as possible, and, well,
               nail the competition behind. We share the same aspirations.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               To put those aspirations into action, we carefully rethought every
               step of our market-fastest onboarding approach and created our own
               framework out of it. We also built our recruitment & screening
               process to surround our clients with people not only technically
               skilled but also mentally interested in their product success.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               So the time it really takes from a kickoff meeting to a completed
               onboarding and actual project start is cut in half to what both
               global and Western European outsourcing market could offer you.
@@ -280,7 +280,7 @@ const workingTogether: FC = () => {
           <div className="working-together__text-body">
             <div className="working-together__text-wrapper">
               <SectionTitle type="secondary" title="On-demand team extension" />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 If the talents you need are on a bench, you may start an
                 engagement (namely interviewing candidates) in less than 3 days.
                 However, if there is a lack of some talents we will still start
@@ -307,7 +307,7 @@ const workingTogether: FC = () => {
                 type="secondary"
                 title="Fully managed IT services"
               />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 There is almost no Recruitment & Screening lag, so it’s quite
                 instant jump to the onboarding stage and actual project work
                 shortly after it. Once we agree on terms, it takes less than 5–7
@@ -321,11 +321,11 @@ const workingTogether: FC = () => {
           <div className="working-together__body-wrapper">
             <SectionTitle type="lighter" title="Onboarding approach" />
             <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription>
+            <TextDescription subtype="mb">
               Onboarding is probably one of the biggest and toughest challenges
               that new partners usually experience in the beginning.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               We designed our own onboarding frameworks for both of the
               engagement options. It doesn’t matter what project management
               stack of tools you use, we cover them all with our stellar
@@ -345,7 +345,7 @@ const workingTogether: FC = () => {
           <div className="working-together__text-body">
             <div className="working-together__text-wrapper">
               <SectionTitle type="secondary" title="On-demand team extension" />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 Either it’s an Employee Handbook or other new employee
                 onboarding material hosted inside an HR tool of your choice, we
                 make sure that remote onboarding goes smoothly. We also care
@@ -361,7 +361,7 @@ const workingTogether: FC = () => {
                 type="secondary"
                 title="Fully managed IT services"
               />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 Sometimes, it may take months while your on-site team finishes
                 code splitting and other important project info like a
                 Confluence space will be also ready for a safe hand-off. This is
@@ -382,19 +382,19 @@ const workingTogether: FC = () => {
           <div className="working-together__body-wrapper">
             <SectionTitle type="lighter" title="Recruitment & screening" />
             <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription>
+            <TextDescription subtype="mb">
               You probably already confused by trying to compare all the
               recruitment processes of all potential outsourcing partners. From
               a freelance recruiter to a large outsourcer, they all claim that
               their recruitment process is the most unique.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               Meanwhile, it's fair to say that the majority of market players
               have a decent screening process for hard skills. However, they
               actually fail at developing a business founder or an ownership
               mentality in their employees’ heads.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               The founding team of Blackbird came from classical outsourcing
               with all its cons and built our company around principles of an
               ownership mentality instead. We are engineers and technicians who
@@ -415,7 +415,7 @@ const workingTogether: FC = () => {
           <div className="working-together__text-body">
             <div className="working-together__text-wrapper">
               <SectionTitle type="secondary" title="On-demand team extension" />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 If it’s people on a bench, you’ll be able to interview them in
                 less than 1–3 days. In other cases, it takes from 2 – 4 weeks
                 depends on the skillset you need and the readiness of a
@@ -447,7 +447,7 @@ const workingTogether: FC = () => {
                 type="secondary"
                 title="Fully managed IT services"
               />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 If you like to set big outcomes and watch them achieved without
                 thinking about whom to hire for a job, you will enjoy this
                 cooperation model. You will never have to think about day-to-day
@@ -479,7 +479,7 @@ const workingTogether: FC = () => {
           <div className="working-together__body-wrapper">
             <SectionTitle type="lighter" title="Remote management" />
             <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription>
+            <TextDescription subtype="mb">
               24×7×365 support and personal manager to assist makes it easier to
               foresight and solve any situations as they may happen along the
               way. This manager is an independent professional that oversees
@@ -487,7 +487,7 @@ const workingTogether: FC = () => {
               manager(-s). He’s usually invisible one but always makes sure that
               Blackbird executives are aware of how things are going.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               We are not monstrous enterprise, and we are always picky about
               choosing a client we work with. Once we become partners we want
               our partnerships to be fulfilling and profitable for both sides.
@@ -544,12 +544,12 @@ const workingTogether: FC = () => {
           <div className="working-together__body-wrapper">
             <SectionTitle type="lighter" title="Communication standard" />
             <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription>
+            <TextDescription subtype="mb">
               Different timezones are solved by mandatory 3–hour overlap with
               your and your team timezones. 3 hours is the minimum availability
               threshold for all Blackbird employees.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               We also make sure that you understand every Blackbirder you work
               with. All of our employees are obligated to have a minimum of 3
               individual business English lessons per week. We fully cover the
@@ -608,17 +608,17 @@ const workingTogether: FC = () => {
           <div className="working-together__body-wrapper">
             <SectionTitle type="lighter" title="Intellectual property" />
             <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription>
+            <TextDescription subtype="mb">
               DYour NDA is backed-up with our localized NDA version that is
               tailored to local laws of involved parties.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               We have complete control over things people install on their
               corporate devices. Blackbird maintains an accurate and up-to-date
               inventory of all its networks, services, servers, and employee
               devices.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               All new hires are required to attend the security awareness
               training as part of their onboarding. And all employees are
               required to attend the annual security awareness training.
@@ -640,7 +640,7 @@ const workingTogether: FC = () => {
           <div className="working-together__text-body">
             <div className="working-together__text-wrapper">
               <SectionTitle type="secondary" title="On-demand team extension" />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 Everyone from your extension team members signs it before he
                 starts working with any sensitive information you share. You
                 will receive localized NDA and its notarized translation shipped
@@ -652,7 +652,7 @@ const workingTogether: FC = () => {
                 type="secondary"
                 title="Fully managed IT services"
               />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 The same level of security is applied to this particular
                 cooperation model too.
               </TextDescription>
@@ -664,25 +664,25 @@ const workingTogether: FC = () => {
           <div className="working-together__body-wrapper">
             <SectionTitle type="lighter" title="Pricing & predictability" />
             <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription>
+            <TextDescription subtype="mb">
               As our favorite client, you will be able to forecast your monthly,
               quarterly, and yearly expenditure on IT services regardless of a
               cooperation model you choose.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               Even planning your annual budget around outcomes will get easier
               with Blackbird since IT risks are on us. You will also save a lot
               of that budget via passing your IT duties to us in comparison to
               creating a comparable team in-house.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               One thing is for sure: if IT is not your primary money-making
               product then your in-house team will always be behind people who
               have to regularly deal with challenges and emergencies of multiple
               clients’ products, services. All such a wealth of experience will
               be always available for you whenever you need it.
             </TextDescription>
-            <TextDescription>
+            <TextDescription subtype="mb">
               Plus, you will be able to focus your people's energy and resources
               on things that matter the most for your company growth.
             </TextDescription>
@@ -700,12 +700,12 @@ const workingTogether: FC = () => {
           <div className="working-together__text-body">
             <div className="working-together__text-wrapper">
               <SectionTitle type="secondary" title="On-demand team extension" />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 Our fee is Developer Salary + 25% of salary (similar to UpWork's
                 fee structure).
               </TextDescription>
               <DropDownText />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 We also have trial periods, so you could try out an individually
                 gathered team of specialists and see what they are able to do
                 for you. If you are not satisfied with the whole or certain team
@@ -718,12 +718,12 @@ const workingTogether: FC = () => {
                 type="secondary"
                 title="Fully managed IT services"
               />
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 Our fee is $75/hour. The number of hours is estimated based on
                 certain parameters and project goals and resources that are
                 required to achieve them
               </TextDescription>
-              <TextDescription type="dark">
+              <TextDescription type="dark" subtype="mb">
                 Resources that will remain a part of your deliverables are on
                 you. For instance, it is such things as hosting, monthly
                 subscriptions for 3rd party services that are required to build

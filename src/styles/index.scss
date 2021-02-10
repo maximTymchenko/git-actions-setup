@@ -82,7 +82,7 @@ body {
       font-family: 'OktaNeue-Heavy';
       display: block;
       font-weight: 900;
-      line-height: 90px;
+      line-height: 50px;
       margin-right: 25px;
       font-size: 68px;
       animation: 9s linear 0s infinite change__text;
@@ -409,7 +409,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 body::-webkit-scrollbar-thumb {
