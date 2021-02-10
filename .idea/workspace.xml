@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ba52ac-2eef-4b31-a73d-0c84e4dec305" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/pagesComponents/HowWeWork/VideoItem/VideoItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagesComponents/HowWeWork/VideoItem/VideoItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/how-we-work/howWeWork.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/how-we-work/howWeWork.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/how-we-work/working-together/workingTogether.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/how-we-work/working-together/workingTogether.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/json/_dev-404-page_.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/json/_dev-404-page_.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/redux/redux.node.state_0" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redux/redux.node.state_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git-actions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offices/office1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offices/office2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offices/office3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offices/office4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
