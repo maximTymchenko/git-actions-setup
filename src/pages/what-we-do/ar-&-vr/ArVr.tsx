@@ -15,7 +15,7 @@ const ArVr: FC = () => {
   return (
     <Layouts>
       <PageHeader
-        offset={-200}
+        offset={-210}
         id="relevant"
         title="AR & VR"
         subtitle="Discover"

@@ -101,7 +101,7 @@ const whatWeDo: FC = () => {
   return (
     <Layouts>
       <PageHeader
-        offset={220}
+        offset={190}
         id="what-we-do"
         title="What We Do"
         subtitle="Discover"

@@ -20,7 +20,7 @@ const RetailAndEcommerce: FC = () => {
   return (
     <Layouts>
       <PageHeader
-        offset={-200}
+        offset={-210}
         id="relevant"
         title="Retail and E-commerce"
         subtitle="Discover"

@@ -16,7 +16,7 @@ const TeamExtension: FC = () => {
   return (
     <Layouts>
       <PageHeader
-        offset={-200}
+        offset={-210}
         id="relevant"
         title="Team Extension"
         subtitle="Discover"
