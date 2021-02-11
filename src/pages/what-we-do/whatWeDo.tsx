@@ -39,6 +39,8 @@ import {
 } from 'react-icons/si'
 import { DiJavascript1, DiAndroid } from 'react-icons/di'
 
+import NewFilter from '../../components/common/NewFilter'
+
 const whatWeDo: FC = () => {
   const techIcons: any[] = [
     <FaJava />,

@@ -1,305 +1,330 @@
-import React, { FC, useState, Fragment } from 'react'
-import { BsFilter } from 'react-icons/bs'
+import React, { Component } from 'react'
 import FilterList from '../FilterList'
-import classNames from 'classnames'
-import Nav from '../Nav'
-import './Filter.scss'
 import Button from '../Button'
 import reset from '../../../assets/img/common/reset.svg'
 import arrRight from '../../../assets/img/arr-right.svg'
-import PrimaryNav from '../PrimaryNav'
+import classNames from 'classnames'
+import { BsFilter } from 'react-icons/bs'
+import Nav from '../Nav'
+import './Filter.scss'
 
-const Filter: FC = () => {
-  interface IList {
-    lists: [
-      {
-        id: number
-        title: string
-      }
-    ]
-  }
+import FilterNav from '../FilterNav'
 
-  const platformsList: IList = {
-    lists: [
-      { id: 1, title: 'Web' },
-      { id: 2, title: 'Ios' },
-      { id: 3, title: 'Android' },
-      { id: 4, title: 'Analytics' },
-      { id: 5, title: 'Quality control' },
-      { id: 6, title: 'Mobile development' },
-    ],
-  }
-
-  const cloudList: IList = {
-    lists: [
-      { id: 1, title: 'Amazon AWS' },
-      { id: 2, title: 'Google' },
-      { id: 3, title: 'Azure' },
-      { id: 4, title: 'Akamai' },
-    ],
-  }
-
-  const databaseList: IList = {
-    lists: [
-      { id: 1, title: 'PostgreSQL' },
-      { id: 2, title: 'NoSQL' },
-      { id: 3, title: 'DynamoDb' },
-    ],
-  }
-
-  const frameworksList: IList = {
-    lists: [
-      { id: 1, title: 'Axon' },
-      { id: 2, title: 'Kotlin' },
-      { id: 3, title: 'Objective-C' },
-      { id: 4, title: 'Swift' },
-      { id: 5, title: 'PHP' },
-      { id: 6, title: 'C#' },
-      { id: 7, title: 'C' },
-      { id: 8, title: 'Python' },
-      { id: 9, title: 'HTML5' },
-      { id: 10, title: 'Ruby on Rails' },
-      { id: 11, title: 'Angular' },
-      { id: 12, title: 'Node.js' },
-      { id: 13, title: 'React' },
-      { id: 14, title: 'JavaScript' },
-      { id: 15, title: 'Java' },
-      { id: 16, title: 'Java11' },
-      { id: 17, title: 'Typescript' },
-      { id: 18, title: 'SpringBoot' },
-    ],
-  }
-
-  const solutionsList: IList = {
-    lists: [
-      { id: 1, title: 'Redux Thunk' },
-      { id: 2, title: 'Redux Toolkit' },
-      { id: 3, title: 'Apollo Graphql' },
-      { id: 4, title: 'Hibernate' },
-      { id: 5, title: 'Twilio API' },
-      { id: 6, title: 'Auth0 API' },
-    ],
-  }
-
-  // toggle filter list
-  const [showFilter, setShowFilter] = useState<boolean>(false)
-  const toogleFilter = () => {
-    setShowFilter(!showFilter)
-    setDotsType(false)
-  }
-  const [dotsType, setDotsType] = useState<boolean>(false)
-
-  const menuLinks = {
-    activeLink: null,
-    links: [
-      { id: 1, title: 'All', page: '/what-we-do/' },
-      { id: 2, title: 'Web development', page: '/what-we-do/web-development/' },
-      { id: 3, title: 'Cloud services', page: '/what-we-do/cloud-services/' },
-      { id: 4, title: 'Team extension', page: '/what-we-do/team-extension/' },
-      { id: 5, title: 'AR & VR', page: '/what-we-do/ar-&-vr/' },
-      {
-        id: 6,
-        title: 'Retail & E-commerce',
-        page: '/what-we-do/retail-and-e-commerce/',
-      },
-      {
-        id: 7,
-        title: 'Mobile development',
-        page: '/what-we-do/mobile-development/',
-      },
-    ],
-  }
-
-  //! primary nav setup
-
-  interface INavLinks {
-    activeLink: null | any
-    links: [
-      {
-        id: number
-        title: string
-        page?: string | undefined
-      }
-    ]
-  }
-
-  interface INavArr {
-    activeLink?: null
-    links: {
-      id: number
-      array: INavLinks
-    }[]
-  }
-
-  interface ILanguage {
-    activeLink: null
-    links: {
-      id: number
-      title: string
-    }[]
-  }
-
-  const language: ILanguage = {
-    activeLink: null,
-    links: [
-      { id: 1, title: '' },
-      { id: 2, title: '' },
-    ],
-  }
-
-  const [navLinks, setNavLinks] = useState<INavLinks>({
-    activeLink: null,
-    links: [
-      { id: 1, title: 'Services' },
-      { id: 2, title: 'Industries' },
-      { id: 3, title: 'Expertise' },
-      { id: 4, title: 'Engagement' },
-    ],
-  })
-
-  const menuLinksServices: INavLinks = {
-    activeLink: null,
-    links: [
-      { id: 1, title: 'Web development' },
-      { id: 2, title: 'Cloud services' },
-      { id: 3, title: 'Research' },
-      { id: 4, title: 'Analytics' },
-      { id: 5, title: 'Quality control' },
-      { id: 6, title: 'Mobile development' },
-    ],
-  }
-
-  const menuLinksIndustries: INavLinks = {
-    activeLink: null,
-    links: [
-      { id: 1, title: 'Retail & E-commerce' },
-      { id: 2, title: 'Construction' },
-      { id: 3, title: 'Finance' },
-      { id: 4, title: 'Media' },
-    ],
-  }
-
-  const menuLinksExpertise: INavLinks = {
-    activeLink: null,
-    links: [
-      { id: 1, title: 'SaaS product' },
-      { id: 2, title: 'Chatbots' },
-      { id: 3, title: 'AR & VR' },
-      { id: 4, title: 'Blockchain' },
-      { id: 5, title: 'Digital enterprise ' },
-      { id: 6, title: 'Drone' },
-      { id: 7, title: 'R&D' },
-    ],
-  }
-
-  const menuLinksEngagement: INavLinks = {
-    activeLink: null,
-    links: [
-      { id: 1, title: 'On-demand team extension' },
-      { id: 2, title: 'Fully managed IT services' },
-    ],
-  }
-
-  const [navLinksArray, setNavLinksArray] = useState<INavArr>({
-    activeLink: null,
-    links: [
-      { id: 0, array: menuLinksServices },
-      { id: 1, array: menuLinksIndustries },
-      { id: 2, array: menuLinksExpertise },
-      { id: 3, array: menuLinksEngagement },
-    ],
-  })
-
-  return (
-    <Fragment>
-      <div data-testid="filter" className="filter">
-        <div className="filter__wrapper">
-          <Nav type="filter" links={menuLinks} linkType="link__large" />
-          <div className="filter__shell">
-            <span
-              onClick={() => {
-                setDotsType(!dotsType)
-                setShowFilter(false)
-              }}
-              className={classNames('filter__dots', {
-                'filter__dots--show': dotsType,
-              })}
-            >
-              ...
-            </span>
-            <span className="filter__line"></span>
-            <div className="filter__body" onClick={() => toogleFilter()}>
-              <BsFilter
-                className={classNames('filter__icon', {
-                  'filter__icon--show': showFilter,
-                })}
-              />
-              <div
-                className={classNames('filter__label', {
-                  'filter__label--show': showFilter,
-                })}
-              >
-                Filters
-              </div>
-            </div>
-            <div
-              className={classNames('filter__triangle', {
-                'filter__triangle--rotated': showFilter,
-              })}
-            ></div>
-          </div>
-        </div>
-      </div>
-      {dotsType && (
-        <PrimaryNav
-          navLinks={navLinks}
-          navLinksArray={navLinksArray}
-          language={language}
-          type="filter"
-        />
-      )}
-      {showFilter && (
-        <div className="filter__lists">
-          <div className="filter__container">
-            <FilterList
-              filterLists={platformsList}
-              filterListTitle="Platforms"
-            />
-            <FilterList
-              filterLists={cloudList}
-              filterListTitle="Cloud services"
-            />
-            <FilterList
-              filterLists={databaseList}
-              filterListTitle="Database management"
-            />
-            <FilterList
-              filterLists={frameworksList}
-              filterListTitle="Frameworks & languages"
-            />
-            <FilterList
-              filterLists={solutionsList}
-              filterListTitle="Third Party Solution"
-            />
-          </div>
-          <div className="filter__buttons">
-            <Button icon={reset} type="clear">
-              Clear all
-            </Button>
-            <div
-              onClick={() => {
-                toogleFilter()
-              }}
-            >
-              <Button icon={arrRight} type="apply">
-                Apply
-              </Button>
-            </div>
-          </div>
-        </div>
-      )}
-    </Fragment>
-  )
+const menuLinks = {
+  activeLink: null,
+  links: [
+    { id: 1, title: 'All', page: '/what-we-do/' },
+    { id: 2, title: 'Web development', page: '/what-we-do/web-development/' },
+    { id: 3, title: 'Cloud services', page: '/what-we-do/cloud-services/' },
+    { id: 4, title: 'Team extension', page: '/what-we-do/team-extension/' },
+    { id: 5, title: 'AR & VR', page: '/what-we-do/ar-&-vr/' },
+    {
+      id: 6,
+      title: 'Retail & E-commerce',
+      page: '/what-we-do/retail-and-e-commerce/',
+    },
+    {
+      id: 7,
+      title: 'Mobile development',
+      page: '/what-we-do/mobile-development/',
+    },
+  ],
 }
 
-export default Filter
+class NewFilter extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      showFilter: false,
+      dotsType: false,
+      platformsList: [
+        { id: 1, value: 'Web', isChecked: false },
+        { id: 2, value: 'Ios', isChecked: false },
+        { id: 3, value: 'Android', isChecked: false },
+        { id: 4, value: 'Analytics', isChecked: false },
+        { id: 5, value: 'Quality control', isChecked: false },
+        { id: 6, value: 'Mobile development', isChecked: false },
+      ],
+      cloudList: [
+        { id: 1, value: 'Amazon AWS', isChecked: false },
+        { id: 2, value: 'Google', isChecked: false },
+        { id: 3, value: 'Azure', isChecked: false },
+        { id: 4, value: 'Akamai', isChecked: false },
+      ],
+      databaseList: [
+        { id: 1, value: 'PostgreSQL', isChecked: false },
+        { id: 2, value: 'NoSQL', isChecked: false },
+        { id: 3, value: 'DynamoDb', isChecked: false },
+      ],
+      frameworksList: [
+        { id: 1, value: 'Axon', isChecked: false },
+        { id: 2, value: 'Kotlin', isChecked: false },
+        { id: 3, value: 'Objective-C', isChecked: false },
+        { id: 4, value: 'Swift', isChecked: false },
+        { id: 5, value: 'PHP', isChecked: false },
+        { id: 6, value: 'C#', isChecked: false },
+        { id: 7, value: 'C', isChecked: false },
+        { id: 8, value: 'Python', isChecked: false },
+        { id: 9, value: 'HTML5', isChecked: false },
+        { id: 10, value: 'Ruby on Rails', isChecked: false },
+        { id: 11, value: 'Angular', isChecked: false },
+        { id: 12, value: 'Node.js', isChecked: false },
+        { id: 13, value: 'React', isChecked: false },
+        { id: 14, value: 'JavaScript', isChecked: false },
+        { id: 15, value: 'Java', isChecked: false },
+        { id: 16, value: 'Java11', isChecked: false },
+        { id: 17, value: 'Typescript', isChecked: false },
+        { id: 18, value: 'SpringBoot', isChecked: false },
+      ],
+      solutionsList: [
+        { id: 1, value: 'Redux Thunk', isChecked: false },
+        { id: 2, value: 'Redux Toolkit', isChecked: false },
+        { id: 3, value: 'Apollo Graphql', isChecked: false },
+        { id: 4, value: 'Hibernate', isChecked: false },
+        { id: 5, value: 'Twilio API', isChecked: false },
+        { id: 6, value: 'Auth0 API', isChecked: false },
+      ],
+    }
+  }
+
+  handleCheckChieldOPlatformElement = (event) => {
+    let platformsList = this.state.platformsList
+    platformsList.forEach((platforms) => {
+      if (platforms.value === event.target.value)
+        platforms.isChecked = event.target.checked
+    })
+    this.setState({ platformsList: platformsList })
+  }
+
+  handleCheckChieldCloundElement = (event) => {
+    let cloudList = this.state.cloudList
+    cloudList.forEach((clouds) => {
+      if (clouds.value === event.target.value)
+        clouds.isChecked = event.target.checked
+    })
+    this.setState({ cloudList: cloudList })
+  }
+
+  handleCheckChieldDBElement = (event) => {
+    let databaseList = this.state.databaseList
+    databaseList.forEach((db) => {
+      if (db.value === event.target.value) db.isChecked = event.target.checked
+    })
+    this.setState({ databaseList: databaseList })
+  }
+
+  handleCheckChieldFrameworksElement = (event) => {
+    let frameworksList = this.state.frameworksList
+    frameworksList.forEach((frameworks) => {
+      if (frameworks.value === event.target.value)
+        frameworks.isChecked = event.target.checked
+    })
+    this.setState({ frameworksList: frameworksList })
+  }
+
+  handleCheckChieldSolutionsElement = (event) => {
+    let solutionsList = this.state.solutionsList
+    solutionsList.forEach((solution) => {
+      if (solution.value === event.target.value)
+        solution.isChecked = event.target.checked
+    })
+    this.setState({ solutionsList: solutionsList })
+  }
+
+  toogleFilter = () => {
+    if (this.state.showFilter) {
+      this.setState({ showFilter: false })
+    } else {
+      this.setState({ showFilter: true })
+      this.setState({ dotsType: false })
+    }
+  }
+
+  toggleDots = () => {
+    if (this.state.dotsType) {
+      //   this.setState({ showFilter: false })
+      this.setState({ dotsType: false })
+    } else {
+      this.setState({ dotsType: true })
+      this.setState({ showFilter: false })
+    }
+  }
+
+  handlePlatformListChecked = (event: any): void => {
+    let platformsList = this.state.platformsList
+    platformsList.forEach(
+      (platforms) => (platforms.isChecked = event.target.checked)
+    )
+    this.setState({ platformsList: platformsList })
+  }
+
+  handleCloudsListChecked = (event: any): void => {
+    let cloudList = this.state.cloudList
+    cloudList.forEach((clouds) => (clouds.isChecked = event.target.checked))
+    this.setState({ cloudList: cloudList })
+  }
+
+  handleDatabaseListChecked = (event: any): void => {
+    let databaseList = this.state.databaseList
+    databaseList.forEach((db) => (db.isChecked = event.target.checked))
+    this.setState({ databaseList: databaseList })
+  }
+
+  handleFrameworksListChecked = (event: any): void => {
+    let frameworksList = this.state.frameworksList
+    frameworksList.forEach((frame) => (frame.isChecked = event.target.checked))
+    this.setState({ frameworksList: frameworksList })
+  }
+
+  handleSolutionsListChecked = (event: any): void => {
+    let solutionsList = this.state.solutionsList
+    solutionsList.forEach(
+      (solution) => (solution.isChecked = event.target.checked)
+    )
+    this.setState({ solutionsList: solutionsList })
+  }
+
+  handleAllChecked = (event) => {
+    this.handlePlatformListChecked(event)
+    this.handleCloudsListChecked(event)
+    this.handleDatabaseListChecked(event)
+    this.handleFrameworksListChecked(event)
+    this.handleSolutionsListChecked(event)
+  }
+
+  render() {
+    return (
+      <div>
+        <div data-testid="filter" className="filter">
+          <div className="filter__wrapper">
+            <Nav type="filter" links={menuLinks} linkType="link__large" />
+            <div className="filter__shell">
+              <span
+                onClick={this.toggleDots}
+                className={classNames('filter__dots', {
+                  'filter__dots--show': this.state.dotsType,
+                })}
+              >
+                ...
+              </span>
+              <span className="filter__line"></span>
+              <div className="filter__body" onClick={this.toogleFilter}>
+                <BsFilter
+                  className={classNames('filter__icon', {
+                    'filter__icon--show': this.state.showFilter,
+                  })}
+                />
+                <div
+                  className={classNames('filter__label', {
+                    'filter__label--show': this.state.showFilter,
+                  })}
+                >
+                  Filters
+                </div>
+              </div>
+              <div
+                className={classNames('filter__triangle', {
+                  'filter__triangle--rotated': this.state.showFilter,
+                })}
+              ></div>
+            </div>
+          </div>
+        </div>
+        {this.state.dotsType && <FilterNav />}
+        {this.state.showFilter && (
+          <div className="filter__lists">
+            <div className="filter__container">
+              <div className="filter__list">
+                <span className="filter-list__title">Platforms</span>
+
+                {this.state.platformsList.map((platforms) => {
+                  return (
+                    <FilterList
+                      filterListTitle="Platforms"
+                      handleCheckChieldElement={
+                        this.handleCheckChieldOPlatformElement
+                      }
+                      {...platforms}
+                    />
+                  )
+                })}
+              </div>
+              <div className="filter__list">
+                <span className="filter-list__title">Cloud services</span>
+
+                {this.state.cloudList.map((cloud) => {
+                  return (
+                    <FilterList
+                      handleCheckChieldElement={
+                        this.handleCheckChieldCloundElement
+                      }
+                      {...cloud}
+                    />
+                  )
+                })}
+              </div>
+              <div className="filter__list">
+                <span className="filter-list__title">Database management</span>
+
+                {this.state.databaseList.map((database) => {
+                  return (
+                    <FilterList
+                      handleCheckChieldElement={this.handleCheckChieldDBElement}
+                      {...database}
+                    />
+                  )
+                })}
+              </div>
+              <div className="filter__list">
+                <span className="filter-list__title">
+                  Frameworks & languages
+                </span>
+
+                {this.state.frameworksList.map((frameworks) => {
+                  return (
+                    <FilterList
+                      handleCheckChieldElement={
+                        this.handleCheckChieldFrameworksElement
+                      }
+                      {...frameworks}
+                    />
+                  )
+                })}
+              </div>
+              <div className="filter__list">
+                <span className="filter-list__title">Third Party Solution</span>
+
+                {this.state.solutionsList.map((olutions) => {
+                  return (
+                    <FilterList
+                      handleCheckChieldElement={
+                        this.handleCheckChieldSolutionsElement
+                      }
+                      {...olutions}
+                    />
+                  )
+                })}
+              </div>
+            </div>
+            <div className="filter__buttons">
+              <div onClick={this.handleAllChecked}>
+                <Button icon={reset} type="clear">
+                  Clear all
+                </Button>
+              </div>
+
+              <div onClick={this.toogleFilter}>
+                <Button icon={arrRight} type="apply">
+                  Apply
+                </Button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    )
+  }
+}
+
+export default NewFilter

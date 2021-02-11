@@ -208,9 +208,12 @@
 
   &__container {
     display: flex;
+    // flex-direction: column;
     justify-content: space-between;
     width: 100%;
     max-width: $container__size;
+    height: 100vh;
+
     margin: 0 auto;
     overflow-y: scroll;
     margin-bottom: 160px;
@@ -228,6 +231,14 @@
       background-color: $primary__light;
       // outline: 1px solid slategrey;
       border-radius: 20px;
+    }
+  }
+
+  &__list {
+    margin-top: 20px;
+
+    &:last-child {
+      padding-right: 15px;
     }
   }
 }
