@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react'
 import PrimaryNav from '../PrimaryNav'
 
-const FilterNav: FC = (props) => {
+const FilterNav: FC = () => {
   interface INavLinks {
     activeLink: null | any
     links: [
