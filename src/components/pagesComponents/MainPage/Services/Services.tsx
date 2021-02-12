@@ -24,22 +24,18 @@ const Services: FC = () => {
         title: 'Retail & E-commerce',
         page: '/what-we-do/retail-and-e-commerce/',
       },
-      {
-        id: 7,
-        title: 'Mobile development',
-        page: '/what-we-do/mobile-development/',
-      },
+      // {
+      //   id: 7,
+      //   title: 'Mobile development',
+      //   page: '/what-we-do/mobile-development/',
+      // },
     ],
   }
 
   return (
     <div data-testid="services" className="services">
       <div className="services__wrapp">
-        <SectionTitle
-          type={'main'}
-          className="title"
-          title="Services and expertise"
-        />
+        <SectionTitle type="main" title="Services and expertise" />
       </div>
       <div className="services__nav">
         <Nav type="main" links={menuLinks} linkType="link__large" />
