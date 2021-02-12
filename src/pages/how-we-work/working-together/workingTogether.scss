@@ -22,12 +22,12 @@
     margin-top: 0px;
   }
 
-  //   &__img {
-  //     background-image: url('../../../assets/img/workingTogether/mountains.svg');
-  //     background-repeat: no-repeat;
-  //     background-size: contain;
-  //     background-position: bottom right;
-  //   }
+  &__img {
+    background-image: url('../../../assets/img/workingTogether/mountains.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+  }
 
   &__text {
     font-family: 'OktaNeue-Regular';
@@ -60,9 +60,7 @@
       padding: 30px 15px 70px;
       display: flex;
       margin: 0 auto;
-      width: 100%;
-      //   max-width: $container__size;
-      max-width: $primary__container;
+      @include section__size;
 
       @media screen and (max-width: $tablet) {
         flex-direction: column;
@@ -86,13 +84,17 @@
   }
 
   &__body {
-    margin: 50px auto 0;
+    margin: 50px auto 20px;
     width: 100%;
     // max-width: $secondary__size;
     max-width: $primary__container;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    &--modify {
+      grid-template-columns: 1.2fr 1fr;
+    }
 
     &-wrapper {
       //   width: 800px;

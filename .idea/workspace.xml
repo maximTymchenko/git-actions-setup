@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51ba52ac-2eef-4b31-a73d-0c84e4dec305" name="Default Changelist" comment="" />
+    <list default="true" id="4ae1dfdd-3a50-46be-a4eb-a3b89ebbcdd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/json/_dev-404-page_.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/json/_dev-404-page_.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/redux/redux.node.state_0" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redux/redux.node.state_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Filter/Filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Filter/Filter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Filter/Filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Filter/Filter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FilterNav/FilterNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FilterNav/FilterNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagesComponents/ContactUs/ContactsTitle/ContactsTitle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagesComponents/ContactUs/ContactsTitle/ContactsTitle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagesComponents/ContactUs/OurContacts/OurContacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagesComponents/ContactUs/OurContacts/OurContacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagesComponents/MainPage/Services/Services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagesComponents/MainPage/Services/Services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagesComponents/WorkingTogether/TextImage/TextImage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagesComponents/WorkingTogether/TextImage/TextImage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/how-we-work/working-together/workingTogether.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/how-we-work/working-together/workingTogether.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/how-we-work/working-together/workingTogether.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/how-we-work/working-together/workingTogether.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-not-found/pageNotFound.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-not-found/pageNotFound.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/privacy-policy/privacyPolicy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/privacy-policy/privacyPolicy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/what-we-do/cloud-services/CloudServices.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/what-we-do/cloud-services/CloudServices.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1oFEZIUXIW5bNbb55IwVlYK5RAG" />
+  <component name="ProjectId" id="1oNMZ9dRs8AA0BSawYxcWkyS7W6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,11 +43,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="51ba52ac-2eef-4b31-a73d-0c84e4dec305" name="Default Changelist" comment="" />
-      <created>1612873995851</created>
+      <changelist id="4ae1dfdd-3a50-46be-a4eb-a3b89ebbcdd0" name="Default Changelist" comment="" />
+      <created>1613122649727</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612873995851</updated>
+      <updated>1613122649727</updated>
     </task>
     <servers />
   </component>

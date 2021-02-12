@@ -72,7 +72,7 @@ const workingTogether: FC = () => {
           <div className="how-we-work__overflow">
             <div className="how-we-work__video">
               <div className="how-we-work__video-wrapper">
-                <Link to="responsibility" smooth={true}>
+                <Link to="responsibility" smooth={true} offset={-30}>
                   <VideoItem
                     size="small"
                     buttonType="small-circle"
@@ -86,7 +86,7 @@ const workingTogether: FC = () => {
                     position="relative"
                   />
                 </Link>
-                <Link to="kickoff" smooth={true}>
+                <Link to="kickoff" smooth={true} offset={-30}>
                   <VideoItem
                     size="small"
                     buttonType="small-circle"
@@ -100,7 +100,7 @@ const workingTogether: FC = () => {
                     position="relative"
                   />
                 </Link>
-                <Link to="approach" smooth={true}>
+                <Link to="approach" smooth={true} offset={-30}>
                   <VideoItem
                     size="small"
                     buttonType="small-circle"
@@ -114,7 +114,7 @@ const workingTogether: FC = () => {
                     position="relative"
                   />
                 </Link>
-                <Link to="recruitment" smooth={true}>
+                <Link to="recruitment" smooth={true} offset={-30}>
                   <VideoItem
                     size="small"
                     buttonType="small-circle"
@@ -134,7 +134,7 @@ const workingTogether: FC = () => {
           <div className="how-we-work__overflow">
             <div className="how-we-work__video">
               <div className="how-we-work__video-wrapper">
-                <Link to="management" smooth={true}>
+                <Link to="management" smooth={true} offset={-30}>
                   <VideoItem
                     size="small"
                     buttonType="small-circle"
@@ -148,7 +148,7 @@ const workingTogether: FC = () => {
                     position="relative"
                   />
                 </Link>
-                <Link to="communication" smooth={true}>
+                <Link to="communication" smooth={true} offset={-30}>
                   <VideoItem
                     size="small"
                     buttonType="small-circle"
@@ -162,7 +162,7 @@ const workingTogether: FC = () => {
                     position="relative"
                   />
                 </Link>
-                <Link to="intellectual" smooth={true}>
+                <Link to="intellectual" smooth={true} offset={-30}>
                   <VideoItem
                     size="small"
                     buttonType="small-circle"
@@ -176,7 +176,7 @@ const workingTogether: FC = () => {
                     position="relative"
                   />
                 </Link>
-                <Link to="pricing" smooth={true}>
+                <Link to="pricing" smooth={true} offset={-30}>
                   <VideoItem
                     size="small"
                     buttonType="small-circle"
@@ -194,31 +194,32 @@ const workingTogether: FC = () => {
             </div>
           </div>
         </section>
-        {/* <div className="working-together__img"> */}
-        <div className="working-together__body">
-          <div className="working-together__body-wrapper">
-            <SectionTitle type="lighter" title="Outcome responsibility" />
-            <SectionTitle type="primary" title="Blackbird guarantees" />
-            <TextDescription subtype="mb">
-              You get a wealth of our experience from actively working on
-              miscellaneous client projects that your in-house teams would not
-              probably collectively have.
-            </TextDescription>
-            <TextDescription subtype="mb">
-              Regardless, of the hiring model you choose, we will always make
-              sure you are aware of all possibilities and potential pitfalls in
-              advance of making your final decision.
-            </TextDescription>
+        <div className="working-together__img">
+          <div className="working-together__body working-together__body--modify">
+            <div className="working-together__body-wrapper">
+              <SectionTitle type="lighter" title="Outcome responsibility" />
+              <SectionTitle type="primary" title="Blackbird guarantees" />
+              <TextDescription subtype="mb">
+                You get a wealth of our experience from actively working on
+                miscellaneous client projects that your in-house teams would not
+                probably collectively have.
+              </TextDescription>
+              <TextDescription subtype="mb">
+                Regardless, of the hiring model you choose, we will always make
+                sure you are aware of all possibilities and potential pitfalls
+                in advance of making your final decision.
+              </TextDescription>
+            </div>
+            {/* <TextImage
+              id="responsibility"
+              large="large"
+              image={Mountains}
+              relative="dislocation"
+              typeValue="lighter"
+              relative="moved"
+            /> */}
           </div>
-          <TextImage
-            id="responsibility"
-            large="large"
-            image={Mountains}
-            relative="dislocation"
-            typeValue="lighter"
-          />
         </div>
-        {/* </div> */}
 
         <div className="working-together__text-container">
           <div className="working-together__text-body">

@@ -1,48 +1,48 @@
 @import '../../../../styles/vars';
 
 .contacts {
-  &__wrapper {
-    @media screen and (max-width: $desktop) {
-      margin-top: 50px;
+    &__wrapper {
+        @media screen and (max-width: $desktop) {
+            margin-top: 50px;
+        }
     }
-  }
-  &__links {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
-
-  &__container {
-    display: flex;
-    flex-direction: column;
-
-    @media screen and (max-width: $desktop) {
-      flex-direction: row;
-      justify-content: space-between;
+    &__links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
     }
 
-    @media screen and (max-width: $tablet) {
-      flex-direction: column;
+    &__container {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (max-width: $desktop) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        @media screen and (max-width: $tablet) {
+            flex-direction: column;
+        }
     }
-  }
 
-  &__phone {
-    display: block;
-    text-decoration: none;
-    font-family: 'OktaNeue-Normal';
-    font-size: 16px;
-    line-height: 1.69;
-    color: $text__body;
-    margin-bottom: 15px;
-  }
+    &__phone {
+        display: block;
+        text-decoration: none;
+        font-family: 'OktaNeue-Normal';
+        font-size: 16px;
+        line-height: 1.69;
+        color: $text__body;
+        margin-bottom: 15px;
+    }
 
-  &__email {
-    text-decoration: none;
-    font-family: 'OktaNeue-Black';
-    font-size: 15px;
-    font-weight: 900;
-    letter-spacing: 0.5px;
-    color: $primary__light;
-    margin-bottom: 10px;
-  }
+    &__email {
+        text-decoration: none;
+        font-family: 'OktaNeue-Black';
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        color: $primary__light;
+        margin-bottom: 10px;
+    }
 }

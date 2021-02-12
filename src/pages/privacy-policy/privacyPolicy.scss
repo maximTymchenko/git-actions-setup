@@ -2,50 +2,50 @@
 @import '../../styles/vars';
 
 .privacy {
-    &__wrapper {
-        max-width: 690px;
-        width: 100%;
-        margin: 80px auto;
-    }
+  &__wrapper {
+    max-width: 690px;
+    width: 100%;
+    margin: 80px auto;
+  }
 
-    &__title {
-        margin-bottom: 20px;
-        font-family: 'OktaNeue-Black';
-        font-size: 38px;
-        font-weight: 900;
-        color: $text;
-    }
-    &__info {
-        margin-bottom: 20px;
-        font-family: 'OktaNeue-Regular';
-        font-size: 19px;
-        line-height: 1.53;
-        color: $text__body;
-    }
+  &__title {
+    margin-bottom: 20px;
+    font-family: 'OktaNeue-Black';
+    font-size: 38px;
+    font-weight: 900;
+    color: $text;
+  }
+  &__info {
+    margin-bottom: 20px;
+    font-family: 'OktaNeue-Regular';
+    font-size: 19px;
+    line-height: 1.53;
+    color: $text__body;
+  }
 
-    &__header {
-        border-bottom: 2px solid $secondary;
+  &__header {
+    border-bottom: 2px solid $secondary;
+  }
+  &__btn {
+    margin: 15px 30px 15px 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: solid 2px $secondary;
+    padding: 6px;
+    transition: 0.2s linear all;
+    box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
+    &:hover {
+      background-color: $background__secondary;
     }
-    &__btn {
-        margin: 15px 30px 15px 30px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        outline: none;
-        background: none;
-        border: solid 2px $secondary;
-        padding: 6px;
-        transition: 0.2s linear all;
-        box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
-        &:hover {
-            background-color: $background__secondary;
-        }
-        &:active {
-            background-color: $text__body--light;
-            box-shadow: 0px 0px 0px 0px rgba(57, 156, 203, 0.4);
-        }
+    &:active {
+      background-color: $text__body--light;
+      box-shadow: 0px 0px 0px 0px rgba(57, 156, 203, 0.4);
     }
+  }
 }

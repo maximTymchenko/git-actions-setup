@@ -34,6 +34,7 @@ const menuLinks = {
 class NewFilter extends Component {
   constructor(props) {
     super(props)
+    this.navRef = React.createRef()
 
     this.state = {
       showFilter: false,
@@ -145,6 +146,7 @@ class NewFilter extends Component {
     if (this.state.dotsType) {
       //   this.setState({ showFilter: false })
       this.setState({ dotsType: false })
+      console.log(this.navRef)
     } else {
       this.setState({ dotsType: true })
       this.setState({ showFilter: false })
@@ -193,6 +195,16 @@ class NewFilter extends Component {
     this.handleSolutionsListChecked(event)
   }
 
+  handleClickOutside = (e) => {
+    if (!e.path.includes(this.navRef.current)) {
+      this.setState({ dotsType: false })
+    }
+  }
+
+  componentDidMount() {
+    document.body.addEventListener('click', this.handleClickOutside)
+  }
+
   render() {
     return (
       <div>
@@ -231,7 +243,11 @@ class NewFilter extends Component {
             </div>
           </div>
         </div>
-        {this.state.dotsType && <FilterNav />}
+        {this.state.dotsType && (
+          <div className="nav__ref" ref={this.navRef}>
+            <FilterNav />
+          </div>
+        )}
         {this.state.showFilter && (
           <div className="filter__lists">
             <div className="filter__container">

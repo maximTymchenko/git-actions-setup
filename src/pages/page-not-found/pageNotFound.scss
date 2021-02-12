@@ -2,74 +2,82 @@
 @import '../../styles/vars';
 
 .page-not-found {
-    @media screen and (max-width: $tablet) {
-        margin-top: 220px;
-    }
-    padding: 0 15px;
-    &__wrapper {
-        width: 100%;
-        margin-top: 70px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+  @media screen and (max-width: $tablet) {
+    margin-top: 220px;
+  }
+  padding: 0 15px;
+  &__wrapper {
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    &__title {
-        width: 100%;
-        text-align: center;
-        font-family: 'OktaNeue-Black';
-        background: -o-linear-gradient(right, $brand__primary 10%, $secondary__dark 95%);
-        background: -webkit-gradient(
-            linear,
-            right top,
-            left top,
-            color-stop(10%, $brand__primary),
-            color-stop(95%, $secondary__dark)
-        );
-        background: linear-gradient(to left, $brand__primary 10%, $secondary__dark 95%);
-        font-family: OktaNeue;
-        font-size: 56px;
-        font-weight: 900;
-        background-clip: text;
+  &__title {
+    width: 100%;
+    text-align: center;
+    font-family: 'OktaNeue-Black';
+    background: -o-linear-gradient(
+      right,
+      $brand__primary 10%,
+      $secondary__dark 95%
+    );
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      color-stop(10%, $brand__primary),
+      color-stop(95%, $secondary__dark)
+    );
+    background: linear-gradient(
+      to left,
+      $brand__primary 10%,
+      $secondary__dark 95%
+    );
+    font-family: OktaNeue;
+    font-size: 56px;
+    font-weight: 900;
+    background-clip: text;
+  }
+  &__img {
+    margin-bottom: 25px;
+    display: block;
+    max-width: 660px;
+    width: 100%;
+  }
+  &__info {
+    margin-bottom: 30px;
+    font-family: 'OktaNeue-Regular';
+    font-size: 15px;
+    text-align: center;
+    color: $text__body;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'OktaNeue';
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: $secondary;
+    background-color: $primary__light;
+    margin-right: 20px;
+    box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
+    outline: none;
+    padding: 8px;
+    border: 2px solid $secondary;
+    transition: 0.2s linear all;
+    font-size: 15px;
+    &:hover {
+      background-color: $brand__primary;
     }
-    &__img {
-        margin-bottom: 25px;
-        display: block;
-        max-width: 660px;
-        width: 100%;
+    &:active {
+      box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
+      background-color: $primary__dark;
     }
-    &__info {
-        margin-bottom: 30px;
-        font-family: 'OktaNeue-Regular';
-        font-size: 15px;
-        text-align: center;
-        color: $text__body;
-    }
-    &__btn {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        text-decoration: none;
-        font-family: 'OktaNeue';
-        font-size: 15px;
-        font-weight: bold;
-        letter-spacing: 0.5px;
-        color: $secondary;
-        background-color: $primary__light;
-        margin-right: 20px;
-        box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
-        outline: none;
-        padding: 8px;
-        border: 2px solid $secondary;
-        transition: 0.2s linear all;
-        font-size: 15px;
-        &:hover {
-            background-color: $brand__primary;
-        }
-        &:active {
-            box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
-            background-color: $primary__dark;
-        }
-    }
+  }
 }

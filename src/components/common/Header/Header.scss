@@ -20,7 +20,7 @@
     display: flex;
     @include main__padding;
     width: 100%;
-    // max-width: $header__width;
+    max-width: $header__width;
     align-items: center;
 
     @media screen and (max-width: $tablet) {

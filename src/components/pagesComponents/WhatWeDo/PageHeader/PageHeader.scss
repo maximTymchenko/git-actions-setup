@@ -28,6 +28,8 @@
     text-align: left;
     width: 100%;
     max-width: $container__size;
+    position: relative;
+    bottom: 30px;
   }
 
   &__img-left {
