@@ -25,4 +25,4 @@ jobs:
       - name: Build React App
         run: yarn install && yarn build
       - name: Deploy app build to S3 bucket
-        run: aws s3 sync ./public/static s3://beta-blackbird-lab-small-copy --delete
+        run: aws s3 sync ./public s3://beta-blackbird-lab-small-copy --delete
