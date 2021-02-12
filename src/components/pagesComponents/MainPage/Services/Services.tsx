@@ -38,7 +38,7 @@ const Services: FC = () => {
         <SectionTitle type="main" title="Services and expertise" />
       </div>
       <div className="services__nav">
-        <Nav type="main" links={menuLinks} linkType="link__large" />
+        <Nav type="main" links={menuLinks} />
         <div className="services__nav-btn">
           <Link to="/what-we-do/" className="link">
             <Button
