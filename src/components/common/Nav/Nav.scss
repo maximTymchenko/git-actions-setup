@@ -8,14 +8,6 @@
     }
 
     &--main {
-        @media screen and (max-width: $mobile) {
-            overflow-x: scroll;
-            width: 100%;
-            max-width: 600px;
-            padding-left: 200px;
-            position: relative;
-            left: 25px;
-        }
     }
 
     &--filter {
@@ -47,7 +39,6 @@
 
         @media screen and (max-width: $large__mobile) {
             max-width: 420px;
-            // right: 40px;
         }
 
         @media screen and (max-width: $mobile) {
@@ -59,11 +50,6 @@
 
     &__container {
         display: flex;
-
-        @media screen and (max-width: $mobile) {
-            position: relative;
-            left: -200px;
-        }
     }
 
     &--mobile {
@@ -87,12 +73,6 @@
         text-align: center;
         color: $secondary;
         @include transition;
-        // margin-top: 10px;
-        margin-right: 20px;
-
-        // @media screen and (max-width: $desktop) {
-        //     margin-right: 0;
-        // }
 
         &:hover {
             color: $primary__light;
@@ -101,13 +81,16 @@
             color: $text__body;
         }
 
-        @media screen and (max-width: $tablet) {
-            margin-right: 15px;
+        @media screen and (max-width: $small__tablet) {
+            &:nth-child(4) {
+                display: none;
+            }
         }
 
         @media screen and (max-width: $mobile) {
-            text-align: left;
-            width: 170%;
+            &:nth-child(3) {
+                display: none;
+            }
         }
     }
 }

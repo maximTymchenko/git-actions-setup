@@ -19,11 +19,11 @@ const Services: FC = () => {
             { id: 3, title: 'Cloud services', page: '/what-we-do/cloud-services/' },
             { id: 4, title: 'Team extension', page: '/what-we-do/team-extension/' },
             { id: 5, title: 'AR & VR', page: '/what-we-do/ar-&-vr/' },
-            {
-                id: 6,
-                title: 'Retail & E-commerce',
-                page: '/what-we-do/retail-and-e-commerce/',
-            },
+            // {
+            //     id: 6,
+            //     title: 'Retail & E-commerce',
+            //     page: '/what-we-do/retail-and-e-commerce/',
+            // },
             // {
             //   id: 7,
             //   title: 'Mobile development',

@@ -1,191 +1,189 @@
 @import '../../../../styles/vars';
 
 .large-company-container {
-  margin-right: 30px;
-  position: relative;
-  cursor: pointer;
-  outline: 2px solid $secondary;
-  box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0.4);
-  @include transition;
-
-  height: 100%;
-  max-height: 390px;
-
-  width: 100%;
-  max-width: 655px;
-
-  &--large {
-    max-width: 930px;
-    // max-height: 420px;
-  }
-
-  &--bg-main {
-    background: url('../../../../assets/img/companies/services.jpeg');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(74, 85, 94, 0.8);
-    }
-  }
-
-  &--bg-servers {
-    background: url('../../../../assets/img/companies/servers.jpeg');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    padding-right: 50px;
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(74, 85, 94, 0.7);
-    }
-  }
-
-  &--bg-rooms {
-    background: url('../../../../assets/img/companies/office.jpeg');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    padding-bottom: 30px;
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(74, 85, 94, 0.3);
-    }
-  }
-
-  &--bg-secondary {
-    // padding-bottom: 30px;
-    background-color: #3771c4;
-  }
-
-  &--bg-triangle {
-    background-color: $secondary;
+    margin-right: 30px;
     position: relative;
-    overflow: hidden;
-    padding-bottom: 0;
+    cursor: pointer;
+    outline: 2px solid $secondary;
+    box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0.4);
+    @include transition;
 
-    &::before {
-      position: absolute;
-      top: -155px;
-      right: 0;
-      content: '';
-      display: block;
-      width: 0;
-      height: 0;
-      border-top: 300px solid transparent;
-      border-bottom: 300px solid transparent;
-      border-right: 300px solid #b9008c;
-    }
-  }
+    height: 100%;
+    max-height: 390px;
 
-  @media screen and (max-width: $tablet) {
-    margin-bottom: 30px;
-    width: 98%;
-    margin-right: 15px;
-  }
+    width: 100%;
+    max-width: 655px;
 
-  @media screen and (max-width: $mobile) {
-    margin-right: 0px;
-  }
-
-  &:hover {
-    outline: 4px solid $secondary;
-    outline-offset: -3px;
-  }
-
-  &:active {
-    @include button__press;
-    box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0);
-  }
-
-  // logo spectar
-  &__logo {
-    position: relative;
-    z-index: 10;
-    margin: 20px 0 70px 20px;
-
-    &--mb {
-      margin-bottom: 117px;
-    }
-
-    &--mb-more {
-      margin-bottom: 122px;
-    }
-
-    &--mb-less {
-      margin-bottom: 102px;
+    @media screen and (max-width: $tablet) {
+        margin-bottom: 30px;
+        width: 98%;
+        margin-right: 15px;
     }
 
     @media screen and (max-width: $mobile) {
-      margin: 2px 0 40px 10px;
-      width: 100px;
-    }
-  }
-  // description for spectar company
-  &__desc {
-    position: relative;
-    z-index: 10;
-    margin-left: 30px;
-    margin-right: 150px;
-    padding-bottom: 30px;
-    font-family: 'OktaNeue-Bold';
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 1.4;
-    color: $background__primary;
-
-    @media screen and (max-width: $mobile) {
-      margin-right: 90px;
-      margin-left: 10px;
-      font-size: 22px;
-    }
-  }
-
-  // hashtags
-  &__hashtags {
-    margin-top: 15px;
-    font-family: 'OktaNeue-Black';
-    font-size: 11px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    color: $text__body;
-
-    &--hide {
-      display: none;
+        margin-right: 0px;
     }
 
-    @media screen and (max-width: $mobile) {
-      margin-bottom: 20px;
+    &--large {
+        max-width: 930px;
     }
-  }
-  &__label {
-    background-color: $brand__primary;
-    padding: 2px 4px;
-    margin-right: 6px;
-    font-family: 'OktaNeue-Black';
-    font-size: 10px;
-    font-weight: 900;
-    line-height: 1.1;
-    letter-spacing: 0.5px;
-    color: $background__primary;
-  }
+
+    &--bg-main {
+        background: url('../../../../assets/img/companies/services.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.8);
+        }
+    }
+
+    &--bg-servers {
+        background: url('../../../../assets/img/companies/servers.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        padding-right: 50px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.7);
+        }
+    }
+
+    &--bg-rooms {
+        background: url('../../../../assets/img/companies/office.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        padding-bottom: 30px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
+    }
+
+    &--bg-secondary {
+        background-color: #3771c4;
+    }
+
+    &--bg-triangle {
+        background-color: $secondary;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 0;
+
+        &::before {
+            position: absolute;
+            top: -155px;
+            right: 0;
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 300px solid transparent;
+            border-bottom: 300px solid transparent;
+            border-right: 300px solid #b9008c;
+        }
+    }
+
+    &:hover {
+        outline: 4px solid $secondary;
+        outline-offset: -3px;
+    }
+
+    &:active {
+        @include button__press;
+        box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0);
+    }
+
+    // logo spectar
+    &__logo {
+        position: relative;
+        z-index: 10;
+        margin: 20px 0 70px 20px;
+
+        &--mb {
+            margin-bottom: 117px;
+        }
+
+        &--mb-more {
+            margin-bottom: 122px;
+        }
+
+        &--mb-less {
+            margin-bottom: 102px;
+        }
+
+        @media screen and (max-width: $small__tablet) {
+            margin: 2px 0 40px 10px;
+            width: 100px;
+        }
+    }
+    // description for spectar company
+    &__desc {
+        position: relative;
+        z-index: 10;
+        margin-left: 30px;
+        margin-right: 150px;
+        padding-bottom: 30px;
+        font-family: 'OktaNeue-Bold';
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.4;
+        color: $background__primary;
+
+        @media screen and (max-width: $small__tablet) {
+            margin-right: 90px;
+            margin-left: 10px;
+            font-size: 22px;
+        }
+    }
+
+    // hashtags
+    &__hashtags {
+        margin-top: 15px;
+        font-family: 'OktaNeue-Black';
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        color: $text__body;
+
+        &--hide {
+            display: none;
+        }
+
+        @media screen and (max-width: $mobile) {
+            margin-bottom: 20px;
+        }
+    }
+    &__label {
+        background-color: $brand__primary;
+        padding: 2px 4px;
+        margin-right: 6px;
+        font-family: 'OktaNeue-Black';
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 1.1;
+        letter-spacing: 0.5px;
+        color: $background__primary;
+    }
 }
