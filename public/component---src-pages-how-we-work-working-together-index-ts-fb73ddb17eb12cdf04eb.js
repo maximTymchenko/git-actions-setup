@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{"8a19":function(n,t,u){"use strict";u.r(t);var w=u("1wgO");u.d(t,"default",(function(){return w.default}))}}]);
-//# sourceMappingURL=component---src-pages-how-we-work-working-together-index-ts-fb73ddb17eb12cdf04eb.js.map

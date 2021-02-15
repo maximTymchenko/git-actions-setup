@@ -20,13 +20,13 @@ const Title: FC = () => {
             </div>
 
             <div className="main-title__desktop-button">
-                <Button type={'watch'} className="button" desc={'Watch now'} icon={triangleRight}>
+                <Button type="watch" desc="Watch now" icon={triangleRight}>
                     Watch now
                 </Button>
             </div>
 
             <div className="main-title__mobile-button">
-                <Button type="circle" className="button" desc={'Watch now'} icon={triangleRight}>
+                <Button type="circle" desc="Watch now" icon={triangleRight}>
                     Watch now
                 </Button>
             </div>

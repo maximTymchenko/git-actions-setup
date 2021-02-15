@@ -47,41 +47,50 @@ $mac__13: 2560px;
 // Mixins
 
 @mixin transition {
-  transition: 0.4s linear all;
+    transition: 0.4s linear all;
 }
 
 @mixin main__padding {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
 @mixin button__press {
-  position: relative;
-  bottom: -3px;
-  right: -3px;
+    position: relative;
+    bottom: -3px;
+    right: -3px;
 }
 
 @mixin section__position {
-  //   max-width: $container__size;
-  max-width: $primary__container;
-  width: 100%;
-  margin: 60px auto 80px;
-  padding: 0 15px;
+    //   max-width: $container__size;
+    max-width: $primary__container;
+    width: 100%;
+    margin: 60px auto 80px;
+    padding: 0 15px;
 }
 
 @mixin section__size {
-  width: 100%;
-  // max-width: $container__size;
-  max-width: $primary__container;
+    width: 100%;
+    // max-width: $container__size;
+    max-width: $primary__container;
 }
 
 @mixin relative__position {
-  position: relative;
-  right: 100px;
+    position: relative;
+    right: 100px;
 }
 
 @mixin border__size {
-  width: 100%;
-  max-width: 504px;
-  height: 100%;
-  max-height: 370px;
+    width: 100%;
+    max-width: 504px;
+    height: 100%;
+    max-height: 370px;
+
+    @media screen and (max-width: $tablet) {
+        max-width: 450px;
+        max-height: 320px;
+    }
+
+    @media screen and (max-width: $small__tablet) {
+        max-width: 660px;
+    }
 }
