@@ -50,6 +50,18 @@
 
     &__container {
         display: flex;
+
+        &--primary {
+            @media screen and (max-width: $tablet) {
+                flex-direction: column;
+
+                & .nav__link {
+                    font-size: 18px;
+                    // margin-bottom: 15px;
+                    text-align: left;
+                }
+            }
+        }
     }
 
     &--mobile {

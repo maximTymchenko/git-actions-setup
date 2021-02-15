@@ -95,7 +95,7 @@ const PrimaryNav: FC = (props: IPropsPrimaryNav) => {
                                     <Nav
                                         // getElemClass={getElemClass}
                                         // linkRef={linkRef}
-                                        type="mobile"
+                                        typeContainer="primary"
                                         keyValue={array.id}
                                         links={array.array}
                                         page={array.page}
