@@ -14,14 +14,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-        @media screen and (max-width: $desktop) {
-            flex-basis: 25%;
-        }
-
-        @media screen and (max-width: $small__desktop) {
-            flex-basis: 30%;
-        }
     }
 
     &__wrapper {
@@ -39,6 +31,12 @@
         width: 100%;
         max-width: 1080px;
 
+        @media screen and (max-width: $small__tablet) {
+            flex-direction: row-reverse;
+            // position: relative;
+            left: 10px;
+        }
+
         &::-webkit-scrollbar {
             height: 5px;
         }
@@ -52,11 +50,6 @@
             background-color: $primary__light;
             border-radius: 20px;
         }
-
-        @media screen and (max-width: $small__desktop) {
-            flex-direction: row-reverse;
-            align-items: flex-end;
-        }
     }
 
     &__dots {
@@ -66,16 +59,16 @@
         cursor: pointer;
         margin-right: 10px;
 
-        &--show {
-            color: $primary__light;
-        }
-
-        @media screen and (max-width: $small__desktop) {
+        @media screen and (max-width: $tablet) {
             margin-left: 10px;
         }
 
-        @media screen and (max-width: $large__tablet) {
+        @media screen and (max-width: $small__tablet) {
             display: none;
+        }
+
+        &--show {
+            color: $primary__light;
         }
     }
 
@@ -86,7 +79,7 @@
         background-color: $secondary;
         margin-bottom: 8px;
 
-        @media screen and (max-width: $large__tablet) {
+        @media screen and (max-width: $small__tablet) {
             display: none;
         }
     }
@@ -115,6 +108,11 @@
         margin-bottom: 7px;
         margin-left: 5px;
 
+        @media screen and (max-width: $small__tablet) {
+            position: relative;
+            top: 7px;
+        }
+
         &--show {
             color: $primary__light;
         }
@@ -130,6 +128,11 @@
         border-bottom: 4px solid transparent;
         // margin-right: 30px;
 
+        @media screen and (max-width: $small__tablet) {
+            position: relative;
+            top: 7px;
+        }
+
         &--show {
             color: $primary__light;
         }
@@ -144,16 +147,7 @@
         border-top: 5px solid $text__body;
         margin-bottom: 10px;
 
-        @media screen and (max-width: $desktop) {
-            position: relative;
-            right: 40px;
-        }
-
-        @media screen and (max-width: $large__tablet) {
-            display: none;
-        }
-
-        @media screen and (max-width: $mobile) {
+        @media screen and (max-width: $small__tablet) {
             display: none;
         }
 
@@ -185,15 +179,7 @@
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-
-        @media screen and (max-width: $tablet) {
-            top: 197px;
-        }
-
-        @media screen and (max-width: $mobile) {
-            top: 143px;
-            overflow-x: scroll;
-        }
+        @include main__padding;
     }
 
     &__buttons {
@@ -205,20 +191,36 @@
     }
 
     &__container {
-        display: flex;
-        // flex-direction: column;
-        justify-content: space-between;
-        width: 100%;
-        max-width: $container__size;
+        // display: flex;
+        // justify-content: space-between;
+        @include section__size;
         height: 100vh;
+
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
 
         margin: 0 auto;
         overflow-y: scroll;
         margin-bottom: 160px;
 
+        @media screen and (max-width: $small__desktop) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media screen and (max-width: $large__tablet) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media screen and (max-width: $small__tablet) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media screen and (max-width: $mobile) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
         &::-webkit-scrollbar {
             width: 8px;
-            // display: none;
         }
 
         &::-webkit-scrollbar-track {
@@ -227,7 +229,6 @@
 
         &::-webkit-scrollbar-thumb {
             background-color: $primary__light;
-            // outline: 1px solid slategrey;
             border-radius: 20px;
         }
     }

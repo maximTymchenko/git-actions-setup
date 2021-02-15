@@ -13,38 +13,26 @@
     &--filter {
         @include main__padding;
 
-        @media screen and (max-width: $desktop) {
+        @media screen and (max-width: $small__desktop) {
             overflow-x: scroll;
             width: 100%;
-            max-width: 800px;
+            max-width: 730px;
+            position: relative;
+            left: 30px;
         }
 
-        @media screen and (max-width: $small__desktop) {
-            // overflow-x: scroll;
-            width: 100%;
-            max-width: 690px;
-            position: relative;
-            right: 50px;
+        @media screen and (max-width: $large__tablet) {
+            max-width: 620px;
         }
 
         @media screen and (max-width: $tablet) {
-            max-width: 590px;
-            right: 60px;
+            max-width: 560px;
         }
 
         @media screen and (max-width: $small__tablet) {
-            max-width: 540px;
-            right: 30px;
-        }
-
-        @media screen and (max-width: $large__mobile) {
-            max-width: 420px;
-        }
-
-        @media screen and (max-width: $mobile) {
-            max-width: 420px;
-            right: -30px;
-            padding-left: 200px;
+            max-width: 500px;
+            left: -5px;
+            top: 10px;
         }
     }
 
@@ -57,7 +45,6 @@
 
                 & .nav__link {
                     font-size: 18px;
-                    // margin-bottom: 15px;
                     text-align: left;
                 }
             }

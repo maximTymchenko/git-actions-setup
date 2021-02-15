@@ -2,8 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'gatsby';
 import './Nav.scss';
 import { INavLinks } from '../PrimaryNav';
-import Button from '../Button';
-import arrLeft from '../../../assets/img/arr-left.png';
 
 const Nav = ({ links, path, type, linkType, typeContainer }) => {
     const [navLinks, setNavLinks] = useState<INavLinks>(links);
@@ -39,9 +37,6 @@ const Nav = ({ links, path, type, linkType, typeContainer }) => {
     return (
         <ul className={`nav nav--${type}`}>
             <div className={`nav__container nav__container--${typeContainer}`}>
-                {/* <Button icon={arrLeft} type="apply">
-                    Back
-                </Button> */}
                 {navLinks.links.map((item, index) => (
                     <Link
                         // ref={linkRef}

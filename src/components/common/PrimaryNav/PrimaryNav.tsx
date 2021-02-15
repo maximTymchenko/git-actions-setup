@@ -1,7 +1,9 @@
 import React, { FC, useState, useEffect, useRef } from 'react';
 import './PrimaryNav.scss';
 import { Link } from 'gatsby';
+import Button from '../Button';
 import Nav from '../Nav';
+import arrLeft from '../../../assets/img/arr-left.png';
 
 export interface INavLinks {
     activeLink: null | any;
@@ -90,6 +92,12 @@ const PrimaryNav: FC = (props: IPropsPrimaryNav) => {
                             ))}
                         </div>
                         <div className="primary-nav__subcategories">
+                            <div className="primary-nav__btn--back">
+                                <Button icon={arrLeft} type="apply--reverse">
+                                    Back
+                                </Button>
+                            </div>
+
                             {props.navLinksArray.links.map((array, index, page) => (
                                 <div key={index} className={toggleActiveClassArr(index)}>
                                     <Nav

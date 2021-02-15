@@ -1,179 +1,192 @@
 @import '../../../styles/vars';
 
 .button {
-  // width: 100%;
-  width: 210px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  font-family: 'OktaNeue-Bold';
-  font-size: 15px;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  @include transition;
-  font-size: 15px;
-  margin-right: 20px;
-  box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
-  padding: 8px;
-  outline: none;
-  border: 2px solid $secondary;
-  color: $secondary;
+    // width: 100%;
+    width: 210px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'OktaNeue-Bold';
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    @include transition;
+    font-size: 15px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
+    padding: 8px;
+    outline: none;
+    border: 2px solid $secondary;
+    color: $secondary;
 }
 
 .button--large {
-  width: 220px;
-  margin: 0 auto;
+    width: 220px;
+    margin: 0 auto;
 }
 
 .button--clear {
-  width: 100px;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  font-family: 'OktaNeue-SemiBold';
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-  color: $text__body;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-family: 'OktaNeue-SemiBold';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: $text__body;
 }
 
 .button--apply {
-  width: 80px;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  font-family: 'OktaNeue-SemiBold';
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-  color: $secondary;
+    width: 80px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-family: 'OktaNeue-SemiBold';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: $secondary;
+
+    &--reverse {
+        flex-direction: row-reverse;
+        width: 80px;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        font-family: 'OktaNeue-SemiBold';
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        color: $secondary;
+    }
 }
 
 .button--mobile {
-  @media screen and (max-width: $large__mobile) {
-    width: 125px;
-    height: 50px;
-  }
+    @media screen and (max-width: $large__mobile) {
+        width: 125px;
+        height: 50px;
+    }
 }
 
 .button--watch {
-  justify-content: flex-start;
-  box-shadow: none;
-  display: flex;
-  align-items: center;
-  background: none;
-  border: none;
-  padding-right: 12px;
+    justify-content: flex-start;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding-right: 12px;
 
-  & img {
-    margin-left: 10px;
-  }
+    & img {
+        margin-left: 10px;
+    }
 
-  @media screen and (max-width: $mobile) {
-    display: none;
-  }
+    @media screen and (max-width: $mobile) {
+        display: none;
+    }
 }
 
 .button--circle {
-  width: 155px;
-  height: 155px;
-  // margin-left: 110px;
-  // margin-bottom: 25px;
-  box-shadow: none;
-  display: flex;
-  align-items: center;
-  background: $background__secondary;
-  border-radius: 50%;
-  border: none;
-  padding-left: 23px;
-  // transition: 0.2s linear all;
-  @include transition;
+    width: 155px;
+    height: 155px;
+    // margin-left: 110px;
+    // margin-bottom: 25px;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    background: $background__secondary;
+    border-radius: 50%;
+    border: none;
+    padding-left: 23px;
+    // transition: 0.2s linear all;
+    @include transition;
 
-  @media screen and (max-width: $mobile) {
-    margin-left: 100px;
-    position: relative;
-    left: -20px;
-  }
+    @media screen and (max-width: $mobile) {
+        margin-left: 100px;
+        position: relative;
+        left: -20px;
+    }
 
-  & img {
-    margin-left: 10px;
-  }
+    & img {
+        margin-left: 10px;
+    }
 
-  &:hover {
-    background-color: $primary__light--70;
-  }
+    &:hover {
+        background-color: $primary__light--70;
+    }
 }
 
 .button--small-circle {
-  width: 110px;
-  height: 110px;
-  margin-left: 80px;
-  justify-content: flex-start;
-  box-shadow: none;
-  display: flex;
-  align-items: center;
-  background: $background__secondary;
-  border-radius: 50%;
-  border: none;
-  padding-left: 20px;
-  // transition: 0.2s linear all;
-  @include transition;
+    width: 110px;
+    height: 110px;
+    margin-left: 80px;
+    justify-content: flex-start;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    background: $background__secondary;
+    border-radius: 50%;
+    border: none;
+    padding-left: 20px;
+    // transition: 0.2s linear all;
+    @include transition;
 
-  & img {
-    margin-left: 10px;
-  }
+    & img {
+        margin-left: 10px;
+    }
 
-  &:hover {
-    background-color: $primary__light--70;
-  }
+    &:hover {
+        background-color: $primary__light--70;
+    }
 }
 
 .button--secondary {
-  background-color: $primary__light;
+    background-color: $primary__light;
 
-  &:hover {
-    background-color: $brand__primary;
-  }
+    &:hover {
+        background-color: $brand__primary;
+    }
 
-  &:active {
-    @include button__press;
-    box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
-    background-color: $primary__dark;
-  }
+    &:active {
+        @include button__press;
+        box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
+        background-color: $primary__dark;
+    }
 }
 
 .button--primary {
-  background-color: $background__primary;
+    background-color: $background__primary;
 
-  &:hover {
-    background-color: $background__secondary;
-  }
+    &:hover {
+        background-color: $background__secondary;
+    }
 
-  &:active {
-    @include button__press;
-    box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
-    background-color: $text__body--light;
-  }
+    &:active {
+        @include button__press;
+        box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
+        background-color: $text__body--light;
+    }
 }
 
 .button--reverse {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 
-  background-color: $background__primary;
+    background-color: $background__primary;
 
-  &:hover {
-    background-color: $background__secondary;
-  }
+    &:hover {
+        background-color: $background__secondary;
+    }
 
-  &:active {
-    @include button__press;
-    box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
-    background-color: $text__body--light;
-  }
+    &:active {
+        @include button__press;
+        box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0);
+        background-color: $text__body--light;
+    }
 }
 
 .button--web-dev {
-  margin: 60px auto 0;
+    margin: 60px auto 0;
 }

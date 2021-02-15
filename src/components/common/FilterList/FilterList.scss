@@ -1,83 +1,83 @@
 @import '../../../styles/vars';
 
 .filter-list {
-  padding-top: 10px;
-  width: 100%;
-  z-index: 11;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 11;
 
-  &__body {
-    margin-right: 70px;
+    &__body {
+        margin-right: 70px;
 
-    &:last-child {
-      margin-right: 0;
+        &:last-child {
+            margin-right: 0;
+        }
     }
-  }
 
-  &__title {
-    font-family: 'OktaNeue-SemiBold';
-    font-size: 17px;
-    font-weight: 600;
-    color: $text;
-    display: block;
-    margin-bottom: 10px;
-  }
+    &__title {
+        font-family: 'OktaNeue-SemiBold';
+        font-size: 17px;
+        font-weight: 600;
+        color: $text;
+        display: block;
+        margin-bottom: 10px;
+    }
 
-  &__check {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
+    &__check {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
 
-  &__label {
-    font-family: 'OktaNeue-Regular';
-    font-size: 15px;
-    color: $text;
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    cursor: pointer;
-    user-select: none;
-    margin-bottom: 20px;
-  }
+    &__label {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        cursor: pointer;
+        user-select: none;
+        margin-bottom: 20px;
+    }
 
-  &__chose {
-    display: flex;
-    flex-direction: column;
-    // margin-bottom: 25px;
-  }
+    &__chose {
+        display: flex;
+        flex-direction: column;
+        // margin-bottom: 25px;
+    }
 
-  &__checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 23px;
-    width: 23px;
-    border: 2px solid $secondary;
-    background-color: #fff;
-  }
+    &__checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 23px;
+        width: 23px;
+        border: 2px solid $secondary;
+        background-color: #fff;
+    }
 }
 
 /* Create the filter-list__checkmark/indicator (hidden when not checked) */
 .filter-list__checkmark:after {
-  content: '';
-  position: absolute;
-  display: none;
+    content: '';
+    position: absolute;
+    display: none;
 }
 
 /* Show the filter-list__checkmark when checked */
 .filter-list__label input:checked ~ .filter-list__checkmark:after {
-  display: block;
+    display: block;
 }
 
 /* Style the filter-list__checkmark/indicator */
 .filter-list__label .filter-list__checkmark:after {
-  left: 6px;
-  top: 1px;
-  width: 8px;
-  height: 15px;
-  border: solid $secondary;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
+    left: 6px;
+    top: 1px;
+    width: 8px;
+    height: 15px;
+    border: solid $secondary;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
 }
