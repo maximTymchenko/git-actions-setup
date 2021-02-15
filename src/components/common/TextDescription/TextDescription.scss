@@ -1,62 +1,61 @@
 @import '../../../styles/vars';
 
 .text-description {
-  font-family: 'OktaNeue-Regular';
-  max-width: 680px;
-  font-size: 18px;
-  line-height: 1.53;
-  color: $text__body;
-
-  &--mb {
-    margin-bottom: 20px;
-  }
-
-  @media screen and (max-width: $mobile) {
-    padding: 0 10px 0 0;
-    font-size: 19px;
-    margin-bottom: 0px;
-  }
-
-  &--subparagraph {
-    margin-left: 25px;
-    margin-bottom: 20px;
-  }
-
-  &--large {
-    font-size: 22px;
-
-    @media screen and (max-width: $mobile) {
-      font-size: 19px;
-      width: 330px;
-    }
-  }
-
-  &--small {
-    font-size: 15px;
-
-    @media screen and (max-width: $mobile) {
-      width: 330px;
-      font-size: 15px;
-    }
-  }
-
-  &--bold {
-    cursor: pointer;
-    font-family: 'OktaNeue-Medium';
-    font-size: 19px;
-    font-weight: 500;
+    font-family: 'OktaNeue-Regular';
+    max-width: 680px;
+    font-size: 18px;
     line-height: 1.53;
-    color: $secondary;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
+    color: $text__body;
 
-  &--dark {
-    font-size: 15px;
-    color: $text;
+    &--mb {
+        margin-bottom: 20px;
+    }
 
     @media screen and (max-width: $mobile) {
-      width: 350px;
+        padding: 0 10px 0 0;
+        margin-bottom: 0px;
     }
-  }
+
+    &--subparagraph {
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    &--large {
+        font-size: 22px;
+
+        @media screen and (max-width: $mobile) {
+            font-size: 19px;
+            width: 330px;
+        }
+    }
+
+    &--small {
+        font-size: 15px;
+
+        @media screen and (max-width: $mobile) {
+            width: 330px;
+            font-size: 15px;
+        }
+    }
+
+    &--bold {
+        cursor: pointer;
+        font-family: 'OktaNeue-Medium';
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 1.53;
+        color: $secondary;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    &--dark {
+        font-size: 15px;
+        color: $text;
+
+        @media screen and (max-width: $mobile) {
+            width: 350px;
+        }
+    }
 }

@@ -155,12 +155,8 @@ body {
                 top: 380px;
             }
 
-            @media screen and (max-width: $small__tablet) {
-                top: 380px;
-            }
-
             @media screen and (max-width: $mobile) {
-                top: 400px;
+                top: 420px;
             }
         }
     }
@@ -184,6 +180,7 @@ body {
         @media screen and (max-width: $small__tablet) {
             top: 150px;
             left: 0;
+            right: 10px;
         }
 
         @media screen and (max-width: $mobile) {
@@ -211,8 +208,6 @@ body {
         &::before {
             content: url('../assets/img/offices/office1.jpg');
             animation: 5s linear 5s change__image;
-            @include border__size;
-            display: block;
         }
 
         &::after {
@@ -220,7 +215,6 @@ body {
             left: 0;
             right: 0;
             bottom: 0;
-
             @include border__size;
             position: absolute;
             z-index: 1;
@@ -232,10 +226,10 @@ body {
     }
 
     &-title__image {
-        width: 100%;
-        max-width: 574px;
-        height: 100%;
-        max-height: 424px;
+        // width: 100%;
+        // max-width: 574px;
+        // height: 100%;
+        // max-height: 424px;
     }
 }
 

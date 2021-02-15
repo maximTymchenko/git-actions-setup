@@ -1,105 +1,103 @@
 @import '../../../styles/vars';
 
 .intellectual-property {
-  @include section__size;
-  margin: $margin__top auto 80px;
-  @include main__padding;
-  position: relative;
-
-  &::after {
-    position: absolute;
-    top: 0px;
-    right: 10px;
-    content: url('../../../assets/img/intellectualProperty/pttrns-combined.svg');
-
-    @media screen and (max-width: $mobile) {
-      display: none;
-    }
-  }
-
-  @media screen and (min-width: $mac__13) {
-    margin: 150px auto 80px;
-  }
-
-  @media screen and (max-width: $desktop) {
-    overflow: hidden;
-    // padding-right: 40px;
-  }
-
-  @media screen and (max-width: $tablet) {
-    margin-left: 0;
-    margin-top: 140px;
-    padding: 0 10px;
-  }
-
-  @media screen and (max-width: $mobile) {
-    background: none;
-    margin-top: 90px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  &__wrapper {
-    background-image: url('../../../assets/img/intellectualProperty/books.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 30px;
+    @include section__size;
+    margin: $margin__top auto 80px;
     @include main__padding;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        content: url('../../../assets/img/intellectualProperty/pttrns-combined.svg');
+
+        @media screen and (max-width: $mobile) {
+            display: none;
+        }
+    }
 
     @media screen and (min-width: $mac__13) {
-      max-width: $container__size;
+        margin: 150px auto 80px;
+    }
 
-      margin: 0 auto 100px;
+    @media screen and (max-width: $desktop) {
+        overflow: hidden;
+        // padding-right: 40px;
+    }
+
+    @media screen and (max-width: $small__tablet) {
+        margin-top: 100px;
     }
 
     @media screen and (max-width: $mobile) {
-      margin-left: 0;
-    }
-  }
-
-  &__text {
-    @include section__size;
-    margin: 0 auto;
-
-    &--margin {
-      margin-right: 15px;
+        background: none;
+        margin-top: 90px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    &--large {
-      padding: 30px 0;
-    }
-  }
+    &__wrapper {
+        background-image: url('../../../assets/img/intellectualProperty/books.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 30px;
+        @include main__padding;
 
-  &__text-wrapper {
-    // display: flex;
-    align-items: center;
+        @media screen and (min-width: $mac__13) {
+            max-width: $container__size;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+            margin: 0 auto 100px;
+        }
 
-    margin: 0 auto 100px;
-    @include section__size;
-    @include main__padding;
-
-    @media screen and (min-width: $mac__13) {
-      margin: 0 auto 100px;
+        @media screen and (max-width: $mobile) {
+            margin-left: 0;
+        }
     }
 
-    @media screen and (max-width: $tablet) {
-      margin-left: 0;
-      padding: 0 10px;
-      flex-direction: column;
-      align-items: flex-start;
+    &__text {
+        @include section__size;
+        margin: 0 auto;
 
-      &:last-child {
-        flex-direction: column-reverse;
-      }
+        &--margin {
+            margin-right: 15px;
+        }
+
+        &--large {
+            padding: 30px 0;
+        }
     }
 
-    @media screen and (max-width: $mobile) {
-      padding: 0 10px;
-      margin-left: 0;
-      flex-direction: column-reverse;
+    &__text-wrapper {
+        // display: flex;
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        margin: 0 auto 100px;
+        @include section__size;
+        @include main__padding;
+
+        @media screen and (min-width: $mac__13) {
+            margin: 0 auto 100px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-left: 0;
+            padding: 0 10px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            &:last-child {
+                flex-direction: column-reverse;
+            }
+        }
+
+        @media screen and (max-width: $mobile) {
+            padding: 0 10px;
+            margin-left: 0;
+            flex-direction: column-reverse;
+        }
     }
-  }
 }

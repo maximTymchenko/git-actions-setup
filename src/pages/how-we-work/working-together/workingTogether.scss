@@ -1,131 +1,131 @@
 @import '../../../styles/vars';
 
 .overflow {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .working-together {
-  // width: 100%;
-  // max-width: $container__size;
-  @include main__padding;
-  margin: $margin__top auto 0;
-
-  @media screen and (min-width: $mac__13) {
-    margin: 80px auto;
-  }
-
-  @media screen and (max-width: $tablet) {
-    margin-top: 130px;
-  }
-
-  @media screen and (max-width: $mobile) {
-    margin-top: 0px;
-  }
-
-  &__img {
-    background-image: url('../../../assets/img/workingTogether/mountains.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom right;
-  }
-
-  &__text {
-    font-family: 'OktaNeue-Regular';
-    font-size: 15px;
-    color: $text__body;
-    margin: 0 auto;
-    display: block;
+    // width: 100%;
     // max-width: $container__size;
-    max-width: $primary__container;
+    @include main__padding;
+    margin: $margin__top auto 0;
+
+    @media screen and (min-width: $mac__13) {
+        margin: 80px auto;
+    }
+
+    @media screen and (max-width: $small__tablet) {
+        margin-top: 100px;
+    }
 
     @media screen and (max-width: $mobile) {
-      margin-left: 0;
+        margin-top: 0px;
     }
 
-    &-wrapper {
-      margin-right: 130px;
-
-      &:last-child {
-        margin-right: 0;
-      }
+    &__img {
+        background-image: url('../../../assets/img/workingTogether/mountains.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom right;
     }
 
-    &-container {
-      background-color: $primary__light--15;
-      padding: 0px 0 15px 0;
-      width: 100%;
-    }
+    &__text {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text__body;
+        margin: 0 auto;
+        display: block;
+        // max-width: $container__size;
+        max-width: $primary__container;
 
-    &-body {
-      padding: 30px 15px 70px;
-      display: flex;
-      margin: 0 auto;
-      @include section__size;
+        @media screen and (max-width: $mobile) {
+            margin-left: 0;
+        }
 
-      @media screen and (max-width: $tablet) {
-        flex-direction: column;
-        padding-bottom: 30px;
-      }
+        &-wrapper {
+            margin-right: 130px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &-container {
+            background-color: $primary__light--15;
+            padding: 0px 0 15px 0;
+            width: 100%;
+        }
+
+        &-body {
+            padding: 30px 15px 70px;
+            display: flex;
+            margin: 0 auto;
+            @include section__size;
+
+            @media screen and (max-width: $tablet) {
+                flex-direction: column;
+                padding-bottom: 30px;
+            }
+        }
+
+        &__body {
+            padding: 0px 15px;
+        }
+
+        &-wrapper {
+            @media screen and (max-width: $tablet) {
+                margin-right: 10px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
     }
 
     &__body {
-      padding: 0px 15px;
+        margin: 50px auto 20px;
+        width: 100%;
+        // max-width: $secondary__size;
+        max-width: $primary__container;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        &--modify {
+            grid-template-columns: 1.2fr 1fr;
+        }
+
+        &-wrapper {
+            //   width: 800px;
+        }
+        @media screen and (min-width: $mac__13) {
+            margin: 0 auto;
+
+            &:first-child {
+                right: 0;
+            }
+        }
+
+        @media screen and (max-width: $tablet) {
+            padding: 0 10px;
+            margin-left: 0;
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: $mobile) {
+            margin-top: 100px;
+            margin-left: 0;
+            padding: 0 10px;
+            flex-wrap: wrap;
+        }
     }
-
-    &-wrapper {
-      @media screen and (max-width: $tablet) {
-        margin-right: 10px;
-      }
-
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-  }
-
-  &__body {
-    margin: 50px auto 20px;
-    width: 100%;
-    // max-width: $secondary__size;
-    max-width: $primary__container;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    &--modify {
-      grid-template-columns: 1.2fr 1fr;
-    }
-
-    &-wrapper {
-      //   width: 800px;
-    }
-    @media screen and (min-width: $mac__13) {
-      margin: 0 auto;
-
-      &:first-child {
-        right: 0;
-      }
-    }
-
-    @media screen and (max-width: $tablet) {
-      padding: 0 10px;
-      margin-left: 0;
-      flex-direction: column;
-    }
-
-    @media screen and (max-width: $mobile) {
-      margin-top: 100px;
-      margin-left: 0;
-      padding: 0 10px;
-      flex-wrap: wrap;
-    }
-  }
 }
 
 .working-together__body {
-  @include main__padding;
+    @include main__padding;
 
-  @media screen and (max-width: $desktop) {
-    flex-direction: column;
-  }
+    @media screen and (max-width: $desktop) {
+        flex-direction: column;
+    }
 }
