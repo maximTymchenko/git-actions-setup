@@ -1,127 +1,129 @@
 @import '../../styles/vars';
 
 .what-we-do {
-  @include section__position;
+    @include section__position;
 
-  &:last-child {
-    margin-top: 50px;
-  }
-
-  @media screen and (min-width: $mac__13) {
-    // @include large__resolution--media;
-  }
-
-  @media screen and (max-width: $tablet) {
-    margin-top: 100px;
-  }
-
-  @media screen and (max-width: $mobile) {
-    margin-left: 0;
-    padding: 0 10px;
-  }
-
-  &__companies {
-    display: flex;
-    margin-bottom: 80px;
-    justify-content: space-between;
-
-    @media screen and (max-width: $tablet) {
-      flex-direction: column;
-      width: 93%;
+    &:last-child {
+        margin-top: 50px;
     }
-
-    @media screen and (max-width: $mobile) {
-      flex-direction: column;
-      gap: 50px;
-    }
-  }
-
-  &__company {
-    margin-right: 20px;
-    @media screen and (max-width: $medium__desktop) {
-      margin-right: 30px;
-    }
-
-    @media screen and (max-width: $tablet) {
-      width: 100%;
-      margin-bottom: 50px;
-    }
-  }
-
-  &__description-wrapper {
-    border-bottom: 2px solid $secondary;
-    display: flex;
-
-    @media screen and (max-width: $small__tablet) {
-      flex-direction: column;
-    }
-  }
-
-  &__tech-icons {
-    position: relative;
 
     @media screen and (min-width: $mac__13) {
-      margin-bottom: 180px;
-    }
-
-    @media screen and (max-width: $mobile) {
-      margin-bottom: 100px;
-    }
-  }
-
-  &__bucket-wrapper {
-    position: absolute;
-    right: -50px;
-    bottom: -160px;
-
-    @media screen and (min-width: $mac__13) {
-      bottom: -150px;
+        // @include large__resolution--media;
     }
 
     @media screen and (max-width: $tablet) {
-      right: 110px;
+        margin-top: 100px;
     }
 
     @media screen and (max-width: $mobile) {
-      right: 10px;
-      bottom: -75px;
-    }
-  }
-
-  &__tech-container {
-    display: flex;
-    margin-bottom: 40px;
-    justify-content: space-between;
-
-    @media screen and (max-width: $mobile) {
-      flex-direction: column;
-    }
-  }
-
-  &__description {
-    max-width: $container__size;
-    width: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-
-    &:first-child {
-      margin-right: 100px;
+        margin-left: 0;
+        padding: 0 10px;
     }
 
-    &::before {
-      position: absolute;
-      z-index: -20;
-      top: -30px;
-      left: -30px;
-      content: url('../../assets/img/subsectionWithDescription/subsection-waves-bg.svg');
+    &__companies {
+        display: flex;
+        margin-bottom: 80px;
+        justify-content: space-between;
 
-      @media screen and (max-width: $mobile) {
-        content: url('../../assets/img/small-waves.svg');
-        top: 0px;
-      }
+        @media screen and (max-width: $tablet) {
+            margin-bottom: 10px;
+
+            flex-direction: column;
+            width: 93%;
+        }
+
+        @media screen and (max-width: $mobile) {
+            flex-direction: column;
+            gap: 50px;
+        }
     }
-  }
+
+    &__company {
+        margin-right: 20px;
+        @media screen and (max-width: $medium__desktop) {
+            margin-right: 30px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+
+    &__description-wrapper {
+        border-bottom: 2px solid $secondary;
+        display: flex;
+
+        @media screen and (max-width: $small__tablet) {
+            flex-direction: column;
+        }
+    }
+
+    &__tech-icons {
+        position: relative;
+
+        @media screen and (min-width: $mac__13) {
+            margin-bottom: 180px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            margin-bottom: 100px;
+        }
+    }
+
+    &__bucket-wrapper {
+        position: absolute;
+        right: -50px;
+        bottom: -160px;
+
+        @media screen and (min-width: $mac__13) {
+            bottom: -150px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            right: 110px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            right: 10px;
+            bottom: -75px;
+        }
+    }
+
+    &__tech-container {
+        display: flex;
+        margin-bottom: 40px;
+        justify-content: space-between;
+
+        @media screen and (max-width: $mobile) {
+            flex-direction: column;
+        }
+    }
+
+    &__description {
+        max-width: $container__size;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        &:first-child {
+            margin-right: 100px;
+        }
+
+        &::before {
+            position: absolute;
+            z-index: -20;
+            top: -30px;
+            left: -30px;
+            content: url('../../assets/img/subsectionWithDescription/subsection-waves-bg.svg');
+
+            @media screen and (max-width: $mobile) {
+                content: url('../../assets/img/small-waves.svg');
+                top: 0px;
+            }
+        }
+    }
 }

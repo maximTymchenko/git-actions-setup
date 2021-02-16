@@ -15,10 +15,6 @@
     width: 100%;
     max-width: 455px;
 
-    @media screen and (max-width: $medium__desktop) {
-        padding-bottom: 50px;
-    }
-
     @media screen and (max-width: $tablet) {
         max-width: 660px;
         margin-right: 15px;
@@ -68,9 +64,9 @@
         margin: 20px 0 60px 20px;
 
         &--secondary {
-            @media screen and (max-width: $medium__desktop) {
-                margin-bottom: 70px;
-            }
+            // @media screen and (max-width: $medium__desktop) {
+            //     margin-bottom: 70px;
+            // }
         }
 
         @media screen and (max-width: $small__tablet) {
@@ -94,9 +90,9 @@
         line-height: 1.4;
         color: $background__primary;
 
-        @media screen and (max-width: $small__tablet) {
-            margin-left: 10px;
+        @media screen and (max-width: $small__desktop) {
             font-size: 22px;
+            line-height: 1.2;
         }
     }
     // hashtags
