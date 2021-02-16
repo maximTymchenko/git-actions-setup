@@ -46,13 +46,17 @@
 
             @media screen and (max-width: $tablet) {
                 content: url('../../../../assets/img/pageHeader/pttrns-dots-small-down.svg');
+                // left: -20px;
+                bottom: -30px;
+                left: -30px;
+                position: relative;
             }
 
-            @media screen and (max-width: $small__tablet) {
-                position: relative;
+            @media screen and (max-width: $mobile) {
+                content: url('../../../../assets/img/pageHeader/pttrns-dots-mob-down.svg');
+
                 top: 30px;
                 left: -35px;
-                z-index: 100;
             }
         }
     }
@@ -68,11 +72,17 @@
             position: relative;
 
             @media screen and (max-width: $tablet) {
-                top: 20px;
+                top: -20px;
                 content: url('../../../../assets/img/pageHeader/pttrns-dots-small-up.svg');
             }
 
             @media screen and (max-width: $small__tablet) {
+                top: -30px;
+                right: -20px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                content: url('../../../../assets/img/pageHeader/pttrns-dots-mob-up.svg');
                 right: -25px;
                 top: -35px;
             }
