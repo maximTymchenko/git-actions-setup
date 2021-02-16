@@ -40,10 +40,20 @@
         //     max-height: 330px;
         // }
 
+        & .bucket__background {
+            @media screen and (max-width: $tablet) {
+                align-self: flex-end;
+            }
+        }
+
         @media screen and (max-width: $tablet) {
-            max-width: 142px;
+            max-width: 665px;
             justify-content: center;
             align-items: center;
+        }
+
+        @media screen and (max-width: $tablet) {
+            // height: 200px;
         }
     }
 
@@ -63,8 +73,21 @@
     }
 
     &--big {
-        width: 320px;
+        width: 100%;
+        max-width: 320px;
         max-height: 400px;
+
+        & .bucket__background {
+            @media screen and (max-width: $tablet) {
+                align-self: flex-end;
+            }
+        }
+
+        @media screen and (max-width: $tablet) {
+            max-width: 665px;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     &:hover {
