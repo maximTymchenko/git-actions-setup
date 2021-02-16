@@ -150,7 +150,7 @@ const whatWeDo: FC = () => {
                     </TextDescription>
                 </div>
                 <div className="what-we-do__companies">
-                    <div className="what-we-do__company">
+                    <div className="what-we-do__company what-we-do__company--large">
                         <LargeCompanyContainer
                             typeBG="bg-main"
                             img={spectar}

@@ -23,18 +23,17 @@
         grid-template-columns: 1fr;
     }
 
-    // @media screen and (max-width: $tablet) {
-    //     margin-bottom: 30px;
-    //     width: 98%;
-    //     margin-right: 15px;
-    // }
-
     @media screen and (max-width: $mobile) {
         margin-right: 0px;
     }
 
     &--large {
-        max-width: 930px;
+        max-width: 900px;
+
+        .large-company-container__desc {
+            margin-right: 270px;
+            max-width: 500px;
+        }
     }
 
     &--bg-main {
@@ -42,6 +41,13 @@
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 5px;
+            }
+        }
 
         &::before {
             content: '';
