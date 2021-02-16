@@ -8,7 +8,7 @@ const Title: FC = () => {
             <div className="main-title__wrapper">
                 <div className="main-title__container">
                     <h2 className="main-title">
-                        Your Superior Team - test <span className="main-title__span">to</span>
+                        Your Superior Team <span className="main-title__span">to</span>
                     </h2>
                 </div>
                 <div className="main-title__animation">
