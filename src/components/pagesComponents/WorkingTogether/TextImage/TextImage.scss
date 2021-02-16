@@ -73,6 +73,14 @@
         // max-height: 497px;
         position: relative;
 
+        @media screen and (max-width: $medium__desktop) {
+            max-width: 450px;
+        }
+
+        @media screen and (max-width: $medium__desktop) {
+            max-width: 400px;
+        }
+
         @media screen and (max-width: $small__desktop) {
             max-width: 850px;
         }
@@ -98,24 +106,28 @@
         }
 
         @media screen and (max-width: $small__mobile) {
-            max-width: 320px;
+            max-width: 300px;
         }
 
         &--relative {
             right: -100px;
             top: 80px;
 
-            @media screen and (max-width: $desktop) {
-                right: -10px;
+            @media screen and (max-width: $small__desktop) {
+                left: 120px;
+                right: 0;
             }
 
             @media screen and (max-width: $tablet) {
-                right: -70px;
+                left: 10px;
             }
 
-            @media screen and (max-width: $mobile) {
-                top: 66px;
-                right: 10px;
+            @media screen and (max-width: $large__tablet) {
+                left: 50px;
+            }
+
+            @media screen and (max-width: $small__mobile) {
+                left: 20px;
             }
         }
 
@@ -138,6 +150,7 @@
         }
 
         &--moved {
+            // max-width: 800px;
         }
 
         &--margin {
