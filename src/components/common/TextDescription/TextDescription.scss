@@ -7,13 +7,16 @@
     line-height: 1.53;
     color: $text__body;
 
-    &--mb {
-        margin-bottom: 20px;
+    @media screen and (max-width: $small__desktop) {
+        max-width: 100%;
     }
 
     @media screen and (max-width: $mobile) {
-        padding: 0 10px 0 0;
-        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    &--mb {
+        margin-bottom: 20px;
     }
 
     &--subparagraph {
@@ -26,7 +29,8 @@
 
         @media screen and (max-width: $mobile) {
             font-size: 19px;
-            width: 330px;
+            // width: 330px;
+            padding-right: 10px;
         }
     }
 
@@ -34,8 +38,9 @@
         font-size: 15px;
 
         @media screen and (max-width: $mobile) {
-            width: 330px;
+            // width: 330px;
             font-size: 15px;
+            padding-right: 10px;
         }
     }
 
@@ -55,7 +60,7 @@
         color: $text;
 
         @media screen and (max-width: $mobile) {
-            width: 350px;
+            // width: 350px;
         }
     }
 }

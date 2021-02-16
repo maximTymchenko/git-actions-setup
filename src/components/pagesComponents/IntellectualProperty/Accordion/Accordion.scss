@@ -9,14 +9,14 @@
         @include main__padding;
         border-bottom: 2px solid $secondary;
 
-        @media screen and (max-width: $tablet) {
-            margin-left: 0;
-        }
+        // @media screen and (max-width: $tablet) {
+        //     margin-left: 0;
+        // }
 
         @media screen and (max-width: $mobile) {
-            max-width: 325px;
-            position: relative;
-            left: 10px;
+            // max-width: 325px;
+            // position: relative;
+            // left: 10px;
         }
     }
 

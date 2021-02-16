@@ -2,17 +2,22 @@
 
 .intellectual-property {
     @include section__size;
-    margin: $margin__top auto 80px;
+    margin: 0 auto 80px;
     @include main__padding;
+    padding-top: $margin__top;
     position: relative;
 
     &::after {
         position: absolute;
-        top: 0px;
+        top: 80px;
         right: 10px;
         content: url('../../../assets/img/intellectualProperty/pttrns-combined.svg');
 
-        @media screen and (max-width: $mobile) {
+        @media screen and (max-width: $small__desktop) {
+            content: url('../../../assets/img/intellectualProperty/pttrns-tablet.svg');
+        }
+
+        @media screen and (max-width: $small__tablet) {
             display: none;
         }
     }
@@ -26,15 +31,12 @@
         // padding-right: 40px;
     }
 
-    @media screen and (max-width: $small__tablet) {
-        margin-top: 100px;
-    }
+    // @media screen and (max-width: $small__tablet) {
+    //     margin-top: 100px;
+    // }
 
     @media screen and (max-width: $mobile) {
         background: none;
-        margin-top: 90px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     &__wrapper {
@@ -66,6 +68,10 @@
         &--large {
             padding: 30px 0;
         }
+
+        @media screen and (max-width: $small__desktop) {
+            margin-bottom: 30px;
+        }
     }
 
     &__text-wrapper {
@@ -79,19 +85,17 @@
         @include section__size;
         @include main__padding;
 
-        @media screen and (min-width: $mac__13) {
-            margin: 0 auto 100px;
+        &--reverse {
+            @media screen and (max-width: $small__desktop) {
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: start;
+                align-items: flex-start;
+            }
         }
 
-        @media screen and (max-width: $tablet) {
-            margin-left: 0;
-            padding: 0 10px;
-            flex-direction: column;
-            align-items: flex-start;
-
-            &:last-child {
-                flex-direction: column-reverse;
-            }
+        @media screen and (max-width: $small__desktop) {
+            grid-template-columns: 1fr;
         }
 
         @media screen and (max-width: $mobile) {

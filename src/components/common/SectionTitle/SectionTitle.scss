@@ -75,6 +75,15 @@
         margin-top: 0px;
     }
 
+    @media screen and (max-width: $small__tablet) {
+        font-size: 46px;
+    }
+
+    @media screen and (max-width: $large__mobile) {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
     @media screen and (max-width: $mobile) {
         font-size: 30px;
     }
@@ -139,8 +148,8 @@
     }
 
     @media screen and (max-width: $tablet) {
-        margin-top: 0px;
-        font-size: 60px;
+        // margin-top: 0px;
+        font-size: 58px;
     }
 
     @media screen and (max-width: $small__tablet) {
@@ -150,7 +159,15 @@
     @media screen and (max-width: $large__mobile) {
         line-height: 50px;
         font-size: 39px;
-        width: 300px;
+        // width: 300px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        font-size: 32px;
+    }
+
+    @media screen and (max-width: $small__mobile) {
+        font-size: 30px;
     }
 }
 
@@ -165,10 +182,17 @@
     font-weight: 300;
     display: block;
 
-    @media screen and (max-width: $mobile) {
-        margin-top: 0px;
-        line-height: 25px;
-        font-size: 26px;
+    @media screen and (max-width: $small__tablet) {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    @media screen and (max-width: $large__mobile) {
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: $small__mobile) {
+        font-size: 18px;
     }
 }
 
