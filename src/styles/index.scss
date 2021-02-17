@@ -340,6 +340,15 @@ body {
     width: 170px;
 }
 
+.link__blog {
+    margin-right: 50px;
+    padding-top: 8px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
 .title__wrapper {
     display: flex;
 

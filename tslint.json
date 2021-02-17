@@ -48,7 +48,8 @@
         "triple-equals": [false],
         "object-literal-shorthand": false,
         "comment-format": [false],
-
+        "no-string-literal": false,
+        "no-eval": false,
         "no-shadowed-variable": [
             false,
             {

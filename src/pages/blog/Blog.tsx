@@ -3,6 +3,7 @@ import './Blog.scss';
 import Header from '../../components/common/Header';
 import Layout from '../../components/layout';
 import BlogHeader from '../../components/pagesComponents/Blog/BlogHeader';
+import BlogFilter from '../../components/pagesComponents/Blog/BlogFilter';
 
 const Blog: FC = () => {
     return (
@@ -14,6 +15,7 @@ const Blog: FC = () => {
                     and lots of resources to help you build, grow, and skyrocket your product or
                     digital side of your business."
                 />
+                <BlogFilter />
             </section>
         </Layout>
     );

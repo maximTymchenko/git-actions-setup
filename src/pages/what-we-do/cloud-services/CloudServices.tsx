@@ -43,7 +43,7 @@ const CloudServices: FC = () => {
     return (
         <Layouts>
             <PageHeader
-                offset={-70}
+                offset={-100}
                 id="services"
                 title="Cloud Services"
                 subtitle="Discover"

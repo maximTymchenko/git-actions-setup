@@ -1,0 +1,29 @@
+@import '../../../../styles/vars';
+
+.blog-filter {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto 0;
+    border-top: 2px solid $section__border;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    &__span {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text__body;
+        display: block;
+        margin-top: 10px;
+    }
+
+    &__list-title {
+        font-family: 'OktaNeue-Black';
+        font-size: 28px;
+        font-weight: 900;
+        color: $text;
+    }
+}
