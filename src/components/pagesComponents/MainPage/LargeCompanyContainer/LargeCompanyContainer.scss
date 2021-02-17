@@ -6,7 +6,9 @@
     cursor: pointer;
     outline: 2px solid $secondary;
     box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0.4);
-    @include transition;
+
+    @include transition__outline;
+    @include transition__shadow;
 
     display: grid;
 
@@ -145,7 +147,7 @@
 
     &:hover {
         outline: 4px solid $secondary;
-        outline-offset: -3px;
+        outline-offset: -2px;
     }
 
     &:active {

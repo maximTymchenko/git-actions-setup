@@ -24,7 +24,6 @@ const Title: FC = () => {
                     Watch now
                 </Button>
             </div>
-
             <div className="main-title__mobile-button">
                 <Button type="circle" desc="Watch now" icon={triangleRight}>
                     Watch now

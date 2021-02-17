@@ -7,7 +7,8 @@
     outline: solid 2px $secondary;
     padding: 30px 35px;
     box-shadow: 7px 7px 1px 1px rgba(57, 156, 203, 0.4);
-    @include transition;
+    @include transition__outline;
+    @include transition__shadow;
     margin-bottom: 25px;
 
     display: flex;

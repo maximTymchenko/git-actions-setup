@@ -48,6 +48,15 @@ $mac__13: 2560px;
 
 @mixin transition {
     transition: 0.4s linear all;
+    // transition: 0.4s linear box-shadow;
+}
+
+@mixin transition__shadow {
+    transition: 0.4s linear box-shadow;
+}
+
+@mixin transition__outline {
+    transition: 0.3s easy-in-out outline;
 }
 
 @mixin main__padding {

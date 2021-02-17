@@ -12,7 +12,7 @@
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    @include transition;
+    @include transition__shadow;
     font-size: 15px;
     margin-right: 20px;
     box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
@@ -101,8 +101,8 @@
     border-radius: 50%;
     border: none;
     padding-left: 23px;
-    // transition: 0.2s linear all;
     @include transition;
+    // @include transition__shadow;
 
     @media screen and (max-width: $mobile) {
         margin-left: 100px;
@@ -131,8 +131,8 @@
     border-radius: 50%;
     border: none;
     padding-left: 20px;
-    // transition: 0.2s linear all;
-    @include transition;
+    // @include transition;
+    @include transition__shadow;
 
     & img {
         margin-left: 10px;

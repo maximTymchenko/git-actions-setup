@@ -50,12 +50,12 @@ const FilterNav: FC = () => {
     const menuLinksServices: INavLinks = {
         activeLink: null,
         links: [
-            { id: 1, title: 'Web development' },
-            { id: 2, title: 'Cloud services' },
-            { id: 3, title: 'Research' },
-            { id: 4, title: 'Analytics' },
-            { id: 5, title: 'Quality control' },
-            { id: 6, title: 'Mobile development' },
+            { id: 1, title: 'Web development', page: '/what-we-do/web-development/' },
+            { id: 2, title: 'Cloud services', page: '/what-we-do/cloud-services/' },
+            { id: 3, title: 'Team extension', page: '/what-we-do/team-extension/' },
+            { id: 4, title: 'AR & VR', page: '/what-we-do/ar-&-vr/' },
+            { id: 5, title: 'Retail & E-commerce', page: '/what-we-do/retaile-and-e-commerce/' },
+            { id: 6, title: 'Mobile development', page: '/what-we-do/mobile-development/' },
         ],
     };
 

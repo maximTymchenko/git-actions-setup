@@ -143,7 +143,6 @@ class NewFilter extends Component {
         if (this.state.dotsType) {
             //   this.setState({ showFilter: false })
             this.setState({ dotsType: false });
-            console.log(this.navRef);
         } else {
             this.setState({ dotsType: true });
             this.setState({ showFilter: false });
