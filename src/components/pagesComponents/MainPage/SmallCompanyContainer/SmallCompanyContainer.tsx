@@ -9,12 +9,15 @@ interface ISmallCompanyProps {
     type?: string;
     hide?: string;
     logoType?: string;
+    size?: string;
 }
 
 const SmallCompanyContainer: FC = (props: ISmallCompanyProps) => {
     return (
         <div data-testid="small-company-container" className="small-company-container__wrapper">
-            <div className={`small-company-container small-company-container--${props.type}`}>
+            <div
+                className={`small-company-container small-company-container--${props.type} small-company-container--${props.size}`}
+            >
                 <img
                     className={`small-company-container__logo small-company-container__logo--${props.logoType}`}
                     src={props.img}

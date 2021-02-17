@@ -32,7 +32,7 @@ const BlogHeader: FC = (props: IBlogHEaderProps) => {
     const [inputData, setInputData] = useState<string>('');
     const [emailType, setEmailType] = useState<boolean>(false);
 
-    const getData = (val: object) => {
+    const getData = (val: EventTarget | null) => {
         setInputData(val.target.value);
 
         if (typeof inputData !== 'string') {
@@ -82,10 +82,11 @@ const BlogHeader: FC = (props: IBlogHEaderProps) => {
                         Check email
                     </span>
                 </div>
-
-                <Button icon={arrowRight} type="secondary">
-                    Subscribe
-                </Button>
+                <div className="blog-header__button">
+                    <Button icon={arrowRight} type="secondary">
+                        Subscribe
+                    </Button>
+                </div>
             </form>
         </div>
     );

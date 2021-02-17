@@ -1,6 +1,22 @@
 @import '../../styles/vars';
 
 .blog {
-    // @include section__size;
     margin: 100px auto;
+
+    &__cards {
+        @include section__size;
+        margin: 0 auto;
+        border-top: 2px solid $secondary;
+
+        &-wrapper {
+            display: flex;
+            margin-top: 30px;
+        }
+    }
+
+    &__card {
+        &:first-child {
+            margin-right: 30px;
+        }
+    }
 }
