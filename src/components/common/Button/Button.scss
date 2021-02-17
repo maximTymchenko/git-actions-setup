@@ -100,7 +100,7 @@
     background: $background__secondary;
     border-radius: 50%;
     border: none;
-    padding-left: 23px;
+    padding-left: 25px;
     @include transition;
     // @include transition__shadow;
 
@@ -131,8 +131,8 @@
     border-radius: 50%;
     border: none;
     padding-left: 20px;
-    // @include transition;
-    @include transition__shadow;
+    @include transition;
+    // @include transition__shadow;
 
     & img {
         margin-left: 10px;

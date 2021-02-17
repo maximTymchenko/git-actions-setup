@@ -1,0 +1,6 @@
+@import '../../styles/vars';
+
+.blog {
+    @include section__size;
+    margin: 100px auto;
+}

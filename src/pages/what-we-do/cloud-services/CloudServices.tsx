@@ -16,6 +16,7 @@ import TextSpan from '../../../components/pagesComponents/MainPage/TextSpan';
 import Button from '../../../components/common/Button';
 import arrowRight from '../../../assets/img/arr-right.svg';
 import Filter from '../../../components/common/Filter';
+import { Link } from 'gatsby';
 
 import './CloudServices.scss';
 
@@ -116,15 +117,17 @@ const CloudServices: FC = () => {
                             />
                         </div>
                     </div>
-                    <Button
-                        subtype="web-dev"
-                        icon={arrowRight}
-                        type="primary"
-                        desc="Read more on the blog"
-                        subtype="large"
-                    >
-                        Read more on the blog
-                    </Button>
+                    <Link to="/blog/">
+                        <Button
+                            subtype="web-dev"
+                            icon={arrowRight}
+                            type="primary"
+                            desc="Read more on the blog"
+                            subtype="large"
+                        >
+                            Read more on the blog
+                        </Button>
+                    </Link>
                 </div>
                 <TextSpan type="large-screen" title="Shall we chat quickly?">
                     Even a 5-minute intro call could potentially save you countless hours of endless

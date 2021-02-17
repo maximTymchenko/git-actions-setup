@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b262a6bc-8d72-43e8-ad8f-1bb544860bb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/pagesComponents/WhatWeDo/PageHeader/PageHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagesComponents/WhatWeDo/PageHeader/PageHeader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/async-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/async-requires.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/redux/redux.node.state_0" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redux/redux.node.state_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/redux/redux.rest.state" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redux/redux.rest.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/sync-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/sync-requires.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/what-we-do/ar-&amp;-vr/ArVr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/what-we-do/ar-&amp;-vr/ArVr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/what-we-do/cloud-services/CloudServices.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/what-we-do/cloud-services/CloudServices.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/what-we-do/mobile-development/MobileDevelopment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/what-we-do/mobile-development/MobileDevelopment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/what-we-do/retail-and-e-commerce/RetailAndEcommerce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/what-we-do/retail-and-e-commerce/RetailAndEcommerce.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/what-we-do/team-extension/TeamExtension.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/what-we-do/team-extension/TeamExtension.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/what-we-do/web-development/webDevelopment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/what-we-do/web-development/webDevelopment.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oWmffZL4bcEXmwA3oUqEckyW9Q" />
   <component name="ProjectViewState">
@@ -18,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b262a6bc-8d72-43e8-ad8f-1bb544860bb7" name="Default Changelist" comment="" />

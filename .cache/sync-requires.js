@@ -8,6 +8,8 @@ exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/.cache/dev-404-page.js"))),
   "component---src-pages-acknowledgement-and-acceptance-acknowledgement-and-acceptance-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/acknowledgement-and-acceptance/acknowledgementAndAcceptance.tsx"))),
   "component---src-pages-acknowledgement-and-acceptance-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/acknowledgement-and-acceptance/index.ts"))),
+  "component---src-pages-blog-blog-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/Blog.tsx"))),
+  "component---src-pages-blog-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/index.ts"))),
   "component---src-pages-contact-us-contact-us-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/contact-us/contactUs.tsx"))),
   "component---src-pages-contact-us-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/contact-us/index.ts"))),
   "component---src-pages-how-we-work-how-we-work-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/how-we-work/howWeWork.tsx"))),
