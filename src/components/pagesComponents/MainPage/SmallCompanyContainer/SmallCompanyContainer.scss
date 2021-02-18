@@ -61,6 +61,20 @@
         }
     }
 
+    &--bg-server-connect {
+        background-image: url('../../../../assets/img/companies/server-connect.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
+
+    &--bg-building {
+        background-image: url('../../../../assets/img/companies/building.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
+
     @media screen and (max-width: $mobile) {
         width: 100%;
     }
@@ -71,10 +85,8 @@
         z-index: 10;
         margin: 20px 0 60px 20px;
 
-        &--secondary {
-            // @media screen and (max-width: $medium__desktop) {
-            //     margin-bottom: 70px;
-            // }
+        &--hide {
+            display: none;
         }
 
         @media screen and (max-width: $small__tablet) {

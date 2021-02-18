@@ -40,6 +40,10 @@
         }
     }
 
+    &--largest {
+        max-width: 1080px;
+    }
+
     &--bg-main {
         background: url('../../../../assets/img/companies/services.jpeg');
         background-repeat: no-repeat;
@@ -114,6 +118,106 @@
         }
     }
 
+    &--bg-code {
+        background: url('../../../../assets/img/companies/code.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
+    }
+
+    &--bg-server-room {
+        background: url('../../../../assets/img/companies/servers-room.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
+    }
+
+    &--bg-desktop {
+        background: url('../../../../assets/img/companies/desktop.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.4);
+        }
+    }
+
+    &--bg-phones {
+        background: url('../../../../assets/img/companies/Phones.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.5);
+        }
+    }
+
     &--bg-secondary {
         background-color: #3771c4;
     }
@@ -160,6 +264,10 @@
         position: relative;
         z-index: 10;
         margin: 20px 0 70px 20px;
+
+        &--hide {
+            display: none;
+        }
 
         &--mb {
             margin-bottom: 117px;
