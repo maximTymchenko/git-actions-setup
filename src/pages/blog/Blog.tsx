@@ -23,6 +23,8 @@ const Blog: FC = () => {
                     <div className="blog__cards-wrapper">
                         <div className="blog__card">
                             <LargeCompanyContainer
+                                readtime="9 min read"
+                                date="Feb 27, 2013"
                                 logoPos="hide"
                                 typeBG="bg-server-room"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
@@ -32,6 +34,7 @@ const Blog: FC = () => {
                         </div>
                         <div className="blog__card">
                             <SmallCompanyContainer
+                                readtime="9 min read"
                                 type="bg-server-connect"
                                 size="blog"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
@@ -46,6 +49,8 @@ const Blog: FC = () => {
                     <div className="blog__cards-wrapper">
                         <div className="blog__card">
                             <LargeCompanyContainer
+                                readtime="9 min read"
+                                date="Feb 27, 2013"
                                 typeBG="bg-desktop"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash "
                                 label="EDITORIAL"
@@ -55,6 +60,8 @@ const Blog: FC = () => {
                         </div>
                         <div className="blog__card">
                             <LargeCompanyContainer
+                                date="Feb 27, 2013"
+                                readtime="9 min read"
                                 typeBG="bg-phones"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash "
                                 label="EDITORIAL"
@@ -64,6 +71,8 @@ const Blog: FC = () => {
                         </div>
                     </div>
                     <LargeCompanyContainer
+                        date="Feb 27, 2013"
+                        readtime="9 min read"
                         typeBG="bg-code"
                         description="This is how to migrate from AWS to Google Cloud and save some serious cash "
                         // hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
@@ -74,6 +83,8 @@ const Blog: FC = () => {
                     <div className="blog__cards-wrapper">
                         <div className="blog__card">
                             <SmallCompanyContainer
+                                date="Feb 27, 2013"
+                                readtime="9 min read"
                                 type="bg-building"
                                 size="blog"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
@@ -84,6 +95,8 @@ const Blog: FC = () => {
                         </div>
                         <div className="blog__card">
                             <LargeCompanyContainer
+                                date="Feb 27, 2013"
+                                readtime="9 min read"
                                 typeBG="bg-rooms"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
                                 label="EDITORIAL"

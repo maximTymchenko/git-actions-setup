@@ -286,6 +286,45 @@
             width: 100px;
         }
     }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+    }
+
+    &__time {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    &__date {
+        opacity: 0.88;
+        font-family: 'OktaNeue-Black';
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 1.1;
+        letter-spacing: 0.5px;
+        text-align: right;
+        color: $background__primary;
+        margin-bottom: 6px;
+    }
+
+    &__readtime {
+        opacity: 0.88;
+        font-family: 'OktaNeue-Bold';
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.71;
+        text-align: right;
+        color: $background__primary;
+    }
+
     // description for spectar company
     &__desc {
         position: relative;
