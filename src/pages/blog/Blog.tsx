@@ -31,6 +31,7 @@ const Blog: FC = () => {
                                 typeBG="bg-server-room"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
                                 label="EDITORIAL"
+                                labelType="editorial"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
@@ -44,6 +45,7 @@ const Blog: FC = () => {
                                 logoType="secondary"
                                 label="EDITORIAL"
                                 logoType="hide"
+                                labelType="editorial"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
@@ -57,6 +59,7 @@ const Blog: FC = () => {
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash "
                                 label="EDITORIAL"
                                 logoPos="hide"
+                                labelType="editorial"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
@@ -67,6 +70,7 @@ const Blog: FC = () => {
                                 typeBG="bg-phones"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash "
                                 label="EDITORIAL"
+                                labelType="editorial"
                                 logoPos="hide"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
@@ -81,6 +85,7 @@ const Blog: FC = () => {
                         size="largest"
                         label="EDITORIAL"
                         logoPos="hide"
+                        labelType="editorial"
                     />
                     <div className="blog__cards-wrapper">
                         <div className="blog__card">
@@ -92,6 +97,7 @@ const Blog: FC = () => {
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
                                 logoType="hide"
                                 label="EDITORIAL"
+                                labelType="editorial"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>

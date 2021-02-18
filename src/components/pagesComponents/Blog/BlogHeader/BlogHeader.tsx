@@ -18,7 +18,7 @@ const BlogHeader: FC = (props: IBlogHEaderProps) => {
         links: [
             { id: 1, title: 'Latest', page: '/blog/' },
             { id: 2, title: 'Editorial', page: '/blog/editorial' },
-            { id: 3, title: 'Whitepapers', page: '//' },
+            { id: 3, title: 'Whitepapers', page: '/blog/whitepapers' },
             { id: 4, title: 'Videos', page: '//' },
             { id: 5, title: 'Resources', page: '//' },
             {

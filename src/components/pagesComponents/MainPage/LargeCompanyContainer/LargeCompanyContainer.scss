@@ -168,6 +168,106 @@
         }
     }
 
+    &--bg-agile {
+        background: url('../../../../assets/img/companies/agile.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
+    }
+
+    &--bg-retail {
+        background: url('../../../../assets/img/companies/retail.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
+    }
+
+    &--bg-ai {
+        background: url('../../../../assets/img/companies/ai.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
+    }
+
+    &--bg-data {
+        background: url('../../../../assets/img/companies/data.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
+    }
+
     &--bg-desktop {
         background: url('../../../../assets/img/companies/desktop.jpg');
         background-repeat: no-repeat;
@@ -379,5 +479,14 @@
         line-height: 1.1;
         letter-spacing: 0.5px;
         color: $background__primary;
+
+        &--editorial {
+            background-color: $text__body;
+        }
+
+        &--whitepaper {
+            color: $text__body;
+            background-color: $color__confirmation;
+        }
     }
 }

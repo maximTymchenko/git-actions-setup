@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-import './Editorial.scss';
 import Layout from '../../../components/layout';
 import BlogHeader from '../../../components/pagesComponents/Blog/BlogHeader';
 import BlogFilter from '../../../components/pagesComponents/Blog/BlogFilter';
@@ -8,37 +7,40 @@ import SmallCompanyContainer from '../../../components/pagesComponents/MainPage/
 import Button from '../../../components/common/Button';
 import arrDown from '../../../assets/img/arr-down.png';
 import BlogVideo from '../../../components/pagesComponents/Blog/BlogVideo';
-import video from '../../../assets/video/aws-video.mp4';
-import videoMeeting from '../../../assets/video/meeting_video.mp4';
 
-const Editorial: FC = () => {
+const Whitepapers = () => {
     return (
         <Layout>
             <section className="blog">
                 <BlogHeader
-                    blogTitle="Editorial"
-                    blogSubtitle="Our top picks of industry news, practices, product development tips and tricks, advice from successful product and business owners. Subscribe for more product news and inspiration."
+                    blogTitle="Whitepapers"
+                    blogSubtitle="Amazing whitepapers that are made together by both our team best specialists, proven market leaders and top experts. Subscribe and get all whitepapers and other reports to your inbox."
                 />
                 <BlogFilter />
                 <div className="blog__cards">
                     <div className="blog__cards-wrapper">
                         <div className="blog__card">
-                            <BlogVideo
-                                videoDesc="Overview of updated AWS"
-                                video={video}
-                                videoPos="aws"
+                            <LargeCompanyContainer
+                                labelType="whitepaper"
+                                readtime="9 min read"
+                                date="Feb 27, 2013"
+                                logoPos="hide"
+                                typeBG="bg-agile"
+                                description="The State of Conversational AI and Consumer Trust"
+                                label="WHITEPAPER"
+                                hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                         <div className="blog__card">
                             <SmallCompanyContainer
-                                labelType="editorial"
+                                labelType="whitepaper"
                                 readtime="9 min read"
                                 date="Feb 27, 2013"
-                                type="bg-server-connect"
+                                type="bg-db"
                                 size="blog"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
                                 logoType="secondary"
-                                label="EDITORIAL"
+                                label="WHITEPAPER"
                                 logoType="hide"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
@@ -47,24 +49,24 @@ const Editorial: FC = () => {
                     <div className="blog__cards-wrapper">
                         <div className="blog__card">
                             <LargeCompanyContainer
-                                labelType="editorial"
+                                labelType="whitepaper"
                                 readtime="9 min read"
                                 date="Feb 27, 2013"
-                                typeBG="bg-desktop"
+                                typeBG="bg-data"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash "
-                                label="EDITORIAL"
+                                label="WHITEPAPER"
                                 logoPos="hide"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                         <div className="blog__card">
                             <LargeCompanyContainer
-                                labelType="editorial"
                                 date="Feb 27, 2013"
                                 readtime="9 min read"
-                                typeBG="bg-phones"
+                                labelType="whitepaper"
+                                typeBG="bg-ai"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash "
-                                label="EDITORIAL"
+                                label="WHITEPAPER"
                                 logoPos="hide"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
@@ -72,33 +74,39 @@ const Editorial: FC = () => {
                     </div>
                     <LargeCompanyContainer
                         date="Feb 27, 2013"
-                        labelType="editorial"
                         readtime="9 min read"
+                        labelType="whitepaper"
                         typeBG="bg-code"
                         description="This is how to migrate from AWS to Google Cloud and save some serious cash "
                         hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                         size="largest"
-                        label="EDITORIAL"
+                        label="WHITEPAPER"
                         logoPos="hide"
                     />
                     <div className="blog__cards-wrapper">
                         <div className="blog__card">
                             <SmallCompanyContainer
-                                labelType="editorial"
                                 date="Feb 27, 2013"
+                                labelType="whitepaper"
                                 readtime="9 min read"
-                                type="bg-building"
+                                type="bg-blockchain"
                                 size="blog"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
                                 logoType="hide"
-                                label="EDITORIAL"
+                                label="WHITEPAPER"
                                 hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                         <div className="blog__card">
-                            <BlogVideo
-                                videoDesc="Hiring the best possible engineers"
-                                video={videoMeeting}
+                            <LargeCompanyContainer
+                                readtime="9 min read"
+                                labelType="whitepaper"
+                                date="Feb 27, 2013"
+                                logoPos="hide"
+                                typeBG="bg-retail"
+                                description="Hiring the best possible engineers"
+                                label="WHITEPAPER"
+                                hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                     </div>
@@ -113,4 +121,4 @@ const Editorial: FC = () => {
     );
 };
 
-export default Editorial;
+export default Whitepapers;

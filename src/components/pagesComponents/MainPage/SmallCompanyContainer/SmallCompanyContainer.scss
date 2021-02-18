@@ -66,6 +66,17 @@
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
     }
 
     &--bg-building {
@@ -73,6 +84,53 @@
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.3);
+        }
+    }
+
+    &--bg-blockchain {
+        background-image: url('../../../../assets/img/companies/blockchain.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.5);
+        }
+    }
+
+    &--bg-db {
+        background-image: url('../../../../assets/img/companies/db.jpeg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(74, 85, 94, 0.5);
+        }
     }
 
     @media screen and (max-width: $mobile) {
@@ -178,7 +236,6 @@
     }
     &__label {
         background-color: $brand__primary;
-        padding: 2px 4px;
         margin-right: 6px;
         font-family: 'OktaNeue-Black';
         font-size: 10px;
@@ -186,9 +243,20 @@
         line-height: 1.1;
         letter-spacing: 0.5px;
         color: $background__primary;
+        // display: block;
         display: inline-block;
         padding: 2px 3px;
         height: 17px;
+        // width: 85px;
+
+        &--editorial {
+            background-color: $text__body;
+        }
+
+        &--whitepaper {
+            color: $text__body;
+            background-color: $color__confirmation;
+        }
     }
 
     &__footer {

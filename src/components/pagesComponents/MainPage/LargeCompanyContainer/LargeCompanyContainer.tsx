@@ -13,6 +13,7 @@ interface ILargeCompanyProps {
     logoPos: string;
     date?: string;
     readtime: string;
+    labelType: string;
 }
 
 const LargeCompanyContainer: FC = (props: ILargeCompanyProps) => {
@@ -37,7 +38,11 @@ const LargeCompanyContainer: FC = (props: ILargeCompanyProps) => {
             <p
                 className={`large-company-container__hashtags large-company-container__hashtags--${props.hide}`}
             >
-                <span className="large-company-container__label">{props.label}</span>
+                <span
+                    className={`large-company-container__label large-company-container__label--${props.labelType}`}
+                >
+                    {props.label}
+                </span>
                 {props.hashtags}
             </p>
         </div>

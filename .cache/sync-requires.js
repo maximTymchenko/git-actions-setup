@@ -12,6 +12,8 @@ exports.components = {
   "component---src-pages-blog-editorial-editorial-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/editorial/Editorial.tsx"))),
   "component---src-pages-blog-editorial-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/editorial/index.ts"))),
   "component---src-pages-blog-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/index.ts"))),
+  "component---src-pages-blog-whitepapers-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/whitepapers/index.ts"))),
+  "component---src-pages-blog-whitepapers-whitepapers-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/whitepapers/Whitepapers.tsx"))),
   "component---src-pages-contact-us-contact-us-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/contact-us/contactUs.tsx"))),
   "component---src-pages-contact-us-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/contact-us/index.ts"))),
   "component---src-pages-how-we-work-how-we-work-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/how-we-work/howWeWork.tsx"))),

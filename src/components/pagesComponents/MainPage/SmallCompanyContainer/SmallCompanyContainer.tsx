@@ -12,6 +12,7 @@ interface ISmallCompanyProps {
     size?: string;
     readtime?: string;
     date?: string;
+    labelType: string;
 }
 
 const SmallCompanyContainer: FC = (props: ISmallCompanyProps) => {
@@ -34,10 +35,15 @@ const SmallCompanyContainer: FC = (props: ISmallCompanyProps) => {
                 <p className="small-company-container__desc">{props.description}</p>
             </div>
             <div className="small-company-container__footer">
-                <span className="small-company-container__label">{props.label}</span>
                 <p
                     className={`small-company-container__hashtags small-company-container__hashtags--${props.hide}`}
                 >
+                    <span
+                        className={`small-company-container__label small-company-container__label--${props.labelType}`}
+                    >
+                        {props.label}
+                    </span>
+
                     {props.hashtags}
                 </p>
             </div>
