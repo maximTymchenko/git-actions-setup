@@ -60,6 +60,11 @@
 
         display: grid;
         grid-template-columns: 1fr;
+
+        &--large {
+            width: 1080px;
+            height: 400px;
+        }
     }
 
     &__head {

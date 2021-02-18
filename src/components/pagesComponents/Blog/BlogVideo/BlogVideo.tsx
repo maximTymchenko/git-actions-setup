@@ -8,6 +8,7 @@ interface IVideoBlogProps {
     videoDesc: string;
     video: video;
     videoPos: string;
+    size: string;
 }
 
 const BlogVideo: FC = (props: IVideoBlogProps) => {
@@ -23,7 +24,7 @@ const BlogVideo: FC = (props: IVideoBlogProps) => {
                         loop
                     />
                 </div>
-                <div className="blog-video__content">
+                <div className={`blog-video__content blog-video__content--${props.size}`}>
                     <div className="blog-video__head">
                         <Button type="watch" desc="Watch now" icon={triangleRight}>
                             Watch now
