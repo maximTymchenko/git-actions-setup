@@ -7,6 +7,8 @@ import LargeCompanyContainer from '../../components/pagesComponents/MainPage/Lar
 import SmallCompanyContainer from '../../components/pagesComponents/MainPage/SmallCompanyContainer';
 import Button from '../../components/common/Button';
 import arrDown from '../../assets/img/arr-down.png';
+import BlogVideo from '../../components/pagesComponents/Blog/BlogVideo';
+import video from '../../assets/video/meeting_video.mp4';
 
 const Blog: FC = () => {
     return (
@@ -29,11 +31,12 @@ const Blog: FC = () => {
                                 typeBG="bg-server-room"
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
                                 label="EDITORIAL"
-                                // hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                                hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                         <div className="blog__card">
                             <SmallCompanyContainer
+                                date="Feb 27, 2013"
                                 readtime="9 min read"
                                 type="bg-server-connect"
                                 size="blog"
@@ -41,8 +44,7 @@ const Blog: FC = () => {
                                 logoType="secondary"
                                 label="EDITORIAL"
                                 logoType="hide"
-
-                                // hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                                hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                     </div>
@@ -55,7 +57,7 @@ const Blog: FC = () => {
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash "
                                 label="EDITORIAL"
                                 logoPos="hide"
-                                // hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                                hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                         <div className="blog__card">
@@ -66,7 +68,7 @@ const Blog: FC = () => {
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash "
                                 label="EDITORIAL"
                                 logoPos="hide"
-                                // hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                                hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                     </div>
@@ -75,7 +77,7 @@ const Blog: FC = () => {
                         readtime="9 min read"
                         typeBG="bg-code"
                         description="This is how to migrate from AWS to Google Cloud and save some serious cash "
-                        // hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                        hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                         size="largest"
                         label="EDITORIAL"
                         logoPos="hide"
@@ -90,18 +92,13 @@ const Blog: FC = () => {
                                 description="This is how to migrate from AWS to Google Cloud and save some serious cash"
                                 logoType="hide"
                                 label="EDITORIAL"
-                                // hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                                hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
                             />
                         </div>
                         <div className="blog__card">
-                            <LargeCompanyContainer
-                                date="Feb 27, 2013"
-                                readtime="9 min read"
-                                typeBG="bg-rooms"
-                                description="This is how to migrate from AWS to Google Cloud and save some serious cash"
-                                label="EDITORIAL"
-                                logoPos="hide"
-                                // hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                            <BlogVideo
+                                videoDesc="Hiring the best possible engineers"
+                                video={video}
                             />
                         </div>
                     </div>

@@ -9,6 +9,8 @@ exports.components = {
   "component---src-pages-acknowledgement-and-acceptance-acknowledgement-and-acceptance-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/acknowledgement-and-acceptance/acknowledgementAndAcceptance.tsx"))),
   "component---src-pages-acknowledgement-and-acceptance-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/acknowledgement-and-acceptance/index.ts"))),
   "component---src-pages-blog-blog-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/Blog.tsx"))),
+  "component---src-pages-blog-editorial-editorial-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/editorial/Editorial.tsx"))),
+  "component---src-pages-blog-editorial-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/editorial/index.ts"))),
   "component---src-pages-blog-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/index.ts"))),
   "component---src-pages-contact-us-contact-us-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/contact-us/contactUs.tsx"))),
   "component---src-pages-contact-us-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/contact-us/index.ts"))),

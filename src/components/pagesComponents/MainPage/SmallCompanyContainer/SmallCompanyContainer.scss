@@ -101,7 +101,7 @@
         max-width: 600px;
         position: relative;
         z-index: 10;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-right: 26px;
         font-family: 'OktaNeue-Bold';
         font-size: 26px;
@@ -163,12 +163,14 @@
     }
     // hashtags
     &__hashtags {
-        margin-top: 15px;
+        // margin-top: 15px;
         font-family: 'OktaNeue-Black';
         font-size: 11px;
         font-weight: 900;
         letter-spacing: 1px;
         color: $text__body;
+        display: inline-block;
+        max-width: 400px;
 
         &--hide {
             display: none;
@@ -184,5 +186,13 @@
         line-height: 1.1;
         letter-spacing: 0.5px;
         color: $background__primary;
+        display: inline-block;
+        padding: 2px 3px;
+        height: 17px;
+    }
+
+    &__footer {
+        display: flex;
+        margin-top: 15px;
     }
 }

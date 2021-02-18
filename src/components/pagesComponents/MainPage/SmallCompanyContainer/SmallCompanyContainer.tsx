@@ -33,12 +33,14 @@ const SmallCompanyContainer: FC = (props: ISmallCompanyProps) => {
                 </div>
                 <p className="small-company-container__desc">{props.description}</p>
             </div>
-            <p
-                className={`small-company-container__hashtags small-company-container__hashtags--${props.hide}`}
-            >
+            <div className="small-company-container__footer">
                 <span className="small-company-container__label">{props.label}</span>
-                {props.hashtags}
-            </p>
+                <p
+                    className={`small-company-container__hashtags small-company-container__hashtags--${props.hide}`}
+                >
+                    {props.hashtags}
+                </p>
+            </div>
         </div>
     );
 };
