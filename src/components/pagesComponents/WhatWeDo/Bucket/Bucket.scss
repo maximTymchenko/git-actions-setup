@@ -41,16 +41,16 @@
                 position: relative;
                 bottom: 30px;
             }
+
+            @media screen and (max-width: $mobile) {
+                bottom: 10px;
+            }
         }
 
         @media screen and (max-width: $tablet) {
             max-width: 630px;
             justify-content: center;
             align-items: center;
-        }
-
-        @media screen and (max-width: $tablet) {
-            // height: 200px;
         }
     }
 
@@ -79,6 +79,10 @@
                 align-self: flex-end;
                 position: relative;
                 bottom: 50px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                bottom: 30px;
             }
         }
 
