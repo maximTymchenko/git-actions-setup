@@ -365,6 +365,10 @@
         z-index: 10;
         margin: 20px 0 70px 20px;
 
+        width: 160px;
+        position: relative;
+        bottom: 30px;
+
         &--hide {
             display: none;
         }
@@ -381,7 +385,17 @@
             margin-bottom: 102px;
         }
 
-        @media screen and (max-width: $small__tablet) {
+        @media screen and (max-width: $small__desktop) {
+            width: 140px;
+        }
+
+        @media screen and (max-width: $large__tablet) {
+            width: 120px;
+            // position: relative;
+            // bottom: 40px;
+        }
+
+        @media screen and (max-width: $tablet) {
             margin: 2px 0 40px 10px;
             width: 100px;
         }
