@@ -2,6 +2,7 @@
 
 .blog {
     margin: 100px auto 80px;
+    @include main__padding;
 
     &__cards {
         @include section__size;
@@ -11,6 +12,10 @@
         &-wrapper {
             display: flex;
             margin-top: 20px;
+
+            @media screen and (max-width: $large__tablet) {
+                flex-direction: column;
+            }
         }
     }
 

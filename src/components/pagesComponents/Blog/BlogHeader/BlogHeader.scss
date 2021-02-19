@@ -24,12 +24,14 @@
         text-align: center;
         position: relative;
         margin-bottom: 25px;
-        padding: 60px 0;
+        padding: 60px 0 125px;
 
         width: 100%;
         max-width: $container__size;
 
-        padding-bottom: 125px;
+        @media screen and (max-width: $small__tablet) {
+            margin-top: 50px;
+        }
 
         &::before {
             position: absolute;
@@ -48,7 +50,7 @@
                 top: -120px;
             }
 
-            @media screen and (max-width: $mobile) {
+            @media screen and (max-width: $small__tablet) {
                 content: url('../../../../assets/img/medium-waves.svg');
                 left: -60px;
                 top: -80px;
@@ -74,10 +76,10 @@
                 padding: 70px 0;
             }
 
-            @media screen and (max-width: $mobile) {
+            @media screen and (max-width: $small__tablet) {
                 content: url('../../../../assets/img/medium-waves.svg');
                 right: 0;
-                bottom: -60px;
+                bottom: -80px;
             }
         }
     }
@@ -91,6 +93,12 @@
         margin-top: -70px;
         position: relative;
         left: 10px;
+
+        @media screen and (max-width: $small__tablet) {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
     }
 
     &__error {
