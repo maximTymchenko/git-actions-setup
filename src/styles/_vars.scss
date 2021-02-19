@@ -107,3 +107,18 @@ $mac__13: 2560px;
         max-width: 760px;
     }
 }
+
+@mixin background__position {
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+@mixin background__shadow {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

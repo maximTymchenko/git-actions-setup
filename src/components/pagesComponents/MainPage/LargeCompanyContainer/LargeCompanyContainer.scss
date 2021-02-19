@@ -9,6 +9,7 @@
 
     @include transition__outline;
     @include transition__shadow;
+    @include background__position;
 
     display: grid;
 
@@ -46,9 +47,6 @@
 
     &--bg-main {
         background: url('../../../../assets/img/companies/services.jpeg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -58,21 +56,13 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.8);
         }
     }
 
     &--bg-servers {
         background: url('../../../../assets/img/companies/servers.jpeg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
         padding-right: 50px;
 
         & .large-company-container__desc {
@@ -83,21 +73,14 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
+
             background-color: rgba(74, 85, 94, 0.7);
         }
     }
 
     &--bg-rooms {
         background: url('../../../../assets/img/companies/office.jpeg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -108,21 +91,14 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
+
             background-color: rgba(74, 85, 94, 0.3);
         }
     }
 
     &--bg-code {
         background: url('../../../../assets/img/companies/code.jpg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -133,21 +109,13 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.3);
         }
     }
 
     &--bg-server-room {
         background: url('../../../../assets/img/companies/servers-room.jpg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -158,21 +126,13 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.3);
         }
     }
 
     &--bg-agile {
         background: url('../../../../assets/img/companies/agile.jpeg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -183,21 +143,13 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.3);
         }
     }
 
     &--bg-retail {
         background: url('../../../../assets/img/companies/retail.jpeg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -208,21 +160,13 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.3);
         }
     }
 
     &--bg-ai {
         background: url('../../../../assets/img/companies/ai.jpeg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -233,21 +177,13 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.3);
         }
     }
 
     &--bg-data {
         background: url('../../../../assets/img/companies/data.jpeg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -258,21 +194,13 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.3);
         }
     }
 
     &--bg-desktop {
         background: url('../../../../assets/img/companies/desktop.jpg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -283,21 +211,13 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.4);
         }
     }
 
     &--bg-phones {
         background: url('../../../../assets/img/companies/Phones.jpg');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
 
         & .large-company-container__desc {
             @media screen and (max-width: $tablet) {
@@ -308,12 +228,7 @@
         }
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            @include background__shadow;
             background-color: rgba(74, 85, 94, 0.5);
         }
     }
@@ -391,8 +306,6 @@
 
         @media screen and (max-width: $large__tablet) {
             width: 120px;
-            // position: relative;
-            // bottom: 40px;
         }
 
         @media screen and (max-width: $tablet) {
