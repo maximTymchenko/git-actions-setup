@@ -116,12 +116,17 @@ const Header: FC = (props: any) => {
     const menuLinksBlog: INavLinks = {
         activeLink: null,
         links: [
-            { id: 1, title: 'Latest' },
-            { id: 2, title: 'Editorial' },
-            { id: 3, title: 'Whitepapers' },
-            { id: 4, title: 'Videos' },
-            { id: 5, title: 'Resources ' },
-            { id: 6, title: 'Press center' },
+            { id: 1, title: 'Latest', page: '/blog/' },
+            { id: 2, title: 'Editorial', page: '/blog/editorial' },
+            { id: 3, title: 'Whitepapers', page: '/blog/whitepapers' },
+            { id: 4, title: 'Videos', page: '/blog/videos' },
+            { id: 5, title: 'Resources', page: '/blog/resources' },
+            {
+                id: 6,
+                title: 'Press center',
+                page: '/blog/press-center',
+            },
+            ,
         ],
     };
 
