@@ -8,6 +8,10 @@
     position: relative;
     cursor: pointer;
 
+    @media screen and (max-width: $large__tablet) {
+        max-width: 800px;
+    }
+
     &:hover {
         outline: 4px solid $secondary;
         outline-offset: -2px;
@@ -47,8 +51,12 @@
 
         &--aws {
             bottom: 150px;
-            // top: 140px;
             right: 330px;
+        }
+
+        &--large {
+            bottom: 150px;
+            right: 100px;
         }
     }
 
@@ -63,8 +71,12 @@
         grid-template-columns: 1fr;
 
         &--large {
-            width: 1080px;
+            max-width: 1080px;
             height: 400px;
+        }
+
+        @media screen and (max-width: $large__tablet) {
+            max-width: 800px;
         }
     }
 

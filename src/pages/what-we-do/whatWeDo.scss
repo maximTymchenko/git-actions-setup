@@ -25,11 +25,11 @@
         margin-bottom: 80px;
         justify-content: space-between;
 
-        @media screen and (max-width: $tablet) {
-            margin-bottom: 10px;
+        @media screen and (max-width: $large__tablet) {
+            // margin-bottom: 10px;
 
             flex-direction: column;
-            width: 93%;
+            // width: 100%;
         }
 
         @media screen and (max-width: $mobile) {

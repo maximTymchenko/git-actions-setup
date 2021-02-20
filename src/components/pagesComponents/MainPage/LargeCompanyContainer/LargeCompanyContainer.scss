@@ -19,8 +19,8 @@
     width: 100%;
     max-width: 655px;
 
-    @media screen and (max-width: $tablet) {
-        max-width: 670px;
+    @media screen and (max-width: $large__tablet) {
+        max-width: 800px;
         margin-right: 15px;
         height: 300px;
 
@@ -43,6 +43,10 @@
 
     &--largest {
         max-width: 1080px;
+
+        @media screen and (max-width: $large__tablet) {
+            max-width: 800px;
+        }
     }
 
     &--bg-main {
@@ -92,7 +96,6 @@
 
         &::before {
             @include background__shadow;
-
             background-color: rgba(74, 85, 94, 0.3);
         }
     }

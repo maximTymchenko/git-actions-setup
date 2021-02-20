@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import Layout from '../../../components/layout';
 import BlogHeader from '../../../components/pagesComponents/Blog/BlogHeader';
 import BlogFilter from '../../../components/pagesComponents/Blog/BlogFilter';
@@ -11,6 +11,8 @@ import video from '../../../assets/video/aws-video.mp4';
 import videoMeeting from '../../../assets/video/meeting_video.mp4';
 
 const Videos = () => {
+    const [loadMoreArticles, setLoadMoreArticles] = useState<boolean>(false);
+
     return (
         <Layout>
             <section className="blog">
@@ -21,12 +23,18 @@ const Videos = () => {
                 <BlogFilter />
                 <div className="blog__cards">
                     <div className="blog__video">
-                        <BlogVideo videoDesc="Overview of updated AWS" video={video} size="large" />
+                        <BlogVideo
+                            videoDesc="Overview of updated AWS"
+                            video={video}
+                            size="large"
+                            videoPos="large"
+                        />
                     </div>
                     <div className="blog__video">
                         <BlogVideo
                             videoDesc="Hiring the best possible engineers"
                             video={video}
+                            videoPos="large"
                             size="large"
                         />
                     </div>
@@ -35,13 +43,44 @@ const Videos = () => {
                             videoDesc="Hiring the best possible engineers"
                             video={video}
                             size="large"
+                            videoPos="large"
                         />
                     </div>
                     <div className="blog__video">
-                        <BlogVideo videoDesc="Overview of updated AWS" video={video} size="large" />
+                        <BlogVideo
+                            videoDesc="Overview of updated AWS"
+                            video={video}
+                            size="large"
+                            videoPos="large"
+                        />
                     </div>
                 </div>
-                <div className="blog__btn">
+                {loadMoreArticles && (
+                    <div className="blog__cards">
+                        <div className="blog__video">
+                            <BlogVideo
+                                videoDesc="Hiring the best possible engineers"
+                                video={video}
+                                size="large"
+                            />
+                        </div>
+                        <div className="blog__video">
+                            <BlogVideo
+                                videoDesc="Hiring the best possible engineers"
+                                video={video}
+                                size="large"
+                            />
+                        </div>
+                        <div className="blog__video">
+                            <BlogVideo
+                                videoDesc="Overview of updated AWS"
+                                video={video}
+                                size="large"
+                            />
+                        </div>
+                    </div>
+                )}
+                <div className="blog__btn" onClick={() => setLoadMoreArticles(true)}>
                     <Button type="primary" subtype="large" icon={arrDown}>
                         Load more articles
                     </Button>

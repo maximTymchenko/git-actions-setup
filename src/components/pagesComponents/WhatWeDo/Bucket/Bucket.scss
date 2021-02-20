@@ -47,8 +47,8 @@
             }
         }
 
-        @media screen and (max-width: $tablet) {
-            max-width: 630px;
+        @media screen and (max-width: $large__tablet) {
+            max-width: 800px;
             justify-content: center;
             align-items: center;
         }

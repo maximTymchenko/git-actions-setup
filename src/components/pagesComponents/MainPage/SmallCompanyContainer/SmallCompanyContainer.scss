@@ -24,8 +24,8 @@
         height: 360px;
     }
 
-    @media screen and (max-width: $tablet) {
-        max-width: 630px;
+    @media screen and (max-width: $large__tablet) {
+        max-width: 800px;
     }
 
     @media screen and (max-width: $small__tablet) {
@@ -113,9 +113,6 @@
             display: none;
         }
 
-        @media screen and (max-width: $small__desktop) {
-        }
-
         @media screen and (max-width: $large__tablet) {
             width: 140px;
         }
@@ -192,7 +189,6 @@
     }
     // hashtags
     &__hashtags {
-        // margin-top: 15px;
         font-family: 'OktaNeue-Black';
         font-size: 11px;
         font-weight: 900;
@@ -214,11 +210,9 @@
         line-height: 1.1;
         letter-spacing: 0.5px;
         color: $background__primary;
-        // display: block;
         display: inline-block;
         padding: 2px 3px;
         height: 17px;
-        // width: 85px;
 
         &--editorial {
             background-color: $text__body;
