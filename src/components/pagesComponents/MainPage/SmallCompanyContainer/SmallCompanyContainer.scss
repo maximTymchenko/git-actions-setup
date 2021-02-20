@@ -65,7 +65,8 @@
 
         &::before {
             @include background__shadow;
-            background-color: rgba(74, 85, 94, 0.3);
+            // background-color: rgba(74, 85, 94, 0.3);
+            background-color: rgba(0, 24, 69, 0.5);
         }
     }
 
@@ -74,7 +75,7 @@
 
         &::before {
             @include background__shadow;
-            background-color: rgba(74, 85, 94, 0.3);
+            background-color: rgba(0, 24, 69, 0.5);
         }
     }
 
