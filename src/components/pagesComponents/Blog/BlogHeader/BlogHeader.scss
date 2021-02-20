@@ -36,7 +36,9 @@
         max-width: $container__size;
 
         @media screen and (max-width: $small__tablet) {
-            margin-top: 50px;
+            margin-top: 30px;
+            padding-top: 140px;
+            padding-bottom: 140px;
         }
 
         &::before {
@@ -59,7 +61,7 @@
             @media screen and (max-width: $small__tablet) {
                 content: url('../../../../assets/img/medium-waves.svg');
                 left: -60px;
-                top: -90px;
+                top: -95px;
                 transform: rotateY(180deg);
             }
         }
@@ -85,7 +87,7 @@
             @media screen and (max-width: $small__tablet) {
                 content: url('../../../../assets/img/medium-waves.svg');
                 right: -50px;
-                bottom: -80px;
+                bottom: -75px;
             }
         }
     }
@@ -96,7 +98,7 @@
 
     &__form {
         display: flex;
-        margin-top: -70px;
+        margin-top: 40px;
         position: relative;
         left: 10px;
 

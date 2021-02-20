@@ -62,32 +62,32 @@ const BlogHeader: FC = (props: IBlogHEaderProps) => {
                 <div className="blog-header__subtitle">
                     <TextDescription>{props.blogSubtitle}</TextDescription>
                 </div>
+                <form className="blog-header__form">
+                    <div className="blog-header__input-wrapper">
+                        <input
+                            onChange={getData}
+                            className={classNames('blog-header__input', {
+                                'blog-header__input--error': emailType,
+                            })}
+                            type="email"
+                            name="email"
+                            placeholder="Your email"
+                        />
+                        <span
+                            className={classNames('blog-header__error', {
+                                'blog-header__error--show': emailType,
+                            })}
+                        >
+                            Check email
+                        </span>
+                    </div>
+                    <div className="blog-header__button">
+                        <Button icon={arrowRight} type="secondary">
+                            Subscribe
+                        </Button>
+                    </div>
+                </form>
             </div>
-            <form className="blog-header__form">
-                <div className="blog-header__input-wrapper">
-                    <input
-                        onChange={getData}
-                        className={classNames('blog-header__input', {
-                            'blog-header__input--error': emailType,
-                        })}
-                        type="email"
-                        name="email"
-                        placeholder="Your email"
-                    />
-                    <span
-                        className={classNames('blog-header__error', {
-                            'blog-header__error--show': emailType,
-                        })}
-                    >
-                        Check email
-                    </span>
-                </div>
-                <div className="blog-header__button">
-                    <Button icon={arrowRight} type="secondary">
-                        Subscribe
-                    </Button>
-                </div>
-            </form>
         </div>
     );
 };
