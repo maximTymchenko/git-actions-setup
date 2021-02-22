@@ -31,7 +31,7 @@
         height: 310px;
 
         & .bucket__background {
-            @media screen and (max-width: $tablet) {
+            @media screen and (max-width: $large__tablet) {
                 align-self: flex-end;
                 position: relative;
                 bottom: 30px;
@@ -43,6 +43,7 @@
         }
 
         @media screen and (max-width: $large__tablet) {
+            margin-top: 25px;
             max-width: 800px;
             justify-content: center;
             align-items: center;
@@ -70,7 +71,7 @@
         height: 360px;
 
         & .bucket__background {
-            @media screen and (max-width: $tablet) {
+            @media screen and (max-width: $large__tablet) {
                 align-self: flex-end;
                 position: relative;
                 bottom: 50px;
@@ -81,8 +82,9 @@
             }
         }
 
-        @media screen and (max-width: $tablet) {
-            max-width: 690px;
+        @media screen and (max-width: $large__tablet) {
+            margin-top: 25px;
+            max-width: 805px;
             justify-content: center;
             align-items: center;
         }

@@ -331,6 +331,12 @@ body {
 }
 
 .link__blog {
+    @media screen and (max-width: $tablet) {
+        width: 90px;
+    }
+}
+
+.link__blog {
     margin-right: 50px;
     padding-top: 8px;
 
