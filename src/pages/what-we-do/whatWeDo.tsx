@@ -1,9 +1,8 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import Layouts from '../../components/layout';
 import PageHeader from '../../components/pagesComponents/WhatWeDo/PageHeader';
 import SmallCompanyContainer from '../../components/pagesComponents/MainPage/SmallCompanyContainer';
 import LargeCompanyContainer from '../../components/pagesComponents/MainPage/LargeCompanyContainer';
-import TextImage from '../../components/pagesComponents/WorkingTogether/TextImage';
 import TechList from '../../components/pagesComponents/WhatWeDo/TechList';
 import TechIcon from '../../components/pagesComponents/MainPage/TechIcon';
 import walmart from '../../assets/img/companies/walmart.svg';
@@ -32,9 +31,13 @@ import {
 } from 'react-icons/si';
 import { DiJavascript1, DiAndroid } from 'react-icons/di';
 
-import NewFilter from '../../components/common/NewFilter';
+// import NewFilter from '../../components/common/NewFilter';
 
 const whatWeDo: FC = () => {
+    const [showMoreIcons, setShowMoreIcons] = useState<boolean>(false);
+
+    const toggleIconsVisibility = (): void => setShowMoreIcons(!showMoreIcons);
+
     const techIcons: any[] = [
         <FaJava />,
         <DiJavascript1 />,
@@ -54,6 +57,23 @@ const whatWeDo: FC = () => {
         <FaGoogle />,
         <SiMicrosoftazure />,
     ];
+
+    if (showMoreIcons) {
+        techIcons.push(
+            <FaBimobject />,
+            <SiAmazon />,
+            <FaGoogle />,
+            <SiMicrosoftazure />,
+            <SiAngular />,
+            <FaNode />,
+            <SiPhp />,
+            <SiRails />,
+            <FaHtml5 />,
+            <SiPython />,
+            <SiCsharp />,
+            <SiCsharp />,
+        );
+    }
 
     const webDevelopmenList: string[] = [
         'Architecture planning',
@@ -232,13 +252,14 @@ const whatWeDo: FC = () => {
                         iconsArray={techIcons}
                         large="large"
                         img={bucketBGRectangle}
-                        label="+50 more"
+                        label={showMoreIcons ? 'Show less' : '+50 more'}
                         show="hide"
                         margin="moved"
                         size="mobile"
                         showBucket="true"
                         size="mr"
                         type="secondary"
+                        bucketFunc={toggleIconsVisibility}
                     />
                 </div>
             </section>

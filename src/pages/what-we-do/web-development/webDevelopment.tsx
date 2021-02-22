@@ -1,11 +1,19 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import Layouts from '../../../components/layout';
 import PageHeader from '../../../components/pagesComponents/WhatWeDo/PageHeader';
 import TechList from '../../../components/pagesComponents/WhatWeDo/TechList';
 import SectionTitle from '../../../components/common/SectionTitle';
 import TechIcon from '../../../components/pagesComponents/MainPage/TechIcon';
 import './webDevelopment.scss';
-import { FaReact, FaJava, FaGoogle, FaGooglePlay } from 'react-icons/fa';
+import {
+    FaReact,
+    FaJava,
+    FaGoogle,
+    FaGooglePlay,
+    FaBimobject,
+    FaNode,
+    FaHtml5,
+} from 'react-icons/fa';
 import { SiAngular, SiAmazon, SiMicrosoftazure } from 'react-icons/si';
 import { DiJavascript1 } from 'react-icons/di';
 import Bucket from '../../../components/pagesComponents/WhatWeDo/Bucket';
@@ -20,6 +28,10 @@ import Filter from '../../../components/common/Filter';
 import { Link } from 'gatsby';
 
 const webDevelopment: FC = () => {
+    const [showMoreIcons, setShowMoreIcons] = useState<boolean>(false);
+
+    const toggleIconsVisibility = (): void => setShowMoreIcons(!showMoreIcons);
+
     const webDevelopmenList = [
         'Architecture planning',
         'Microservice architecture',
@@ -39,6 +51,19 @@ const webDevelopment: FC = () => {
         <FaGoogle />,
         <SiMicrosoftazure />,
     ];
+
+    if (showMoreIcons) {
+        techIcons.push(
+            <FaBimobject />,
+            <SiAmazon />,
+            <FaGoogle />,
+            <SiMicrosoftazure />,
+            <SiAngular />,
+            <FaNode />,
+            <SiAmazon />,
+            <FaGoogle />,
+        );
+    }
 
     return (
         <Layouts>
@@ -62,12 +87,13 @@ const webDevelopment: FC = () => {
                             large="large"
                             iconsArray={techIcons}
                             img={bucketBGRectangle}
-                            label="+30 more"
+                            label={showMoreIcons ? 'Show less' : '+30 more'}
                             show="hide"
                             margin="center"
                             showBucket="true"
                             size="ml"
                             type="primary"
+                            bucketFunc={toggleIconsVisibility}
                         />
                     </div>
                 </div>

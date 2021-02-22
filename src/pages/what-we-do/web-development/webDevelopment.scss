@@ -3,9 +3,8 @@
 .web-development {
     &__wrapper {
         border-bottom: 2px solid $secondary;
-        padding-bottom: 120px;
+        padding-bottom: 160px;
         display: flex;
-        align-items: flex-end;
         justify-content: space-between;
 
         @media screen and (max-width: $tablet) {
@@ -25,6 +24,9 @@
 
     &__technologies {
         width: 100%;
+        // align-self: flex-end;
+        position: relative;
+        top: 110px;
 
         @media screen and (max-width: $desktop) {
             position: relative;

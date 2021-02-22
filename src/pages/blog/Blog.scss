@@ -9,6 +9,10 @@
         margin: 0 auto;
         border-top: 2px solid $secondary;
 
+        &--bn {
+            border: none;
+        }
+
         &-wrapper {
             display: flex;
             margin-top: 20px;

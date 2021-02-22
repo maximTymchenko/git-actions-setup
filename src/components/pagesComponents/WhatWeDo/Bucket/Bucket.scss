@@ -5,10 +5,9 @@
     cursor: pointer;
     outline: 2px solid $secondary;
     box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0.4);
-    transition: 0.3s linear all;
-    // width: 100%;
+    @include transition__shadow;
+    @include transition__outline;
     width: 180px;
-    // height: 100%;
     height: 180px;
     display: flex;
     flex-direction: column;
@@ -30,10 +29,6 @@
         width: 100%;
         max-width: 200px;
         height: 310px;
-
-        // @media screen and (max-width: $medium__desktop) {
-        //     max-height: 330px;
-        // }
 
         & .bucket__background {
             @media screen and (max-width: $tablet) {

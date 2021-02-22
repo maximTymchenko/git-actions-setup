@@ -11,11 +11,16 @@ interface IBucketProps {
     label: string;
     hide?: string;
     marginBG?: string;
+    bucketFunc: Function;
 }
 
 const Bucket: FC = (props: IBucketProps) => {
     return (
-        <div data-testid="bucket" className={`bucket bucket--${props.size}`}>
+        <div
+            onClick={props.bucketFunc}
+            data-testid="bucket"
+            className={`bucket bucket--${props.size}`}
+        >
             <img
                 src={props.bucketBG}
                 alt="Background image"

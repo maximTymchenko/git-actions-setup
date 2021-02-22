@@ -11,8 +11,10 @@ interface ITechIcons {
     margin: string;
     size: string;
     iconsArray: Element[];
+    anotherIconsArray: Element[];
     showBucket: boolean;
     type: string;
+    bucketFunc: Function;
 }
 
 const TechIcon: FC = (props: ITechIcons) => {
@@ -26,8 +28,14 @@ const TechIcon: FC = (props: ITechIcons) => {
                     {icon}
                 </span>
             ))}
+            {/* {props.anotherIconsArray.map((icon, index) => (
+                <span key={index} className={`tech__img tech__img--${props.large}`}>
+                    {icon}
+                </span>
+            ))} */}
             {props.showBucket && (
                 <Bucket
+                    bucketFunc={props.bucketFunc}
                     bucketBG={props.img}
                     label={props.label}
                     hide={props.show}

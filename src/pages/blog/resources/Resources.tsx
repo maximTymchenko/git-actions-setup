@@ -8,6 +8,7 @@ import Button from '../../../components/common/Button';
 import arrDown from '../../../assets/img/arr-down.png';
 import BlogVideo from '../../../components/pagesComponents/Blog/BlogVideo';
 import video from '../../../assets/video/meeting_video.mp4';
+import arrTop from '../../../assets/img/arr-top.png';
 
 const Resources: FC = () => {
     const [loadMoreArticles, setLoadMoreArticles] = useState<boolean>(false);
@@ -108,7 +109,7 @@ const Resources: FC = () => {
                     </div>
                 </div>
                 {loadMoreArticles && (
-                    <div className="blog__cards">
+                    <div className="blog__cards blog__cards--bn">
                         <div className="blog__cards-wrapper">
                             <div className="blog__card">
                                 <LargeCompanyContainer
@@ -169,9 +170,13 @@ const Resources: FC = () => {
                         </div>
                     </div>
                 )}
-                <div className="blog__btn" onClick={() => setLoadMoreArticles(true)}>
-                    <Button type="primary" subtype="large" icon={arrDown}>
-                        Load more articles
+                <div className="blog__btn" onClick={() => setLoadMoreArticles(!loadMoreArticles)}>
+                    <Button
+                        type="primary"
+                        subtype="large"
+                        icon={loadMoreArticles ? arrTop : arrDown}
+                    >
+                        {loadMoreArticles ? 'Show less articles' : 'Load more articles'}
                     </Button>
                 </div>
             </section>
