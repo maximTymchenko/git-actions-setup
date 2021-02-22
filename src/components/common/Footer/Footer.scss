@@ -172,13 +172,14 @@
             padding: 0 3px;
             margin-left: 3px;
         }
-        &:first-child {
-            font-family: 'OktaNeue-Black';
-            font-size: 15px;
-            font-weight: 900;
-            letter-spacing: 0.1px;
-            color: $text;
-            margin-bottom: 6px;
-        }
+    }
+
+    &__small-title {
+        font-family: 'OktaNeue-Black';
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.1px;
+        color: $text;
+        margin-bottom: 6px;
     }
 }

@@ -169,7 +169,8 @@
         }
 
         &:nth-child(1) {
-            margin-top: 10px;
+            position: relative;
+            top: 50px;
         }
 
         &:nth-child(2) {
@@ -208,5 +209,5 @@
 
 .primary-nav__categories:hover .primary-nav__container {
     // opacity: 1;
-    background-color: red;
+    // background-color: red;
 }

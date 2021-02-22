@@ -11,37 +11,33 @@ const Footer: FC = () => {
     const [findServices, setFindServices] = useState({
         activeServiece: null,
         services: [
-            { id: 1, title: 'Find a Service' },
-            { id: 2, title: 'Web Development' },
-            { id: 3, title: 'Quality Control' },
-            { id: 4, title: 'Research' },
-            { id: 5, title: 'Analytics' },
-            { id: 6, title: 'Cloud Services' },
-            { id: 7, title: 'Mobile Development' },
+            { id: 1, title: 'Web development', page: '/what-we-do/web-development/' },
+            { id: 2, title: 'Quality Control' },
+            { id: 3, title: 'Research' },
+            { id: 4, title: 'Analytics' },
+            { id: 5, title: 'Cloud Services', page: '/what-we-do/cloud-services/' },
+            { id: 6, title: 'Mobile development', page: '/what-we-do/mobile-development/' },
         ],
     });
 
     const [pickAnExpertise, setPickAnExpertise] = useState({
         activeExpertise: null,
         expertises: [
-            { id: 1, title: 'Pick an Expertise' },
-            { id: 2, title: 'Retail and E-commerce' },
-            { id: 3, title: 'Construction' },
-            { id: 4, title: 'Finance and ERP' },
-            { id: 5, title: 'Media' },
-            { id: 6, title: 'AR & VR' },
+            { id: 1, title: 'Retail and E-commerce', page: '/what-we-do/retail-and-e-commerce/' },
+            { id: 2, title: 'Construction' },
+            { id: 3, title: 'Finance and ERP' },
+            { id: 4, title: 'Media' },
+            { id: 5, title: 'AR & VR', page: '/what-we-do/ar-&-vr/' },
         ],
     });
 
     const [company, setCompany] = useState({
         activeCompany: null,
         companies: [
-            { id: 1, title: 'Company' },
-            { id: 2, title: 'About Us' },
-            { id: 3, title: 'Blog and Resources' },
-            { id: 4, title: 'Careers' },
-            { id: 5, title: 'Media' },
-            { id: 6, title: 'Contact Blackbird' },
+            { id: 1, title: 'About Us' },
+            { id: 2, title: 'Blog and Resources', page: '/blog/' },
+            { id: 3, title: 'Careers', label: 'Hiring', isLabled: true },
+            { id: 4, title: 'Contact Blackbird', page: '/contact-us/' },
         ],
     });
 
@@ -93,24 +89,36 @@ const Footer: FC = () => {
                 </div>
                 <div className="footer__functions">
                     <ul className="footer__lists">
+                        <span className="footer__small-title">Find a Service</span>
                         {findServices.services.map((service, index) => (
-                            <li key={index} className="footer__link">
-                                {service.title}
-                            </li>
+                            <Link to={service.page}>
+                                <li key={index} className="footer__link">
+                                    {service.title}
+                                </li>
+                            </Link>
                         ))}
                     </ul>
                     <ul className="footer__lists">
+                        <span className="footer__small-title">Pick an Expertise</span>
                         {pickAnExpertise.expertises.map((expertise, index) => (
-                            <li key={index} className="footer__link">
-                                {expertise.title}
-                            </li>
+                            <Link to={expertise.page}>
+                                <li key={index} className="footer__link">
+                                    {expertise.title}
+                                </li>
+                            </Link>
                         ))}
                     </ul>
                     <ul className="footer__lists">
+                        <span className="footer__small-title">Company</span>
                         {company.companies.map((company, index) => (
-                            <li key={index} className="footer__link">
-                                {company.title}
-                            </li>
+                            <Link to={company.page}>
+                                <li key={index} className="footer__link">
+                                    {company.title}
+                                    {company.isLabled && (
+                                        <span className="footer__label">{company.label}</span>
+                                    )}
+                                </li>
+                            </Link>
                         ))}
                     </ul>
                 </div>

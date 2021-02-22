@@ -18,7 +18,7 @@ const Video: FC = () => {
                     service.”
                 </p>
                 <span className="video__name">Anthony, CTO of Spectar.io</span>
-                <div className="video__button" onClick={() => setShowVideo(true)}>
+                <div className="video__button">
                     <Button
                         icon={triangleRight}
                         type={'primary'}
