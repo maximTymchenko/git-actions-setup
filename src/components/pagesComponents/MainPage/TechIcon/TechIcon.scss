@@ -35,9 +35,11 @@
             }
 
             @media screen and (max-width: $large__mobile) {
-                // margin-left: 20px;
-                // grid-column-gap: 40px;
                 grid-template-columns: 1fr 1fr;
+            }
+
+            @media screen and (max-width: $small__mobile) {
+                grid-template-columns: 1fr;
             }
         }
 

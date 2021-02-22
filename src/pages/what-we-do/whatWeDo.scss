@@ -124,7 +124,8 @@
 
             @media screen and (max-width: $mobile) {
                 content: url('../../assets/img/small-waves.svg');
-                top: 0px;
+                top: -10px;
+                left: 0;
             }
         }
     }
