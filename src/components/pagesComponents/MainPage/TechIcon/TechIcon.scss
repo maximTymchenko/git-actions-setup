@@ -34,8 +34,9 @@
                 padding: 0 15px;
             }
 
-            @media screen and (max-width: $small__tablet) {
-                grid-column-gap: 0px;
+            @media screen and (max-width: $large__mobile) {
+                // margin-left: 20px;
+                // grid-column-gap: 40px;
                 grid-template-columns: 1fr 1fr;
             }
         }

@@ -9,7 +9,7 @@
     display: flex;
     align-items: flex-end;
 
-    @media screen and (max-width: $tablet) {
+    @media screen and (max-width: $small__tablet) {
         height: 370px;
     }
 
@@ -20,7 +20,6 @@
         left: 0;
         bottom: 0;
         width: 100%;
-        // max-width: $primary__container;
         height: 100%;
         overflow: hidden;
     }
@@ -64,7 +63,7 @@
             margin-top: 50px;
         }
 
-        @media screen and (max-width: $mobile) {
+        @media screen and (max-width: $small__tablet) {
             width: 90px;
         }
     }

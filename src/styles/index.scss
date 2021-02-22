@@ -89,8 +89,8 @@ body {
             overflow: hidden;
         }
 
-        @media screen and (max-width: $tablet) {
-            padding: 0;
+        @media screen and (max-width: $small__tablet) {
+            padding-top: 0;
         }
     }
 
@@ -133,7 +133,7 @@ body {
 
             @media screen and (max-width: $tablet) {
                 animation: none;
-                bottom: -50px;
+                bottom: -15px;
                 content: url('../assets/img/tablet-wave.svg');
             }
 
