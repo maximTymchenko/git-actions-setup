@@ -54,6 +54,12 @@
             left: -260px;
             z-index: -1;
 
+            @media screen and (max-width: $small__desktop) {
+                content: url('../../../../assets/img/md-waves.svg');
+                left: -225px;
+                top: 35px;
+            }
+
             @media screen and (max-width: $tablet) {
                 content: url('../../../../assets/img/sm-waves.svg');
                 left: 15px;
@@ -69,6 +75,12 @@
             top: 10px;
             right: -260px;
             z-index: -1;
+
+            @media screen and (max-width: $small__desktop) {
+                content: url('../../../../assets/img/md-waves.svg');
+                right: -225px;
+                top: 35px;
+            }
 
             @media screen and (max-width: $tablet) {
                 content: url('../../../../assets/img/sm-waves.svg');

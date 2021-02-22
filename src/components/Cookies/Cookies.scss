@@ -11,6 +11,7 @@
         left: 0;
         display: flex;
         justify-content: space-between;
+        @include transition__shadow;
         align-items: center;
         border: 2px solid $secondary;
         box-shadow: 5px 5px 1px 1px rgba(57, 156, 203, 0.4);
