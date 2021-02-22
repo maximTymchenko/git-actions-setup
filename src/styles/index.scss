@@ -12,10 +12,6 @@ body {
     margin: 80px auto 0;
     @include main__padding;
 
-    // @media screen and (max-width: $mobile) {
-    //     padding-top: 0;
-    // }
-
     &-title {
         font-family: 'OktaNeue-Heavy';
         font-size: 46px;
@@ -57,10 +53,6 @@ body {
         -webkit-text-fill-color: transparent;
         margin-bottom: 65px;
 
-        // @media screen and (max-width: $mobile) {
-        //     margin-top: 40px;
-        // }
-
         &:after {
             content: 'Accomplish Tech Dreams.';
             font-family: 'OktaNeue-Heavy';
@@ -85,10 +77,6 @@ body {
                 margin-right: 0;
                 line-height: 60px;
             }
-
-            // @media screen and (max-width: $mobile) {
-            //     flex-basis: 100%;
-            // }
         }
     }
 
@@ -101,8 +89,8 @@ body {
             overflow: hidden;
         }
 
-        @media screen and (max-width: $small__tablet) {
-            padding-top: 0;
+        @media screen and (max-width: $tablet) {
+            padding: 0;
         }
     }
 
@@ -150,7 +138,7 @@ body {
             }
 
             @media screen and (max-width: $small__tablet) {
-                content: url('../assets/img/medium-waves.svg');
+                content: url('../assets/img/sm-waves.svg');
                 right: 10px;
                 top: 400px;
             }

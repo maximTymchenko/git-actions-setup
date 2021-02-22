@@ -55,7 +55,7 @@
             z-index: -1;
 
             @media screen and (max-width: $tablet) {
-                content: url('../../../../assets/img/medium-waves.svg');
+                content: url('../../../../assets/img/sm-waves.svg');
                 left: 15px;
                 top: 25px;
                 transform: rotateY(180deg);
@@ -71,7 +71,7 @@
             z-index: -1;
 
             @media screen and (max-width: $tablet) {
-                content: url('../../../../assets/img/medium-waves.svg');
+                content: url('../../../../assets/img/sm-waves.svg');
                 right: 15px;
                 bottom: 0px;
             }
