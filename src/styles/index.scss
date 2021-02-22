@@ -104,12 +104,13 @@ body {
         display: none;
 
         @media screen and (max-width: $tablet) {
+            opacity: 0.6;
             display: block;
-            // position: relative;
-            // z-index: -1;
-            // left: 320px;
-            // bottom: 150px;
-            // opacity: 0.5;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;
         }
     }
 
@@ -133,14 +134,14 @@ body {
 
             @media screen and (max-width: $tablet) {
                 animation: none;
-                bottom: -15px;
+                // bottom: -15px;
                 content: url('../assets/img/tablet-wave.svg');
             }
 
             @media screen and (max-width: $small__tablet) {
                 content: url('../assets/img/sm-waves.svg');
                 right: 10px;
-                top: 400px;
+                top: 380px;
             }
 
             @media screen and (max-width: $mobile) {
@@ -192,6 +193,9 @@ body {
     &-title__icon {
         @include border__size;
         overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
 
         &::before {
             content: url('../assets/img/offices/office1.jpg');
@@ -214,10 +218,8 @@ body {
     }
 
     &-title__image {
-        // width: 100%;
-        // max-width: 574px;
-        // height: 100%;
-        // max-height: 424px;
+        @include border__size;
+        position: relative;
     }
 }
 

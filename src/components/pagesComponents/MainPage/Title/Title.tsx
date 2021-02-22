@@ -15,17 +15,17 @@ const Title: FC = () => {
                     <div className="main-title__image">
                         <div className="main-title__icon" />
                         <div className="main-title__border" />
+                        <div className="main-title__mobile-button">
+                            <Button type="circle" desc="Watch now" icon={triangleRight}>
+                                Watch now
+                            </Button>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div className="main-title__desktop-button">
                 <Button type="watch" desc="Watch now" icon={triangleRight}>
-                    Watch now
-                </Button>
-            </div>
-            <div className="main-title__mobile-button">
-                <Button type="circle" desc="Watch now" icon={triangleRight}>
                     Watch now
                 </Button>
             </div>
