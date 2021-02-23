@@ -8,6 +8,19 @@
     }
 
     &--main {
+        & .nav__link {
+            @media screen and (max-width: $small__tablet) {
+                &:nth-child(4) {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: $mobile) {
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
     }
 
     &--filter {
@@ -100,18 +113,6 @@
         }
         &:active {
             color: $text__body;
-        }
-
-        @media screen and (max-width: $small__tablet) {
-            &:nth-child(4) {
-                display: none;
-            }
-        }
-
-        @media screen and (max-width: $mobile) {
-            &:nth-child(3) {
-                display: none;
-            }
         }
     }
 }
