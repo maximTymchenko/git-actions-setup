@@ -61,6 +61,10 @@ $mac__13: 2560px;
 
 @mixin main__padding {
     padding: 0 15px;
+
+    @media screen and (max-width: $mobile) {
+        padding: 0 10px;
+    }
 }
 
 @mixin button__press {
