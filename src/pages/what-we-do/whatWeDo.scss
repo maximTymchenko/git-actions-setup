@@ -44,9 +44,8 @@
         margin-right: 20px;
 
         &--large {
+            // width: 100%;
         }
-
-        // width: 100%;
         @media screen and (max-width: $medium__desktop) {
             margin-right: 30px;
         }
