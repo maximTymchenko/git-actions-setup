@@ -16,7 +16,7 @@ const Features: FC = () => {
                 />
 
                 <Link to="/what-we-do/" className="link">
-                    <Button type="secondary" desc="Discover all" icon={arrowRight}>
+                    <Button type="secondary" subtype="mt" desc="Discover all" icon={arrowRight}>
                         Discover all
                     </Button>
                 </Link>

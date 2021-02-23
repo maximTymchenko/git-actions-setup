@@ -18,9 +18,9 @@
     width: 120px;
     height: 120px;
 
-    @media screen and (max-width: $small__tablet) {
-        width: 122px;
-        height: 122px;
+    @media screen and (max-width: $small__mobile) {
+        width: 100px;
+        height: 100px;
     }
 
     &-wrapper {
@@ -31,7 +31,7 @@
 
             @media screen and (max-width: $desktop) {
                 grid-template-columns: 1fr 1fr 1fr;
-                padding: 0 15px;
+                @include main__padding;
             }
 
             @media screen and (max-width: $large__mobile) {
@@ -39,7 +39,7 @@
             }
 
             @media screen and (max-width: $small__mobile) {
-                grid-template-columns: 1fr;
+                grid-column-gap: 15px;
             }
         }
 

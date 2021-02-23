@@ -28,12 +28,11 @@
 
     @media screen and (max-width: $desktop) {
         overflow: hidden;
-        // padding-right: 40px;
     }
 
-    // @media screen and (max-width: $small__tablet) {
-    //     margin-top: 100px;
-    // }
+    @media screen and (max-width: $small__tablet) {
+        padding-top: 100px;
+    }
 
     @media screen and (max-width: $mobile) {
         background: none;

@@ -54,12 +54,12 @@
         }
 
         &:hover::before {
-            background-color: rgba(74, 85, 94, 0.5);
+            background-color: rgba(74, 85, 94, 0.8);
         }
 
         &::before {
             @include background__shadow;
-            background-color: rgba(74, 85, 94, 0.8);
+            background-color: rgba(74, 85, 94, 0.7);
         }
     }
 
@@ -439,7 +439,7 @@
     }
     &__label {
         background-color: $brand__primary;
-        padding: 2px 4px;
+        padding: 2px 3px;
         margin-right: 6px;
         font-family: 'OktaNeue-Black';
         font-size: 10px;
@@ -447,6 +447,7 @@
         line-height: 1.1;
         letter-spacing: 0.5px;
         color: $background__primary;
+        text-transform: uppercase;
 
         &--editorial {
             background-color: $text__body;

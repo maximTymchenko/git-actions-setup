@@ -11,10 +11,11 @@
     height: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    // justify-content: space-between;
+    align-items: center;
 
     @media screen and (max-width: $tablet) {
-        max-width: 142px;
+        max-width: 150px;
     }
 
     &--mobile {
@@ -31,11 +32,9 @@
         height: 310px;
 
         & .bucket__background {
-            @media screen and (max-width: $large__tablet) {
-                align-self: flex-end;
-                position: relative;
-                bottom: 30px;
-            }
+            align-self: flex-end;
+            position: relative;
+            bottom: 10px;
 
             @media screen and (max-width: $mobile) {
                 bottom: 10px;
@@ -71,14 +70,12 @@
         height: 360px;
 
         & .bucket__background {
-            @media screen and (max-width: $large__tablet) {
-                align-self: flex-end;
-                position: relative;
-                bottom: 50px;
-            }
+            align-self: flex-end;
+            position: relative;
+            bottom: 10px;
 
             @media screen and (max-width: $mobile) {
-                bottom: 30px;
+                bottom: 5px;
             }
         }
 
@@ -102,8 +99,11 @@
 
     &__background {
         margin-top: 20px;
-        margin-left: 95px;
+        // margin-left: 95px;
         padding-right: 10px;
+
+        max-width: 76px;
+        height: 76px;
 
         @media screen and (max-width: $tablet) {
             margin-left: 45px;

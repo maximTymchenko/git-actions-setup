@@ -83,7 +83,7 @@
 
             @media screen and (max-width: $mobile) {
                 content: url('../../../../assets/img/pageHeader/pttrns-dots-mob-up.svg');
-                right: -25px;
+                right: 22px;
                 top: -35px;
             }
         }
@@ -101,6 +101,8 @@
 
         @media screen and (max-width: $mobile) {
             margin-left: 0;
+            position: relative;
+            right: 30px;
         }
 
         &::before {

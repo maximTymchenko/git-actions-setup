@@ -77,7 +77,6 @@ const RetailAndEcommerce: FC = () => {
                     </div>
                     <Link to="/blog/">
                         <Button
-                            subtype="web-dev"
                             icon={arrowRight}
                             type="primary"
                             desc="Read more on the blog"
