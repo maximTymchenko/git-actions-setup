@@ -45,19 +45,13 @@
     }
 
     &__video {
-        position: relative;
-        bottom: 50px;
-        right: 80px;
-
-        &--aws {
-            bottom: 150px;
-            right: 330px;
-        }
-
-        &--large {
-            bottom: 150px;
-            right: 100px;
-        }
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
     }
 
     &__content {
@@ -72,7 +66,6 @@
 
         &--large {
             max-width: 1080px;
-            // height: 400px;
         }
 
         @media screen and (max-width: $large__tablet) {

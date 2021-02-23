@@ -21,18 +21,12 @@ const Videos = () => {
                 <BlogFilter />
                 <div className="blog__cards">
                     <div className="blog__video">
-                        <BlogVideo
-                            videoDesc="Overview of updated AWS"
-                            video={video}
-                            size="large"
-                            videoPos="large"
-                        />
+                        <BlogVideo videoDesc="Overview of updated AWS" video={video} size="large" />
                     </div>
                     <div className="blog__video">
                         <BlogVideo
                             videoDesc="Hiring the best possible engineers"
                             video={video}
-                            videoPos="large"
                             size="large"
                         />
                     </div>
@@ -41,16 +35,10 @@ const Videos = () => {
                             videoDesc="Hiring the best possible engineers"
                             video={video}
                             size="large"
-                            videoPos="large"
                         />
                     </div>
                     <div className="blog__video">
-                        <BlogVideo
-                            videoDesc="Overview of updated AWS"
-                            video={video}
-                            size="large"
-                            videoPos="large"
-                        />
+                        <BlogVideo videoDesc="Overview of updated AWS" video={video} size="large" />
                     </div>
                 </div>
                 {loadMoreArticles && (
