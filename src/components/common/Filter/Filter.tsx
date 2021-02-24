@@ -31,6 +31,12 @@ const menuLinks = {
     ],
 };
 
+type TFiltersList = {
+    id: number;
+    value: string;
+    isChecked: boolean;
+}[];
+
 class NewFilter extends Component {
     constructor(props) {
         super(props);
@@ -39,7 +45,7 @@ class NewFilter extends Component {
         this.state = {
             showFilter: false,
             dotsType: false,
-            platformsList: [
+            platformsList<TFiltersList>: [
                 { id: 1, value: 'Web', isChecked: false },
                 { id: 2, value: 'Ios', isChecked: false },
                 { id: 3, value: 'Android', isChecked: false },
@@ -47,18 +53,18 @@ class NewFilter extends Component {
                 { id: 5, value: 'Quality control', isChecked: false },
                 { id: 6, value: 'Mobile development', isChecked: false },
             ],
-            cloudList: [
+            cloudList<TFiltersList>: [
                 { id: 1, value: 'Amazon AWS', isChecked: false },
                 { id: 2, value: 'Google', isChecked: false },
                 { id: 3, value: 'Azure', isChecked: false },
                 { id: 4, value: 'Akamai', isChecked: false },
             ],
-            databaseList: [
+            databaseList<TFiltersList>: [
                 { id: 1, value: 'PostgreSQL', isChecked: false },
                 { id: 2, value: 'NoSQL', isChecked: false },
                 { id: 3, value: 'DynamoDb', isChecked: false },
             ],
-            frameworksList: [
+            frameworksList<TFiltersList>: [
                 { id: 1, value: 'Axon', isChecked: false },
                 { id: 2, value: 'Kotlin', isChecked: false },
                 { id: 3, value: 'Objective-C', isChecked: false },
@@ -78,7 +84,7 @@ class NewFilter extends Component {
                 { id: 17, value: 'Typescript', isChecked: false },
                 { id: 18, value: 'SpringBoot', isChecked: false },
             ],
-            solutionsList: [
+            solutionsList<TFiltersList>: [
                 { id: 1, value: 'Redux Thunk', isChecked: false },
                 { id: 2, value: 'Redux Toolkit', isChecked: false },
                 { id: 3, value: 'Apollo Graphql', isChecked: false },
@@ -89,7 +95,7 @@ class NewFilter extends Component {
         };
     }
 
-    handleCheckChieldOPlatformElement = (event) => {
+    handleCheckChieldOPlatformElement = (event: any):void => {
         let platformsList = this.state.platformsList;
         platformsList.forEach((platforms) => {
             if (platforms.value === event.target.value) platforms.isChecked = event.target.checked;
@@ -97,7 +103,7 @@ class NewFilter extends Component {
         this.setState({ platformsList: platformsList });
     };
 
-    handleCheckChieldCloundElement = (event) => {
+    handleCheckChieldCloundElement = (event: any):void => {
         let cloudList = this.state.cloudList;
         cloudList.forEach((clouds) => {
             if (clouds.value === event.target.value) clouds.isChecked = event.target.checked;
@@ -105,7 +111,7 @@ class NewFilter extends Component {
         this.setState({ cloudList: cloudList });
     };
 
-    handleCheckChieldDBElement = (event) => {
+    handleCheckChieldDBElement = (event: any):void => {
         let databaseList = this.state.databaseList;
         databaseList.forEach((db) => {
             if (db.value === event.target.value) db.isChecked = event.target.checked;
@@ -113,7 +119,7 @@ class NewFilter extends Component {
         this.setState({ databaseList: databaseList });
     };
 
-    handleCheckChieldFrameworksElement = (event) => {
+    handleCheckChieldFrameworksElement = (event: any):void => {
         let frameworksList = this.state.frameworksList;
         frameworksList.forEach((frameworks) => {
             if (frameworks.value === event.target.value)
@@ -122,7 +128,7 @@ class NewFilter extends Component {
         this.setState({ frameworksList: frameworksList });
     };
 
-    handleCheckChieldSolutionsElement = (event) => {
+    handleCheckChieldSolutionsElement = (event: any):void => {
         let solutionsList = this.state.solutionsList;
         solutionsList.forEach((solution) => {
             if (solution.value === event.target.value) solution.isChecked = event.target.checked;
@@ -130,7 +136,7 @@ class NewFilter extends Component {
         this.setState({ solutionsList: solutionsList });
     };
 
-    toogleFilter = () => {
+    toogleFilter = (): void => {
         if (this.state.showFilter) {
             this.setState({ showFilter: false });
         } else {
@@ -139,7 +145,7 @@ class NewFilter extends Component {
         }
     };
 
-    toggleDots = () => {
+    toggleDots = (): void => {
         if (this.state.dotsType) {
             //   this.setState({ showFilter: false })
             this.setState({ dotsType: false });
@@ -179,7 +185,7 @@ class NewFilter extends Component {
         this.setState({ solutionsList: solutionsList });
     };
 
-    handleAllChecked = (event) => {
+    handleAllChecked = (event: any): void => {
         this.handlePlatformListChecked(event);
         this.handleCloudsListChecked(event);
         this.handleDatabaseListChecked(event);
@@ -187,13 +193,13 @@ class NewFilter extends Component {
         this.handleSolutionsListChecked(event);
     };
 
-    handleClickOutside = (e) => {
+    handleClickOutside = (e: any): void=> {
         if (!e.path.includes(this.navRef.current)) {
             this.setState({ dotsType: false });
         }
     };
     //
-    componentDidMount() {
+    componentDidMount(): void {
         document.body.addEventListener('click', this.handleClickOutside);
     }
 
