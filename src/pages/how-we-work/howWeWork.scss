@@ -12,14 +12,57 @@
     }
 
     &__video {
-        @include section__size;
-        margin: 0 auto;
         position: relative;
+
+        &::before {
+            position: absolute;
+            content: url('../../assets/img/video-waves.svg');
+            top: 30px;
+            left: -200px;
+
+            // @media screen and (max-width: $small__desktop) {
+            //     left: -225px;
+            //     top: 30px;
+            //     content: url('../../../../assets/img/md-waves.svg');
+            // }
+
+            // @media screen and (max-width: $tablet) {
+            //     content: url('../../../../assets/img/sm-waves.svg');
+            //     left: 15px;
+            //     top: 15px;
+            //     transform: rotateY(180deg);
+            // }
+        }
+
+        &::after {
+            overflow: hidden;
+            position: absolute;
+            content: url('../../assets/img/video-waves.svg');
+            transform: rotateX(180deg);
+            top: 30px;
+            right: -200px;
+
+            // @media screen and (max-width: $small__desktop) {
+            //     right: -220px;
+            //     top: 20px;
+            //     content: url('../../../../assets/img/md-waves.svg');
+            // }
+
+            // @media screen and (max-width: $tablet) {
+            //     content: url('../../../../assets/img/sm-waves.svg');
+            //     right: 15px;
+            //     bottom: 10px;
+            // }
+        }
 
         &-wrapper {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            @include section__size;
+            margin: 0 auto;
+            position: relative;
+            z-index: 10;
 
             @media screen and (max-width: $small__desktop) {
                 overflow-x: scroll;

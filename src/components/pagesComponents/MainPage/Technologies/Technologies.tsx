@@ -28,9 +28,11 @@ const Technologies: React.FC = () => {
                 />
                 <p className="tech__desc">
                     It must be our rigorous
-                    <span className="tech__protection">
-                        intellectual property protection effort.
-                    </span>
+                    <Link to="/how-we-work/intellectual-property/">
+                        <span className="tech__protection">
+                            intellectual property protection effort.
+                        </span>
+                    </Link>
                     Just tell us what you need and get that information in less than 24 hours.
                 </p>
                 <Link className="link" to="/contact-us">
