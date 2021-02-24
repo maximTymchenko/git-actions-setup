@@ -31,6 +31,26 @@
         max-width: 200px;
         height: 310px;
 
+        // height: 150px;
+
+        @media screen and (max-width: $large__tablet) {
+            max-width: 800px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (max-width: $small__tablet) {
+            height: 150px;
+        }
+
+        & .bucket__icon {
+            @media screen and (max-width: $small__tablet) {
+                margin: 0;
+                width: 50px;
+                height: 50px;
+            }
+        }
+
         & .bucket__background {
             align-self: flex-end;
             position: relative;
@@ -40,16 +60,9 @@
                 bottom: 25px;
             }
 
-            @media screen and (max-width: $mobile) {
+            @media screen and (max-width: $small__tablet) {
                 bottom: 10px;
             }
-        }
-
-        @media screen and (max-width: $large__tablet) {
-            margin-top: 25px;
-            max-width: 800px;
-            justify-content: center;
-            align-items: center;
         }
     }
 
@@ -73,17 +86,28 @@
         max-width: 320px;
         height: 360px;
 
+        @media screen and (max-width: $small__tablet) {
+            height: 150px;
+        }
+
+        & .bucket__icon {
+            @media screen and (max-width: $small__tablet) {
+                margin: 0;
+                width: 50px;
+                height: 50px;
+            }
+        }
+
         & .bucket__background {
             align-self: flex-end;
             position: relative;
-            bottom: 10px;
 
             @media screen and (max-width: $large__tablet) {
                 bottom: 50px;
             }
 
-            @media screen and (max-width: $mobile) {
-                bottom: 35px;
+            @media screen and (max-width: $small__tablet) {
+                bottom: 10px;
             }
         }
 
