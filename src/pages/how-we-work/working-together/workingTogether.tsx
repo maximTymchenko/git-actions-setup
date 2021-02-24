@@ -70,7 +70,7 @@ const workingTogether: FC = () => {
                     </span>
                     <div className="how-we-work__overflow">
                         <div className="how-we-work__video">
-                            <div className="how-we-work__video-wrapper">
+                            <div className="how-we-work__video-wrapper how-we-work__video-wrapper--mb">
                                 <Link to="responsibility" smooth={true} offset={-30}>
                                     <VideoItem
                                         size="small"

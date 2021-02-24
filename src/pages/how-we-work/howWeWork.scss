@@ -66,12 +66,20 @@
             z-index: 10;
             background-color: #fff;
 
+            &--mb {
+                margin-bottom: 15px;
+            }
+
             @media screen and (max-width: $small__desktop) {
                 overflow-x: scroll;
                 padding-bottom: 40px;
                 width: 100%;
                 max-width: 1000px;
-                padding-left: 50px;
+                padding-left: 10px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                padding-left: 5px;
             }
         }
     }

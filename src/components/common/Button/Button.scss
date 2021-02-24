@@ -21,6 +21,10 @@
     border: 2px solid $secondary;
     color: $secondary;
 
+    @media screen and (max-width: $mobile) {
+        font-size: 12px;
+    }
+
     &--mt {
         margin-top: 15px;
     }
@@ -74,7 +78,7 @@
     &--mobile {
         @media screen and (max-width: $large__mobile) {
             width: 125px;
-            height: 50px;
+            // height: 50px;
         }
     }
 
