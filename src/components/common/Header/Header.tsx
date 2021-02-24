@@ -9,27 +9,33 @@ import logo from '../../../assets/img/logo.svg';
 import arrowRight from '../../../assets/img/arr-right.svg';
 import classNames from 'classnames';
 
-const Header: FC = (props: any) => {
-    interface INavLinks {
-        activeLink: null | any;
-        links: [
-            {
-                id: number;
-                title: string;
-                page?: string | undefined;
-            },
-        ];
-    }
+type THeaderArrays = {
+    activeLink: null;
+    links: {
+        id: number;
+        title: string;
+        page: string;
+    }[];
+};
 
+type THeaderArraysOfObjects = {
+    activeLink: null;
+    links: {
+        id: number;
+        array: THeaderArrays;
+    }[];
+};
+
+const Header: FC = (props: any) => {
     const [buttonIcon, setButtonIcon] = useState<boolean>(true);
     const [buttonIconTimes, setButtonIconTimes] = useState<boolean>(false);
     const [showMainNav, setShowMainNav] = useState<boolean>(false);
 
-    const changeNavVisible = () => {
+    const changeNavVisible = (): void => {
         setShowMainNav(!showMainNav);
     };
 
-    const changeButtonIcon = () => {
+    const changeButtonIcon = (): void => {
         setButtonIcon(!buttonIcon);
         setButtonIconTimes(!buttonIconTimes);
         changeNavVisible();
@@ -43,7 +49,7 @@ const Header: FC = (props: any) => {
         ],
     };
 
-    const [navLinks, setNavLinks] = useState<INavLinks>({
+    const [navLinks, setNavLinks] = useState<THeaderArrays>({
         activeLink: null,
         links: [
             { id: 1, title: 'Home' },
@@ -56,12 +62,12 @@ const Header: FC = (props: any) => {
         ],
     });
 
-    const menuLinksHome: INavLinks = {
+    const menuLinksHome: THeaderArrays = {
         activeLink: null,
         links: [{ id: 1, title: 'Home', page: '/' }],
     };
 
-    const menuLinksHowWeWork: INavLinks = {
+    const menuLinksHowWeWork: THeaderArrays = {
         activeLink: null,
         links: [
             { id: 1, title: 'Engagement Models', page: '/how-we-work/working-together/' },
@@ -69,7 +75,7 @@ const Header: FC = (props: any) => {
         ],
     };
 
-    const menuLinksWhatWeDo: INavLinks = {
+    const menuLinksWhatWeDo: THeaderArrays = {
         activeLink: null,
         links: [
             { id: 1, title: 'All', page: '/what-we-do/' },
@@ -82,7 +88,7 @@ const Header: FC = (props: any) => {
         ],
     };
 
-    const menuLinksAboutUs: INavLinks = {
+    const menuLinksAboutUs: THeaderArrays = {
         activeLink: null,
         links: [
             { id: 1, title: 'Retail & E-commerce' },
@@ -92,7 +98,7 @@ const Header: FC = (props: any) => {
         ],
     };
 
-    const menuLinksContact: INavLinks = {
+    const menuLinksContact: THeaderArrays = {
         activeLink: null,
         links: [
             { id: 1, title: 'SaaS product' },
@@ -105,7 +111,7 @@ const Header: FC = (props: any) => {
         ],
     };
 
-    const menuLinksCareers: INavLinks = {
+    const menuLinksCareers: THeaderArrays = {
         activeLink: null,
         links: [
             { id: 1, title: 'On-demand team extension' },
@@ -113,7 +119,7 @@ const Header: FC = (props: any) => {
         ],
     };
 
-    const menuLinksBlog: INavLinks = {
+    const menuLinksBlog: THeaderArrays = {
         activeLink: null,
         links: [
             { id: 1, title: 'Latest', page: '/blog/' },
@@ -132,7 +138,7 @@ const Header: FC = (props: any) => {
 
     //! show subnav with button click on main nav
 
-    const [navLinksArray, setNavLinksArray] = useState<INavLinks>({
+    const [navLinksArray, setNavLinksArray] = useState<THeaderArraysOfObjects>({
         activeLink: null,
         links: [
             { id: 0, array: menuLinksHome },

@@ -10,7 +10,7 @@ import { SiRails } from 'react-icons/si';
 import { DiJavascript1 } from 'react-icons/di';
 
 const Technologies: React.FC = () => {
-    const techIcons = [
+    const techIcons: JSX.Element[] = [
         <FaHtml5 />,
         <FaNode />,
         <SiRails />,

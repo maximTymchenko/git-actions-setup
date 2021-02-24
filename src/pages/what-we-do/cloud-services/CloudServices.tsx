@@ -25,7 +25,7 @@ const CloudServices: FC = () => {
 
     const toggleIconsVisibility = (): void => setShowMoreIcons(!showMoreIcons);
 
-    const webDevelopmenList = [
+    const webDevelopmenList: string[] = [
         'Architecture planning',
         'Microservice architecture',
         'Event sourcing',
@@ -35,7 +35,7 @@ const CloudServices: FC = () => {
         'Microsoft Azure',
     ];
 
-    const techIcons = [
+    const techIcons: JSX.Element[] = [
         <FaJava />,
         <DiJavascript1 />,
         <FaReact />,

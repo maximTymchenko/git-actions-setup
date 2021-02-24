@@ -2,10 +2,8 @@ import React, { FC } from 'react';
 import './ButtonIcon.scss';
 
 interface IButtonIconProps {
-    className?: string;
     icon?: any;
-    sourse: any;
-    desc: string;
+    desc?: string;
     type: string;
 }
 

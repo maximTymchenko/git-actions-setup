@@ -1,7 +1,14 @@
 import React from 'react';
 import './FilterList.scss';
 
-export const NewList = (props) => {
+interface IFilterListProps {
+    id: string;
+    handleCheckChieldElement: (event: any) => void;
+    isChecked: boolean;
+    value: string;
+}
+
+export const NewList = (props: IFilterListProps) => {
     return (
         <div data-testid="filter-list" className="filter-list">
             <div className="filter-list__body">

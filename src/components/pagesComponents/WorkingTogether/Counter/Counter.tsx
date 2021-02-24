@@ -10,16 +10,14 @@ interface ICounter {
     increaseLeftCount: any;
     increaseRightCount: any;
 }
-interface ICounterPoints {
-    activePoint: null | any;
-    points: [
-        {
-            id: number;
-            title: string;
-            active: boolean;
-        },
-    ];
-}
+type TCounterPoints = {
+    activePoint: null;
+    points: {
+        id: number;
+        title: string;
+        active: boolean;
+    }[];
+};
 
 const Counter: FC = (props: ICounter) => {
     // const [counterPoints, setCounterPoints] = useState(props.counterPoints);
@@ -28,7 +26,7 @@ const Counter: FC = (props: ICounter) => {
     const [iconType2, setIconType2] = useState<boolean>(false);
 
     // //! render counter title and add active class with click
-    const [counterPoints, setCounterPoints] = useState<ICounterPoints>({
+    const [counterPoints, setCounterPoints] = useState<TCounterPoints>({
         activePoint: null,
         points: [
             {
@@ -74,11 +72,11 @@ const Counter: FC = (props: ICounter) => {
         ],
     });
 
-    const togglePointsClass = (index: number) => {
+    const togglePointsClass = (index: number): void => {
         setCounterPoints({ ...counterPoints, activePoint: counterPoints.points[index] });
     };
 
-    const toggleActivePoints = (index: number) => {
+    const toggleActivePoints = (index: number): string => {
         if (counterPoints.points[index] === counterPoints.activePoint) {
             return 'counter__icon counter__icon--active';
         } else {
@@ -86,7 +84,7 @@ const Counter: FC = (props: ICounter) => {
         }
     };
 
-    const toggleActiveRotatedPoints = (index: number) => {
+    const toggleActiveRotatedPoints = (index: number): string => {
         if (counterPoints.points[index] === counterPoints.activePoint) {
             return 'counter__icon--rotated counter__icon--active';
         } else {

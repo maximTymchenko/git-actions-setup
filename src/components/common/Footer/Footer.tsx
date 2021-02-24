@@ -7,8 +7,17 @@ import './Footer.scss';
 import blackBird from '../../../assets/img/bird-logo.svg';
 import arrowRight from '../../../assets/img/arr-right.svg';
 
+type TFooterServices = {
+    activeServiece: null | any;
+    services: {
+        id: number;
+        title: string;
+        page: string;
+    }[];
+};
+
 const Footer: FC = () => {
-    const [findServices, setFindServices] = useState({
+    const [findServices, setFindServices] = useState<TFooterServices>({
         activeServiece: null,
         services: [
             { id: 1, title: 'Web development', page: '/what-we-do/web-development/' },
@@ -20,7 +29,7 @@ const Footer: FC = () => {
         ],
     });
 
-    const [pickAnExpertise, setPickAnExpertise] = useState({
+    const [pickAnExpertise, setPickAnExpertise] = useState<TFooterServices>({
         activeExpertise: null,
         expertises: [
             { id: 1, title: 'Retail and E-commerce', page: '/what-we-do/retail-and-e-commerce/' },
@@ -31,7 +40,7 @@ const Footer: FC = () => {
         ],
     });
 
-    const [company, setCompany] = useState({
+    const [company, setCompany] = useState<TFooterServices>({
         activeCompany: null,
         companies: [
             { id: 1, title: 'About Us' },

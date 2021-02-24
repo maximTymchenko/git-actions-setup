@@ -1,35 +1,40 @@
 import React, { FC, useState } from 'react';
 import PrimaryNav from '../PrimaryNav';
 
-const FilterNav: FC = () => {
-    interface INavLinks {
-        activeLink: null | any;
-        links: [
-            {
+type TNavLinks = {
+    activeLink: null;
+    links: {
+        id: number;
+        title: string;
+        page: string;
+    }[];
+};
+
+type TNavLinksArray = {
+    activeLink: null;
+    links: {
+        id: number;
+        array: {
+            activeLink: null;
+            links: {
                 id: number;
                 title: string;
-                page?: string | undefined;
-            },
-        ];
-    }
+                page: string;
+            }[];
+        };
+    }[];
+};
 
-    interface INavArr {
-        activeLink?: null;
-        links: {
-            id: number;
-            array: INavLinks;
-        }[];
-    }
+type TLanguage = {
+    activeLink: null;
+    links: {
+        id: number;
+        title: string;
+    }[];
+};
 
-    interface ILanguage {
-        activeLink: null;
-        links: {
-            id: number;
-            title: string;
-        }[];
-    }
-
-    const language: ILanguage = {
+const FilterNav: FC = () => {
+    const language: TLanguage = {
         activeLink: null,
         links: [
             { id: 1, title: '' },
@@ -37,7 +42,7 @@ const FilterNav: FC = () => {
         ],
     };
 
-    const [navLinks, setNavLinks] = useState<INavLinks>({
+    const [navLinks, setNavLinks] = useState<TNavLinks>({
         activeLink: null,
         links: [
             { id: 1, title: 'Services' },
@@ -47,7 +52,7 @@ const FilterNav: FC = () => {
         ],
     });
 
-    const menuLinksServices: INavLinks = {
+    const menuLinksServices = {
         activeLink: null,
         links: [
             { id: 1, title: 'Web development', page: '/what-we-do/web-development/' },
@@ -59,7 +64,7 @@ const FilterNav: FC = () => {
         ],
     };
 
-    const menuLinksIndustries: INavLinks = {
+    const menuLinksIndustries: TNavLinks = {
         activeLink: null,
         links: [
             { id: 1, title: 'Retail & E-commerce' },
@@ -69,7 +74,7 @@ const FilterNav: FC = () => {
         ],
     };
 
-    const menuLinksExpertise: INavLinks = {
+    const menuLinksExpertise: TNavLinks = {
         activeLink: null,
         links: [
             { id: 1, title: 'SaaS product' },
@@ -82,7 +87,7 @@ const FilterNav: FC = () => {
         ],
     };
 
-    const menuLinksEngagement: INavLinks = {
+    const menuLinksEngagement: TNavLinks = {
         activeLink: null,
         links: [
             { id: 1, title: 'On-demand team extension' },
@@ -90,7 +95,7 @@ const FilterNav: FC = () => {
         ],
     };
 
-    const [navLinksArray, setNavLinksArray] = useState<INavArr>({
+    const [navLinksArray, setNavLinksArray] = useState<TNavLinksArray>({
         activeLink: null,
         links: [
             { id: 0, array: menuLinksServices },

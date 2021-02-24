@@ -5,15 +5,7 @@ import TechList from '../../../components/pagesComponents/WhatWeDo/TechList';
 import SectionTitle from '../../../components/common/SectionTitle';
 import TechIcon from '../../../components/pagesComponents/MainPage/TechIcon';
 import './webDevelopment.scss';
-import {
-    FaReact,
-    FaJava,
-    FaGoogle,
-    FaGooglePlay,
-    FaBimobject,
-    FaNode,
-    FaHtml5,
-} from 'react-icons/fa';
+import { FaReact, FaJava, FaGoogle, FaBimobject, FaNode } from 'react-icons/fa';
 import { SiAngular, SiAmazon, SiMicrosoftazure } from 'react-icons/si';
 import { DiJavascript1 } from 'react-icons/di';
 import Bucket from '../../../components/pagesComponents/WhatWeDo/Bucket';
@@ -32,7 +24,7 @@ const webDevelopment: FC = () => {
 
     const toggleIconsVisibility = (): void => setShowMoreIcons(!showMoreIcons);
 
-    const webDevelopmenList = [
+    const webDevelopmenList: string[] = [
         'Architecture planning',
         'Microservice architecture',
         'Event sourcing',
@@ -42,7 +34,7 @@ const webDevelopment: FC = () => {
         'Microsoft Azure',
     ];
 
-    const techIcons = [
+    const techIcons: JSX.Element[] = [
         <FaJava />,
         <DiJavascript1 />,
         <FaReact />,

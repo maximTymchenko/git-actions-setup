@@ -2,7 +2,6 @@ import React, { FC } from 'react';
 import './SectionTitle.scss';
 
 interface ITitleProps {
-    className?: string;
     title: string;
     type: any;
 }

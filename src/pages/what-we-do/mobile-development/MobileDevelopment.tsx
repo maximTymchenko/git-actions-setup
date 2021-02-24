@@ -19,7 +19,7 @@ import Filter from '../../../components/common/Filter';
 import { Link } from 'gatsby';
 
 const MobileDevelopment: FC = () => {
-    const webDevelopmenList = [
+    const webDevelopmenList: string[] = [
         'Business analysis',
         'App development',
         'App Store submission',
@@ -27,7 +27,7 @@ const MobileDevelopment: FC = () => {
         'Application support',
     ];
 
-    const techIcons = [
+    const techIcons: JSX.Element[] = [
         <FaApple />,
         <DiAndroid />,
         <SiSwift />,

@@ -29,15 +29,15 @@ const workingTogether: FC = () => {
     const [rightCount, setRightCount] = useState<number>(0);
     const [leftCount, setLeftCount] = useState<number>(0);
 
-    const increaseLeftCount = (): any => {
+    const increaseLeftCount = (): void => {
         setLeftCount(leftCount + 1);
     };
 
-    const increaseRightCount = (): any => {
+    const increaseRightCount = (): void => {
         setRightCount(rightCount + 1);
     };
 
-    const resetCounter = (): any => {
+    const resetCounter = (): void => {
         setLeftCount(0);
         setRightCount(0);
     };

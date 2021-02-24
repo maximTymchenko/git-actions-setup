@@ -11,7 +11,7 @@ interface IBucketProps {
     label: string;
     hide?: string;
     marginBG?: string;
-    bucketFunc: Function;
+    bucketFunc: () => void;
 }
 
 const Bucket: FC = (props: IBucketProps) => {

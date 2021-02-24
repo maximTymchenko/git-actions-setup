@@ -120,12 +120,14 @@
 
         & .bucket__label {
             position: relative;
+            top: 40px;
 
             @media screen and (max-width: $large__tablet) {
                 bottom: -35px;
             }
 
             @media screen and (max-width: $small__tablet) {
+                top: 0;
                 bottom: -5px;
             }
 

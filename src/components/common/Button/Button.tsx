@@ -3,15 +3,14 @@ import './Button.scss';
 import ButtonIcon from '../ButtonIcon';
 
 interface IButtonProps {
-    className?: string;
     children: string;
     icon: any;
     type: string;
-    desc: string;
+    desc?: string;
     mobile?: string;
-    function: any;
-    subtype: string;
-    iconType: string;
+    function?: () => void;
+    subtype?: string;
+    iconType?: string;
 }
 
 const Button: FC = (props: IButtonProps) => {

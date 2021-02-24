@@ -38,7 +38,7 @@ const whatWeDo: FC = () => {
 
     const toggleIconsVisibility = (): void => setShowMoreIcons(!showMoreIcons);
 
-    const techIcons: any[] = [
+    const techIcons: JSX.Element[] = [
         <FaJava />,
         <DiJavascript1 />,
         <FaReact />,

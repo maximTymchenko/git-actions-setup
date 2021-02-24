@@ -14,7 +14,7 @@ interface ITechIcons {
     anotherIconsArray: Element[];
     showBucket: boolean;
     type: string;
-    bucketFunc: Function;
+    bucketFunc: () => void;
 }
 
 const TechIcon: FC = (props: ITechIcons) => {

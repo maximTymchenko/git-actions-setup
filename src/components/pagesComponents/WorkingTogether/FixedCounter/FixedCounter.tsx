@@ -11,9 +11,9 @@ import arrUpRight from '../../../../assets/img/counter/arr-up-rigtht.svg';
 interface IFixedCounter {
     leftCounter: number;
     rightCounter: number;
-    increaseLeftCount: any;
-    increaseRightCount: any;
-    resetCounter: any;
+    increaseLeftCount: () => void;
+    increaseRightCount: () => void;
+    resetCounter: () => void;
     y: number;
 }
 

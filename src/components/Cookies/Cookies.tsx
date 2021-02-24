@@ -1,33 +1,33 @@
-import React, { useState } from 'react'
-import { Link } from 'gatsby'
-import './Cookies.scss'
+import React, { useState } from 'react';
+import { Link } from 'gatsby';
+import './Cookies.scss';
 
 const Cookies: React.FunctionComponent = () => {
-    const getItem = (name: string): string => {
+    const getItem = (name: string) => {
         if (typeof document !== `undefined`) {
             const cookies: any = document.cookie
                 .split(';')
-                .map((cookie) => cookie.split('='))
-                .reduce((acc, [key, value]) => ({ ...acc, [`${key.trim()}`]: value }), {})
-            return cookies[name]
+                .map((cookie: string) => cookie.split('='))
+                .reduce((acc, [key, value]) => ({ ...acc, [`${key.trim()}`]: value }), {});
+            return cookies[name];
         }
-    }
+    };
 
-    const setItem = (key: string, value: string) => {
+    const setItem = (key: string, value: string): void => {
         // set cookies expired time
-        const cookiesExpire = `${key}=${value} ;max-age =` + 60 * 60 * 24 * 90
-        document.cookie = cookiesExpire
-    }
+        const cookiesExpire = `${key}=${value} ;max-age =` + 60 * 60 * 24 * 90;
+        document.cookie = cookiesExpire;
+    };
 
-    const acceptCookiesKey: string = 'accept_cookies'
+    const acceptCookiesKey: string = 'accept_cookies';
 
     //manage cookies state
-    const [showCookies, setShowCookies] = useState<boolean>(getItem(acceptCookiesKey) != 'true')
+    const [showCookies, setShowCookies] = useState<boolean>(getItem(acceptCookiesKey) != 'true');
 
-    const acceptFn = () => {
-        setItem(acceptCookiesKey, 'true')
-        setShowCookies(false)
-    }
+    const acceptFn = (): void => {
+        setItem(acceptCookiesKey, 'true');
+        setShowCookies(false);
+    };
 
     return (
         <div data-testid="cookies" className="cookies">
@@ -46,7 +46,7 @@ const Cookies: React.FunctionComponent = () => {
                 </div>
             )}
         </div>
-    )
-}
+    );
+};
 
-export default Cookies
+export default Cookies;

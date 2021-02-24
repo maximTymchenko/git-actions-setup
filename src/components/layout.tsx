@@ -5,7 +5,16 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Header from './common/Header';
 import Footer from './common/Footer';
 
-const Layout = ({ children, page }) => {
+type TLayout = {
+    ({ children, page }: { children: any; page: any }): JSX.Element;
+    propTypes: {
+        children: PropTypes.Validator<
+            string | number | boolean | {} | PropTypes.ReactElementLike | PropTypes.ReactNodeArray
+        >;
+    };
+};
+
+const Layout: TLayout = ({ children, page }) => {
     const data = useStaticQuery(graphql`
         query SiteTitleQuery {
             site {

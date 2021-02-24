@@ -1,10 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'gatsby';
 import './Nav.scss';
-import { INavLinks } from '../PrimaryNav';
 
 const Nav = ({ links, path, type, linkType, typeContainer }) => {
-    const [navLinks, setNavLinks] = useState<INavLinks>(links);
+    const [navLinks, setNavLinks] = useState(links);
 
     const toggleNavClass = (index: number) => {
         setNavLinks({ ...navLinks, activeLink: navLinks.links[index] });

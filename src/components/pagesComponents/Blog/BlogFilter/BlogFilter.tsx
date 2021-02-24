@@ -2,8 +2,15 @@ import React, { FC, useState } from 'react';
 import './BlogFilter.scss';
 import FilterList from '../../../common/FilterList';
 
+type IList = {
+    id: number;
+    value: string;
+    isChecked: boolean;
+}[];
+
 const BlogFilter: FC = () => {
-    const [servicesList, setServicesList] = useState([
+    [];
+    const [servicesList, setServicesList] = useState<IList>([
         { id: 1, value: 'Web development', isChecked: false },
         { id: 2, value: 'Cloud services', isChecked: false },
         { id: 3, value: 'Research', isChecked: false },
@@ -22,7 +29,7 @@ const BlogFilter: FC = () => {
         setServicesList(listCopy);
     };
 
-    const [industriesList, setIndustriesList] = useState([
+    const [industriesList, setIndustriesList] = useState<IList>([
         { id: 1, value: 'Retail & E-commerce', isChecked: false },
         { id: 2, value: 'Construction', isChecked: false },
         { id: 3, value: 'Finance', isChecked: false },
@@ -40,7 +47,7 @@ const BlogFilter: FC = () => {
         setIndustriesList(listCopy);
     };
 
-    const [expertiseList, setExpertiseList] = useState([
+    const [expertiseList, setExpertiseList] = useState<IList>([
         { id: 1, value: 'SaaS product', isChecked: false },
         { id: 2, value: 'Chatbots', isChecked: false },
         { id: 3, value: 'AR & VR', isChecked: false },
