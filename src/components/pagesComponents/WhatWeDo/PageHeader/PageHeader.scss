@@ -6,14 +6,8 @@
     //   max-width: $header__width;
     margin: 210px auto 0;
     @include main__padding;
-
     position: relative;
     left: 30px;
-
-    @media screen and (max-width: $tablet) {
-        // margin-top: 90px;
-        // overflow: hidden;
-    }
 
     &__wrapper {
         margin-top: 70px;
@@ -36,6 +30,11 @@
             position: absolute;
             top: -40px;
         }
+
+        @media screen and (max-width: $mobile) {
+            top: -60px;
+            left: 5px;
+        }
     }
 
     &__img-left {
@@ -52,11 +51,15 @@
                 position: relative;
             }
 
-            @media screen and (max-width: $mobile) {
+            @media screen and (max-width: $large__mobile) {
                 content: url('../../../../assets/img/pageHeader/pttrns-dots-mob-down.svg');
 
                 top: 30px;
                 left: -35px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                content: url('../../../../assets/img/pageHeader/pttrns-dots-xs-down.svg');
             }
         }
     }
@@ -81,10 +84,14 @@
                 right: -20px;
             }
 
-            @media screen and (max-width: $mobile) {
+            @media screen and (max-width: $large__mobile) {
                 content: url('../../../../assets/img/pageHeader/pttrns-dots-mob-up.svg');
                 right: 22px;
                 top: -35px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                content: url('../../../../assets/img/pageHeader/pttrns-dots-xs-up.svg');
             }
         }
     }
