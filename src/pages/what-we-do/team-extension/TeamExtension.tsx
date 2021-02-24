@@ -22,6 +22,7 @@ const TeamExtension: FC = () => {
                 title="Team Extension"
                 subtitle="Discover"
                 bgType="dots"
+                btnPosition="moved"
             />
             <section className="what-we-do">
                 <Filter />

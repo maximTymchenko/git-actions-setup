@@ -36,6 +36,7 @@
         max-width: $container__size;
 
         @media screen and (max-width: $tablet) {
+            margin-top: 10px;
             padding-top: 150px;
             padding-bottom: 140px;
         }

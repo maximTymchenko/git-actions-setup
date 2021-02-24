@@ -35,7 +35,7 @@ const intellectualProperty: FC = () => {
                 </TextDescription>
                 <div className="page-header__button-wrapper">
                     <Link to="ip" smooth={true} offset={-130}>
-                        <Button icon={arrowDown} type="primary" desc="Show how" mobile="mobile">
+                        <Button icon={arrowDown} type="primary" desc="Show how">
                             Show how
                         </Button>
                     </Link>

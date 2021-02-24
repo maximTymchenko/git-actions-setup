@@ -26,6 +26,7 @@ const RetailAndEcommerce: FC = () => {
                 title="Retail and E-commerce"
                 subtitle="Discover"
                 bgType="dots"
+                btnPosition="moved"
             />
             <section className="what-we-do">
                 <Filter />

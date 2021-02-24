@@ -21,6 +21,7 @@ const ArVr: FC = () => {
                 title="AR & VR"
                 subtitle="Discover"
                 bgType="dots"
+                btnPosition="moved"
             />
             <section className="what-we-do">
                 <Filter />

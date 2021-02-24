@@ -90,10 +90,17 @@
     }
 
     &__button-wrapper {
-        // margin-left: 100px;
         margin-top: 70px;
-        align-items: center;
         display: flex;
+        align-items: center;
+
+        &--moved {
+            @media screen and (max-width: $mobile) {
+                margin-left: 0;
+                position: relative;
+                right: 30px;
+            }
+        }
 
         @media screen and (max-width: $tablet) {
             margin-left: 0;
@@ -102,7 +109,8 @@
         @media screen and (max-width: $mobile) {
             margin-left: 0;
             position: relative;
-            right: 30px;
+            // right: 30px;
+            // margin-left: 20px;
         }
 
         &::before {

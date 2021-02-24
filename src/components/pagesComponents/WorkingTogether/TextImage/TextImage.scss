@@ -46,7 +46,7 @@
                 z-index: 20;
                 content: '';
                 width: 100%;
-                max-width: 590px;
+                // max-width: 590px;
                 height: 100%;
                 top: 0;
                 right: 0;
@@ -72,14 +72,6 @@
         max-width: 500px;
         // max-height: 497px;
         position: relative;
-
-        @media screen and (max-width: $medium__desktop) {
-            max-width: 450px;
-        }
-
-        @media screen and (max-width: $medium__desktop) {
-            max-width: 400px;
-        }
 
         @media screen and (max-width: $small__desktop) {
             max-width: 850px;

@@ -121,6 +121,7 @@ const whatWeDo: FC = () => {
                 title="What We Do"
                 subtitle="Discover"
                 bgType="dots"
+                btnPosition="moved"
             />
             <section className="what-we-do">
                 <Filter />

@@ -73,6 +73,7 @@ const webDevelopment: FC = () => {
                 title="Web Development"
                 subtitle="Discover"
                 bgType="dots"
+                btnPosition="moved"
             />
             <section className="what-we-do">
                 <Filter />
