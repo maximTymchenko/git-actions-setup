@@ -12,16 +12,11 @@ const PageNotFound: FC = () => (
     <div className="page-not-found">
         <Header />
         <div className="page-not-found__wrapper">
-            <SectionTitle
-                className="title"
-                subtype={'margin'}
-                type={'main'}
-                title={'Lost in space?'}
-            />
+            <SectionTitle subtype="margin" type={'main'} title="Lost in space?" />
             <img className="page-not-found__img" src={notFound} alt="404 Page Not Found" />
             <span className="page-not-found__info">The page you requested could not be found.</span>
             <Link className="link" to="/">
-                <Button className={'secondary'} icon={arrowRight}>
+                <Button type="secondary" icon={arrowRight}>
                     Back to Home
                 </Button>
             </Link>
