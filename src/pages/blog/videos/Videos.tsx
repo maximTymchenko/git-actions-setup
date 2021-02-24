@@ -41,7 +41,11 @@ const Videos: FC = () => {
                         />
                     </div>
                     <div className="blog__video">
-                        <BlogVideo videoDesc="Overview of updated AWS" video={video} size="large" />
+                        <BlogVideo
+                            videoDesc="Overview of updated AWS"
+                            video={office}
+                            size="large"
+                        />
                     </div>
                 </div>
                 {loadMoreArticles && (
@@ -49,14 +53,14 @@ const Videos: FC = () => {
                         <div className="blog__video">
                             <BlogVideo
                                 videoDesc="Hiring the best possible engineers"
-                                video={video}
+                                video={presentation}
                                 size="large"
                             />
                         </div>
                         <div className="blog__video">
                             <BlogVideo
                                 videoDesc="Hiring the best possible engineers"
-                                video={video}
+                                video={conference}
                                 size="large"
                             />
                         </div>
