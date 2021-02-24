@@ -6,9 +6,12 @@ import Button from '../../../components/common/Button';
 import arrDown from '../../../assets/img/arr-down.png';
 import BlogVideo from '../../../components/pagesComponents/Blog/BlogVideo';
 import video from '../../../assets/video/aws-video.mp4';
+import conference from '../../../assets/video/conference.mp4';
+import presentation from '../../../assets/video/presentation.mp4';
+import office from '../../../assets/video/office.mp4';
 import arrTop from '../../../assets/img/arr-top.png';
 
-const Videos = () => {
+const Videos: FC = () => {
     const [loadMoreArticles, setLoadMoreArticles] = useState<boolean>(false);
 
     return (
@@ -26,14 +29,14 @@ const Videos = () => {
                     <div className="blog__video">
                         <BlogVideo
                             videoDesc="Hiring the best possible engineers"
-                            video={video}
+                            video={conference}
                             size="large"
                         />
                     </div>
                     <div className="blog__video">
                         <BlogVideo
                             videoDesc="Hiring the best possible engineers"
-                            video={video}
+                            video={presentation}
                             size="large"
                         />
                     </div>
@@ -60,7 +63,7 @@ const Videos = () => {
                         <div className="blog__video">
                             <BlogVideo
                                 videoDesc="Overview of updated AWS"
-                                video={video}
+                                video={office}
                                 size="large"
                             />
                         </div>

@@ -47,5 +47,9 @@
 
     &__video {
         margin-bottom: 30px;
+
+        &:first-child {
+            margin-top: 15px;
+        }
     }
 }
