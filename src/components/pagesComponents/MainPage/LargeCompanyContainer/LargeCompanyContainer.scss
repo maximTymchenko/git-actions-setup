@@ -66,13 +66,76 @@
         }
 
         &:hover::before {
-            background-color: rgba(74, 85, 94, 0.5);
+            background-color: rgba(74, 85, 94, 0.7);
         }
 
         &::before {
             @include background__shadow;
 
+            background-color: rgba(74, 85, 94, 0.5);
+        }
+    }
+
+    &--bg-rpa {
+        background: url('../../../../assets/img/companies/rpa.jpg');
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 5px;
+            }
+        }
+
+        &:hover::before {
             background-color: rgba(74, 85, 94, 0.7);
+        }
+
+        &::before {
+            @include background__shadow;
+
+            background-color: rgba(74, 85, 94, 0.5);
+        }
+    }
+
+    &--bg-summit {
+        background: url('../../../../assets/img/companies/summit.jpeg');
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 5px;
+            }
+        }
+
+        &:hover::before {
+            background-color: rgba(74, 85, 94, 0.7);
+        }
+
+        &::before {
+            @include background__shadow;
+
+            background-color: rgba(74, 85, 94, 0.5);
+        }
+    }
+
+    &--bg-ps {
+        background: url('../../../../assets/img/companies/ps.jpg');
+
+        & .large-company-container__desc {
+            @media screen and (max-width: $tablet) {
+                align-self: end;
+                padding-bottom: 5px;
+            }
+        }
+
+        &:hover::before {
+            background-color: rgba(74, 85, 94, 0.7);
+        }
+
+        &::before {
+            @include background__shadow;
+
+            background-color: rgba(74, 85, 94, 0.5);
         }
     }
 

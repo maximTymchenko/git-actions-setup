@@ -3,33 +3,46 @@ import './BlogForm.scss';
 import classNames from 'classnames';
 import Button from '../../../common/Button';
 import arrowRight from '../../../../assets/img/arr-right.svg';
-import * as EmailValidator from 'email-validator';
 import validator from 'validator';
+import * as yup from 'yup';
 
 const BlogForm: FC = () => {
+    const userScheme = yup.object().shape({
+        email: yup.string().email().required(),
+    });
+
     const [emailClass, setEmailClass] = useState<boolean>(false);
 
-    const [emailError, setEmailError] = useState('');
-    const validateEmail = (e) => {
-        let email = e.target.value;
+    const [emailError, setEmailError] = useState<string | null>('');
 
-        if (validator.isEmail(email)) {
-            setEmailError('Valid Email :)');
-            // setEmailClass(false);
-        } else {
-            setEmailError('Enter valid Email!');
-            // setEmailClass(true);
+    const checkEmailValidation = async (e: any): Promise<void> => {
+        e.preventDefault();
+        let formData = {
+            email: e.target[0].value,
+        };
+
+        const isValid = await userScheme.isValid(formData);
+
+        if (isValid == false) {
+            setEmailClass(true);
         }
     };
 
-    const removeReloadPageWithClick = (e) => {
-        e.preventDefault();
-    };
+    // const validateEmail = (e: any) => {
+    //     if (validator.isEmail(e.target.value)) {
+    //         setEmailError('Valid Email :)');
+    //         setEmailClass(false);
+    //     } else {
+    //         setEmailError('Enter valid Email!');
+    //         setEmailClass(true);
+    //     }
+    // };
+
     return (
-        <form onSubmit={removeReloadPageWithClick} className="blog-header__form">
+        <form data-testid="blog-form" onSubmit={checkEmailValidation} className="blog-header__form">
             <div className="blog-header__input-wrapper">
                 <input
-                    onChange={(e) => validateEmail(e)}
+                    // onChange={(e) => validateEmail(e)}
                     className={classNames('blog-header__input', {
                         'blog-header__input--error': emailClass,
                     })}
@@ -45,12 +58,11 @@ const BlogForm: FC = () => {
                     Check email
                 </span>
             </div>
-            <div className="blog-header__button" onClick={(e) => validateEmail(e)}>
+            <div className="blog-header__button">
                 <Button icon={arrowRight} type="secondary">
                     Subscribe
                 </Button>
             </div>
-            {/* {emailError} */}
         </form>
     );
 };

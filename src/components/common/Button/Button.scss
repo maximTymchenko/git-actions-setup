@@ -12,8 +12,8 @@
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    @include transition__shadow;
     font-size: 15px;
+    @include transition;
     margin-right: 20px;
     box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
     padding: 8px;

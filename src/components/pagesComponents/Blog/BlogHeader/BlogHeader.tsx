@@ -10,8 +10,17 @@ interface IBlogHEaderProps {
     blogSubtitle: string;
 }
 
+type TBlogLinks = {
+    activeLink: null;
+    links: {
+        id: number;
+        title: string;
+        page: string;
+    }[];
+};
+
 const BlogHeader: FC = (props: IBlogHEaderProps) => {
-    const menuLinks = {
+    const menuLinks: TBlogLinks = {
         activeLink: null,
         links: [
             { id: 1, title: 'Latest', page: '/blog/' },
