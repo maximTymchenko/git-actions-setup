@@ -3,11 +3,8 @@ import './TextImage.scss';
 import SectionHeader from '../../HowWeWork/SectionHeader';
 
 interface ISectionHeader {
-    large: string;
     image: any;
     relative?: string;
-    typeValue: string;
-    size: string;
     position: string;
     shadow?: string;
     id: string;

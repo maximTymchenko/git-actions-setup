@@ -4,93 +4,23 @@ import { FiThumbsUp } from 'react-icons/fi';
 import './Counter.scss';
 import classNames from 'classnames';
 
+type TCounterPoints = {
+    id: number;
+    title: string;
+    isActive: boolean;
+}[];
+
 interface ICounter {
     leftCounter: number;
     rightCounter: number;
-    increaseLeftCount: any;
-    increaseRightCount: any;
+    increaseLeftCount: () => void;
+    increaseRightCount: () => void;
+    handleCheckChieldCounterElement: (event: any) => void;
+    counterPoints: TCounterPoints;
 }
-type TCounterPoints = {
-    activePoint: null;
-    points: {
-        id: number;
-        title: string;
-        active: boolean;
-    }[];
-};
 
 const Counter: FC = (props: ICounter) => {
-    // const [counterPoints, setCounterPoints] = useState(props.counterPoints);
-
     const [iconType, setIconType] = useState<boolean>(false);
-    const [iconType2, setIconType2] = useState<boolean>(false);
-
-    // //! render counter title and add active class with click
-    const [counterPoints, setCounterPoints] = useState<TCounterPoints>({
-        activePoint: null,
-        points: [
-            {
-                id: 0,
-                title: 'Outcome responsibility',
-                active: false,
-            },
-            {
-                id: 1,
-                title: 'Project kickoff',
-                active: false,
-            },
-            {
-                id: 2,
-                title: 'Onboarding approach',
-                active: false,
-            },
-            {
-                id: 3,
-                title: 'Recruitment & screening',
-                active: false,
-            },
-            {
-                id: 4,
-                title: 'Remote management',
-                active: false,
-            },
-            {
-                id: 5,
-                title: 'Communication standards',
-                active: false,
-            },
-            {
-                id: 6,
-                title: 'Intellectual property',
-                active: false,
-            },
-            {
-                id: 7,
-                title: 'Pricing & predictability',
-                active: false,
-            },
-        ],
-    });
-
-    const togglePointsClass = (index: number): void => {
-        setCounterPoints({ ...counterPoints, activePoint: counterPoints.points[index] });
-    };
-
-    const toggleActivePoints = (index: number): string => {
-        if (counterPoints.points[index] === counterPoints.activePoint) {
-            return 'counter__icon counter__icon--active';
-        } else {
-            return 'counter__icon';
-        }
-    };
-
-    const toggleActiveRotatedPoints = (index: number): string => {
-        if (counterPoints.points[index] === counterPoints.activePoint) {
-            return 'counter__icon--rotated counter__icon--active';
-        } else {
-            return 'counter__icon--rotated';
-        }
-    };
 
     return (
         <div data-testid="counter" className="counter">
@@ -106,16 +36,10 @@ const Counter: FC = (props: ICounter) => {
                 </div>
                 <SectionTitle type="secondary" title="Fully Managed It Services" />
             </div>
-            {counterPoints.points.map((point, index) => (
+            {props.counterPoints.map((point, index) => (
                 <div key={index} className="counter__points">
                     <div onClick={props.increaseLeftCount}>
                         <FiThumbsUp
-                            // onClick={() => {
-                            //     togglePointsClass(index);
-                            //     updateStateByIndex();
-                            // }}
-                            onClick={point.func}
-                            // className={toggleActiveRotatedPoints(index)}
                             className={classNames('counter__icon--rotated', {
                                 'counter__icon--active': iconType,
                             })}
@@ -124,12 +48,8 @@ const Counter: FC = (props: ICounter) => {
                     <span className="counter__title">{point.title}</span>
                     <div onClick={props.increaseRightCount}>
                         <FiThumbsUp
-                            // onClick={() => {
-                            //     togglePointsClass(index);
-                            //     // updateStateByIndex();
-                            // }}
                             onClick={point.func}
-                            className={classNames('counter__icon--rotated', {
+                            className={classNames('counter__icon', {
                                 'counter__icon--active': iconType,
                             })}
                             // className={toggleActivePoints(index)}

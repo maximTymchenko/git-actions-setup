@@ -2,10 +2,8 @@ import React, { FC, useState } from 'react';
 import './BlogHeader.scss';
 import SectionTitle from '../../../common/SectionTitle';
 import TextDescription from '../../../common/TextDescription';
-import Button from '../../../common/Button';
-import arrowRight from '../../../../assets/img/arr-right.svg';
-import classNames from 'classnames';
 import Nav from '../../../common/Nav';
+import BlogForm from '../BlogForm';
 
 interface IBlogHEaderProps {
     blogTitle: string;
@@ -29,29 +27,6 @@ const BlogHeader: FC = (props: IBlogHEaderProps) => {
         ],
     };
 
-    const [inputData, setInputData] = useState<string>('');
-    const [emailType, setEmailType] = useState<boolean>(false);
-
-    const getData = (val: EventTarget | null) => {
-        setInputData(val.target.value);
-
-        if (typeof inputData !== 'string') {
-            setEmailType(true);
-        }
-
-        if (inputData.search(/\s/) !== -1) {
-            setEmailType(true);
-        }
-
-        if (inputData.search(/[!#$%^&*()\-=_+~[\]{}'"\\|,/<>?]/) === -1) {
-            setEmailType(true);
-        }
-
-        if (inputData == '') {
-            setEmailType(false);
-        }
-    };
-
     return (
         <div data-testid="blog-header" className="blog-header">
             <div className="blog-header__nav">
@@ -62,31 +37,7 @@ const BlogHeader: FC = (props: IBlogHEaderProps) => {
                 <div className="blog-header__subtitle">
                     <TextDescription>{props.blogSubtitle}</TextDescription>
                 </div>
-                <form className="blog-header__form">
-                    <div className="blog-header__input-wrapper">
-                        <input
-                            onChange={getData}
-                            className={classNames('blog-header__input', {
-                                'blog-header__input--error': emailType,
-                            })}
-                            type="email"
-                            name="email"
-                            placeholder="Your email"
-                        />
-                        <span
-                            className={classNames('blog-header__error', {
-                                'blog-header__error--show': emailType,
-                            })}
-                        >
-                            Check email
-                        </span>
-                    </div>
-                    <div className="blog-header__button">
-                        <Button icon={arrowRight} type="secondary">
-                            Subscribe
-                        </Button>
-                    </div>
-                </form>
+                <BlogForm />
             </div>
         </div>
     );

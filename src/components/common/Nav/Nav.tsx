@@ -5,7 +5,7 @@ import './Nav.scss';
 const Nav = ({ links, path, type, linkType, typeContainer }) => {
     const [navLinks, setNavLinks] = useState(links);
 
-    const toggleNavClass = (index: number) => {
+    const toggleNavClass = (index: number): void => {
         setNavLinks({ ...navLinks, activeLink: navLinks.links[index] });
     };
 

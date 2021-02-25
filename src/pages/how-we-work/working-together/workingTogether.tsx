@@ -25,6 +25,12 @@ import People from '../../../assets/img/workingTogether/people.svg';
 
 import './workingTogether.scss';
 
+type TCounterPoints = {
+    id: number;
+    title: string;
+    isActive: boolean;
+}[];
+
 const workingTogether: FC = () => {
     const [rightCount, setRightCount] = useState<number>(0);
     const [leftCount, setLeftCount] = useState<number>(0);
@@ -40,6 +46,60 @@ const workingTogether: FC = () => {
     const resetCounter = (): void => {
         setLeftCount(0);
         setRightCount(0);
+    };
+
+    const [counterPoints, setCounterPoints] = useState<TCounterPoints>([
+        {
+            id: 0,
+            title: 'Outcome responsibility',
+            isActive: false,
+        },
+        {
+            id: 1,
+            title: 'Project kickoff',
+            isActive: false,
+        },
+        {
+            id: 2,
+            title: 'Onboarding approach',
+            isActive: false,
+        },
+        {
+            id: 3,
+            title: 'Recruitment & screening',
+            isActive: false,
+        },
+        {
+            id: 4,
+            title: 'Remote management',
+            isActive: false,
+        },
+        {
+            id: 5,
+            title: 'Communication standards',
+            isActive: false,
+        },
+        {
+            id: 6,
+            title: 'Intellectual property',
+            isActive: false,
+        },
+        {
+            id: 7,
+            title: 'Pricing & predictability',
+            isActive: false,
+        },
+    ]);
+
+    const handleCheckChieldCounterElement = (event: any): void => {
+        const listCopy = counterPoints.slice();
+        listCopy.forEach((services) => {
+            if (services.title === event.target.value) {
+                services.isActive = event.target.checked;
+                console.log(listCopy);
+            }
+        });
+        setCounterPoints(listCopy);
     };
 
     return (
@@ -714,6 +774,8 @@ const workingTogether: FC = () => {
                     increaseRightCount={increaseRightCount}
                     leftCounter={leftCount}
                     rightCounter={rightCount}
+                    counterPoints={counterPoints}
+                    handleCheckChieldCounterElement={handleCheckChieldCounterElement}
                 />
                 <div className="working-together__span">
                     <TextSpan

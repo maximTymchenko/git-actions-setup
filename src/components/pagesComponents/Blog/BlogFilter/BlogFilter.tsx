@@ -9,7 +9,6 @@ type IList = {
 }[];
 
 const BlogFilter: FC = () => {
-    [];
     const [servicesList, setServicesList] = useState<IList>([
         { id: 1, value: 'Web development', isChecked: false },
         { id: 2, value: 'Cloud services', isChecked: false },

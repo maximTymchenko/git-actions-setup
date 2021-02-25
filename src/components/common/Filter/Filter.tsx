@@ -185,6 +185,14 @@ class NewFilter extends Component {
         this.setState({ solutionsList: solutionsList });
     };
 
+   
+
+    handleClickOutside = (e: any): void=> {
+        if (!e.path.includes(this.navRef.current)) {
+            this.setState({ dotsType: false });
+        }
+    };
+
     handleAllChecked = (event: any): void => {
         this.handlePlatformListChecked(event);
         this.handleCloudsListChecked(event);
@@ -193,14 +201,11 @@ class NewFilter extends Component {
         this.handleSolutionsListChecked(event);
     };
 
-    handleClickOutside = (e: any): void=> {
-        if (!e.path.includes(this.navRef.current)) {
-            this.setState({ dotsType: false });
-        }
-    };
-    //
+
     componentDidMount(): void {
         document.body.addEventListener('click', this.handleClickOutside);
+
+        
     }
 
     render() {

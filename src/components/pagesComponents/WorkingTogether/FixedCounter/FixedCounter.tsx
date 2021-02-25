@@ -22,129 +22,129 @@ const FixedCounter: FC = (props: IFixedCounter) => {
 
     const [counterVisible, setCounterVisible] = useState<boolean>(true);
 
-    useEffect(() => {
-        if (getYScroll > 1200) {
-            setCounterVisible(true);
-        } else {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll > 1200) {
+    //         setCounterVisible(true);
+    //     } else {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 10900) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 10900) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    // Outcome responsibility
-    useEffect(() => {
-        if (getYScroll >= 1550) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // // Outcome responsibility
+    // useEffect(() => {
+    //     if (getYScroll >= 1550) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 1700) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 1700) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    // Project kickoff
-    useEffect(() => {
-        if (getYScroll >= 2240) {
-            setCounterVisible(true);
-        }
-    }, [getYScroll]);
+    // // Project kickoff
+    // useEffect(() => {
+    //     if (getYScroll >= 2240) {
+    //         setCounterVisible(true);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 2640) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 2640) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    // Onboarding approach
+    // // Onboarding approach
 
-    useEffect(() => {
-        if (getYScroll >= 3350) {
-            setCounterVisible(true);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 3350) {
+    //         setCounterVisible(true);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 3800) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 3800) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    // Recruitment & screening
+    // // Recruitment & screening
 
-    useEffect(() => {
-        if (getYScroll >= 4600) {
-            setCounterVisible(true);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 4600) {
+    //         setCounterVisible(true);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 4800) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 4800) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    // Remote management
+    // // Remote management
 
-    useEffect(() => {
-        if (getYScroll >= 6000) {
-            setCounterVisible(true);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 6000) {
+    //         setCounterVisible(true);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 6500) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 6500) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    // Communication standard
+    // // Communication standard
 
-    useEffect(() => {
-        if (getYScroll >= 7100) {
-            setCounterVisible(true);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 7100) {
+    //         setCounterVisible(true);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 7550) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 7550) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    // Intellectual property
+    // // Intellectual property
 
-    useEffect(() => {
-        if (getYScroll >= 8200) {
-            setCounterVisible(true);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 8200) {
+    //         setCounterVisible(true);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 8750) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 8750) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
-    // Pricing & predictability
+    // // Pricing & predictability
 
-    useEffect(() => {
-        if (getYScroll >= 9400) {
-            setCounterVisible(true);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 9400) {
+    //         setCounterVisible(true);
+    //     }
+    // }, [getYScroll]);
 
-    useEffect(() => {
-        if (getYScroll >= 10000) {
-            setCounterVisible(false);
-        }
-    }, [getYScroll]);
+    // useEffect(() => {
+    //     if (getYScroll >= 10000) {
+    //         setCounterVisible(false);
+    //     }
+    // }, [getYScroll]);
 
     return (
         <div data-testid="fixed-counter">
