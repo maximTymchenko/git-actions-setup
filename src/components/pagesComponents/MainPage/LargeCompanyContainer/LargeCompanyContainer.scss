@@ -5,8 +5,7 @@
     cursor: pointer;
     outline: 2px solid $secondary;
     box-shadow: 9px 9px 1px 1px rgba(57, 156, 203, 0.4);
-    @include transition__outline;
-    @include transition__shadow;
+    @include transition__mixed;
     @include background__position;
     display: grid;
     height: 360px;

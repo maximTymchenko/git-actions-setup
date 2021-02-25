@@ -11,14 +11,14 @@ const BlogForm: FC = () => {
 
     const [emailError, setEmailError] = useState('');
     const validateEmail = (e) => {
-        var email = e.target.value;
+        let email = e.target.value;
 
         if (validator.isEmail(email)) {
             setEmailError('Valid Email :)');
-            setEmailClass(false);
+            // setEmailClass(false);
         } else {
             setEmailError('Enter valid Email!');
-            setEmailClass(true);
+            // setEmailClass(true);
         }
     };
 
@@ -45,7 +45,7 @@ const BlogForm: FC = () => {
                     Check email
                 </span>
             </div>
-            <div className="blog-header__button">
+            <div className="blog-header__button" onClick={(e) => validateEmail(e)}>
                 <Button icon={arrowRight} type="secondary">
                     Subscribe
                 </Button>

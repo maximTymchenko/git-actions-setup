@@ -56,7 +56,11 @@ $mac__13: 2560px;
 }
 
 @mixin transition__outline {
-    transition: 0.3s easy-in outline;
+    transition: outline 0.6s linear;
+}
+
+@mixin transition__mixed {
+    transition: outline 0.2s ease-out, box-shadow 0.7s linear;
 }
 
 @mixin main__padding {

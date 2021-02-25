@@ -7,8 +7,8 @@
     outline: solid 2px $secondary;
     padding: 30px 35px;
     box-shadow: 7px 7px 1px 1px rgba(57, 156, 203, 0.4);
-    @include transition__outline;
-    @include transition__shadow;
+    @include transition__mixed;
+
     margin-bottom: 25px;
 
     display: flex;
@@ -88,7 +88,7 @@
 
     &:hover {
         background-color: $background__secondary;
-        outline: solid 4px $secondary;
+        outline-width: 4px;
         outline-offset: -2px;
     }
 
