@@ -17,6 +17,7 @@ import TextSpan from '../../components/pagesComponents/MainPage/TextSpan';
 import TextImage from '../../components/pagesComponents/WorkingTogether/TextImage';
 import PhotoIcon from '../../components/pagesComponents/AboutUs/PhotoIcon';
 import CEO from '../../assets/img/aboutUs/CEO.jpeg';
+import SmallPhotoIcon from '../../components/pagesComponents/AboutUs/SmallPhotoIcon';
 
 type TOurTeam = {
     id: number;
@@ -100,6 +101,9 @@ const aboutUs: FC = () => {
                 </div>
                 <SectionTitle type="lighter" title="Meet our team" />
                 <PhotoIcon ourTeam={ourTeam} />
+                <SmallPhotoIcon />
+                <SectionTitle type="primary" title="Our talented people" />
+
                 <TextSpan title="Let’s work together">
                     Even a 5-minute intro call could potentially save you countless hours of endless
                     back-and-forth emails.

@@ -7,8 +7,8 @@
         margin-right: 0;
     }
     &__wrapper {
-        width: 280px;
-        height: 280px;
+        width: 270px;
+        height: 270px;
         border: 2px solid $secondary;
         display: flex;
         justify-content: center;
@@ -17,7 +17,7 @@
 
     &__container {
         display: flex;
-        margin-top: 30px;
+        margin: 50px 0 30px;
         overflow-x: scroll;
         width: 100%;
         max-width: 1000px;

@@ -1,0 +1,12 @@
+@import '../../../../styles/vars';
+
+.small-photo-icon {
+    &__wrapper {
+        width: 140px;
+        height: 140px;
+        border: 2px solid $secondary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
