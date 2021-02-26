@@ -90,7 +90,7 @@
             border-bottom: 4px solid transparent;
             @include transition;
 
-            @media screen and (max-width: $tablet) {
+            @media screen and (max-width: $large__tablet) {
                 display: none;
             }
 
@@ -198,7 +198,7 @@
     font-size: 20px;
     color: $text__body;
 
-    @media screen and (max-width: $tablet) {
+    @media screen and (max-width: $large__tablet) {
         display: none;
     }
 }

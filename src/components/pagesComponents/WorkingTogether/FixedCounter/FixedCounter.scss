@@ -13,15 +13,7 @@
     text-align: center;
     z-index: 100;
 
-    @media screen and (max-width: $desktop) {
-        right: 40%;
-    }
-
-    @media screen and (max-width: $tablet) {
-        right: 36%;
-    }
-
-    @media screen and (max-width: $mobile) {
+    @media screen and (max-width: $small__tablet) {
         display: none;
     }
 

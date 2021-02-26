@@ -20,23 +20,23 @@
         // margin-top: 0px;
     }
 
-    &__img {
-        background-image: url('../../../assets/img/workingTogether/mountains.svg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: bottom right;
+    // &__img {
+    //     background-image: url('../../../assets/img/workingTogether/mountains.svg');
+    //     background-repeat: no-repeat;
+    //     background-size: contain;
+    //     background-position: bottom right;
 
-        width: 550px;
-        // width: 100%;
-        // height: 100%;
+    //     width: 550px;
+    //     // width: 100%;
+    //     // height: 100%;
 
-        position: relative;
-        bottom: -90px;
+    //     position: relative;
+    //     bottom: -90px;
 
-        @media screen and (max-width: $small__desktop) {
-            background: none;
-        }
-    }
+    //     @media screen and (max-width: $small__desktop) {
+    //         background: none;
+    //     }
+    // }
 
     &__text {
         font-family: 'OktaNeue-Regular';
@@ -92,31 +92,37 @@
     }
 
     &__img-type {
-        display: none;
+        // display: none;
+        position: absolute;
+        right: 0;
+        display: block;
 
         @media screen and (max-width: $small__desktop) {
-            display: block;
             position: relative;
             top: 120px;
-            right: -350px;
+            left: 200px;
         }
 
-        @media screen and (max-width: $small__desktop) {
-            right: -100px;
+        @media screen and (max-width: $large__tablet) {
+            left: 100px;
         }
 
         @media screen and (max-width: $small__tablet) {
-            right: -180px;
+            left: 158px;
         }
 
         @media screen and (max-width: $large__mobile) {
-            right: -120px;
+            left: 100px;
             top: 80px;
         }
 
-        @media screen and (max-width: $small__mobile) {
-            right: -50px;
+        @media screen and (max-width: $mobile) {
+            left: 125px;
             top: 60px;
+        }
+
+        @media screen and (max-width: $small__mobile) {
+            left: 70px;
         }
     }
 
