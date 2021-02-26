@@ -3,6 +3,8 @@ const preferDefault = m => (m && m.default) || m
 
 exports.components = {
   "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
+  "component---src-pages-about-us-about-us-tsx": () => import("./../../../src/pages/about-us/aboutUs.tsx" /* webpackChunkName: "component---src-pages-about-us-about-us-tsx" */),
+  "component---src-pages-about-us-index-ts": () => import("./../../../src/pages/about-us/index.ts" /* webpackChunkName: "component---src-pages-about-us-index-ts" */),
   "component---src-pages-acknowledgement-and-acceptance-acknowledgement-and-acceptance-tsx": () => import("./../../../src/pages/acknowledgement-and-acceptance/acknowledgementAndAcceptance.tsx" /* webpackChunkName: "component---src-pages-acknowledgement-and-acceptance-acknowledgement-and-acceptance-tsx" */),
   "component---src-pages-acknowledgement-and-acceptance-index-ts": () => import("./../../../src/pages/acknowledgement-and-acceptance/index.ts" /* webpackChunkName: "component---src-pages-acknowledgement-and-acceptance-index-ts" */),
   "component---src-pages-blog-blog-tsx": () => import("./../../../src/pages/blog/Blog.tsx" /* webpackChunkName: "component---src-pages-blog-blog-tsx" */),

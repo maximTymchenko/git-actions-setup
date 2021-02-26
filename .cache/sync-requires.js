@@ -6,6 +6,8 @@ const preferDefault = m => (m && m.default) || m
 
 exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/.cache/dev-404-page.js"))),
+  "component---src-pages-about-us-about-us-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/about-us/aboutUs.tsx"))),
+  "component---src-pages-about-us-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/about-us/index.ts"))),
   "component---src-pages-acknowledgement-and-acceptance-acknowledgement-and-acceptance-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/acknowledgement-and-acceptance/acknowledgementAndAcceptance.tsx"))),
   "component---src-pages-acknowledgement-and-acceptance-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/acknowledgement-and-acceptance/index.ts"))),
   "component---src-pages-blog-blog-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/blog/Blog.tsx"))),

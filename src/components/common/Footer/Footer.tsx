@@ -43,7 +43,7 @@ const Footer: FC = () => {
     const [company, setCompany] = useState<TFooterServices>({
         activeCompany: null,
         companies: [
-            { id: 1, title: 'About Us' },
+            { id: 1, title: 'About Us', page: '/about-us/' },
             { id: 2, title: 'Blog and Resources', page: '/blog/' },
             { id: 3, title: 'Careers', label: 'Hiring', isLabled: true },
             { id: 4, title: 'Contact Blackbird', page: '/contact-us/' },

@@ -1,0 +1,33 @@
+@import '../../styles/vars';
+
+.about-us {
+    margin: 120px auto 50px;
+    @include section__size;
+
+    &__header {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        position: relative;
+        display: block;
+        overflow: hidden;
+
+        &::before {
+            content: '';
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            z-index: 1;
+            background-color: rgba(74, 85, 94, 0.5);
+            background-image: url('../../assets/img/dots-small.svg');
+        }
+    }
+
+    &__btn {
+        margin-top: 30px;
+    }
+}
