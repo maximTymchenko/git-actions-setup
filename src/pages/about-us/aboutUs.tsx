@@ -6,6 +6,10 @@ import TextDescription from '../../components/common/TextDescription';
 import triangleRight from '../../assets/img/triangle-right.svg';
 import Button from '../../components/common/Button';
 import workingPeople from '../../assets/img/aboutUs/working-people.jpg';
+import office1 from '../../assets/img/aboutUs/office-1.jpeg';
+import office2 from '../../assets/img/aboutUs/office-2.jpeg';
+import office3 from '../../assets/img/aboutUs/office-3.jpeg';
+import office4 from '../../assets/img/aboutUs/office-4.jpeg';
 
 const aboutUs: FC = () => {
     return (
@@ -37,6 +41,20 @@ const aboutUs: FC = () => {
                     <div className="about-us__img">
                         <img src={workingPeople} alt="Working people" />
                     </div>
+                </div>
+                <div className="about-us__gallery">
+                    <img src={office1} alt="Office photo" className="about-us__photo" />
+                    <img
+                        src={office2}
+                        alt="Office photo"
+                        className="about-us__photo about-us__photo--big"
+                    />
+                    <img
+                        src={office3}
+                        alt="Office photo"
+                        className="about-us__photo about-us__photo--big"
+                    />
+                    <img src={office4} alt="Office photo" className="about-us__photo " />
                 </div>
             </div>
         </Layouts>

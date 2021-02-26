@@ -30,4 +30,22 @@
     &__btn {
         margin-top: 30px;
     }
+
+    &__gallery {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__photo {
+        display: block;
+        width: 100%;
+        max-width: 455px;
+        margin-bottom: 15px;
+
+        &--big {
+            max-width: 600px;
+        }
+    }
 }
