@@ -34,6 +34,30 @@ const aboutUs: FC = () => {
         { id: 3, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
         { id: 4, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
     ];
+
+    const ourTalanted: TOurTeam = [
+        { id: 0, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 1, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 2, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 3, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 4, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 5, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 6, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 7, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 8, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 9, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 10, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 11, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 12, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 13, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 14, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 15, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 16, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 17, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 18, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 19, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 20, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+    ];
     return (
         <Layouts>
             <div className="about-us">
@@ -101,9 +125,8 @@ const aboutUs: FC = () => {
                 </div>
                 <SectionTitle type="lighter" title="Meet our team" />
                 <PhotoIcon ourTeam={ourTeam} />
-                <SmallPhotoIcon />
                 <SectionTitle type="primary" title="Our talented people" />
-
+                <SmallPhotoIcon ourTalanted={ourTalanted} />
                 <TextSpan title="Let’s work together">
                     Even a 5-minute intro call could potentially save you countless hours of endless
                     back-and-forth emails.

@@ -1,6 +1,17 @@
 @import '../../../../styles/vars';
 
 .small-photo-icon {
+    position: relative;
+    display: inline-block;
+    @include transition;
+    margin-top: 30px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
     &__wrapper {
         width: 140px;
         height: 140px;
@@ -8,5 +19,48 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
+
+    &__img {
+        display: block;
+        width: 110px;
+        height: 110px;
+    }
+
+    &__description {
+        position: absolute;
+        border: solid 1px $secondary__opacity--50;
+        background-color: $background__secondary;
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        left: -5px;
+        display: none;
+        z-index: 10;
+    }
+
+    &__name {
+        font-family: 'OktaNeue-Black';
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.1px;
+        text-align: center;
+        color: $text;
+        display: block;
+    }
+
+    &__position {
+        font-family: 'OktaNeue-Black';
+        font-weight: 900;
+        text-align: center;
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: $text__body;
+        padding-bottom: 5px;
+    }
+}
+
+.small-photo-icon:hover .small-photo-icon__description {
+    display: block;
 }
