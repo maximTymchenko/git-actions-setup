@@ -4,103 +4,107 @@ exports[`renders without unexpected changes 1`] = `
 <ul
   className="nav nav--undefined"
 >
-  <a
-    className="link__margin  active__border"
-    href="/undefined"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
+  <div
+    className="nav__container nav__container--undefined"
   >
-    <li
-      className="nav__link"
+    <a
+      className="link__margin  active__border nav__link undefined"
       data-testid="nav"
+      href="/undefined"
       onClick={[Function]}
+      onMouseEnter={[Function]}
     >
-      All
-    </li>
-  </a>
-  <a
-    className="link__margin  active__border"
-    href="/undefined"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    <li
-      className="nav__link"
+      <li
+        className="nav__link"
+        onClick={[Function]}
+      >
+        All
+      </li>
+    </a>
+    <a
+      className="link__margin  active__border nav__link undefined"
       data-testid="nav"
+      href="/undefined"
       onClick={[Function]}
+      onMouseEnter={[Function]}
     >
-      Web development
-    </li>
-  </a>
-  <a
-    className="link__margin  active__border"
-    href="/undefined"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    <li
-      className="nav__link"
+      <li
+        className="nav__link"
+        onClick={[Function]}
+      >
+        Web development
+      </li>
+    </a>
+    <a
+      className="link__margin  active__border nav__link undefined"
       data-testid="nav"
+      href="/undefined"
       onClick={[Function]}
+      onMouseEnter={[Function]}
     >
-      Cloud services
-    </li>
-  </a>
-  <a
-    className="link__margin  active__border"
-    href="/undefined"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    <li
-      className="nav__link"
+      <li
+        className="nav__link"
+        onClick={[Function]}
+      >
+        Cloud services
+      </li>
+    </a>
+    <a
+      className="link__margin  active__border nav__link undefined"
       data-testid="nav"
+      href="/undefined"
       onClick={[Function]}
+      onMouseEnter={[Function]}
     >
-      Team extension
-    </li>
-  </a>
-  <a
-    className="link__margin  active__border"
-    href="/undefined"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    <li
-      className="nav__link"
+      <li
+        className="nav__link"
+        onClick={[Function]}
+      >
+        Team extension
+      </li>
+    </a>
+    <a
+      className="link__margin  active__border nav__link undefined"
       data-testid="nav"
+      href="/undefined"
       onClick={[Function]}
+      onMouseEnter={[Function]}
     >
-      AR & VR
-    </li>
-  </a>
-  <a
-    className="link__margin  active__border"
-    href="/undefined"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    <li
-      className="nav__link"
+      <li
+        className="nav__link"
+        onClick={[Function]}
+      >
+        AR & VR
+      </li>
+    </a>
+    <a
+      className="link__margin  active__border nav__link undefined"
       data-testid="nav"
+      href="/undefined"
       onClick={[Function]}
+      onMouseEnter={[Function]}
     >
-      Retail & E-commerce
-    </li>
-  </a>
-  <a
-    className="link__margin  active__border"
-    href="/undefined"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    <li
-      className="nav__link"
+      <li
+        className="nav__link"
+        onClick={[Function]}
+      >
+        Retail & E-commerce
+      </li>
+    </a>
+    <a
+      className="link__margin  active__border nav__link undefined"
       data-testid="nav"
+      href="/undefined"
       onClick={[Function]}
+      onMouseEnter={[Function]}
     >
-      Mobile development
-    </li>
-  </a>
+      <li
+        className="nav__link"
+        onClick={[Function]}
+      >
+        Mobile development
+      </li>
+    </a>
+  </div>
 </ul>
 `;

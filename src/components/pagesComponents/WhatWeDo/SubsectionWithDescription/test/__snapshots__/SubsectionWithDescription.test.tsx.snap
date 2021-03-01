@@ -12,7 +12,7 @@ exports[`renders without unexpected changes 1`] = `
     Retail and E-commerce
   </h2>
   <p
-    className="text-description text-description--undefined"
+    className="text-description text-description--undefined text-description--undefined"
     data-testid="text-description"
   />
 </div>

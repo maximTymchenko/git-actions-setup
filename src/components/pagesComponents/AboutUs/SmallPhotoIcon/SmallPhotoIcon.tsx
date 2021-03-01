@@ -5,7 +5,7 @@ const SmallPhotoIcon: FC = (props) => {
     return (
         <div className="small-photo-icon__container">
             {props.ourTalanted.map((talant) => (
-                <div className="small-photo-icon">
+                <div className="small-photo-icon" key={talant.id}>
                     <div className="small-photo-icon__wrapper">
                         <img src={talant.img} alt="" className="small-photo-icon__img" />
                     </div>

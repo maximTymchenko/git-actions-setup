@@ -2,7 +2,7 @@
 
 exports[`renders without unexpected changes 1`] = `
 <p
-  className="text-description text-description--undefined"
+  className="text-description text-description--undefined text-description--undefined"
   data-testid="text-description"
 />
 `;

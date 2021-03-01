@@ -32,7 +32,7 @@ exports[`renders without unexpected changes 1`] = `
         className="clock"
         data-testid="clock"
       >
-        03:13 PM
+        03:01 PM
       </span>
       <a
         className="contacts__phone"
@@ -75,7 +75,7 @@ exports[`renders without unexpected changes 1`] = `
         className="clock"
         data-testid="clock"
       >
-        07:13 AM
+        07:01 AM
       </span>
       <a
         className="contacts__phone"
@@ -108,7 +108,7 @@ exports[`renders without unexpected changes 1`] = `
         className="clock"
         data-testid="clock"
       >
-        08:13 AM
+        08:01 AM
       </span>
       <a
         className="contacts__phone"
@@ -141,7 +141,7 @@ exports[`renders without unexpected changes 1`] = `
         className="clock"
         data-testid="clock"
       >
-        05:13 AM
+        05:01 AM
       </span>
       <a
         className="contacts__phone"

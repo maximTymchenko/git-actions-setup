@@ -5,23 +5,34 @@ exports[`renders without unexpected changes 1`] = `
   className="features__wrapper"
   data-testid="features"
 >
-  <h2
-    className="title title--secondary"
-    data-testid="section-title"
+  <div
+    className="features__container"
   >
-    More amazing services and success stories awaiting you here
-  </h2>
-  <button
-    className="button button--secondary button--undefined button--undefined"
-    data-testid="button"
-  >
-    Discover all
-    <img
-      alt="Discover all"
-      className="button__icon"
-      data-testid="button__icon"
-      src="test-file-stub"
-    />
-  </button>
+    <h2
+      className="title title--secondary"
+      data-testid="section-title"
+    >
+      More amazing services and success stories awaiting you here
+    </h2>
+    <a
+      className="link"
+      href="/what-we-do/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <button
+        className="button button--secondary button--undefined button--mt"
+        data-testid="button"
+      >
+        Discover all
+        <img
+          alt="Discover all"
+          className="button__icon button__icon--undefined"
+          data-testid="button__icon"
+          src="test-file-stub"
+        />
+      </button>
+    </a>
+  </div>
 </div>
 `;

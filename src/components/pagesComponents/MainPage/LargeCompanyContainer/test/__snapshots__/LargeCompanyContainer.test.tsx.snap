@@ -8,11 +8,25 @@ exports[`renders without unexpected changes 1`] = `
   <div
     className="large-company-container large-company-container--undefined large-company-container--undefined"
   >
-    <img
-      alt="Spectar"
-      className="large-company-container__logo"
-      src="test-file-stub"
-    />
+    <div
+      className="large-company-container__header"
+    >
+      <img
+        alt="Spectar"
+        className="large-company-container__logo large-company-container__logo--undefined"
+        src="test-file-stub"
+      />
+      <div
+        className="large-company-container__time"
+      >
+        <span
+          className="large-company-container__date"
+        />
+        <span
+          className="large-company-container__readtime"
+        />
+      </div>
+    </div>
     <p
       className="large-company-container__desc"
     >
@@ -22,9 +36,8 @@ exports[`renders without unexpected changes 1`] = `
   <p
     className="large-company-container__hashtags large-company-container__hashtags--undefined"
   >
-    &gt;
     <span
-      className="large-company-container__label"
+      className="large-company-container__label large-company-container__label--undefined"
     >
       CASE STUDY
     </span>

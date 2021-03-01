@@ -46,95 +46,114 @@ exports[`renders without unexpected changes 1`] = `
           className="primary-nav__subcategories"
         >
           <div
+            className="primary-nav__btn--back"
+          >
+            <button
+              className="button button--apply--reverse button--undefined button--undefined"
+              data-testid="button"
+            >
+              Back
+              <img
+                className="button__icon button__icon--undefined"
+                data-testid="button__icon"
+                src="test-file-stub"
+              />
+            </button>
+          </div>
+          <div
             className="primary-nav__container"
           >
             <ul
               className="nav nav--undefined"
             >
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
+              <div
+                className="nav__container nav__container--primary"
               >
-                <li
-                  className="nav__link"
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Web development
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Web development
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Cloud services
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Cloud services
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Research
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Research
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Analytics
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Analytics
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Quality control
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Quality control
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Mobile development
-                </li>
-              </a>
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Mobile development
+                  </li>
+                </a>
+              </div>
             </ul>
           </div>
           <div
@@ -143,62 +162,66 @@ exports[`renders without unexpected changes 1`] = `
             <ul
               className="nav nav--undefined"
             >
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
+              <div
+                className="nav__container nav__container--primary"
               >
-                <li
-                  className="nav__link"
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Retail & E-commerce
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Retail & E-commerce
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Construction
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Construction
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Finance
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Finance
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Media
-                </li>
-              </a>
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Media
+                  </li>
+                </a>
+              </div>
             </ul>
           </div>
           <div
@@ -207,104 +230,108 @@ exports[`renders without unexpected changes 1`] = `
             <ul
               className="nav nav--undefined"
             >
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
+              <div
+                className="nav__container nav__container--primary"
               >
-                <li
-                  className="nav__link"
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  SaaS product
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    SaaS product
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Chatbots
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Chatbots
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  AR & VR
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    AR & VR
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Blockchain
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Blockchain
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Digital enterprise 
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Digital enterprise 
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Drone
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Drone
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  R&D
-                </li>
-              </a>
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    R&D
+                  </li>
+                </a>
+              </div>
             </ul>
           </div>
           <div
@@ -313,34 +340,38 @@ exports[`renders without unexpected changes 1`] = `
             <ul
               className="nav nav--undefined"
             >
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
+              <div
+                className="nav__container nav__container--primary"
               >
-                <li
-                  className="nav__link"
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  On-demand team extension
-                </li>
-              </a>
-              <a
-                className="link__margin  active__border"
-                href="/undefined"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                <li
-                  className="nav__link"
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    On-demand team extension
+                  </li>
+                </a>
+                <a
+                  className="link__margin  active__border nav__link undefined"
                   data-testid="nav"
+                  href="/undefined"
                   onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  Fully managed IT services
-                </li>
-              </a>
+                  <li
+                    className="nav__link"
+                    onClick={[Function]}
+                  >
+                    Fully managed IT services
+                  </li>
+                </a>
+              </div>
             </ul>
           </div>
         </div>
@@ -351,34 +382,38 @@ exports[`renders without unexpected changes 1`] = `
         <ul
           className="nav nav--undefined"
         >
-          <a
-            className="link__margin  active__border"
-            href="/undefined"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
+          <div
+            className="nav__container nav__container--undefined"
           >
-            <li
-              className="nav__link"
+            <a
+              className="link__margin  active__border nav__link undefined"
               data-testid="nav"
+              href="/undefined"
               onClick={[Function]}
+              onMouseEnter={[Function]}
             >
-              
-            </li>
-          </a>
-          <a
-            className="link__margin  active__border"
-            href="/undefined"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-          >
-            <li
-              className="nav__link"
+              <li
+                className="nav__link"
+                onClick={[Function]}
+              >
+                
+              </li>
+            </a>
+            <a
+              className="link__margin  active__border nav__link undefined"
               data-testid="nav"
+              href="/undefined"
               onClick={[Function]}
+              onMouseEnter={[Function]}
             >
-              
-            </li>
-          </a>
+              <li
+                className="nav__link"
+                onClick={[Function]}
+              >
+                
+              </li>
+            </a>
+          </div>
         </ul>
       </div>
     </ul>

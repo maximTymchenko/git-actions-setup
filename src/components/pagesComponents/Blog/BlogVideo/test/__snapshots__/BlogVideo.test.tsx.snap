@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div>
+  <div
+    className="blog-video"
+    data-testid="blog-video"
+  >
+    <div
+      className="blog-video__background"
+    >
+      <video
+        autoPlay={true}
+        className="blog-video__video blog-video__video--undefined"
+        loop={true}
+        muted={true}
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="blog-video__content blog-video__content--undefined"
+    >
+      <div
+        className="blog-video__head"
+      >
+        <button
+          className="button button--watch button--undefined button--undefined"
+          data-testid="button"
+        >
+          Watch now
+          <img
+            alt="Watch now"
+            className="button__icon button__icon--undefined"
+            data-testid="button__icon"
+            src="test-file-stub"
+          />
+        </button>
+        <div
+          className="blog-video__asside"
+        >
+          <span
+            className="blog-video__time"
+          >
+            15:10
+          </span>
+          <span
+            className="blog-video__date"
+          >
+            Feb 27, 2013
+          </span>
+        </div>
+      </div>
+      <p
+        className="blog-video__slogan"
+      >
+        Hiring the best possible engineers
+      </p>
+    </div>
+  </div>
+  <div
+    className="blog-video__footer"
+  >
+    <span
+      className="blog-video__label"
+    >
+      VIDEO
+    </span>
+    <p
+      className="blog-video__hashtag"
+    >
+      Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more
+    </p>
+  </div>
+</div>
+`;

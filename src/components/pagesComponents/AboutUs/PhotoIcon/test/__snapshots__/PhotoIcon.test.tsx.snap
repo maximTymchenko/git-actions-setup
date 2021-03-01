@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="photo-icon__container"
+  data-testid="photo-icon"
+>
+  <div
+    className="photo-icon"
+  >
+    <div
+      className="photo-icon__wrapper"
+    >
+      <img
+        alt="CEO"
+        className="photo-icon__img"
+        src="test-file-stub"
+      />
+    </div>
+    <span
+      className="photo-icon__name"
+    >
+      Yurii Drozd
+    </span>
+    <span
+      className="photo-icon__position"
+    >
+      CEO & Managing Director
+    </span>
+  </div>
+  <div
+    className="photo-icon"
+  >
+    <div
+      className="photo-icon__wrapper"
+    >
+      <img
+        alt="CEO"
+        className="photo-icon__img"
+        src="test-file-stub"
+      />
+    </div>
+    <span
+      className="photo-icon__name"
+    >
+      Yurii Drozd
+    </span>
+    <span
+      className="photo-icon__position"
+    >
+      CEO & Managing Director
+    </span>
+  </div>
+  <div
+    className="photo-icon"
+  >
+    <div
+      className="photo-icon__wrapper"
+    >
+      <img
+        alt="CEO"
+        className="photo-icon__img"
+        src="test-file-stub"
+      />
+    </div>
+    <span
+      className="photo-icon__name"
+    >
+      Yurii Drozd
+    </span>
+    <span
+      className="photo-icon__position"
+    >
+      CEO & Managing Director
+    </span>
+  </div>
+  <div
+    className="photo-icon"
+  >
+    <div
+      className="photo-icon__wrapper"
+    >
+      <img
+        alt="CEO"
+        className="photo-icon__img"
+        src="test-file-stub"
+      />
+    </div>
+    <span
+      className="photo-icon__name"
+    >
+      Yurii Drozd
+    </span>
+    <span
+      className="photo-icon__position"
+    >
+      CEO & Managing Director
+    </span>
+  </div>
+  <div
+    className="photo-icon"
+  >
+    <div
+      className="photo-icon__wrapper"
+    >
+      <img
+        alt="CEO"
+        className="photo-icon__img"
+        src="test-file-stub"
+      />
+    </div>
+    <span
+      className="photo-icon__name"
+    >
+      Yurii Drozd
+    </span>
+    <span
+      className="photo-icon__position"
+    >
+      CEO & Managing Director
+    </span>
+  </div>
+</div>
+`;

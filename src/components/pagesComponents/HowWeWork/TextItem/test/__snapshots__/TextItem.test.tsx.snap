@@ -29,7 +29,7 @@ exports[`renders without unexpected changes 1`] = `
         Learn more
         <img
           alt="Learn more"
-          className="button__icon"
+          className="button__icon button__icon--undefined"
           data-testid="button__icon"
           src="test-file-stub"
         />
@@ -38,7 +38,7 @@ exports[`renders without unexpected changes 1`] = `
   </div>
   <img
     alt=""
-    className="text-item__img"
+    className="text-item__img text-item__img--undefined"
   />
 </div>
 `;

@@ -66,6 +66,9 @@ const aboutUs: FC = () => {
         { id: 2, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
         { id: 3, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
         { id: 4, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
+        { id: 5, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
+        { id: 6, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
+        { id: 7, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
     ];
 
     const ourTalanted: TOurTeam = [

@@ -3,6 +3,8 @@ import PhotoIcon from '../PhotoIcon';
 import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 
+import CEO from '../../../../../assets/img/aboutUs/staff/Yurii_Drozd.jpeg';
+
 const ourTeam: TOurTeam = [
     { id: 0, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },
     { id: 1, name: 'Yurii Drozd', position: 'CEO & Managing Director', img: CEO },

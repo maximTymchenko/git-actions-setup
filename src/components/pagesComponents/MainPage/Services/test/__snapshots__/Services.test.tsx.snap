@@ -21,104 +21,80 @@ exports[`renders without unexpected changes 1`] = `
     <ul
       className="nav nav--main"
     >
-      <a
-        className="link__margin  active__border"
-        href="/what-we-do/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
+      <div
+        className="nav__container nav__container--undefined"
       >
-        <li
-          className="nav__link"
+        <a
+          className="link__margin  active__border nav__link undefined"
           data-testid="nav"
+          href="/what-we-do/"
           onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          All
-        </li>
-      </a>
-      <a
-        className="link__margin  active__border"
-        href="/what-we-do/web-development/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-      >
-        <li
-          className="nav__link"
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            All
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link undefined"
           data-testid="nav"
+          href="/what-we-do/web-development/"
           onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Web development
-        </li>
-      </a>
-      <a
-        className="link__margin  active__border"
-        href="/what-we-do/cloud-services/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-      >
-        <li
-          className="nav__link"
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Web development
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link undefined"
           data-testid="nav"
+          href="/what-we-do/cloud-services/"
           onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Cloud services
-        </li>
-      </a>
-      <a
-        className="link__margin  active__border"
-        href="/what-we-do/team-extension/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-      >
-        <li
-          className="nav__link"
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Cloud services
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link undefined"
           data-testid="nav"
+          href="/what-we-do/team-extension/"
           onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Team extension
-        </li>
-      </a>
-      <a
-        className="link__margin  active__border"
-        href="/what-we-do/ar-&-vr/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-      >
-        <li
-          className="nav__link"
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Team extension
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link undefined"
           data-testid="nav"
+          href="/what-we-do/ar-&-vr/"
           onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          AR & VR
-        </li>
-      </a>
-      <a
-        className="link__margin  active__border"
-        href="/what-we-do/retail-and-e-commerce/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-      >
-        <li
-          className="nav__link"
-          data-testid="nav"
-          onClick={[Function]}
-        >
-          Retail & E-commerce
-        </li>
-      </a>
-      <a
-        className="link__margin  active__border"
-        href="/what-we-do/mobile-development/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-      >
-        <li
-          className="nav__link"
-          data-testid="nav"
-          onClick={[Function]}
-        >
-          Mobile development
-        </li>
-      </a>
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            AR & VR
+          </li>
+        </a>
+      </div>
     </ul>
     <div
       className="services__nav-btn"
@@ -136,7 +112,7 @@ exports[`renders without unexpected changes 1`] = `
           Discover more
           <img
             alt="Discover more"
-            className="button__icon"
+            className="button__icon button__icon--undefined"
             data-testid="button__icon"
             src="test-file-stub"
           />
@@ -154,11 +130,25 @@ exports[`renders without unexpected changes 1`] = `
       <div
         className="large-company-container large-company-container--bg-main large-company-container--undefined"
       >
-        <img
-          alt="Spectar"
-          className="large-company-container__logo"
-          src="test-file-stub"
-        />
+        <div
+          className="large-company-container__header"
+        >
+          <img
+            alt="Spectar"
+            className="large-company-container__logo large-company-container__logo--undefined"
+            src="test-file-stub"
+          />
+          <div
+            className="large-company-container__time"
+          >
+            <span
+              className="large-company-container__date"
+            />
+            <span
+              className="large-company-container__readtime"
+            />
+          </div>
+        </div>
         <p
           className="large-company-container__desc"
         >
@@ -168,9 +158,8 @@ exports[`renders without unexpected changes 1`] = `
       <p
         className="large-company-container__hashtags large-company-container__hashtags--undefined"
       >
-        &gt;
         <span
-          className="large-company-container__label"
+          className="large-company-container__label large-company-container__label--undefined"
         >
           CASE STUDY
         </span>
@@ -178,33 +167,55 @@ exports[`renders without unexpected changes 1`] = `
       </p>
     </div>
     <div
-      className="small-company-container__wrapper"
-      data-testid="small-company-container"
+      className="services__company-wrapper"
     >
       <div
-        className="small-company-container small-company-container--undefined"
+        className="small-company-container__wrapper"
+        data-testid="small-company-container"
       >
-        <img
-          alt="Walmart"
-          className="small-company-container__logo"
-          src="test-file-stub"
-        />
-        <p
-          className="small-company-container__desc"
+        <div
+          className="small-company-container small-company-container--undefined small-company-container--undefined"
         >
-          Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company
-        </p>
+          <div
+            className="small-company-container__header"
+          >
+            <img
+              alt="Walmart"
+              className="small-company-container__logo small-company-container__logo--undefined"
+              src="test-file-stub"
+            />
+            <div
+              className="small-company-container__time"
+            >
+              <span
+                className="small-company-container__date"
+              />
+              <span
+                className="small-company-container__readtime"
+              />
+            </div>
+          </div>
+          <p
+            className="small-company-container__desc"
+          >
+            Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company
+          </p>
+        </div>
+        <div
+          className="small-company-container__footer"
+        >
+          <p
+            className="small-company-container__hashtags small-company-container__hashtags--undefined"
+          >
+            <span
+              className="small-company-container__label small-company-container__label--undefined"
+            >
+              CASE STUDY
+            </span>
+            Amazon, Retail & E-commerce, React, Web development, +13 more
+          </p>
+        </div>
       </div>
-      <p
-        className="small-company-container__hashtags small-company-container__hashtags--undefined"
-      >
-        <span
-          className="small-company-container__label"
-        >
-          CASE STUDY
-        </span>
-        Amazon, Retail & E-commerce, React, Web development, +13 more
-      </p>
     </div>
   </div>
 </div>

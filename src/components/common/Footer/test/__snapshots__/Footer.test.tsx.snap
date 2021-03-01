@@ -28,7 +28,7 @@ exports[`renders without unexpected changes 1`] = `
           className="clock"
           data-testid="clock"
         >
-          03:13 PM
+          03:01 PM
         </span>
         <a
           className="footer__phone"
@@ -59,7 +59,7 @@ exports[`renders without unexpected changes 1`] = `
             Get in touch
             <img
               alt="Get in touch"
-              className="button__icon"
+              className="button__icon button__icon--undefined"
               data-testid="button__icon"
               src="test-file-stub"
             />
@@ -112,109 +112,171 @@ exports[`renders without unexpected changes 1`] = `
       <ul
         className="footer__lists"
       >
-        <li
-          className="footer__link"
+        <span
+          className="footer__small-title"
         >
           Find a Service
-        </li>
-        <li
-          className="footer__link"
+        </span>
+        <a
+          href="/what-we-do/web-development/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Web Development
-        </li>
-        <li
-          className="footer__link"
+          <li
+            className="footer__link"
+          >
+            Web development
+          </li>
+        </a>
+        <a>
+          <li
+            className="footer__link"
+          >
+            Quality Control
+          </li>
+        </a>
+        <a>
+          <li
+            className="footer__link"
+          >
+            Research
+          </li>
+        </a>
+        <a>
+          <li
+            className="footer__link"
+          >
+            Analytics
+          </li>
+        </a>
+        <a
+          href="/what-we-do/cloud-services/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Quality Control
-        </li>
-        <li
-          className="footer__link"
+          <li
+            className="footer__link"
+          >
+            Cloud Services
+          </li>
+        </a>
+        <a
+          href="/what-we-do/mobile-development/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Research
-        </li>
-        <li
-          className="footer__link"
-        >
-          Analytics
-        </li>
-        <li
-          className="footer__link"
-        >
-          Cloud Services
-        </li>
-        <li
-          className="footer__link"
-        >
-          Mobile Development
-        </li>
+          <li
+            className="footer__link"
+          >
+            Mobile development
+          </li>
+        </a>
       </ul>
       <ul
         className="footer__lists"
       >
-        <li
-          className="footer__link"
+        <span
+          className="footer__small-title"
         >
           Pick an Expertise
-        </li>
-        <li
-          className="footer__link"
+        </span>
+        <a
+          href="/what-we-do/retail-and-e-commerce/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Retail and E-commerce
-        </li>
-        <li
-          className="footer__link"
+          <li
+            className="footer__link"
+          >
+            Retail and E-commerce
+          </li>
+        </a>
+        <a>
+          <li
+            className="footer__link"
+          >
+            Construction
+          </li>
+        </a>
+        <a>
+          <li
+            className="footer__link"
+          >
+            Finance and ERP
+          </li>
+        </a>
+        <a>
+          <li
+            className="footer__link"
+          >
+            Media
+          </li>
+        </a>
+        <a
+          href="/what-we-do/ar-&-vr/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Construction
-        </li>
-        <li
-          className="footer__link"
-        >
-          Finance and ERP
-        </li>
-        <li
-          className="footer__link"
-        >
-          Media
-        </li>
-        <li
-          className="footer__link"
-        >
-          AR & VR
-        </li>
+          <li
+            className="footer__link"
+          >
+            AR & VR
+          </li>
+        </a>
       </ul>
       <ul
         className="footer__lists"
       >
-        <li
-          className="footer__link"
+        <span
+          className="footer__small-title"
         >
           Company
-        </li>
-        <li
-          className="footer__link"
+        </span>
+        <a
+          href="/about-us/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          About Us
-        </li>
-        <li
-          className="footer__link"
+          <li
+            className="footer__link"
+          >
+            About Us
+          </li>
+        </a>
+        <a
+          href="/blog/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Blog and Resources
-        </li>
-        <li
-          className="footer__link"
+          <li
+            className="footer__link"
+          >
+            Blog and Resources
+          </li>
+        </a>
+        <a>
+          <li
+            className="footer__link"
+          >
+            Careers
+            <span
+              className="footer__label"
+            >
+              Hiring
+            </span>
+          </li>
+        </a>
+        <a
+          href="/contact-us/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
-          Careers
-        </li>
-        <li
-          className="footer__link"
-        >
-          Media
-        </li>
-        <li
-          className="footer__link"
-        >
-          Contact Blackbird
-        </li>
+          <li
+            className="footer__link"
+          >
+            Contact Blackbird
+          </li>
+        </a>
       </ul>
     </div>
   </div>

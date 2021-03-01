@@ -54,7 +54,6 @@ exports[`renders without unexpected changes 1`] = `
         className="counter__icon--rotated"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -80,10 +79,9 @@ exports[`renders without unexpected changes 1`] = `
     </span>
     <div>
       <svg
-        className="counter__icon--rotated"
+        className="counter__icon"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -111,7 +109,6 @@ exports[`renders without unexpected changes 1`] = `
         className="counter__icon--rotated"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -137,10 +134,9 @@ exports[`renders without unexpected changes 1`] = `
     </span>
     <div>
       <svg
-        className="counter__icon--rotated"
+        className="counter__icon"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -168,7 +164,6 @@ exports[`renders without unexpected changes 1`] = `
         className="counter__icon--rotated"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -194,10 +189,9 @@ exports[`renders without unexpected changes 1`] = `
     </span>
     <div>
       <svg
-        className="counter__icon--rotated"
+        className="counter__icon"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -225,7 +219,6 @@ exports[`renders without unexpected changes 1`] = `
         className="counter__icon--rotated"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -251,10 +244,9 @@ exports[`renders without unexpected changes 1`] = `
     </span>
     <div>
       <svg
-        className="counter__icon--rotated"
+        className="counter__icon"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -282,7 +274,6 @@ exports[`renders without unexpected changes 1`] = `
         className="counter__icon--rotated"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -308,10 +299,9 @@ exports[`renders without unexpected changes 1`] = `
     </span>
     <div>
       <svg
-        className="counter__icon--rotated"
+        className="counter__icon"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -339,7 +329,6 @@ exports[`renders without unexpected changes 1`] = `
         className="counter__icon--rotated"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -365,10 +354,9 @@ exports[`renders without unexpected changes 1`] = `
     </span>
     <div>
       <svg
-        className="counter__icon--rotated"
+        className="counter__icon"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -396,7 +384,6 @@ exports[`renders without unexpected changes 1`] = `
         className="counter__icon--rotated"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -422,10 +409,9 @@ exports[`renders without unexpected changes 1`] = `
     </span>
     <div>
       <svg
-        className="counter__icon--rotated"
+        className="counter__icon"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -453,7 +439,6 @@ exports[`renders without unexpected changes 1`] = `
         className="counter__icon--rotated"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -479,10 +464,9 @@ exports[`renders without unexpected changes 1`] = `
     </span>
     <div>
       <svg
-        className="counter__icon--rotated"
+        className="counter__icon"
         fill="none"
         height="1em"
-        onClick={[Function]}
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"

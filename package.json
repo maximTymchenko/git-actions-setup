@@ -37,9 +37,9 @@
         "react-helmet": "^6.1.0",
         "react-icons": "^4.1.0",
         "react-scroll": "^1.8.1",
-        "react-slick": "^0.28.0",
         "react-test-renderer": "^17.0.1",
         "tslint-react": "^5.0.0",
+        "uninstall": "0.0.0",
         "validator": "^13.5.2",
         "yup": "^0.32.9"
     },

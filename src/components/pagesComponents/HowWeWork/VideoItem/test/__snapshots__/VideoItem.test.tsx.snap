@@ -9,25 +9,25 @@ exports[`renders without unexpected changes 1`] = `
     className="video-item__container video-item__container--small"
   >
     <span
-      className="video-item__number"
+      className="video-item__number video-item__number--undefined"
     >
       1
     </span>
     <div
-      className="video-item__button"
+      className="video-item__button video-item__button--undefined"
     >
       <button
         className="button button--undefined button--undefined button--undefined"
         data-testid="button"
       >
         <img
-          className="button__icon"
+          className="button__icon button__icon--undefined"
           data-testid="button__icon"
         />
       </button>
     </div>
     <span
-      className="video-item__label"
+      className="video-item__label video-item__label--undefined"
     >
       test
     </span>

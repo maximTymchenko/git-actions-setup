@@ -17,23 +17,23 @@ exports[`renders without unexpected changes 1`] = `
     <p
       className="text-span__info"
     />
-    <button
-      className="button button--secondary button--undefined button--undefined"
-      data-testid="button"
+    <a
+      href="https://calendly.com/yuriidrozd"
+      target="_blank"
     >
-      <a
-        href="https://calendly.com/yuriidrozd"
-        target="_blank"
+      <button
+        className="button button--secondary button--undefined button--undefined"
+        data-testid="button"
       >
         Book a meeting
-      </a>
-      <img
-        alt="Discover all"
-        className="button__icon"
-        data-testid="button__icon"
-        src="test-file-stub"
-      />
-    </button>
+        <img
+          alt="Discover all"
+          className="button__icon button__icon--undefined"
+          data-testid="button__icon"
+          src="test-file-stub"
+        />
+      </button>
+    </a>
   </div>
 </section>
 `;

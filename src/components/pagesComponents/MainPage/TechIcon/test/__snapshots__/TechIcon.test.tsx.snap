@@ -2,7 +2,7 @@
 
 exports[`renders without unexpected changes 1`] = `
 <div
-  className="tech__img-wrapper"
+  className="tech__img-wrapper tech__img-wrapper--undefined"
   data-testid="tech-icon"
 >
   <span

@@ -2,136 +2,424 @@
 
 exports[`renders without unexpected changes 1`] = `
 <div
-  className="filter-list"
   data-testid="filter-list"
 >
   <div
-    className="filter-list__body"
+    className="primary-nav__section"
   >
-    <span
-      className="filter-list__title"
-    >
-      Platforms
-    </span>
     <div
-      className="filter-list__wrapper"
+      className="primary-nav primary-nav--filter"
+      data-testid="primary-nav"
     >
-      <div
-        className="filter-list__chose"
+      <ul
+        className="primary-nav__wrapper"
       >
-        <input
-          className="filter-list__check"
-          id={1}
-          name=""
-          type="checkbox"
-        />
-        <label
-          className="filter-list__label"
-          htmlFor={1}
+        <div
+          className="primary-nav__body"
         >
-          Web
-        </label>
-      </div>
-    </div>
-    <div
-      className="filter-list__wrapper"
-    >
-      <div
-        className="filter-list__chose"
-      >
-        <input
-          className="filter-list__check"
-          id={2}
-          name=""
-          type="checkbox"
-        />
-        <label
-          className="filter-list__label"
-          htmlFor={2}
+          <div
+            className="primary-nav__items primary-nav__items--undefined"
+          >
+            <li
+              className="primary-nav__categories"
+              onClick={[Function]}
+            >
+              Services
+            </li>
+            <li
+              className="primary-nav__categories"
+              onClick={[Function]}
+            >
+              Industries
+            </li>
+            <li
+              className="primary-nav__categories"
+              onClick={[Function]}
+            >
+              Expertise
+            </li>
+            <li
+              className="primary-nav__categories"
+              onClick={[Function]}
+            >
+              Engagement
+            </li>
+          </div>
+          <div
+            className="primary-nav__subcategories"
+          >
+            <div
+              className="primary-nav__btn--back"
+            >
+              <button
+                className="button button--apply--reverse button--undefined button--undefined"
+                data-testid="button"
+              >
+                Back
+                <img
+                  className="button__icon button__icon--undefined"
+                  data-testid="button__icon"
+                  src="test-file-stub"
+                />
+              </button>
+            </div>
+            <div
+              className="primary-nav__container"
+            >
+              <ul
+                className="nav nav--undefined"
+              >
+                <div
+                  className="nav__container nav__container--primary"
+                >
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/what-we-do/web-development/"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Web development
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/what-we-do/cloud-services/"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Cloud services
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/what-we-do/team-extension/"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Team extension
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/what-we-do/ar-&-vr/"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      AR & VR
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/what-we-do/retaile-and-e-commerce/"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Retail & E-commerce
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/what-we-do/mobile-development/"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Mobile development
+                    </li>
+                  </a>
+                </div>
+              </ul>
+            </div>
+            <div
+              className="primary-nav__container"
+            >
+              <ul
+                className="nav nav--undefined"
+              >
+                <div
+                  className="nav__container nav__container--primary"
+                >
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Retail & E-commerce
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Construction
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Finance
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Media
+                    </li>
+                  </a>
+                </div>
+              </ul>
+            </div>
+            <div
+              className="primary-nav__container"
+            >
+              <ul
+                className="nav nav--undefined"
+              >
+                <div
+                  className="nav__container nav__container--primary"
+                >
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      SaaS product
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Chatbots
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      AR & VR
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Blockchain
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Digital enterprise 
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Drone
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      R&D
+                    </li>
+                  </a>
+                </div>
+              </ul>
+            </div>
+            <div
+              className="primary-nav__container"
+            >
+              <ul
+                className="nav nav--undefined"
+              >
+                <div
+                  className="nav__container nav__container--primary"
+                >
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      On-demand team extension
+                    </li>
+                  </a>
+                  <a
+                    className="link__margin  active__border nav__link undefined"
+                    data-testid="nav"
+                    href="/undefined"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    <li
+                      className="nav__link"
+                      onClick={[Function]}
+                    >
+                      Fully managed IT services
+                    </li>
+                  </a>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="primary-nav__language"
         >
-          Ios
-        </label>
-      </div>
-    </div>
-    <div
-      className="filter-list__wrapper"
-    >
-      <div
-        className="filter-list__chose"
-      >
-        <input
-          className="filter-list__check"
-          id={3}
-          name=""
-          type="checkbox"
-        />
-        <label
-          className="filter-list__label"
-          htmlFor={3}
-        >
-          Android
-        </label>
-      </div>
-    </div>
-    <div
-      className="filter-list__wrapper"
-    >
-      <div
-        className="filter-list__chose"
-      >
-        <input
-          className="filter-list__check"
-          id={4}
-          name=""
-          type="checkbox"
-        />
-        <label
-          className="filter-list__label"
-          htmlFor={4}
-        >
-          Analytics
-        </label>
-      </div>
-    </div>
-    <div
-      className="filter-list__wrapper"
-    >
-      <div
-        className="filter-list__chose"
-      >
-        <input
-          className="filter-list__check"
-          id={5}
-          name=""
-          type="checkbox"
-        />
-        <label
-          className="filter-list__label"
-          htmlFor={5}
-        >
-          Quality control
-        </label>
-      </div>
-    </div>
-    <div
-      className="filter-list__wrapper"
-    >
-      <div
-        className="filter-list__chose"
-      >
-        <input
-          className="filter-list__check"
-          id={6}
-          name=""
-          type="checkbox"
-        />
-        <label
-          className="filter-list__label"
-          htmlFor={6}
-        >
-          Mobile development
-        </label>
-      </div>
+          <ul
+            className="nav nav--undefined"
+          >
+            <div
+              className="nav__container nav__container--undefined"
+            >
+              <a
+                className="link__margin  active__border nav__link undefined"
+                data-testid="nav"
+                href="/undefined"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                <li
+                  className="nav__link"
+                  onClick={[Function]}
+                >
+                  
+                </li>
+              </a>
+              <a
+                className="link__margin  active__border nav__link undefined"
+                data-testid="nav"
+                href="/undefined"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                <li
+                  className="nav__link"
+                  onClick={[Function]}
+                >
+                  
+                </li>
+              </a>
+            </div>
+          </ul>
+        </div>
+      </ul>
     </div>
   </div>
 </div>

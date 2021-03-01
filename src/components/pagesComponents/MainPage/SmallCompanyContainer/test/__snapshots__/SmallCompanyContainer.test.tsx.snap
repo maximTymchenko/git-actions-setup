@@ -6,28 +6,46 @@ exports[`renders without unexpected changes 1`] = `
   data-testid="small-company-container"
 >
   <div
-    className="small-company-container small-company-container--undefined"
+    className="small-company-container small-company-container--undefined small-company-container--undefined"
   >
-    <img
-      alt="Walmart"
-      className="small-company-container__logo"
-      src="test-file-stub"
-    />
+    <div
+      className="small-company-container__header"
+    >
+      <img
+        alt="Walmart"
+        className="small-company-container__logo small-company-container__logo--undefined"
+        src="test-file-stub"
+      />
+      <div
+        className="small-company-container__time"
+      >
+        <span
+          className="small-company-container__date"
+        />
+        <span
+          className="small-company-container__readtime"
+        />
+      </div>
+    </div>
     <p
       className="small-company-container__desc"
     >
       Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company
     </p>
   </div>
-  <p
-    className="small-company-container__hashtags small-company-container__hashtags--undefined"
+  <div
+    className="small-company-container__footer"
   >
-    <span
-      className="small-company-container__label"
+    <p
+      className="small-company-container__hashtags small-company-container__hashtags--undefined"
     >
-      CASE STUDY
-    </span>
-    Amazon, Retail & E-commerce, React, Web development, +13 more
-  </p>
+      <span
+        className="small-company-container__label small-company-container__label--undefined"
+      >
+        CASE STUDY
+      </span>
+      Amazon, Retail & E-commerce, React, Web development, +13 more
+    </p>
+  </div>
 </div>
 `;

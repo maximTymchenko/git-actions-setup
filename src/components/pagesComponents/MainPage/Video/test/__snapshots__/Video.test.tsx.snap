@@ -6,6 +6,17 @@ exports[`renders without unexpected changes 1`] = `
   data-testid="video"
 >
   <div
+    className="video__background"
+  >
+    <video
+      autoPlay={true}
+      className="video__video"
+      loop={true}
+      muted={true}
+      src="test-file-stub"
+    />
+  </div>
+  <div
     className="video__wrapper"
   >
     <img
@@ -23,18 +34,22 @@ exports[`renders without unexpected changes 1`] = `
     >
       Anthony, CTO of Spectar.io
     </span>
-    <button
-      className="button button--primary button--undefined button--undefined"
-      data-testid="button"
+    <div
+      className="video__button"
     >
-      Watch video
-      <img
-        alt="Watch video"
-        className="button__icon"
-        data-testid="button__icon"
-        src="test-file-stub"
-      />
-    </button>
+      <button
+        className="button button--primary button--undefined button--undefined"
+        data-testid="button"
+      >
+        Watch video
+        <img
+          alt="Watch video"
+          className="button__icon button__icon--undefined"
+          data-testid="button__icon"
+          src="test-file-stub"
+        />
+      </button>
+    </div>
   </div>
 </div>
 `;

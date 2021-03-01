@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<form
+  className="blog-header__form"
+  data-testid="blog-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="blog-header__input-wrapper"
+  >
+    <input
+      className="blog-header__input"
+      name="email"
+      placeholder="Your email"
+      type="text"
+    />
+    <span
+      className="blog-header__error"
+    >
+      Check email
+    </span>
+  </div>
+  <div
+    className="blog-header__button"
+  >
+    <button
+      className="button button--secondary button--undefined button--undefined"
+      data-testid="button"
+    >
+      Subscribe
+      <img
+        className="button__icon button__icon--undefined"
+        data-testid="button__icon"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+</form>
+`;

@@ -18,11 +18,17 @@ exports[`renders without unexpected changes 1`] = `
       className="tech__desc"
     >
       It must be our rigorous
-      <span
-        className="tech__protection"
+      <a
+        href="/how-we-work/intellectual-property/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
       >
-        intellectual property protection effort.
-      </span>
+        <span
+          className="tech__protection"
+        >
+          intellectual property protection effort.
+        </span>
+      </a>
       Just tell us what you need and get that information in less than 24 hours.
     </p>
     <a
@@ -38,7 +44,7 @@ exports[`renders without unexpected changes 1`] = `
         Tell us
         <img
           alt="Tell us"
-          className="button__icon"
+          className="button__icon button__icon--undefined"
           data-testid="button__icon"
           src="test-file-stub"
         />
@@ -52,7 +58,7 @@ exports[`renders without unexpected changes 1`] = `
       className="tech__images-wrapper"
     >
       <div
-        className="tech__img-wrapper"
+        className="tech__img-wrapper tech__img-wrapper--main"
         data-testid="tech-icon"
       >
         <span

@@ -28,11 +28,15 @@ exports[`renders without unexpected changes 1`] = `
       <div
         className="header__nav-wrapper header__nav-wrapper--end"
       >
-        <span
-          className="header__nav-text header__nav-text--active"
+        <a
+          className="link"
         >
-          test path
-        </span>
+          <span
+            className="header__nav-text active__border--style"
+          >
+            test path
+          </span>
+        </a>
         <svg
           className="chevron__icon"
           fill="none"
@@ -117,7 +121,7 @@ exports[`renders without unexpected changes 1`] = `
             Contact us
             <img
               alt="Contact us"
-              className="button__icon"
+              className="button__icon button__icon--undefined"
               data-testid="button__icon"
               src="test-file-stub"
             />

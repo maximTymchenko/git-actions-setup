@@ -6,28 +6,52 @@ exports[`renders without unexpected changes 1`] = `
   data-testid="title"
 >
   <div
-    className="main-title__container"
+    className="main-title__wrapper"
   >
-    <h2
-      className="main-title"
+    <div
+      className="main-title__container"
     >
-      Your Superior Team 
-      <span
-        className="main-title__span"
+      <h2
+        className="main-title"
       >
-        to
-      </span>
-    </h2>
-  </div>
-  <div
-    className="main-title__animation"
-  >
+        Your Superior Team 
+        <span
+          className="main-title__span"
+        >
+          to
+        </span>
+      </h2>
+    </div>
     <div
-      className="main-title__border"
-    />
-    <div
-      className="main-title__image"
-    />
+      className="main-title__animation"
+    >
+      <div
+        className="main-title__image"
+      >
+        <div
+          className="main-title__icon"
+        />
+        <div
+          className="main-title__border"
+        />
+        <div
+          className="main-title__mobile-button"
+        >
+          <button
+            className="button button--circle button--undefined button--undefined"
+            data-testid="button"
+          >
+            Watch now
+            <img
+              alt="Watch now"
+              className="button__icon button__icon--undefined"
+              data-testid="button__icon"
+              src="test-file-stub"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
   <div
     className="main-title__desktop-button"
@@ -39,23 +63,7 @@ exports[`renders without unexpected changes 1`] = `
       Watch now
       <img
         alt="Watch now"
-        className="button__icon"
-        data-testid="button__icon"
-        src="test-file-stub"
-      />
-    </button>
-  </div>
-  <div
-    className="main-title__mobile-button"
-  >
-    <button
-      className="button button--circle button--undefined button--undefined"
-      data-testid="button"
-    >
-      Watch now
-      <img
-        alt="Watch now"
-        className="button__icon"
+        className="button__icon button__icon--undefined"
         data-testid="button__icon"
         src="test-file-stub"
       />

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="blog-header"
+  data-testid="blog-header"
+>
+  <div
+    className="blog-header__nav"
+  >
+    <ul
+      className="nav nav--blog"
+    >
+      <div
+        className="nav__container nav__container--undefined"
+      >
+        <a
+          className="link__margin  active__border nav__link link__blog"
+          data-testid="nav"
+          href="/blog/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Latest
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link link__blog"
+          data-testid="nav"
+          href="/blog/editorial"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Editorial
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link link__blog"
+          data-testid="nav"
+          href="/blog/whitepapers"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Whitepapers
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link link__blog"
+          data-testid="nav"
+          href="/blog/videos"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Videos
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link link__blog"
+          data-testid="nav"
+          href="/blog/resources"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Resources
+          </li>
+        </a>
+        <a
+          className="link__margin  active__border nav__link link__blog"
+          data-testid="nav"
+          href="/blog/press-center"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <li
+            className="nav__link"
+            onClick={[Function]}
+          >
+            Press center
+          </li>
+        </a>
+      </div>
+    </ul>
+  </div>
+  <div
+    className="blog-header__wrapper"
+  >
+    <h2
+      className="title title--section"
+      data-testid="section-title"
+    >
+      Blog
+    </h2>
+    <div
+      className="blog-header__subtitle"
+    >
+      <p
+        className="text-description text-description--undefined text-description--undefined"
+        data-testid="text-description"
+      >
+         Articles, stories, case studies technical guides, best practices, tech videos, and lots of resources to help you build, grow, and skyrocket your product or digital side of your business.
+      </p>
+    </div>
+    <form
+      className="blog-header__form"
+      data-testid="blog-form"
+      onSubmit={[Function]}
+    >
+      <div
+        className="blog-header__input-wrapper"
+      >
+        <input
+          className="blog-header__input"
+          name="email"
+          placeholder="Your email"
+          type="text"
+        />
+        <span
+          className="blog-header__error"
+        >
+          Check email
+        </span>
+      </div>
+      <div
+        className="blog-header__button"
+      >
+        <button
+          className="button button--secondary button--undefined button--undefined"
+          data-testid="button"
+        >
+          Subscribe
+          <img
+            className="button__icon button__icon--undefined"
+            data-testid="button__icon"
+            src="test-file-stub"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

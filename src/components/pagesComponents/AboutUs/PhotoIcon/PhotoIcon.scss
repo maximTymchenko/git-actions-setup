@@ -17,6 +17,7 @@
 
     &__container {
         display: flex;
+        overflow: hidden;
         margin: 50px 0 30px;
         overflow-x: scroll;
         width: 100%;
@@ -38,7 +39,7 @@
     }
 
     &__img {
-        display: block;
+        // display: block;
         width: 220px;
         height: 220px;
     }
