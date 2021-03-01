@@ -15,10 +15,12 @@ type THeaderArrays = {
 interface INavProps {
     navTitle: string;
     navArray: THeaderArrays;
+    titleState: boolean;
+    navLabel?: boolean;
 }
 
 const TestNav = (props: INavProps) => {
-    const [titleState, setTitlestate] = useState<boolean>(false);
+    const [titleState, setTitlestate] = useState<boolean>(props.titleState);
     return (
         <div data-testid="primary-nav" className="test-nav__wrapper">
             <span
@@ -28,6 +30,7 @@ const TestNav = (props: INavProps) => {
                 })}
             >
                 {props.navTitle}
+                {props.navLabel && <span className="test-nav__label">HIRING</span>}
             </span>
             <div
                 className={classNames('test-nav__border', {

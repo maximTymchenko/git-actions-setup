@@ -205,28 +205,42 @@ const Header: FC = (props: any) => {
                             <div className="primary-nav__section">
                                 <div className="primary-nav">
                                     <ul className="primary-nav__wrapper">
-                                        <PrimaryNav navTitle="Home" navArray={menuLinksHome} />
                                         <PrimaryNav
+                                            titleState={false}
+                                            navTitle="Home"
+                                            navArray={menuLinksHome}
+                                        />
+                                        <PrimaryNav
+                                            titleState={false}
                                             navTitle="How We Work"
                                             navArray={menuLinksHowWeWork}
                                         />
                                         <PrimaryNav
+                                            titleState={false}
                                             navTitle="What We Do"
                                             navArray={menuLinksWhatWeDo}
                                         />
                                         <PrimaryNav
+                                            titleState={false}
                                             navTitle="About Us"
                                             navArray={menuLinksAboutUs}
                                         />
                                         <PrimaryNav
+                                            titleState={false}
                                             navTitle="Contact Blackbird"
                                             navArray={menuLinksContact}
                                         />
                                         <PrimaryNav
+                                            titleState={false}
                                             navTitle="Careers"
                                             navArray={menuLinksCareers}
+                                            navLabel={true}
                                         />
-                                        <PrimaryNav navTitle="Blog" navArray={menuLinksBlog} />
+                                        <PrimaryNav
+                                            titleState={false}
+                                            navTitle="Blog"
+                                            navArray={menuLinksBlog}
+                                        />
                                     </ul>
                                     <div className="primary-nav__language">
                                         <Nav type="" links={language} />

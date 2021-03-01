@@ -10,7 +10,6 @@
         align-items: center;
         margin-bottom: 20px;
         position: relative;
-        @include transition;
 
         &:hover {
             .test-nav__border {
@@ -24,7 +23,6 @@
         border-bottom: 2px solid $secondary;
         padding-bottom: 5px;
         display: none;
-        @include transition;
 
         &--active {
             display: block;
@@ -49,6 +47,20 @@
         &--active {
             border-bottom: 8px solid $primary__light;
         }
+    }
+
+    &__label {
+        background-color: $color__error;
+        font-family: 'OktaNeue-Black';
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 1.1;
+        letter-spacing: 0.5px;
+        color: $background__primary;
+        padding: 2px 4px;
+        margin-left: 5px;
+        position: relative;
+        bottom: 5px;
     }
 }
 
