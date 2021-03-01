@@ -29,11 +29,13 @@ const TestNav = (props: INavProps) => {
             >
                 {props.navTitle}
             </span>
-            {titleState && (
-                <div className="test-nav__border">
-                    <Nav type="primary" links={props.navArray} />
-                </div>
-            )}
+            <div
+                className={classNames('test-nav__border', {
+                    'test-nav__border--active': titleState,
+                })}
+            >
+                <Nav type="primary" links={props.navArray} />
+            </div>
         </div>
     );
 };
