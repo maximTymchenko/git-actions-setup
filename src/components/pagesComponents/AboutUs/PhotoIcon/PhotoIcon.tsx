@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import './PhotoIcon.scss';
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 
 const PhotoIcon: FC = (props) => {
     // const settings = {
