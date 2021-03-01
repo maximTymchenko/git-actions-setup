@@ -63,9 +63,5 @@
     &--dark {
         font-size: 15px;
         color: $text;
-
-        @media screen and (max-width: $mobile) {
-            // width: 350px;
-        }
     }
 }

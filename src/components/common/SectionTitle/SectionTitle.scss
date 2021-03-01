@@ -1,9 +1,9 @@
 @import '../../../styles/vars';
+@import '../../../styles/mixins';
 
 .title {
     font-family: 'OktaNeue-Black';
     color: $text;
-    // margin-bottom: 25px;
     font-weight: 900;
     @include main__padding;
     padding-left: 0;
@@ -62,7 +62,6 @@
 }
 
 .title--lighter {
-    //   width: 560px;
     margin-top: 40px;
     background: linear-gradient(to left, $brand__primary 30%, $secondary__dark 100%);
     font-size: 50px;
@@ -148,7 +147,6 @@
     }
 
     @media screen and (max-width: $tablet) {
-        // margin-top: 0px;
         font-size: 58px;
     }
 
@@ -159,7 +157,6 @@
     @media screen and (max-width: $large__mobile) {
         line-height: 50px;
         font-size: 39px;
-        // width: 300px;
     }
 
     @media screen and (max-width: $mobile) {
@@ -184,7 +181,7 @@
 
     @media screen and (max-width: $small__tablet) {
         font-size: 22px;
-        line-height: 30px;
+        // line-height: 30px;
     }
 
     @media screen and (max-width: $large__mobile) {
@@ -207,9 +204,22 @@
     font-weight: bold;
     display: block;
 
+    @media screen and (max-width: $small__tablet) {
+        font-size: 22px;
+        // line-height: 30px;
+    }
+
+    @media screen and (max-width: $large__mobile) {
+        font-size: 20px;
+    }
+
     @media screen and (max-width: $mobile) {
-        margin-left: 7px;
-        margin-right: 7px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    @media screen and (max-width: $small__mobile) {
+        font-size: 18px;
     }
 }
 
