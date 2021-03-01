@@ -1,0 +1,42 @@
+@import '../../../styles/vars';
+@import '../../../styles/mixins';
+
+.test-nav {
+    &__wrapper {
+        display: flex;
+        width: 100%;
+        max-width: $container__size;
+        // justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    &__border {
+        width: 100%;
+        border-bottom: 2px solid $secondary;
+        padding-bottom: 5px;
+        position: relative;
+        top: 20px;
+    }
+
+    &__title {
+        cursor: pointer;
+        font-family: 'OktaNeue-Black';
+        font-size: 28px;
+        font-weight: 900;
+        color: $secondary;
+        margin-right: 20px;
+        border-bottom: 8px solid transparent;
+
+        width: 100%;
+        max-width: 245px;
+
+        &:hover {
+            color: $primary__light;
+        }
+        &--active {
+            border-bottom: 8px solid $primary__light;
+        }
+    }
+}

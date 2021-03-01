@@ -1,20 +1,8 @@
-import React, { FC, useState, useEffect, useRef } from 'react';
+import React, { FC, useState } from 'react';
 import './PrimaryNav.scss';
-import { Link } from 'gatsby';
 import Button from '../Button';
 import Nav from '../Nav';
 import arrLeft from '../../../assets/img/arr-left.png';
-
-export interface INavLinks {
-    activeLink: null | any;
-    links: [
-        {
-            id: number;
-            title: string;
-            page?: string | undefined;
-        },
-    ];
-}
 
 interface IPropsPrimaryNav {
     type: string;
@@ -28,7 +16,7 @@ interface IPropsPrimaryNav {
 }
 
 const PrimaryNav: FC = (props: IPropsPrimaryNav) => {
-    const [navLinks, setNavLinks] = useState<INavLinks>(props.navLinks);
+    const [navLinks, setNavLinks] = useState<any>(props.navLinks);
 
     const [navLinksArray, setNavLinksArray] = useState(props.navLinksArray);
 
@@ -57,52 +45,31 @@ const PrimaryNav: FC = (props: IPropsPrimaryNav) => {
         }
     };
 
-    const linkRef = useRef();
-    // const [linkState, setLinkState] = useState<boolean>(false);
-
-    // const getElemClass = () => {
-    //     const linkClasses = linkRef.current;
-    //     // console.log();
-
-    //     if (linkClasses.classList.contains('active__border--style')) {
-    //         setLinkState(true);
-    //         console.log(linkState);
-    //         console.log('YES');
-    //     }
-    // };
-
-    // console.log(linkRef.current);
-
     return (
         <div className="primary-nav__section">
             <div data-testid="primary-nav" className={`primary-nav primary-nav--${props.type}`}>
                 <ul className="primary-nav__wrapper">
                     <div className="primary-nav__body">
                         <div className={`primary-nav__items primary-nav__items--${props.border}`}>
-                            {props.navLinks.links.map((item, index) => (
-                                <li
-                                    onClick={() => {
-                                        toggleNavClass(index);
-                                    }}
-                                    className={toggleActiveClass(index)}
-                                    key={index}
-                                >
-                                    {item.title}
-                                </li>
-                            ))}
+                            <li
+                            // onClick={(i) => {
+                            //     toggleNavClass(i);
+                            // }}
+                            // className={toggleActiveClass(index)}
+                            >
+                                {props.navTitle}
+                            </li>
                         </div>
                         <div className="primary-nav__subcategories">
-                            <div className="primary-nav__btn--back">
+                            {/* <div className="primary-nav__btn--back">
                                 <Button icon={arrLeft} type="apply--reverse">
                                     Back
                                 </Button>
-                            </div>
+                            </div> */}
 
                             {props.navLinksArray.links.map((array, index, page) => (
                                 <div key={index} className={toggleActiveClassArr(index)}>
                                     <Nav
-                                        // getElemClass={getElemClass}
-                                        // linkRef={linkRef}
                                         typeContainer="primary"
                                         keyValue={array.id}
                                         links={array.array}

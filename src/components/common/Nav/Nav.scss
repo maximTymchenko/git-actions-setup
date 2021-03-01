@@ -9,6 +9,9 @@
         align-items: flex-end;
     }
 
+    &--primary {
+    }
+
     &--main {
         & .nav__link {
             @media screen and (max-width: $small__tablet) {

@@ -4,10 +4,11 @@ import { FaTimes } from 'react-icons/fa';
 import { FiChevronLeft } from 'react-icons/fi';
 import './Header.scss';
 import Button from '../Button';
-import PrimaryNav from '../PrimaryNav';
 import logo from '../../../assets/img/logo.svg';
 import arrowRight from '../../../assets/img/arr-right.svg';
 import classNames from 'classnames';
+import TestNav from '../TestNav';
+import Nav from '../Nav';
 
 type THeaderArrays = {
     activeLink: null;
@@ -201,12 +202,31 @@ const Header: FC = (props: any) => {
                             {buttonIconTimes && <FaTimes className="header__nav-times" />}
                         </button>
                         {buttonIconTimes && (
-                            <PrimaryNav
-                                navLinks={navLinks}
-                                navLinksArray={navLinksArray}
-                                language={language}
-                                border="border"
-                            />
+                            <div className="primary-nav__section">
+                                <div className="primary-nav">
+                                    <ul className="primary-nav__wrapper">
+                                        <TestNav navTitle="Home" navArray={menuLinksHome} />
+                                        <TestNav
+                                            navTitle="How We Work"
+                                            navArray={menuLinksHowWeWork}
+                                        />
+                                        <TestNav
+                                            navTitle="What We Do"
+                                            navArray={menuLinksWhatWeDo}
+                                        />
+                                        <TestNav navTitle="About Us" navArray={menuLinksAboutUs} />
+                                        <TestNav
+                                            navTitle="Contact Blackbird"
+                                            navArray={menuLinksContact}
+                                        />
+                                        <TestNav navTitle="Careers" navArray={menuLinksCareers} />
+                                        <TestNav navTitle="Blog" navArray={menuLinksBlog} />
+                                    </ul>
+                                    <div className="primary-nav__language">
+                                        <Nav type="" links={language} />
+                                    </div>
+                                </div>
+                            </div>
                         )}
                         <Link
                             className="link"

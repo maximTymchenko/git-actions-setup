@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react';
-import PrimaryNav from '../PrimaryNav';
-
+import TestNav from '../TestNav';
+import './FilterNav.scss';
 type TNavLinks = {
     activeLink: null;
     links: {
@@ -41,16 +41,6 @@ const FilterNav: FC = () => {
             { id: 2, title: '' },
         ],
     };
-
-    const [navLinks, setNavLinks] = useState<TNavLinks>({
-        activeLink: null,
-        links: [
-            { id: 1, title: 'Services' },
-            { id: 2, title: 'Industries' },
-            { id: 3, title: 'Expertise' },
-            { id: 4, title: 'Engagement' },
-        ],
-    });
 
     const menuLinksServices = {
         activeLink: null,
@@ -95,23 +85,14 @@ const FilterNav: FC = () => {
         ],
     };
 
-    const [navLinksArray, setNavLinksArray] = useState<TNavLinksArray>({
-        activeLink: null,
-        links: [
-            { id: 0, array: menuLinksServices },
-            { id: 1, array: menuLinksIndustries },
-            { id: 2, array: menuLinksExpertise },
-            { id: 3, array: menuLinksEngagement },
-        ],
-    });
     return (
-        <div data-testid="filter-list">
-            <PrimaryNav
-                navLinks={navLinks}
-                navLinksArray={navLinksArray}
-                language={language}
-                type="filter"
-            />
+        <div data-testid="filter-list" className="filter-nav">
+            <div className="filter-nav__wrapper">
+                <TestNav navTitle="Services" navArray={menuLinksServices} />
+                <TestNav navTitle="Industries" navArray={menuLinksIndustries} />
+                <TestNav navTitle="Expertise" navArray={menuLinksExpertise} />
+                <TestNav navTitle="Engagement" navArray={menuLinksEngagement} />
+            </div>
         </div>
     );
 };

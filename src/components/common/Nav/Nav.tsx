@@ -17,34 +17,16 @@ const Nav = ({ links, path, type, linkType, typeContainer }) => {
         }
     };
 
-    //   const linkRef = useRef()
-
-    //   const [linkState, setLinkState] = useState<boolean>(false)
-
-    //   const getElemClass = () => {
-    //     const linkClasses = linkRef.current
-    //     // console.log();
-
-    //     if (linkClasses.classList.contains('active__border--style')) {
-    //       setLinkState(true)
-    //       console.log('YES')
-    //     }
-    //   }
-
-    //   console.log(linkRef)
-
     return (
         <ul className={`nav nav--${type}`}>
             <div className={`nav__container nav__container--${typeContainer}`}>
                 {navLinks.links.map((item, index) => (
                     <Link
-                        // ref={linkRef}
                         data-testid="nav"
                         activeClassName="active__border--style"
                         to={`${item.page}`}
                         className={`link__margin  active__border nav__link ${linkType}`}
                         state={{ choice: path }}
-                        // onClick={getElemClass}
                     >
                         <li
                             onClick={() => {
@@ -55,8 +37,6 @@ const Nav = ({ links, path, type, linkType, typeContainer }) => {
                         >
                             {item.title}
                         </li>
-
-                        {/* {item.title} */}
                     </Link>
                 ))}
             </div>
