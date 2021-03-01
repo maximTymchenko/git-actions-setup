@@ -5,6 +5,6 @@ exports[`renders without unexpected changes 1`] = `
   className="clock"
   data-testid="clock"
 >
-  03:01 PM
+  08:49 PM
 </span>
 `;

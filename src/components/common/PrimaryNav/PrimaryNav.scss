@@ -1,149 +1,42 @@
 @import '../../../styles/vars';
 @import '../../../styles/mixins';
 
-.primary-nav {
-    padding-top: 90px;
-    // background: $background__secondary;
-    width: 100%;
-    //   max-width: $container__size;
-    height: 100vh;
-    position: fixed;
-    top: 65px;
-    left: 0;
-    z-index: 99;
-    display: flex;
-
-    &--filter {
-    }
-
-    &__section {
-        position: relative;
-    }
-
-    &__language {
-        position: absolute;
-        bottom: 100px;
-        right: 50px;
-    }
-
+.test-nav {
     &__wrapper {
         display: flex;
-        justify-content: space-between;
         width: 100%;
         max-width: $container__size;
-        margin: 0 auto;
-    }
-
-    &__items {
-        width: 290px;
-        position: relative;
-
-        &--border {
-            border-right: 2px solid $secondary;
-
-            @media screen and (max-width: $small__tablet) {
-                border: none;
-            }
-        }
-    }
-
-    &__body {
-        display: flex;
-        align-items: flex-start;
-        max-height: 530px;
-
-        @media screen and (max-width: $tablet) {
-            max-height: 500px;
-            width: 350px;
-        }
-
-        @media screen and (max-width: $mobile) {
-            border-right: none;
-        }
-    }
-    &__categories {
-        display: flex;
+        // justify-content: space-between;
         align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    &__border {
+        width: 100%;
+        border-bottom: 2px solid $secondary;
+        padding-bottom: 5px;
+        position: relative;
+        top: 20px;
+    }
+
+    &__title {
         cursor: pointer;
         font-family: 'OktaNeue-Black';
         font-size: 28px;
         font-weight: 900;
         color: $secondary;
-        margin-bottom: 20px;
         margin-right: 20px;
         border-bottom: 8px solid transparent;
 
-        &:nth-child(6)::after {
-            content: 'hiring';
-            display: block;
-            cursor: pointer;
-            text-transform: uppercase;
-            font-family: 'OktaNeue-Black';
-            margin-top: 5px;
-            margin-left: 10px;
-            padding: 3px 5px;
-            font-size: 10px;
-            font-weight: 900;
-            line-height: 1.1;
-            letter-spacing: 0.5px;
-            color: $background__primary;
-            background-color: $color__error;
-        }
+        width: 100%;
+        max-width: 245px;
 
         &:hover {
             color: $primary__light;
         }
         &--active {
             border-bottom: 8px solid $primary__light;
-        }
-
-        @media screen and (max-width: $mobile) {
-            font-size: 20px;
-            width: 180px;
-        }
-    }
-
-    &__btn--back {
-        display: none;
-
-        @media screen and (max-width: $small__tablet) {
-            display: block;
-            position: relative;
-            left: 20px;
-        }
-    }
-
-    &__subcategories {
-        position: relative;
-        bottom: 45px;
-    }
-
-    &__container {
-        border-bottom: 2px solid $secondary;
-        margin-bottom: 0px;
-        // opacity: 0;
-        margin-left: 20px;
-
-        &:first-child {
-            @media screen and (max-width: $small__tablet) {
-                right: 200px;
-            }
-        }
-
-        @media screen and (max-width: $tablet) {
-            position: absolute;
-            z-index: 5;
-        }
-
-        @media screen and (max-width: $small__tablet) {
-            background: $background__secondary;
-            border-left: 2px solid $secondary;
-            border-bottom: none;
-            right: 160px;
-        }
-
-        &--show {
-            opacity: 1;
         }
     }
 }

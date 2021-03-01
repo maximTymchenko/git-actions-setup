@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react';
-import TestNav from '../TestNav';
+import PrimaryNav from '../PrimaryNav';
 import './FilterNav.scss';
 type TNavLinks = {
     activeLink: null;
@@ -88,10 +88,10 @@ const FilterNav: FC = () => {
     return (
         <div data-testid="filter-list" className="filter-nav">
             <div className="filter-nav__wrapper">
-                <TestNav navTitle="Services" navArray={menuLinksServices} />
-                <TestNav navTitle="Industries" navArray={menuLinksIndustries} />
-                <TestNav navTitle="Expertise" navArray={menuLinksExpertise} />
-                <TestNav navTitle="Engagement" navArray={menuLinksEngagement} />
+                <PrimaryNav navTitle="Services" navArray={menuLinksServices} />
+                <PrimaryNav navTitle="Industries" navArray={menuLinksIndustries} />
+                <PrimaryNav navTitle="Expertise" navArray={menuLinksExpertise} />
+                <PrimaryNav navTitle="Engagement" navArray={menuLinksEngagement} />
             </div>
         </div>
     );

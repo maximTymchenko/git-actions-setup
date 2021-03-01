@@ -7,7 +7,7 @@ import Button from '../Button';
 import logo from '../../../assets/img/logo.svg';
 import arrowRight from '../../../assets/img/arr-right.svg';
 import classNames from 'classnames';
-import TestNav from '../TestNav';
+import PrimaryNav from '../PrimaryNav';
 import Nav from '../Nav';
 
 type THeaderArrays = {
@@ -205,22 +205,28 @@ const Header: FC = (props: any) => {
                             <div className="primary-nav__section">
                                 <div className="primary-nav">
                                     <ul className="primary-nav__wrapper">
-                                        <TestNav navTitle="Home" navArray={menuLinksHome} />
-                                        <TestNav
+                                        <PrimaryNav navTitle="Home" navArray={menuLinksHome} />
+                                        <PrimaryNav
                                             navTitle="How We Work"
                                             navArray={menuLinksHowWeWork}
                                         />
-                                        <TestNav
+                                        <PrimaryNav
                                             navTitle="What We Do"
                                             navArray={menuLinksWhatWeDo}
                                         />
-                                        <TestNav navTitle="About Us" navArray={menuLinksAboutUs} />
-                                        <TestNav
+                                        <PrimaryNav
+                                            navTitle="About Us"
+                                            navArray={menuLinksAboutUs}
+                                        />
+                                        <PrimaryNav
                                             navTitle="Contact Blackbird"
                                             navArray={menuLinksContact}
                                         />
-                                        <TestNav navTitle="Careers" navArray={menuLinksCareers} />
-                                        <TestNav navTitle="Blog" navArray={menuLinksBlog} />
+                                        <PrimaryNav
+                                            navTitle="Careers"
+                                            navArray={menuLinksCareers}
+                                        />
+                                        <PrimaryNav navTitle="Blog" navArray={menuLinksBlog} />
                                     </ul>
                                     <div className="primary-nav__language">
                                         <Nav type="" links={language} />
