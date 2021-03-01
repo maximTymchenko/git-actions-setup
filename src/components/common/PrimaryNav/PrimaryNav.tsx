@@ -21,10 +21,27 @@ interface INavProps {
 
 const TestNav = (props: INavProps) => {
     const [titleState, setTitlestate] = useState<boolean>(props.titleState);
+    const [toggleLableVisibility, setToggleLableVisibility] = useState<boolean | undefined>(
+        props.navLabel,
+    );
+
     return (
         <div data-testid="primary-nav" className="test-nav__wrapper">
             <span
-                onClick={() => setTitlestate(!titleState)}
+                onMouseOver={() => {
+                    setTimeout(() => {
+                        setTitlestate(true);
+                    }, 200);
+                }}
+                onMouseLeave={() => {
+                    setTimeout(() => {
+                        setTitlestate(false);
+                    }, 200);
+                }}
+                onClick={() => {
+                    setTitlestate(!titleState);
+                    setToggleLableVisibility(!toggleLableVisibility);
+                }}
                 className={classNames('test-nav__title', {
                     'test-nav__title--active': titleState,
                 })}
