@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
 import './SmallPhotoIcon.scss';
-import CEO from '../../../../assets/img/aboutUs/CEO.jpeg';
 
 const SmallPhotoIcon: FC = (props) => {
     return (

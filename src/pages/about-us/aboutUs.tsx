@@ -6,10 +6,6 @@ import TextDescription from '../../components/common/TextDescription';
 import triangleRight from '../../assets/img/triangle-right.svg';
 import Button from '../../components/common/Button';
 import workingPeople from '../../assets/img/aboutUs/working-people.jpg';
-import office1 from '../../assets/img/aboutUs/office-1.jpeg';
-import office2 from '../../assets/img/aboutUs/office-2.jpeg';
-import office3 from '../../assets/img/aboutUs/office-3.jpeg';
-import office4 from '../../assets/img/aboutUs/office-4.jpeg';
 import illustration from '../../assets/img/aboutUs/illustration.png';
 import arrRight from '../../assets/img/arr-right.svg';
 import SectionTitle from '../../components/common/SectionTitle';
@@ -18,6 +14,43 @@ import TextImage from '../../components/pagesComponents/WorkingTogether/TextImag
 import PhotoIcon from '../../components/pagesComponents/AboutUs/PhotoIcon';
 import CEO from '../../assets/img/aboutUs/CEO.jpeg';
 import SmallPhotoIcon from '../../components/pagesComponents/AboutUs/SmallPhotoIcon';
+import YuriiDrozd from '../../assets/img/aboutUs/staff/Yurii_Drozd.jpeg';
+import AnastasiiaIvanova from '../../assets/img/aboutUs/staff/Anastasiia_Ivanova.jpeg';
+import DmytriiS from '../../assets/img/aboutUs/staff/Dmytrii_S.jpeg';
+import AnastasiaIlina from '../../assets/img/aboutUs/staff/Anastasia_Ilina.jpeg';
+import AnastasiiaShyshak from '../../assets/img/aboutUs/staff/Anastasiia_Shyshak.jpeg';
+import AnnaTrofimova from '../../assets/img/aboutUs/staff/Anna_Trofimova.jpeg';
+import AntonShloma from '../../assets/img/aboutUs/staff/Anton_Shloma.jpeg';
+import DmitryBogdan from '../../assets/img/aboutUs/staff/Dmitry_Bogdan.jpeg';
+import ElenaZolotoverkh from '../../assets/img/aboutUs/staff/Elena_Zolotoverkh.jpeg';
+import KarinaDubok from '../../assets/img/aboutUs/staff/Karina_Dubok.jpeg';
+import MaksimSobolev from '../../assets/img/aboutUs/staff/Maksim_Sobolev.jpeg';
+import MaxGrytsuk from '../../assets/img/aboutUs/staff/Max_Grytsuk.jpeg';
+import MykytaDidenko from '../../assets/img/aboutUs/staff/Mykyta_Didenko.jpeg';
+import OleksandrGribov from '../../assets/img/aboutUs/staff/Oleksandr_Gribov.jpeg';
+import OleksandrLomakovskyi from '../../assets/img/aboutUs/staff/Oleksandr_Lomakovskyi.jpeg';
+import OlenaPortnova from '../../assets/img/aboutUs/staff/Olena_Portnova.jpeg';
+import PetroRudenko from '../../assets/img/aboutUs/staff/Petro_Rudenko.jpeg';
+import PolinaSobolevskaya from '../../assets/img/aboutUs/staff/Polina_Sobolevskaya.jpeg';
+import SergeyGorbachev from '../../assets/img/aboutUs/staff/Sergey_Gorbachev.jpeg';
+import SergeyKlymenko from '../../assets/img/aboutUs/staff/Sergey_Klymenko.jpeg';
+import SergeyTovstonog from '../../assets/img/aboutUs/staff/Sergey_Tovstonog.jpeg';
+import SerhiiZiniuk from '../../assets/img/aboutUs/staff/Serhii_Ziniuk.jpeg';
+import StanislavNosovskiy from '../../assets/img/aboutUs/staff/Stanislav_Nosovskiy.jpeg';
+import TaniaKlimets from '../../assets/img/aboutUs/staff/Tania_Klimets.jpeg';
+import ViacheslavBychkovskyi from '../../assets/img/aboutUs/staff/Viacheslav_Bychkovskyi.jpeg';
+import ZhenyaRyzhov from '../../assets/img/aboutUs/staff/Zhenya_Ryzhov.jpeg';
+import GlebG from '../../assets/img/aboutUs/staff/Gleb_G.jpeg';
+import AndriiT from '../../assets/img/aboutUs/staff/Andrii_T.jpg';
+// import office1 from '../../assets/img/aboutUs/office-1.jpeg';
+// import office2 from '../../assets/img/aboutUs/office-2.jpeg';
+// import office3 from '../../assets/img/aboutUs/office-3.jpeg';
+// import office4 from '../../assets/img/aboutUs/office-4.jpeg';
+
+import office1 from '../../assets/img/aboutUs/office_1.jpg';
+import office2 from '../../assets/img/aboutUs/office_2.jpg';
+import office3 from '../../assets/img/aboutUs/office_3.jpg';
+import office4 from '../../assets/img/aboutUs/office_4.jpg';
 
 type TOurTeam = {
     id: number;
@@ -36,27 +69,64 @@ const aboutUs: FC = () => {
     ];
 
     const ourTalanted: TOurTeam = [
-        { id: 0, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 1, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 2, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 3, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 4, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 5, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 6, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 7, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 8, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 9, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 10, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 11, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 12, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 13, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 14, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 15, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 16, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 17, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 18, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 19, name: 'Yurii Drozd', position: 'CEO', img: CEO },
-        { id: 20, name: 'Yurii Drozd', position: 'CEO', img: CEO },
+        { id: 0, name: 'Yurii D.', position: 'CEO', img: YuriiDrozd },
+        {
+            id: 1,
+            name: 'Anastasiia I.',
+            position: 'Talent Acquisition',
+            img: AnastasiiaIvanova,
+        },
+        { id: 2, name: 'Dmytrii S', position: 'Technical PM', img: DmytriiS },
+        {
+            id: 3,
+            name: 'Viacheslav B.',
+            position: 'Lead Engineer',
+            img: ViacheslavBychkovskyi,
+        },
+        { id: 4, name: 'Olena P.', position: 'Technical PM', img: OlenaPortnova },
+        { id: 5, name: 'Anton S.', position: 'Senior Developer', img: AntonShloma },
+        { id: 6, name: 'Maksym S.', position: 'Frontend Developer', img: MaksimSobolev },
+        { id: 7, name: 'Anastasiia S.', position: 'QA', img: AnastasiiaShyshak },
+        { id: 8, name: 'Polina S.', position: 'QA', img: PolinaSobolevskaya },
+        { id: 9, name: 'Petro R.', position: 'Senior Frontend Developer', img: PetroRudenko },
+        {
+            id: 10,
+            name: 'Stanislav N.',
+            position: 'Ruby Developer',
+            img: StanislavNosovskiy,
+        },
+        { id: 11, name: 'Gleb G.', position: 'Software Developer', img: GlebG },
+        { id: 12, name: 'Maksym G.', position: 'Web developer', img: MaxGrytsuk },
+        {
+            id: 13,
+            name: 'Oleksandr L.',
+            position: 'Full Stack Developer',
+            img: OleksandrLomakovskyi,
+        },
+        { id: 14, name: 'Dmitry B.', position: 'Java Engineer', img: DmitryBogdan },
+        { id: 15, name: 'Tania K.', position: 'Frontend Developer', img: TaniaKlimets },
+        { id: 16, name: 'Andrii T.', position: 'QA', img: AndriiT },
+        {
+            id: 17,
+            name: 'Anastasia I.',
+            position: 'Java Engineer',
+            img: AnastasiaIlina,
+        },
+        { id: 18, name: 'Elena Z.', position: 'QA', img: ElenaZolotoverkh },
+        { id: 19, name: 'Karina D.', position: 'Office Administrator', img: KarinaDubok },
+        { id: 20, name: 'Serhii Z.', position: 'Solution Architect', img: SerhiiZiniuk },
+        { id: 21, name: 'Oleksandr G.', position: 'iOS Engineer', img: OleksandrGribov },
+        { id: 22, name: 'Anna T', position: 'Software Engineer', img: AnnaTrofimova },
+        {
+            id: 23,
+            name: 'Sergey T.',
+            position: 'Websphere Admin',
+            img: SergeyTovstonog,
+        },
+        { id: 24, name: 'Sergey G.', position: 'QA', img: SergeyGorbachev },
+        { id: 25, name: 'Mykyta D.', position: 'RoR Developer', img: MykytaDidenko },
+        { id: 26, name: 'Sergey K.', position: 'Android Developer', img: SergeyKlymenko },
+        { id: 27, name: 'Zhenya R.', position: 'Senior Developer', img: ZhenyaRyzhov },
     ];
     return (
         <Layouts>
@@ -96,11 +166,11 @@ const aboutUs: FC = () => {
                         className="about-us__photo about-us__photo--big"
                     />
                     <img
-                        src={office3}
+                        src={office4}
                         alt="Office photo"
                         className="about-us__photo about-us__photo--big"
                     />
-                    <img src={office4} alt="Office photo" className="about-us__photo " />
+                    <img src={office3} alt="Office photo" className="about-us__photo" />
                 </div>
                 <div className="about-us__content">
                     <div className="about-us__content-wrapper">
