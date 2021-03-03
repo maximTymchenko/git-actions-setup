@@ -39,7 +39,7 @@ const BlogHeader: FC = (props: IBlogHEaderProps) => {
     return (
         <div data-testid="blog-header" className="blog-header">
             <div className="blog-header__nav">
-                <Nav type="blog" links={menuLinks} linkType="link__blog" linkType="link__blog" />
+                <Nav type="blog" links={menuLinks} linkType="link__blog" />
             </div>
             <div className="blog-header__wrapper">
                 <SectionTitle type="section" title={props.blogTitle} />

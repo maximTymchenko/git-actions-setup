@@ -1,2 +1,110 @@
 @import '../../../../styles/vars';
 @import '../../../../styles/mixins';
+
+.large-section-title {
+    &__border {
+        border-bottom: 2px solid $secondary;
+    }
+
+    &__bg {
+        background-color: $primary__light--5;
+    }
+
+    &__text {
+        @include section__size;
+        margin: 0 auto;
+        padding: 90px 0 30px;
+    }
+
+    &__wrapper {
+        @include section__size;
+        @include main__padding;
+        margin: 50px auto 0;
+    }
+
+    &__description {
+        margin-top: -50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__about {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid $section__border;
+        margin-bottom: 40px;
+    }
+
+    &__founder {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        display: block;
+        font-family: 'OktaNeue-Heavy';
+        font-size: 17px;
+        font-weight: 900;
+        color: $text;
+    }
+
+    &__slogan {
+        // margin-bottom: 50px;
+    }
+
+    &__headline {
+        font-family: 'OktaNeue-Black';
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.1px;
+        color: $text;
+        display: block;
+
+        &--mb {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__client {
+        margin-bottom: 50px;
+        margin-right: 30px;
+    }
+
+    &__span {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text;
+        display: block;
+
+        &--mb {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__year {
+        font-family: 'OktaNeue-SemiBold';
+        font-size: 17px;
+        font-weight: 600;
+        color: $text;
+        display: block;
+    }
+
+    &__startup {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text__body;
+        max-width: 200px;
+        display: block;
+    }
+
+    &__img {
+        margin: 10px 0;
+    }
+
+    &__nav {
+        border-bottom: 2px solid $secondary;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+}

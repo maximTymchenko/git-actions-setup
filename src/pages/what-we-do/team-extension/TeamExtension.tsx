@@ -29,13 +29,15 @@ const TeamExtension: FC = () => {
 
                 <SectionTitle title="Relevant projects" type="main" />
                 <div id="relevant" className="what-we-do__company">
-                    <LargeCompanyContainer
-                        typeBG="bg-triangle"
-                        img={statflo}
-                        description="Entirely rebuilt 1:1 SMS outreach SaaS product for extra profitable retail platform"
-                        label="CASE STUDY"
-                        hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
-                    />
+                    <Link to="/statflo-case-study/">
+                        <LargeCompanyContainer
+                            typeBG="bg-triangle"
+                            img={statflo}
+                            description="Entirely rebuilt 1:1 SMS outreach SaaS product for extra profitable retail platform"
+                            label="CASE STUDY"
+                            hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                        />
+                    </Link>
                 </div>
                 <SectionTitle title="Resources" type="main" />
                 <div className="what-we-do__companies-wrapper">

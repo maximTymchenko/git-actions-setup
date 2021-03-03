@@ -24,6 +24,15 @@
         margin-bottom: 20px;
     }
 
+    &--italic {
+        font-style: italic;
+        font-family: 'OktaNeue-MediumItalic';
+        font-size: 22px;
+        font-weight: 500;
+        color: $text;
+        max-width: 550px;
+    }
+
     &--subparagraph {
         margin-left: 25px;
         margin-bottom: 20px;
@@ -41,6 +50,8 @@
 
     &--small {
         font-size: 15px;
+        max-width: 310px;
+        margin-top: 10px;
 
         @media screen and (max-width: $mobile) {
             // width: 330px;
