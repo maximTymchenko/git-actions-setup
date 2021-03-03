@@ -51,6 +51,7 @@ import office1 from '../../assets/img/aboutUs/office_1.jpg';
 import office2 from '../../assets/img/aboutUs/office_2.jpg';
 import office3 from '../../assets/img/aboutUs/office_3.jpg';
 import office4 from '../../assets/img/aboutUs/office_4.jpg';
+import aboutUsBG from '../../assets/img/aboutUs/about-us-bg.svg';
 
 type TOurTeam = {
     id: number;
@@ -133,7 +134,7 @@ const aboutUs: FC = () => {
     ];
     return (
         <Layouts>
-            <div className="about-us">
+            <div className="about-us about-us--mt">
                 <div className="about-us__header">
                     <div className="about-us__text">
                         <SectionHeader
@@ -161,6 +162,9 @@ const aboutUs: FC = () => {
                         <img src={workingPeople} alt="Working people" />
                     </div>
                 </div>
+            </div>
+
+            <div className="about-us__gallery-bg">
                 <div className="about-us__gallery">
                     <img src={office1} alt="Office photo" className="about-us__photo" />
                     <img
@@ -175,6 +179,9 @@ const aboutUs: FC = () => {
                     />
                     <img src={office3} alt="Office photo" className="about-us__photo" />
                 </div>
+                <img src={aboutUsBG} alt="" className="about-us__bg" />
+            </div>
+            <div className="about-us">
                 <div className="about-us__content">
                     <div className="about-us__content-wrapper">
                         <SectionTitle type="lighter" title="Superior process" />
