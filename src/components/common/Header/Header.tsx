@@ -32,6 +32,14 @@ const Header: FC = (props: any) => {
     const [buttonIconTimes, setButtonIconTimes] = useState<boolean>(false);
     const [showMainNav, setShowMainNav] = useState<boolean>(false);
 
+    const [showHomeLinks, setShowHomeLinks] = useState<boolean>(false);
+    const [showHowWeWorkLinks, setShowHowWeWorkLinks] = useState<boolean>(false);
+    const [showWhatWeDoLinks, setShowWhatWeDoLinks] = useState<boolean>(false);
+    const [showAboutUsLinks, setShowAboutUsLinks] = useState<boolean>(false);
+    const [showContactLinks, setShowContactLinks] = useState<boolean>(false);
+    const [showCareersLinks, setShowCareersLinks] = useState<boolean>(false);
+    const [showBlogLinks, setShowBlogLinks] = useState<boolean>(false);
+
     const changeNavVisible = (): void => {
         setShowMainNav(!showMainNav);
     };
@@ -206,38 +214,38 @@ const Header: FC = (props: any) => {
                                 <div className="primary-nav">
                                     <ul className="primary-nav__wrapper">
                                         <PrimaryNav
-                                            titleState={false}
+                                            titleState={showHomeLinks}
                                             navTitle="Home"
                                             navArray={menuLinksHome}
                                         />
                                         <PrimaryNav
-                                            titleState={false}
+                                            titleState={showHowWeWorkLinks}
                                             navTitle="How We Work"
                                             navArray={menuLinksHowWeWork}
                                         />
                                         <PrimaryNav
-                                            titleState={false}
+                                            titleState={showWhatWeDoLinks}
                                             navTitle="What We Do"
                                             navArray={menuLinksWhatWeDo}
                                         />
                                         <PrimaryNav
-                                            titleState={false}
+                                            titleState={showAboutUsLinks}
                                             navTitle="About Us"
                                             navArray={menuLinksAboutUs}
                                         />
                                         <PrimaryNav
-                                            titleState={false}
+                                            titleState={showContactLinks}
                                             navTitle="Contact Blackbird"
                                             navArray={menuLinksContact}
                                         />
                                         <PrimaryNav
-                                            titleState={false}
+                                            titleState={showCareersLinks}
                                             navTitle="Careers"
                                             navArray={menuLinksCareers}
                                             navLabel={true}
                                         />
                                         <PrimaryNav
-                                            titleState={false}
+                                            titleState={showBlogLinks}
                                             navTitle="Blog"
                                             navArray={menuLinksBlog}
                                         />

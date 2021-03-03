@@ -23,6 +23,8 @@ import Footer from '../../../components/common/Footer';
 import SectionHeader from '../../../components/pagesComponents/HowWeWork/SectionHeader';
 import People from '../../../assets/img/workingTogether/people.svg';
 
+import SectionName from '../../../components/pagesComponents/WorkingTogether/SectionName';
+
 import './workingTogether.scss';
 
 type TCounterPoints = {
@@ -305,35 +307,23 @@ const workingTogether: FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className="working-together__body">
-                    <div className="working-together__body-wrapper">
-                        <SectionTitle type="lighter" title="Project kickoff" />
-                        <SectionTitle type="primary" title="Blackbird guarantees" />
-                        <TextDescription subtype="mb">
-                            You may want to start a project as soon as possible, and, well, nail the
-                            competition behind. We share the same aspirations.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            To put those aspirations into action, we carefully rethought every step
+
+                <SectionName
+                    mainTitle="Project kickoff"
+                    textDescFirst="You may want to start a project as soon as possible, and, well, nail the
+                            competition behind. We share the same aspirations."
+                    textDescSecond="To put those aspirations into action, we carefully rethought every step
                             of our market-fastest onboarding approach and created our own framework
                             out of it. We also built our recruitment & screening process to surround
                             our clients with people not only technically skilled but also mentally
-                            interested in their product success.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            So the time it really takes from a kickoff meeting to a completed
+                            interested in their product success."
+                    textDescThird="So the time it really takes from a kickoff meeting to a completed
                             onboarding and actual project start is cut in half to what both global
-                            and Western European outsourcing market could offer you.
-                        </TextDescription>
-                    </div>
-                    <TextImage
-                        id="kickoff"
-                        large="large"
-                        image={Men}
-                        relative="relative"
-                        typeValue="lighter"
-                    />
-                </div>
+                            and Western European outsourcing market could offer you."
+                    imageID="kickoff"
+                    image={Men}
+                ></SectionName>
+
                 <div className="working-together__text-container">
                     <div className="working-together__text-body">
                         <div className="working-together__text-wrapper">
@@ -372,28 +362,16 @@ const workingTogether: FC = () => {
                     </div>
                 </div>
 
-                <div className="working-together__body">
-                    <div className="working-together__body-wrapper">
-                        <SectionTitle type="lighter" title="Onboarding approach" />
-                        <SectionTitle type="primary" title="Blackbird guarantees" />
-                        <TextDescription subtype="mb">
-                            Onboarding is probably one of the biggest and toughest challenges that
-                            new partners usually experience in the beginning.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            We designed our own onboarding frameworks for both of the engagement
+                <SectionName
+                    mainTitle="Onboarding approach"
+                    textDescFirst="Onboarding is probably one of the biggest and toughest challenges that
+                            new partners usually experience in the beginning."
+                    textDescSecond="We designed our own onboarding frameworks for both of the engagement
                             options. It doesn’t matter what project management stack of tools you
-                            use, we cover them all with our stellar process.
-                        </TextDescription>
-                    </div>
-                    <TextImage
-                        id="approach"
-                        large="large"
-                        image={Window}
-                        relative="relative"
-                        typeValue="lighter"
-                    />
-                </div>
+                            use, we cover them all with our stellar process."
+                    imageID="approach"
+                    image={Window}
+                ></SectionName>
 
                 <div className="working-together__text-container">
                     <div className="working-together__text-body">
@@ -427,38 +405,24 @@ const workingTogether: FC = () => {
                     </div>
                 </div>
 
-                <div className="working-together__body">
-                    <div className="working-together__body-wrapper">
-                        <SectionTitle type="lighter" title="Recruitment & screening" />
-                        <SectionTitle type="primary" title="Blackbird guarantees" />
-                        <TextDescription subtype="mb">
-                            You probably already confused by trying to compare all the recruitment
-                            processes of all potential outsourcing partners. From a freelance
-                            recruiter to a large outsourcer, they all claim that their recruitment
-                            process is the most unique.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            Meanwhile, it's fair to say that the majority of market players have a
-                            decent screening process for hard skills. However, they actually fail at
-                            developing a business founder or an ownership mentality in their
-                            employees’ heads.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            The founding team of Blackbird came from classical outsourcing with all
-                            its cons and built our company around principles of an ownership
-                            mentality instead. We are engineers and technicians who do not
-                            appreciate stretching a project for longer than it really needs to be
-                            successfully done.
-                        </TextDescription>
-                    </div>
-                    <TextImage
-                        typeValue="lighter"
-                        id="recruitment"
-                        large="large"
-                        image={Contract}
-                        relative="relative"
-                    />
-                </div>
+                <SectionName
+                    mainTitle="Recruitment & screening"
+                    textDescFirst="You probably already confused by trying to compare all the recruitment
+                    processes of all potential outsourcing partners. From a freelance
+                    recruiter to a large outsourcer, they all claim that their recruitment
+                    process is the most unique."
+                    textDescSecond="Meanwhile, it's fair to say that the majority of market players have a
+                    decent screening process for hard skills. However, they actually fail at
+                    developing a business founder or an ownership mentality in their
+                    employees’ heads."
+                    textDescThird="The founding team of Blackbird came from classical outsourcing with all
+                    its cons and built our company around principles of an ownership
+                    mentality instead. We are engineers and technicians who do not
+                    appreciate stretching a project for longer than it really needs to be
+                    successfully done."
+                    image={Contract}
+                    imageID="recruitment"
+                ></SectionName>
 
                 <div className="working-together__text-container">
                     <div className="working-together__text-body">
@@ -520,32 +484,20 @@ const workingTogether: FC = () => {
                     </div>
                 </div>
 
-                <div className="working-together__body">
-                    <div className="working-together__body-wrapper">
-                        <SectionTitle type="lighter" title="Remote management" />
-                        <SectionTitle type="primary" title="Blackbird guarantees" />
-                        <TextDescription subtype="mb">
-                            24×7×365 support and personal manager to assist makes it easier to
-                            foresight and solve any situations as they may happen along the way.
-                            This manager is an independent professional that oversees your off-site
-                            employees or a dedicated team with a project manager(-s). He’s usually
-                            invisible one but always makes sure that Blackbird executives are aware
-                            of how things are going.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            We are not monstrous enterprise, and we are always picky about choosing
-                            a client we work with. Once we become partners we want our partnerships
-                            to be fulfilling and profitable for both sides.
-                        </TextDescription>
-                    </div>
-                    <TextImage
-                        id="management"
-                        large="large"
-                        image={Women}
-                        relative="relative"
-                        typeValue="lighter"
-                    />
-                </div>
+                <SectionName
+                    mainTitle="Remote management"
+                    textDescFirst=" 24×7×365 support and personal manager to assist makes it easier to
+                    foresight and solve any situations as they may happen along the way.
+                    This manager is an independent professional that oversees your off-site
+                    employees or a dedicated team with a project manager(-s). He’s usually
+                    invisible one but always makes sure that Blackbird executives are aware
+                    of how things are going."
+                    textDescSecond="We are not monstrous enterprise, and we are always picky about choosing
+                    a client we work with. Once we become partners we want our partnerships
+                    to be fulfilling and profitable for both sides."
+                    image={Women}
+                    imageID="management"
+                ></SectionName>
 
                 <div className="working-together__text-container">
                     <div className="working-together__text-body">
@@ -582,29 +534,17 @@ const workingTogether: FC = () => {
                     </div>
                 </div>
 
-                <div className="working-together__body">
-                    <div className="working-together__body-wrapper">
-                        <SectionTitle type="lighter" title="Communication standard" />
-                        <SectionTitle type="primary" title="Blackbird guarantees" />
-                        <TextDescription subtype="mb">
-                            Different timezones are solved by mandatory 3–hour overlap with your and
-                            your team timezones. 3 hours is the minimum availability threshold for
-                            all Blackbird employees.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            We also make sure that you understand every Blackbirder you work with.
-                            All of our employees are obligated to have a minimum of 3 individual
-                            business English lessons per week. We fully cover the tuition.
-                        </TextDescription>
-                    </div>
-                    <TextImage
-                        id="communication"
-                        large="large"
-                        image={Monitor}
-                        relative="relative"
-                        typeValue="lighter"
-                    />
-                </div>
+                <SectionName
+                    mainTitle="Communication standard"
+                    textDescFirst="Different timezones are solved by mandatory 3–hour overlap with your and
+                    your team timezones. 3 hours is the minimum availability threshold for
+                    all Blackbird employees."
+                    textDescSecond="We also make sure that you understand every Blackbirder you work with.
+                    All of our employees are obligated to have a minimum of 3 individual
+                    business English lessons per week. We fully cover the tuition."
+                    image={Monitor}
+                    imageID="communication"
+                ></SectionName>
 
                 <div className="working-together__text-container">
                     <div className="working-together__text-body">
@@ -642,35 +582,21 @@ const workingTogether: FC = () => {
                     </div>
                 </div>
 
-                <div className="working-together__body">
-                    <div className="working-together__body-wrapper">
-                        <SectionTitle type="lighter" title="Intellectual property" />
-                        <SectionTitle type="primary" title="Blackbird guarantees" />
-                        <TextDescription subtype="mb">
-                            DYour NDA is backed-up with our localized NDA version that is tailored
-                            to local laws of involved parties.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            We have complete control over things people install on their corporate
-                            devices. Blackbird maintains an accurate and up-to-date inventory of all
-                            its networks, services, servers, and employee devices.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            All new hires are required to attend the security awareness training as
-                            part of their onboarding. And all employees are required to attend the
-                            annual security awareness training. Blackbird engineers are required to
-                            attend an annual security training designed specifically for engineers.
-                            Read more on our intellectual property protection effort.
-                        </TextDescription>
-                    </div>
-                    <TextImage
-                        id="intellectual"
-                        large="large"
-                        image={Rocket}
-                        relative="relative"
-                        typeValue="lighter"
-                    />
-                </div>
+                <SectionName
+                    mainTitle="Intellectual property"
+                    textDescFirst="DYour NDA is backed-up with our localized NDA version that is tailored
+                    to local laws of involved parties."
+                    textDescSecond="We have complete control over things people install on their corporate
+                    devices. Blackbird maintains an accurate and up-to-date inventory of all
+                    its networks, services, servers, and employee devices."
+                    textDescThird="All new hires are required to attend the security awareness training as
+                    part of their onboarding. And all employees are required to attend the
+                    annual security awareness training. Blackbird engineers are required to
+                    attend an annual security training designed specifically for engineers.
+                    Read more on our intellectual property protection effort."
+                    image={Rocket}
+                    imageID="intellectual"
+                ></SectionName>
 
                 <div className="working-together__text-container">
                     <div className="working-together__text-body">
@@ -693,41 +619,25 @@ const workingTogether: FC = () => {
                     </div>
                 </div>
 
-                <div className="working-together__body">
-                    <div className="working-together__body-wrapper">
-                        <SectionTitle type="lighter" title="Pricing & predictability" />
-                        <SectionTitle type="primary" title="Blackbird guarantees" />
-                        <TextDescription subtype="mb">
-                            As our favorite client, you will be able to forecast your monthly,
-                            quarterly, and yearly expenditure on IT services regardless of a
-                            cooperation model you choose.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            Even planning your annual budget around outcomes will get easier with
-                            Blackbird since IT risks are on us. You will also save a lot of that
-                            budget via passing your IT duties to us in comparison to creating a
-                            comparable team in-house.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            One thing is for sure: if IT is not your primary money-making product
-                            then your in-house team will always be behind people who have to
-                            regularly deal with challenges and emergencies of multiple clients’
-                            products, services. All such a wealth of experience will be always
-                            available for you whenever you need it.
-                        </TextDescription>
-                        <TextDescription subtype="mb">
-                            Plus, you will be able to focus your people's energy and resources on
-                            things that matter the most for your company growth.
-                        </TextDescription>
-                    </div>
-                    <TextImage
-                        id="pricing"
-                        large="large"
-                        image={Tab}
-                        relative="relative"
-                        typeValue="lighter"
-                    />
-                </div>
+                <SectionName
+                    mainTitle="Pricing & predictability"
+                    textDescFirst="As our favorite client, you will be able to forecast your monthly,
+                    quarterly, and yearly expenditure on IT services regardless of a
+                    cooperation model you choose."
+                    textDescSecond="Even planning your annual budget around outcomes will get easier with
+                    Blackbird since IT risks are on us. You will also save a lot of that
+                    budget via passing your IT duties to us in comparison to creating a
+                    comparable team in-house."
+                    textDescThird="One thing is for sure: if IT is not your primary money-making product
+                    then your in-house team will always be behind people who have to
+                    regularly deal with challenges and emergencies of multiple clients’
+                    products, services. All such a wealth of experience will be always
+                    available for you whenever you need it."
+                    textDescFours="Plus, you will be able to focus your people's energy and resources on
+                    things that matter the most for your company growth."
+                    image={Tab}
+                    imageID="pricing"
+                ></SectionName>
 
                 <div className="working-together__text-container">
                     <div className="working-together__text-body">

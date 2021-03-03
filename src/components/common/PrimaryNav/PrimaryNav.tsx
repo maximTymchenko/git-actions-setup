@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect, MutableRefObject } from 'react';
 import './PrimaryNav.scss';
 import Nav from '../Nav';
 import classNames from 'classnames';
@@ -24,23 +24,41 @@ const TestNav = (props: INavProps) => {
     const [toggleLableVisibility, setToggleLableVisibility] = useState<boolean | undefined>(
         props.navLabel,
     );
+    const [toggleSubnavVisibility, setToggleSubnavVisibility] = useState<boolean>(false);
+
+    const linkRef = useRef<HTMLDivElement>(null);
+
+    const getRef = (): void => {
+        if (linkRef.current.classList.contains('active__border--style')) {
+            setTitlestate(true);
+        }
+    };
+
+    useEffect(() => {
+        setInterval(() => {
+            if (linkRef.current !== null) {
+                getRef();
+            }
+        }, 1000);
+    }, [linkRef]);
+
+    console.log(linkRef.current);
 
     return (
         <div data-testid="primary-nav" className="test-nav__wrapper">
             <span
                 onMouseOver={() => {
-                    setTimeout(() => {
-                        setTitlestate(true);
-                    }, 200);
+                    setToggleSubnavVisibility(true);
                 }}
                 onMouseLeave={() => {
-                    setTimeout(() => {
-                        setTitlestate(false);
-                    }, 200);
+                    setToggleSubnavVisibility(false);
                 }}
                 onClick={() => {
                     setTitlestate(!titleState);
                     setToggleLableVisibility(!toggleLableVisibility);
+                    if (!titleState) {
+                        setToggleSubnavVisibility(false);
+                    }
                 }}
                 className={classNames('test-nav__title', {
                     'test-nav__title--active': titleState,
@@ -51,10 +69,10 @@ const TestNav = (props: INavProps) => {
             </span>
             <div
                 className={classNames('test-nav__border', {
-                    'test-nav__border--active': titleState,
+                    'test-nav__border--active': titleState || toggleSubnavVisibility,
                 })}
             >
-                <Nav type="primary" links={props.navArray} />
+                <Nav linkRef={linkRef} type="primary" links={props.navArray} />
             </div>
         </div>
     );

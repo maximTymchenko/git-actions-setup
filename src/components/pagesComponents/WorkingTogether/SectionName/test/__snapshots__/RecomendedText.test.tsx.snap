@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without unexpected changes 1`] = `
+<div
+  className="recomended-text__wrapper"
+  data-testid="recomended-text"
+>
+  <span
+    className="recomended-text__title"
+  >
+    On You
+  </span>
+  ;
+  <ul
+    className="recomended-text__list"
+  >
+    <li
+      className="recomended-text__points"
+    >
+      • Following our recommended Onboarding Framework
+    </li>
+    <li
+      className="recomended-text__points"
+    >
+      • Following our Recruitment & Screening recommendations
+    </li>
+  </ul>
+</div>
+`;

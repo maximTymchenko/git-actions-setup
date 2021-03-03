@@ -1,8 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import './Nav.scss';
 
-const Nav = ({ links, path, type, linkType, typeContainer }) => {
+const Nav = ({ links, path, type, linkType, typeContainer, linkRef }) => {
     const [navLinks, setNavLinks] = useState(links);
 
     const toggleNavClass = (index: number): void => {
@@ -27,16 +27,17 @@ const Nav = ({ links, path, type, linkType, typeContainer }) => {
                         to={`${item.page}`}
                         className={`link__margin  active__border nav__link ${linkType}`}
                         state={{ choice: path }}
+                        ref={linkRef}
                     >
-                        <li
+                        {/* <li
                             onClick={() => {
                                 toggleNavClass(index);
                             }}
                             className={toggleActiveClass(index)}
                             key={index}
-                        >
-                            {item.title}
-                        </li>
+                        > */}
+                        {item.title}
+                        {/* </li> */}
                     </Link>
                 ))}
             </div>
