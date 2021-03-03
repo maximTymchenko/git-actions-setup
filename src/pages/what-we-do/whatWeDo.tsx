@@ -11,6 +11,7 @@ import statflo from '../../assets/img/companies/statflo.svg';
 import bucket from '../../assets/img/companies/bucket.svg';
 import helmet from '../../assets/img/companies/helmet.svg';
 import './whatWeDo.scss';
+import { Link } from 'gatsby';
 import Bucket from '../../components/pagesComponents/WhatWeDo/Bucket';
 import bucketBG from '../../assets/img/companies/bucket-bg.svg';
 import bucketBGRectangle from '../../assets/img/companies/rectangle-bucket-bg.svg';
@@ -144,13 +145,15 @@ const whatWeDo: FC = () => {
                         />
                     </div>
                     <div className="what-we-do__company">
-                        <SmallCompanyContainer
-                            type="secondary"
-                            img={statflo}
-                            description="Entirely rebuilt 1:1 SMS outreach SaaS product for extra profitable retail platform"
-                            hide="hide"
-                            logoType="secondary"
-                        />
+                        <Link to="/statflo-case-study/">
+                            <SmallCompanyContainer
+                                type="secondary"
+                                img={statflo}
+                                description="Entirely rebuilt 1:1 SMS outreach SaaS product for extra profitable retail platform"
+                                hide="hide"
+                                logoType="secondary"
+                            />
+                        </Link>
                     </div>
 
                     <Bucket

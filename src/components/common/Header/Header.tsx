@@ -9,6 +9,7 @@ import arrowRight from '../../../assets/img/arr-right.svg';
 import classNames from 'classnames';
 import PrimaryNav from '../PrimaryNav';
 import Nav from '../Nav';
+import { BiChevronsRight } from 'react-icons/bi';
 
 type THeaderArrays = {
     activeLink: null;
@@ -170,7 +171,6 @@ const Header: FC = (props: any) => {
                     <div className="header__nav-wrapper header__nav-wrapper--end">
                         <Link
                             className="link"
-                            // to="/working-together/"
                             activeClassName="active__border active__border--style"
                         >
                             <span
@@ -262,7 +262,27 @@ const Header: FC = (props: any) => {
                             activeClassName="active__border active__border--style"
                             to="/what-we-do/"
                         >
-                            <span className="header__nav-text">What We Do</span>
+                            <span
+                                className={classNames('header__nav-text', {
+                                    'header__nav-text--secondary': props.path2,
+                                })}
+                            >
+                                What We Do
+                            </span>
+                        </Link>
+                        {props.path2 && <BiChevronsRight className="chevron__icon" />}
+
+                        <Link
+                            className="link"
+                            activeClassName="active__border active__border--style"
+                        >
+                            <span
+                                className={classNames('header__nav-text', {
+                                    'active__border--style': props.path2,
+                                })}
+                            >
+                                {props.path2}
+                            </span>
                         </Link>
                     </div>
                 </div>
