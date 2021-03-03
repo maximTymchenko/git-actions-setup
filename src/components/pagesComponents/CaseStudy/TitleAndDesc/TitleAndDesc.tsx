@@ -10,7 +10,7 @@ interface ITitleAndDescProps {
 
 const TitleAndDesc: FC = (props: ITitleAndDescProps) => {
     return (
-        <div className="title-and-desc">
+        <div className="title-and-desc" data-testid="title-and-desc">
             <SectionTitle type="secondary" title={props.title} />
             <TextDescription type="small">{props.desc}</TextDescription>
         </div>
