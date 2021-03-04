@@ -28,4 +28,17 @@
             margin-right: 0;
         }
     }
+
+    &__icons {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    &__btn {
+        position: absolute;
+        right: -85px;
+        bottom: 0px;
+    }
 }

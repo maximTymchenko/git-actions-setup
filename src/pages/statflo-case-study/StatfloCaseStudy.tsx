@@ -9,8 +9,37 @@ import Quote from '../../components/pagesComponents/CaseStudy/Quote';
 import { AiOutlineTwitter, AiFillFacebook } from 'react-icons/ai';
 import { FaLinkedin } from 'react-icons/fa';
 import Span from '../../components/pagesComponents/CaseStudy/Span';
+import SmallPhotoIcon from '../../components/pagesComponents/AboutUs/SmallPhotoIcon';
+import YuriiDrozd from '../../assets/img/aboutUs/staff/Yurii_Drozd.jpeg';
+import Button from '../../components/common/Button';
+import arrRight from '../../assets/img/arr-right.svg';
+import Features from '../../components/pagesComponents/MainPage/Features';
+
+type TOurTeam = {
+    id: number;
+    name: string;
+    position: string;
+    img: any;
+}[];
 
 const StatfloCaseStudy: FC = () => {
+    const ourTalanted: TOurTeam = [
+        { id: 0, name: 'Yurii D.', position: 'CEO', img: YuriiDrozd },
+        {
+            id: 1,
+            name: 'Yurii D.',
+            position: 'Talent Acquisition',
+            img: YuriiDrozd,
+        },
+        { id: 2, name: 'Yurii D.', position: 'Technical PM', img: YuriiDrozd },
+        {
+            id: 3,
+            name: 'Yurii D.',
+            position: 'Lead Engineer',
+            img: YuriiDrozd,
+        },
+    ];
+
     return (
         <Fragment>
             <Header path2="Statflo Case Study" />
@@ -146,7 +175,23 @@ const StatfloCaseStudy: FC = () => {
                         <AiFillFacebook className="statflo-case-study__link" />
                         <FaLinkedin className="statflo-case-study__link" />
                     </div>
+                    <div className="statflo-case-study__icons">
+                        <Span type="peoples" subtype="mt">
+                            People who made it a reality
+                        </Span>
+                        <SmallPhotoIcon ourTalanted={ourTalanted} margin="mb" />
+
+                        <div className="statflo-case-study__btn">
+                            <Button type="watch" desc="See full credits" icon={arrRight}>
+                                See full credits
+                            </Button>
+                        </div>
+                    </div>
                 </div>
+                <Features
+                    showBG="no-bg"
+                    title="Have a similar project or feel like we have what it takes to help you out?"
+                />
             </div>
             <Footer />
         </Fragment>

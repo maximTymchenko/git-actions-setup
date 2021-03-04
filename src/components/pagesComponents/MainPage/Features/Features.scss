@@ -26,6 +26,13 @@
         display: flex;
         justify-content: center;
 
+        &--no-bg {
+            background: none;
+        }
+
+        @include section__size;
+        margin: 0 auto;
+
         @media screen and (max-width: $tablet) {
             background: none;
         }

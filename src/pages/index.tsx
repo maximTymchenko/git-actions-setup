@@ -16,7 +16,7 @@ const HomePage: FC = () => (
                 <Title />
                 <Services />
                 <Technologies />
-                <Features />
+                <Features title="More amazing services and success stories awaiting you here" />
                 <Video />
             </div>
             <TextSpan title="Shall we chat quickly?">

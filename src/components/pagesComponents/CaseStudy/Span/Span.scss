@@ -38,6 +38,10 @@
         margin-bottom: 15px;
     }
 
+    &--mt {
+        margin-top: 45px;
+    }
+
     &--share {
         font-family: 'OktaNeue-Black';
         font-size: 11px;
@@ -56,5 +60,13 @@
         font-size: 17px;
         font-weight: 900;
         color: $text;
+    }
+
+    &--peoples {
+        font-family: 'OktaNeue-SemiBold';
+        font-size: 17px;
+        font-weight: 600;
+        color: $text__body;
+        display: inline-block;
     }
 }
