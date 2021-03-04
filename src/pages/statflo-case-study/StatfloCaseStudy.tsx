@@ -192,6 +192,9 @@ const StatfloCaseStudy: FC = () => {
                     showBG="no-bg"
                     title="Have a similar project or feel like we have what it takes to help you out?"
                 />
+                <div className="statflo-case-study__border">
+                    <SectionTitle type="primary" title="Other successes" />
+                </div>
             </div>
             <Footer />
         </Fragment>
