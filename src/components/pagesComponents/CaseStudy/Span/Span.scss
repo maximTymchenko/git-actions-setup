@@ -1,0 +1,60 @@
+@import '../../../../styles/vars';
+@import '../../../../styles/mixins';
+
+.span {
+    &--headline {
+        font-family: 'OktaNeue-Black';
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.1px;
+        color: $text;
+        display: block;
+    }
+
+    &--span {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text;
+        display: block;
+    }
+
+    &--year {
+        font-family: 'OktaNeue-SemiBold';
+        font-size: 17px;
+        font-weight: 600;
+        color: $text;
+        display: block;
+    }
+
+    &--startup {
+        font-family: 'OktaNeue-Regular';
+        font-size: 15px;
+        color: $text__body;
+        max-width: 200px;
+        display: block;
+    }
+
+    &--mb {
+        margin-bottom: 15px;
+    }
+
+    &--share {
+        font-family: 'OktaNeue-Black';
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        color: $text__body;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    &--founder {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        display: block;
+        font-family: 'OktaNeue-Heavy';
+        font-size: 17px;
+        font-weight: 900;
+        color: $text;
+    }
+}

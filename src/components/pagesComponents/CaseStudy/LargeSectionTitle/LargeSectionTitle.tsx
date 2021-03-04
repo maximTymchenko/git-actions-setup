@@ -7,6 +7,7 @@ import TitleAndDesc from '../../../pagesComponents/CaseStudy/TitleAndDesc';
 import triangleRight from '../../../../assets/img/triangle-right.svg';
 import statflo from '../../../../assets/img/companies/statflo-black.svg';
 import Nav from '../../../common/Nav';
+import Span from '../../CaseStudy/Span';
 
 interface ILargeSectionTitleProps {
     sectionTitle: string;
@@ -73,39 +74,31 @@ const LargeSectionTitle: FC = (props: ILargeSectionTitleProps) => {
                             expertise, and each team member individually. Sometimes, I even forget
                             where our staff is and where Blackbirders are. ”
                         </TextDescription>
-                        <span className="large-section-title__founder">
-                            Ian Gervais, VP of Product
-                        </span>
+                        <Span type="founder">Ian Gervais, VP of Product</Span>
                         <Button icon={triangleRight} type="primary" desc="Watch video">
                             Watch video
                         </Button>
                     </div>
                     <div className="large-section-title__client">
-                        <span className="large-section-title__headline">About the client</span>
+                        <Span type="headline">About the client</Span>
                         <img src={statflo} alt="" className="large-section-title__img" />
-                        <span className="large-section-title__span">51-200 employees</span>
-                        <span className="large-section-title__span large-section-title__span--mb">
+                        <Span type="span">51-200 employees</Span>
+                        <Span type="span" subtype="mb">
                             HQ Toronto, Canada
-                        </span>
-                        <span className="large-section-title__year">
-                            Client since 2018 | Retail Tech
-                        </span>
-                        <span className="large-section-title__startup">
-                            Funded Startup previously, SMBs currently
-                        </span>
+                        </Span>
+                        <Span type="year">Client since 2018 | Retail Tech</Span>
+                        <Span type="startup">Funded Startup previously, SMBs currently</Span>
                     </div>
                     <div className="large-section-title__industry">
-                        <span className="large-section-title__headline large-section-title__headline--mb">
-                            Industry and verticals
-                        </span>
-                        <span className="large-section-title__span large-section-title__span--mb">
+                        <Span type="headline">Industry and verticals</Span>
+                        <Span type="span" subtype="mb">
                             Retail & E-commerce
-                        </span>
-                        <span className="large-section-title__span">Wireless dealers</span>
-                        <span className="large-section-title__span">CSPs (telecom carriers)</span>
-                        <span className="large-section-title__span">System integrators</span>
-                        <span className="large-section-title__span">Technology brands</span>
-                        <span className="large-section-title__span">Multi-carrier retailers</span>
+                        </Span>
+                        <Span type="span">Wireless dealers</Span>
+                        <Span type="span">CSPs (telecom carriers)</Span>
+                        <Span type="span">System integrators</Span>
+                        <Span type="span">Technology brands</Span>
+                        <Span type="span">Multi-carrier retailers</Span>
                     </div>
                 </div>
                 <div className="large-section-title__nav">

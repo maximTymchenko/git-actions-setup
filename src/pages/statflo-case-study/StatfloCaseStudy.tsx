@@ -8,6 +8,7 @@ import TextDescription from '../../components/common/TextDescription';
 import Quote from '../../components/pagesComponents/CaseStudy/Quote';
 import { AiOutlineTwitter, AiFillFacebook } from 'react-icons/ai';
 import { FaLinkedin } from 'react-icons/fa';
+import Span from '../../components/pagesComponents/CaseStudy/Span';
 
 const StatfloCaseStudy: FC = () => {
     return (
@@ -140,7 +141,7 @@ const StatfloCaseStudy: FC = () => {
                         for it. If it is already publicly available, definitely give it a good try.
                     </TextDescription>
                     <div className="statflo-case-study__links">
-                        <span className="statflo-case-study__share">Share it</span>
+                        <Span type="share">Share it</Span>
                         <AiOutlineTwitter className="statflo-case-study__link" />
                         <AiFillFacebook className="statflo-case-study__link" />
                         <FaLinkedin className="statflo-case-study__link" />
