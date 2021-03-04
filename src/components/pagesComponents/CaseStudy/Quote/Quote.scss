@@ -1,0 +1,16 @@
+@import '../../../../styles/vars';
+@import '../../../../styles/mixins';
+
+.quote {
+    border-left: 2px solid $secondary;
+    margin: 25px 0;
+
+    &__text {
+        font-family: 'OktaNeue-RegularItalic';
+        font-size: 17px;
+        font-style: italic;
+        line-height: 1.88;
+        color: $text;
+        padding: 15px 25px;
+    }
+}
