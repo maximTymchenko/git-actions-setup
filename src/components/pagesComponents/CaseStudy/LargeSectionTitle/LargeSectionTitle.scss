@@ -3,7 +3,7 @@
 
 .large-section-title {
     &__border {
-        border-bottom: 2px solid $secondary;
+        @include border-bottom__secondary--2;
     }
 
     &__bg {
@@ -32,8 +32,8 @@
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
-        border-bottom: 2px solid $section__border;
-        margin-bottom: 40px;
+        @include border-bottom__section-b--2;
+        margin-bottom: 15px;
     }
 
     &__slogan {
@@ -50,7 +50,7 @@
     }
 
     &__nav {
-        border-bottom: 2px solid $secondary;
+        @include border-bottom__secondary--2;
         margin-bottom: 40px;
         display: flex;
         align-items: center;

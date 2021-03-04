@@ -34,7 +34,7 @@
         flex-direction: column;
         position: relative;
         padding-bottom: 130px;
-        border-bottom: 2px solid $section__border;
+        @include border-bottom__section-b--2;
     }
 
     &__btn {
@@ -46,8 +46,9 @@
     &__border {
         border-top: 2px solid $secondary;
         padding-top: 30px;
-        width: 100%;
-        max-width: $primary__container;
+
+        @include section__size;
+
         margin: 40px auto 60px;
     }
 }
