@@ -8,6 +8,7 @@ import Features from '../components/pagesComponents/MainPage/Features';
 import Video from '../components/pagesComponents/MainPage/Video';
 import TextSpan from '../components/pagesComponents/MainPage/TextSpan';
 import '../styles/index.scss';
+import arrowRight from '../assets/img/arr-right.svg';
 
 const HomePage: FC = () => (
     <Layout>
@@ -16,7 +17,11 @@ const HomePage: FC = () => (
                 <Title />
                 <Services />
                 <Technologies />
-                <Features title="More amazing services and success stories awaiting you here" />
+                <Features
+                    buttonIcon={arrowRight}
+                    title="More amazing services and success stories awaiting you here"
+                    buttonText="Discover all"
+                />
                 <Video />
             </div>
             <TextSpan title="Shall we chat quickly?">

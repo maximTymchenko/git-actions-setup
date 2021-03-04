@@ -14,6 +14,10 @@ import YuriiDrozd from '../../assets/img/aboutUs/staff/Yurii_Drozd.jpeg';
 import Button from '../../components/common/Button';
 import arrRight from '../../assets/img/arr-right.svg';
 import Features from '../../components/pagesComponents/MainPage/Features';
+import LargeCompanyContainer from '../../components/pagesComponents/MainPage/LargeCompanyContainer';
+import spectar from '../../assets/img/companies/spectar.svg';
+import walmart from '../../assets/img/companies/walmart.svg';
+import calendar from '../../assets/img/calendar.svg';
 
 type TOurTeam = {
     id: number;
@@ -189,11 +193,34 @@ const StatfloCaseStudy: FC = () => {
                     </div>
                 </div>
                 <Features
+                    buttonIcon={calendar}
+                    buttonText="Book a meeting"
                     showBG="no-bg"
                     title="Have a similar project or feel like we have what it takes to help you out?"
                 />
                 <div className="statflo-case-study__border">
                     <SectionTitle type="primary" title="Other successes" />
+                    <div className="what-we-do__companies what-we-do__companies--mt">
+                        <div className="what-we-do__company">
+                            <LargeCompanyContainer
+                                typeBG="bg-main"
+                                img={spectar}
+                                description="Building a pioneering AR product for construction"
+                                label="CASE STUDY"
+                                hashtags="Microservice architecture, Microsoft HoloLens 2, REST API, Web development, +13 more"
+                            />
+                        </div>
+                        <div className="what-we-do__company">
+                            <LargeCompanyContainer
+                                typeBG="bg-secondary"
+                                img={walmart}
+                                description="Increasing Walmart weekly ads conversion with a custom web app for Ad Tech company"
+                                label="CASE STUDY"
+                                hashtags="Amazon, Retail & E-commerce, React, Web development, +13 more"
+                                logoPos="mb"
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
             <Footer />

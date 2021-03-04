@@ -26,6 +26,9 @@
         margin-bottom: 80px;
         justify-content: space-between;
 
+        &--mt {
+            margin-top: 40px;
+        }
         @media screen and (max-width: $large__tablet) {
             flex-direction: column;
         }
