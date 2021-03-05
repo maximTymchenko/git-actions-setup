@@ -28,14 +28,14 @@ const LargeSectionTitle: FC = (props: ILargeSectionTitleProps) => {
         activeLink: null,
         links: [
             { id: 1, title: 'The story', page: '/statflo-case-study/' },
-            { id: 2, title: 'Technical summary', page: '/blog/editorial' },
-            { id: 3, title: 'Scope of project', page: '/blog/whitepapers' },
-            { id: 4, title: 'Full credits', page: '/blog/videos' },
-            { id: 5, title: 'Project gallery', page: '/blog/resources' },
+            { id: 2, title: 'Technical summary', page: '/statflo-case-study/technical-summary' },
+            { id: 3, title: 'Scope of project', page: '' },
+            { id: 4, title: 'Full credits', page: '' },
+            { id: 5, title: 'Project gallery', page: '' },
             {
                 id: 6,
                 title: 'Other industries relevance',
-                page: '/blog/press-center',
+                page: '',
             },
         ],
     };

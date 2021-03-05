@@ -1,0 +1,27 @@
+@import '../../../../styles/vars';
+@import '../../../../styles/mixins';
+
+.list-item {
+    font-family: 'OktaNeue-Regular';
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.53;
+    color: $text__body;
+    position: relative;
+    left: 25px;
+    margin-bottom: 25px;
+
+    &--mt {
+        margin-top: 25px;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: -20px;
+        width: 11px;
+        height: 11px;
+        background-color: $text;
+    }
+}

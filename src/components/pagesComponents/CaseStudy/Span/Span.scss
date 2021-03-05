@@ -69,4 +69,13 @@
         color: $text__body;
         display: inline-block;
     }
+
+    &--bold {
+        font-family: 'OktaNeue-Medium';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.53;
+        color: $secondary;
+        margin: 0 5px;
+    }
 }

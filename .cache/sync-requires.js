@@ -37,6 +37,8 @@ exports.components = {
   "component---src-pages-privacy-policy-privacy-policy-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/privacy-policy/privacyPolicy.tsx"))),
   "component---src-pages-statflo-case-study-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/statflo-case-study/index.ts"))),
   "component---src-pages-statflo-case-study-statflo-case-study-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/statflo-case-study/StatfloCaseStudy.tsx"))),
+  "component---src-pages-statflo-case-study-technical-summary-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/statflo-case-study/technical-summary/index.ts"))),
+  "component---src-pages-statflo-case-study-technical-summary-technical-summary-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/statflo-case-study/technical-summary/TechnicalSummary.tsx"))),
   "component---src-pages-what-we-do-ar-vr-ar-vr-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/what-we-do/ar-&-vr/ArVr.tsx"))),
   "component---src-pages-what-we-do-ar-vr-index-ts": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/what-we-do/ar-&-vr/index.ts"))),
   "component---src-pages-what-we-do-cloud-services-cloud-services-tsx": hot(preferDefault(require("/home/maksym/Desktop/WEB/git-actions/src/pages/what-we-do/cloud-services/CloudServices.tsx"))),
